@@ -1,0 +1,21 @@
+﻿09:58:48 [INFO] Now listening on: https://localhost:5245
+09:58:48 [INFO] Now listening on: http://localhost:5225
+09:58:48 [INFO] Application started. Press Ctrl+C to shut down.
+09:58:48 [INFO] Hosting environment: Development
+09:58:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Supply\Supply.API
+09:58:50 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:58:50 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:01:30 [INFO] Now listening on: https://localhost:5245
+10:01:30 [INFO] Now listening on: http://localhost:5225
+10:01:30 [INFO] Application started. Press Ctrl+C to shut down.
+10:01:30 [INFO] Hosting environment: Development
+10:01:30 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Supply\Supply.API
+10:01:31 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:01:31 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:11:56 [INFO] Now listening on: https://localhost:5245
+10:11:57 [INFO] Now listening on: http://localhost:5225
+10:11:57 [INFO] Application started. Press Ctrl+C to shut down.
+10:11:57 [INFO] Hosting environment: Development
+10:11:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Supply\Supply.API
+10:11:57 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:11:57 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.

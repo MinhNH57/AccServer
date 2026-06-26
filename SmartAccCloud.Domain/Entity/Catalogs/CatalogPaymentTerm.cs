@@ -1,0 +1,20 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SmartAccCloud.Domain.Entity.Catalogs
+{
+    public class CatalogPaymentTerm
+    {
+        public string PaymentTermCode { get; set; }
+        public string? PaymentTermName { get; set; }
+        public int DueTime { get; set; }
+        public int DiscountTime { get; set; }
+        public double DiscountPercent { get; set; }
+        public string? Notes { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
+        public int IdAsc { get; set; }
+                                                                                                                                                                                                        
+        public int? CodeUnit { get; set; } = 100;
+        public bool IsActive { get; set; }
+    }
+}

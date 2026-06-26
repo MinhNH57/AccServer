@@ -1,0 +1,132 @@
+﻿08:35:48 [INFO] Now listening on: https://localhost:7131
+08:35:48 [INFO] Now listening on: http://localhost:5148
+08:35:48 [INFO] Application started. Press Ctrl+C to shut down.
+08:35:48 [INFO] Hosting environment: Development
+08:35:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+08:37:23 [INFO] Now listening on: https://localhost:7131
+08:37:23 [INFO] Now listening on: http://localhost:5148
+08:37:23 [INFO] Application started. Press Ctrl+C to shut down.
+08:37:23 [INFO] Hosting environment: Development
+08:37:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+09:10:53 [INFO] Now listening on: https://localhost:7131
+09:10:53 [INFO] Now listening on: http://localhost:5148
+09:10:53 [INFO] Application started. Press Ctrl+C to shut down.
+09:10:53 [INFO] Hosting environment: Development
+09:10:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+09:34:31 [INFO] [START] Handle request=FindColumnNamesQuery - Response=ApiResponse`1 - RequestData=FindColumnNamesQuery { TableId = HRM_CatalogAsset }
+09:34:32 [INFO] [END] Handler FindColumnNamesQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[System.String]
+09:35:19 [INFO] [START] Handle request=FindColumnNamesQuery - Response=ApiResponse`1 - RequestData=FindColumnNamesQuery { TableId = HRM_CatalogAsset }
+09:35:19 [INFO] [END] Handler FindColumnNamesQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[System.String]
+09:35:57 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5641ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET KT:0109393468:tenant:info, inst: 0, qu: 0, qs: 1, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 2, async-ops: 6, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 84.06, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=2,QueuedItems=0,CompletedItems=1986,Timers=5), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 21
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+09:50:45 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+09:50:45 [INFO] Cache miss  for FindComponentSettingQuery
+09:50:45 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+09:58:42 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = HRM_CatalogAsset }
+09:58:42 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[CMS.Model.ComponentSetting]
+09:58:44 [INFO] [START] Handle request=FindColumnNamesQuery - Response=ApiResponse`1 - RequestData=FindColumnNamesQuery { TableId = HRM_CatalogAsset }
+09:58:44 [INFO] [END] Handler FindColumnNamesQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[System.String]
+10:58:27 [INFO] Now listening on: https://localhost:7131
+10:58:27 [INFO] Now listening on: http://localhost:5148
+10:58:27 [INFO] Application started. Press Ctrl+C to shut down.
+10:58:27 [INFO] Hosting environment: Development
+10:58:27 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+11:24:20 [INFO] Now listening on: https://localhost:7131
+11:24:20 [INFO] Now listening on: http://localhost:5148
+11:24:20 [INFO] Application started. Press Ctrl+C to shut down.
+11:24:20 [INFO] Hosting environment: Development
+11:24:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+13:25:44 [INFO] Now listening on: https://localhost:7131
+13:25:44 [INFO] Now listening on: http://localhost:5148
+13:25:44 [INFO] Application started. Press Ctrl+C to shut down.
+13:25:44 [INFO] Hosting environment: Development
+13:25:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+13:39:43 [INFO] Now listening on: https://localhost:7131
+13:39:43 [INFO] Now listening on: http://localhost:5148
+13:39:43 [INFO] Application started. Press Ctrl+C to shut down.
+13:39:43 [INFO] Hosting environment: Development
+13:39:43 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+13:40:26 [INFO] Now listening on: https://localhost:7131
+13:40:26 [INFO] Now listening on: http://localhost:5148
+13:40:26 [INFO] Application started. Press Ctrl+C to shut down.
+13:40:26 [INFO] Hosting environment: Development
+13:40:26 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+13:53:40 [INFO] Now listening on: https://localhost:7131
+13:53:40 [INFO] Now listening on: http://localhost:5148
+13:53:40 [INFO] Application started. Press Ctrl+C to shut down.
+13:53:40 [INFO] Hosting environment: Development
+13:53:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+15:19:04 [INFO] Now listening on: https://localhost:7131
+15:19:04 [INFO] Now listening on: http://localhost:5148
+15:19:04 [INFO] Application started. Press Ctrl+C to shut down.
+15:19:04 [INFO] Hosting environment: Development
+15:19:04 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+15:47:03 [INFO] Now listening on: https://localhost:7131
+15:47:03 [INFO] Now listening on: http://localhost:5148
+15:47:03 [INFO] Application started. Press Ctrl+C to shut down.
+15:47:03 [INFO] Hosting environment: Development
+15:47:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+15:57:02 [INFO] Now listening on: https://localhost:7131
+15:57:02 [INFO] Now listening on: http://localhost:5148
+15:57:02 [INFO] Application started. Press Ctrl+C to shut down.
+15:57:02 [INFO] Hosting environment: Development
+15:57:02 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+16:35:41 [INFO] Now listening on: https://localhost:7131
+16:35:41 [INFO] Now listening on: http://localhost:5148
+16:35:41 [INFO] Application started. Press Ctrl+C to shut down.
+16:35:41 [INFO] Hosting environment: Development
+16:35:41 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+16:37:51 [INFO] Now listening on: https://localhost:7131
+16:37:51 [INFO] Now listening on: http://localhost:5148
+16:37:51 [INFO] Application started. Press Ctrl+C to shut down.
+16:37:51 [INFO] Hosting environment: Development
+16:37:51 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:02:53 [INFO] Now listening on: https://localhost:7131
+17:02:53 [INFO] Now listening on: http://localhost:5148
+17:02:53 [INFO] Application started. Press Ctrl+C to shut down.
+17:02:53 [INFO] Hosting environment: Development
+17:02:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:09:48 [INFO] Now listening on: https://localhost:7131
+17:09:48 [INFO] Now listening on: http://localhost:5148
+17:09:48 [INFO] Application started. Press Ctrl+C to shut down.
+17:09:48 [INFO] Hosting environment: Development
+17:09:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:15:44 [INFO] Now listening on: https://localhost:7131
+17:15:44 [INFO] Now listening on: http://localhost:5148
+17:15:44 [INFO] Application started. Press Ctrl+C to shut down.
+17:15:44 [INFO] Hosting environment: Development
+17:15:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:19:05 [INFO] Now listening on: https://localhost:7131
+17:19:05 [INFO] Now listening on: http://localhost:5148
+17:19:05 [INFO] Application started. Press Ctrl+C to shut down.
+17:19:05 [INFO] Hosting environment: Development
+17:19:05 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:25:36 [INFO] Now listening on: https://localhost:7131
+17:25:37 [INFO] Now listening on: http://localhost:5148
+17:25:37 [INFO] Application started. Press Ctrl+C to shut down.
+17:25:37 [INFO] Hosting environment: Development
+17:25:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:28:16 [INFO] Now listening on: https://localhost:7131
+17:28:16 [INFO] Now listening on: http://localhost:5148
+17:28:16 [INFO] Application started. Press Ctrl+C to shut down.
+17:28:16 [INFO] Hosting environment: Development
+17:28:16 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+17:35:46 [INFO] Now listening on: https://localhost:7131
+17:35:46 [INFO] Now listening on: http://localhost:5148
+17:35:46 [INFO] Application started. Press Ctrl+C to shut down.
+17:35:46 [INFO] Hosting environment: Development
+17:35:46 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+18:12:36 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_CatalogForeignLanguage, TypeName = , Expiration = 03:00:00 }
+18:12:36 [INFO] Cache miss  for FindComponentSettingQuery
+18:12:39 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+19:03:35 [INFO] Now listening on: https://localhost:7131
+19:03:35 [INFO] Now listening on: http://localhost:5148
+19:03:35 [INFO] Application started. Press Ctrl+C to shut down.
+19:03:35 [INFO] Hosting environment: Development
+19:03:35 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS

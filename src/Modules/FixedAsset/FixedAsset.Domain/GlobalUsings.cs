@@ -1,0 +1,10 @@
+﻿global using FixedAsset.Domain.AggregatesModel.FAAdjustmentAggregate;
+global using FixedAsset.Domain.AggregatesModel.FAAuditAggregate;
+global using FixedAsset.Domain.AggregatesModel.FAChangeFinancialLeasingToOwnerAggregate;
+global using FixedAsset.Domain.AggregatesModel.FADecrementAggregate;
+global using FixedAsset.Domain.AggregatesModel.FADepreciationAggregate;
+global using FixedAsset.Domain.AggregatesModel.FATransferAggregate;
+global using FixedAsset.Domain.Events;
+global using FixedAsset.Domain.Exceptions;
+global using FixedAsset.Domain.SeedWork;
+global using MediatR;

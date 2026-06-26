@@ -1,0 +1,471 @@
+﻿08:43:09 [INFO] Now listening on: https://localhost:7129
+08:43:09 [INFO] Now listening on: http://localhost:5299
+08:43:09 [INFO] Application started. Press Ctrl+C to shut down.
+08:43:09 [INFO] Hosting environment: Development
+08:43:09 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+08:43:09 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:43:11 [INFO] HTTP GET / responded 302 in 1484.3010 ms
+08:43:11 [INFO] HTTP GET /scalar/v1 responded 200 in 58.2900 ms
+08:43:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:43:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:43:11 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.8192 ms
+08:43:11 [INFO] HTTP GET /scalar/scalar.js responded 200 in 27.2715 ms
+08:43:11 [INFO] HTTP GET /openapi/v1.json responded 200 in 95.5017 ms
+08:43:11 [INFO] HTTP GET /openapi/v1.json responded 200 in 18.7780 ms
+09:32:51 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:32:53 [INFO] Now listening on: https://localhost:7129
+09:32:53 [INFO] Now listening on: http://localhost:5299
+09:32:53 [INFO] Application started. Press Ctrl+C to shut down.
+09:32:53 [INFO] Hosting environment: Development
+09:32:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:32:55 [INFO] HTTP GET / responded 302 in 1451.9101 ms
+09:32:55 [INFO] HTTP GET /scalar/v1 responded 200 in 235.6982 ms
+09:32:55 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:32:55 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:32:55 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 11.0738 ms
+09:32:55 [INFO] HTTP GET /scalar/scalar.js responded 200 in 34.3745 ms
+09:32:56 [INFO] HTTP GET /scalar/favicon.svg responded 200 in 0.7010 ms
+09:32:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 177.9658 ms
+09:32:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 32.8915 ms
+09:34:09 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:34:11 [INFO] Now listening on: https://localhost:7129
+09:34:11 [INFO] Now listening on: http://localhost:5299
+09:34:11 [INFO] Application started. Press Ctrl+C to shut down.
+09:34:11 [INFO] Hosting environment: Development
+09:34:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:34:12 [INFO] HTTP GET / responded 302 in 405.6024 ms
+09:34:12 [INFO] HTTP GET /scalar/v1 responded 200 in 82.7394 ms
+09:34:12 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:34:12 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:34:12 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.6961 ms
+09:34:12 [INFO] HTTP GET /scalar/scalar.js responded 200 in 25.3596 ms
+09:34:12 [INFO] HTTP GET /openapi/v1.json responded 200 in 185.2060 ms
+09:34:12 [INFO] HTTP GET /openapi/v1.json responded 200 in 43.0185 ms
+09:35:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2970.3394 ms
+09:35:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 76.1456 ms
+09:37:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 157.0988 ms
+09:37:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.6670 ms
+09:39:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 79.4177 ms
+09:39:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.0186 ms
+09:45:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 227.7649 ms
+09:45:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 141.3643 ms
+09:47:51 [INFO] HTTP GET /catalog/SmartOption responded 200 in 35.6767 ms
+09:47:52 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.9036 ms
+09:54:43 [INFO] HTTP GET /catalog/SmartOption responded 200 in 79.4639 ms
+09:54:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.4806 ms
+10:01:09 [INFO] HTTP GET /catalog/SmartOption responded 200 in 100.9897 ms
+10:01:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.0632 ms
+10:03:15 [INFO] HTTP GET /catalog/SmartOption responded 200 in 70.3872 ms
+10:03:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 37.6880 ms
+10:04:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 43.3357 ms
+10:04:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.9437 ms
+10:06:22 [INFO] HTTP GET /catalog/CatalogVoucherNumber responded 200 in 54.2431 ms
+10:06:24 [INFO] HTTP GET /catalog/CatalogAccountSymbol responded 200 in 190.0772 ms
+11:24:58 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:24:59 [INFO] Now listening on: https://localhost:7129
+11:24:59 [INFO] Now listening on: http://localhost:5299
+11:24:59 [INFO] Application started. Press Ctrl+C to shut down.
+11:24:59 [INFO] Hosting environment: Development
+11:24:59 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:25:00 [INFO] HTTP GET / responded 302 in 264.1590 ms
+11:25:00 [INFO] HTTP GET /scalar/v1 responded 200 in 59.3991 ms
+11:25:00 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:25:00 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:25:00 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 8.6001 ms
+11:25:00 [INFO] HTTP GET /scalar/scalar.js responded 200 in 22.7516 ms
+11:25:00 [INFO] HTTP GET /openapi/v1.json responded 200 in 132.2292 ms
+11:25:00 [INFO] HTTP GET /openapi/v1.json responded 200 in 31.1424 ms
+11:26:44 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1413.3199 ms
+11:26:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 42.0064 ms
+11:29:58 [INFO] Usage Telemetry: {"id":"7c2e0000-20b7-2221-ca88-08de5324e06c","created":"2026-01-14T11:24:58.2343970\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-14T11:24:58.2358948\u002B07:00","configured":"2026-01-14T11:24:58.2732323\u002B07:00","started":"2026-01-14T11:24:58.5682431\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:08:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 280.3771 ms
+13:08:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.3107 ms
+14:41:20 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:41:22 [INFO] Now listening on: https://localhost:7129
+14:41:22 [INFO] Now listening on: http://localhost:5299
+14:41:22 [INFO] Application started. Press Ctrl+C to shut down.
+14:41:22 [INFO] Hosting environment: Development
+14:41:22 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:41:25 [INFO] HTTP GET / responded 302 in 1731.1346 ms
+14:41:35 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:41:36 [INFO] Now listening on: https://localhost:7129
+14:41:36 [INFO] Now listening on: http://localhost:5299
+14:41:36 [INFO] Application started. Press Ctrl+C to shut down.
+14:41:36 [INFO] Hosting environment: Development
+14:41:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:41:37 [INFO] HTTP GET / responded 302 in 263.9387 ms
+14:41:37 [INFO] HTTP GET /scalar/v1 responded 200 in 43.8665 ms
+14:41:37 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:41:37 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:41:37 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.3947 ms
+14:41:37 [INFO] HTTP GET /scalar/scalar.js responded 200 in 22.9970 ms
+14:41:37 [INFO] HTTP GET /openapi/v1.json responded 200 in 96.3698 ms
+14:41:37 [INFO] HTTP GET /openapi/v1.json responded 200 in 24.1828 ms
+14:42:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 8859.2568 ms
+14:42:14 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 35.9837 ms
+14:44:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 118.2366 ms
+14:44:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 30.4101 ms
+14:46:35 [INFO] Usage Telemetry: {"id":"cc4b0000-20b7-2221-57a5-08de534057e1","created":"2026-01-14T14:41:35.0587682\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-14T14:41:35.0601448\u002B07:00","configured":"2026-01-14T14:41:35.0945716\u002B07:00","started":"2026-01-14T14:41:35.2339803\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+14:47:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 156.6984 ms
+14:47:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.8399 ms
+14:47:43 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 40.0891 ms
+14:47:43 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 32.8051 ms
+14:47:43 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 81.5889 ms
+14:47:44 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 30.7806 ms
+14:47:44 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 37.9256 ms
+14:47:44 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 32.9909 ms
+14:47:44 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 30.0983 ms
+14:47:44 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 30.8268 ms
+14:54:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 90.6805 ms
+14:54:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.5221 ms
+14:55:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.0816 ms
+14:55:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.5076 ms
+15:05:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 93.3502 ms
+15:05:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.4297 ms
+15:17:13 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:17:15 [INFO] Now listening on: https://localhost:7129
+15:17:15 [INFO] Now listening on: http://localhost:5299
+15:17:15 [INFO] Application started. Press Ctrl+C to shut down.
+15:17:15 [INFO] Hosting environment: Development
+15:17:15 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:17:15 [INFO] HTTP GET / responded 302 in 383.9582 ms
+15:17:15 [INFO] HTTP GET /scalar/v1 responded 200 in 73.8177 ms
+15:17:15 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:17:15 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:17:15 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.7912 ms
+15:17:15 [INFO] HTTP GET /scalar/scalar.js responded 200 in 28.3113 ms
+15:17:15 [INFO] HTTP GET /openapi/v1.json responded 200 in 152.8864 ms
+15:17:15 [INFO] HTTP GET /openapi/v1.json responded 200 in 43.3053 ms
+15:20:18 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1416.9301 ms
+15:20:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 43.1687 ms
+15:22:13 [INFO] Usage Telemetry: {"id":"381f0000-20b7-2221-d7a2-08de53455218","created":"2026-01-14T15:17:12.8397995\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-14T15:17:12.8412885\u002B07:00","configured":"2026-01-14T15:17:12.8851290\u002B07:00","started":"2026-01-14T15:17:13.0411542\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+15:22:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 112.4093 ms
+15:22:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.3743 ms
+15:36:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 188.7019 ms
+15:36:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 40.6551 ms
+15:39:35 [INFO] HTTP GET /catalog/SmartOption responded 200 in 60.5800 ms
+15:39:36 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 133.9950 ms
+15:39:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2095.2321 ms
+15:40:01 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 206.4770 ms
+15:40:01 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.8117 ms
+15:40:06 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 51.2653 ms
+15:40:06 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 40.2525 ms
+15:40:07 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 95.0110 ms
+15:40:07 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.6970 ms
+15:40:07 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 63.0314 ms
+15:40:07 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 36.4941 ms
+15:40:07 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.5747 ms
+15:40:08 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 33.8558 ms
+15:40:08 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 27.0374 ms
+15:40:08 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 385.7779 ms
+15:40:09 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 37.3174 ms
+15:40:09 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 139.0905 ms
+15:40:09 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 25.8398 ms
+15:40:09 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 61.2033 ms
+15:40:09 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 179.4785 ms
+15:40:10 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 31.7704 ms
+15:40:10 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 25.0331 ms
+15:40:10 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 130.2686 ms
+15:40:10 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.6957 ms
+15:40:11 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 118.7695 ms
+15:40:11 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 71.9365 ms
+15:40:11 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 43.8478 ms
+15:40:11 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 76.9633 ms
+15:40:11 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 87.7554 ms
+15:40:12 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 44.8377 ms
+15:40:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 183.3542 ms
+15:40:20 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 30.7778 ms
+15:40:20 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 252.8665 ms
+15:40:20 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.0903 ms
+15:40:20 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 36.9696 ms
+15:40:21 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 123.8890 ms
+15:40:21 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.1100 ms
+15:40:21 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 197.0323 ms
+15:40:21 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.0524 ms
+15:40:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 1191.7829 ms
+15:40:22 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 600.7374 ms
+15:40:22 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 133.8357 ms
+15:40:22 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 30.4854 ms
+15:40:23 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 157.7584 ms
+15:40:23 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 142.1115 ms
+15:40:23 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 36.5381 ms
+15:40:23 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 146.5282 ms
+15:40:23 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 31.0075 ms
+15:40:24 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 110.1776 ms
+15:40:24 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 126.0846 ms
+15:40:24 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 34.0961 ms
+15:40:24 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 139.2336 ms
+15:40:25 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.8901 ms
+15:40:25 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 294.2736 ms
+15:40:25 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 184.2773 ms
+15:40:26 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 140.6105 ms
+15:40:26 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 24.7534 ms
+15:40:26 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 32.6475 ms
+15:40:26 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 39.8257 ms
+15:40:26 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 31.8252 ms
+15:40:26 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 71.7691 ms
+15:40:27 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 30.7384 ms
+15:40:27 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.7354 ms
+15:40:27 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 53.6831 ms
+15:40:27 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.6417 ms
+15:40:27 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 118.2001 ms
+15:40:28 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.7811 ms
+15:40:28 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 164.4404 ms
+15:40:28 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 81.2343 ms
+15:40:28 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 151.5381 ms
+15:40:28 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 36.5208 ms
+15:40:29 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 172.9342 ms
+15:40:29 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 23.3024 ms
+15:40:29 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 116.1276 ms
+15:40:29 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 160.4132 ms
+15:40:30 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 147.1023 ms
+15:40:30 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 23.1772 ms
+15:40:30 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 85.4961 ms
+15:40:30 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 191.8847 ms
+15:40:31 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 31.4337 ms
+15:40:31 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 373.9728 ms
+15:40:31 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.7848 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 111.1574 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 30.4816 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.2034 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 27.3613 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 25.3475 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.6345 ms
+15:40:32 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 24.6646 ms
+15:40:33 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 94.9875 ms
+15:40:33 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 48.8013 ms
+15:40:33 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 30.4632 ms
+15:40:33 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 50.6404 ms
+15:40:33 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 49.6789 ms
+15:40:34 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 24.9091 ms
+15:40:34 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.1153 ms
+15:40:34 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 138.4292 ms
+15:40:34 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 98.0092 ms
+15:40:35 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 239.4032 ms
+15:40:35 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 32.3183 ms
+15:40:35 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 90.0114 ms
+15:40:35 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 25.4369 ms
+15:40:35 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 137.6238 ms
+15:40:36 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 25.0243 ms
+15:40:36 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 33.9242 ms
+15:40:36 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.7398 ms
+15:40:36 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 27.1011 ms
+15:40:36 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 46.0006 ms
+15:40:36 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 126.9072 ms
+15:40:37 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 110.8767 ms
+15:40:37 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 27.7009 ms
+15:40:37 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.0298 ms
+15:40:37 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.2263 ms
+15:40:37 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.7319 ms
+15:40:38 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 168.3849 ms
+15:40:38 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.1237 ms
+15:40:38 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 24.3739 ms
+15:40:38 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 26.5263 ms
+15:40:38 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 60.6662 ms
+15:40:38 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 36.6711 ms
+15:40:39 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 30.3051 ms
+15:40:39 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 126.0185 ms
+15:40:39 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 44.2276 ms
+15:40:39 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 215.9167 ms
+15:40:40 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.7283 ms
+15:40:40 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 33.8836 ms
+15:40:40 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 28.8790 ms
+15:40:40 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 342.1867 ms
+15:40:41 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 60.2089 ms
+15:40:41 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 80.3895 ms
+15:40:41 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 303.2746 ms
+15:40:42 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 229.3193 ms
+15:40:42 [INFO] HTTP GET /catalog/CatalogSaleShift responded 400 in 29.9017 ms
+15:41:30 [INFO] HTTP GET /catalog/SmartOption responded 200 in 59.2690 ms
+15:41:31 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 63.3758 ms
+15:42:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 324.5089 ms
+15:42:16 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.3738 ms
+15:42:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 148.7015 ms
+15:45:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 193.0914 ms
+15:45:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 95.0430 ms
+15:45:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 221.4315 ms
+15:45:53 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.4068 ms
+15:45:53 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.9341 ms
+15:51:44 [INFO] HTTP GET /catalog/SmartOption responded 200 in 723.6837 ms
+15:51:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 59.7539 ms
+15:51:54 [INFO] HTTP GET /catalog/SmartOption responded 200 in 98.1203 ms
+15:51:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 114.3784 ms
+15:51:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.6549 ms
+15:53:39 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 62.0071 ms
+15:53:50 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 546.9653 ms
+15:54:04 [INFO] HTTP GET /catalog/SmartOption responded 200 in 44.4967 ms
+15:54:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 73.1704 ms
+15:54:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.5614 ms
+15:59:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1348.5022 ms
+15:59:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.0115 ms
+15:59:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 66.6691 ms
+15:59:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 159.4989 ms
+15:59:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 329.0541 ms
+16:00:10 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.6536 ms
+16:22:05 [INFO] HTTP GET /catalog/SmartOption responded 200 in 293.4331 ms
+16:22:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 60.1996 ms
+16:22:53 [INFO] HTTP GET /catalog/SmartOption responded 200 in 68.0866 ms
+16:22:54 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 42.5941 ms
+16:22:54 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 104.4342 ms
+16:27:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2398.7221 ms
+16:27:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 236.1239 ms
+16:30:49 [INFO] HTTP GET /catalog/SmartOption responded 200 in 136.4780 ms
+16:30:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 97.5424 ms
+16:35:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 132.1222 ms
+16:35:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 64.6422 ms
+16:35:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 102.9389 ms
+16:35:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 58.1552 ms
+16:35:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 36.9548 ms
+16:36:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 100.3752 ms
+16:37:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 85.4735 ms
+16:37:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 178.2064 ms
+16:37:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 66.7188 ms
+16:37:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 59.5273 ms
+16:40:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2668.4314 ms
+16:40:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.7191 ms
+16:43:43 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.1315 ms
+16:43:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.7937 ms
+16:43:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.5878 ms
+16:55:17 [INFO] HTTP GET /catalog/SmartOption responded 200 in 127.8717 ms
+16:55:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.8615 ms
+16:55:32 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.8623 ms
+16:55:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.9942 ms
+16:55:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.9721 ms
+16:56:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 47.7624 ms
+16:56:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 42.0735 ms
+16:57:36 [INFO] HTTP GET /catalog/SmartOption responded 200 in 33.9935 ms
+16:57:36 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 165.8897 ms
+16:57:36 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 51.1152 ms
+16:59:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 82.4842 ms
+16:59:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.5883 ms
+16:59:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 35.9760 ms
+16:59:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.3053 ms
+16:59:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.9822 ms
+17:01:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 194.6504 ms
+17:01:22 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.1327 ms
+17:04:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 84.9894 ms
+17:04:31 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.7788 ms
+17:05:05 [INFO] HTTP GET /catalog/SmartOption responded 200 in 38.6017 ms
+17:05:06 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 152.9624 ms
+17:05:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 65.7540 ms
+17:11:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 111.5919 ms
+17:11:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.9876 ms
+17:11:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 48.8948 ms
+17:11:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.0085 ms
+17:11:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.8573 ms
+17:12:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 33.3404 ms
+17:12:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.0086 ms
+17:13:02 [INFO] HTTP GET /catalog/CatalogInvoiceStatus responded 200 in 43.4420 ms
+17:13:02 [INFO] HTTP GET /catalog/CatalogResultProcess responded 200 in 26.1098 ms
+17:13:02 [INFO] HTTP GET /catalog/CatalogInvoiceSymbol responded 200 in 25.4550 ms
+17:13:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 44.5207 ms
+17:13:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.1161 ms
+17:13:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.4039 ms
+17:14:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 43.4437 ms
+17:14:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.6254 ms
+17:14:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.2279 ms
+17:14:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.5489 ms
+17:14:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.1386 ms
+17:16:35 [INFO] HTTP GET /catalog/SmartOption responded 200 in 158.0823 ms
+17:16:35 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.6094 ms
+17:17:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 39.1804 ms
+17:17:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.1623 ms
+17:17:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.6060 ms
+17:18:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 43.9091 ms
+17:18:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.1646 ms
+17:18:24 [INFO] HTTP GET /catalog/SmartOption responded 200 in 55.5456 ms
+17:18:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.9589 ms
+17:18:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.4378 ms
+17:29:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 135.4729 ms
+17:29:53 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 83.3829 ms
+17:30:15 [INFO] HTTP GET /catalog/SmartOption responded 200 in 38.5364 ms
+17:30:15 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.2508 ms
+17:30:15 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 47.3468 ms
+17:31:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 73.6054 ms
+17:31:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 55.1470 ms
+17:32:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 32.8364 ms
+17:32:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 199.8498 ms
+17:32:20 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 82.4687 ms
+17:33:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 66.2546 ms
+17:33:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.9550 ms
+17:33:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 40.4611 ms
+17:33:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.1880 ms
+17:33:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.6884 ms
+17:35:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 104.5809 ms
+17:35:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.2029 ms
+17:36:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 129.5235 ms
+17:36:08 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 85.3090 ms
+17:36:08 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 82.4784 ms
+17:37:56 [INFO] HTTP GET /catalog/SmartOption responded 200 in 448.4288 ms
+17:37:56 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 62.8839 ms
+17:37:59 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 106.8459 ms
+17:38:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 57.9599 ms
+17:38:15 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.9467 ms
+17:38:15 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.9668 ms
+17:39:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 330.5629 ms
+17:39:29 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.5691 ms
+17:40:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 227.9145 ms
+17:40:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 32.0352 ms
+17:40:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.7966 ms
+17:41:08 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.5905 ms
+17:41:09 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 150.0554 ms
+17:41:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 48.5226 ms
+17:41:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.6031 ms
+17:41:20 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 72.8795 ms
+17:42:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 74.6039 ms
+17:42:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.0727 ms
+17:42:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 74.8322 ms
+17:42:32 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.2835 ms
+17:42:32 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 122.1738 ms
+17:43:53 [INFO] HTTP GET /catalog/SmartOption responded 200 in 229.2329 ms
+17:43:54 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 59.3321 ms
+17:44:13 [INFO] HTTP GET /catalog/SmartOption responded 200 in 95.6870 ms
+17:44:13 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.3330 ms
+17:44:14 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.3365 ms
+17:46:18 [INFO] HTTP GET /catalog/SmartOption responded 200 in 56.0932 ms
+17:46:18 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.4026 ms
+17:46:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 54.4272 ms
+17:46:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.1372 ms
+17:46:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 122.1533 ms
+17:48:56 [INFO] HTTP GET /catalog/SmartOption responded 200 in 484.0697 ms
+17:48:56 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 44.2746 ms
+17:49:08 [INFO] HTTP GET /catalog/SmartOption responded 200 in 197.4351 ms
+17:49:09 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.7895 ms
+17:49:09 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.9961 ms
+17:50:32 [INFO] HTTP GET /catalog/SmartOption responded 200 in 67.9204 ms
+17:50:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.4764 ms
+17:50:42 [INFO] HTTP GET /catalog/SmartOption responded 200 in 54.6156 ms
+17:50:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.4469 ms
+17:50:43 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.7202 ms
+17:52:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 264.1532 ms
+17:52:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 273.4755 ms
+17:52:17 [INFO] HTTP GET /catalog/SmartOption responded 200 in 85.1042 ms
+17:52:17 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.3786 ms
+17:52:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 38.6822 ms
+17:54:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 75.4211 ms
+17:55:01 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 169.2512 ms
+17:57:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 152.0477 ms
+17:57:48 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.7695 ms
+17:57:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 110.0512 ms
+18:13:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 278.6440 ms
+18:13:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 207.1312 ms
+18:22:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 194.6415 ms
+18:22:41 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 326.3153 ms
+18:28:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 82.3619 ms
+18:28:41 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 49.3080 ms
+18:29:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 48.5353 ms
+18:29:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.8586 ms
+18:30:30 [INFO] HTTP GET /catalog/SmartOption responded 200 in 41.5213 ms
+18:30:31 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 70.3768 ms
+18:32:30 [INFO] HTTP GET /catalog/SmartOption responded 200 in 57.2068 ms
+18:32:30 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.5726 ms
+18:35:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 35.7241 ms
+18:35:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.6262 ms
+18:56:09 [INFO] HTTP GET /catalog/SmartOption responded 200 in 4283.9747 ms
+18:56:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 50.6627 ms
+18:58:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 73.9202 ms
+18:58:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 35.2539 ms
+18:59:30 [INFO] HTTP GET /catalog/SmartOption responded 200 in 55.3041 ms
+18:59:31 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 80.8996 ms
+19:03:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 210.8191 ms
+19:03:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 309.2293 ms

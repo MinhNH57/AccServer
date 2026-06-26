@@ -1,0 +1,551 @@
+[
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "FindComponentProperty",
+    "RelativePath": "cms/properties",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[CMS.Model.ComponentProperty, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "FindComponentProperty",
+    "Description": "L\u1EA5y danh s\u00E1ch c\u00E1c m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "Danh s\u00E1ch c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "CreateComponentProperty",
+    "RelativePath": "cms/properties",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CMS.Model.ComponentProperty",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentProperty, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "CreateComponentProperty",
+    "Description": "T\u1EA1o m\u1EDBi m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh.",
+    "Summary": "T\u1EA1o m\u1EDBi thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "FindOneComponentProperty",
+    "RelativePath": "cms/properties/{propertyId:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentProperty, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "FindOneComponentProperty",
+    "Description": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id.",
+    "Summary": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "UpdateComponentProperty",
+    "RelativePath": "cms/properties/{propertyId:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "insertItem",
+        "Type": "CMS.Model.ComponentProperty",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentProperty, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "UpdateComponentProperty",
+    "Description": "C\u1EADp nh\u1EADt m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh.",
+    "Summary": "C\u1EADp nh\u1EADt thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "DeleteComponentProperty",
+    "RelativePath": "cms/properties/{propertyId:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "DeleteComponentProperty",
+    "Description": "X\u00F3a m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh.",
+    "Summary": "X\u00F3a thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "FindComponentSetting",
+    "RelativePath": "cms/settings",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindComponentSetting",
+    "Description": "L\u1EA5y danh s\u00E1ch c\u00E1c m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "Danh s\u00E1ch c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "CreateComponentSetting",
+    "RelativePath": "cms/settings",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CMS.Model.ComponentSetting",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentSetting, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "CreateComponentSetting",
+    "Description": "T\u1EA1o m\u1ED9t m\u1EE5c m\u1EDBi trong c\u1EA5u h\u00ECnh.",
+    "Summary": "T\u1EA1o m\u1EDBi c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "UpdateComponentSetting",
+    "RelativePath": "cms/settings/{settingId:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateItem",
+        "Type": "CMS.Model.ComponentSetting",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentSetting, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "UpdateComponentSetting",
+    "Description": "C\u1EADp nh\u1EADt m\u1ED9t m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "C\u1EADp nh\u1EADt c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "DeleteComponentSetting",
+    "RelativePath": "cms/settings/{settingId:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "DeleteComponentSetting",
+    "Description": "X\u00F3a m\u1ED9t m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "X\u00F3a c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "GenerateComponentProperties",
+    "RelativePath": "cms/settings/{settingId:guid}/generate-properties",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentSetting, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "GenerateComponentProperties",
+    "Description": "T\u1EA1o thu\u1ED9c t\u00EDnh c\u1EE7a m\u1ED9t c\u1EA5u h\u00ECnh.",
+    "Summary": "T\u1EA1o thu\u1ED9c t\u00EDnh c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "FindComponentProperties",
+    "RelativePath": "cms/settings/{settingId:guid}/properties",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[CMS.Model.ComponentProperty, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindComponentProperties",
+    "Description": "L\u1EA5y danh s\u00E1ch thu\u1ED9c t\u00EDnh c\u1EE7a c\u1EA5u h\u00ECnh.",
+    "Summary": "Danh s\u00E1ch thu\u1ED9c t\u00EDnh th\u00E0nh ph\u1EA7n c\u1EE7a c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "UpdateComponentProperties",
+    "RelativePath": "cms/settings/{settingId:guid}/properties",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[CMS.Model.ComponentProperty, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "UpdateComponentProperties",
+    "Description": "C\u1EADp nh\u1EADt danh s\u00E1ch thu\u1ED9c t\u00EDnh theo c\u1EA5u h\u00ECnh.",
+    "Summary": "C\u1EADp nh\u1EADt danh s\u00E1ch thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "FindOneComponentSetting",
+    "RelativePath": "cms/settings/{settingId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[CMS.Model.ComponentSetting, CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindOneComponentSetting",
+    "Description": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id.",
+    "Summary": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id."
+  },
+  {
+    "ContainingType": "CMS.Apis.CmsApi",
+    "Method": "FindColumnNames",
+    "RelativePath": "cms/tables/{tableId}/column-names",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ColumnNames"
+    ],
+    "EndpointName": "FindColumnNames",
+    "Description": "L\u1EA5y danh s\u00E1ch c\u00E1c c\u1ED9t trong b\u1EA3ng d\u01B0\u1EDBi d\u1EA1ng m\u1ED9t chu\u1ED7i c\u00E1ch nhau b\u1EDBi d\u1EA5u \u0022,\u0022.",
+    "Summary": "Danh s\u00E1ch c\u00E1c c\u1ED9t trong b\u1EA3ng d\u01B0\u1EDBi d\u1EA1ng m\u1ED9t chu\u1ED7i c\u00E1ch nhau b\u1EDBi d\u1EA5u \u0022,\u0022."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "src\\Modules\\Catalog\\Catalog\\Catalog.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Modules\\Identity\\Identity\\Identity.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\Modules\\Systems\\Systems\\Systems.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Caching.Distributed;
+global using SmartAccCloud.Application.Response;
+global using SmartAccCloud.Domain;
+global using SmartAccCloud.Domain.Entity.Catalogs;
+global using SmartAccCloud.Domain.Entity.File;
+global using SmartAccCloud.Domain.Entity.Menus;
+global using SmartAccCloud.Domain.Entity.Rules;
+global using SmartAccCloud.Domain.Entity.Salary;
+global using SmartAccCloud.Domain.Entity;
+global using SmartAccCloud.Domain.Entity.Dashboard;
+global using SmartAccCloud.Domain.SteelModelStores;
+global using SmartAccCloud.Domain.Entity.SmartFund;

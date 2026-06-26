@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "Salary.Apis.Api.SalaryApi",
+    "Method": "UpdateSalaryTimeSheet",
+    "RelativePath": "salary/edit-salary-time-sheet",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Salary.Apis.Commands.UpdateSalaryTimeSheetCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Salary"
+    ],
+    "Description": "S\u1EEDa b\u1EA3ng ch\u1EA5m c\u00F4ng theo th\u00E1ng.",
+    "Summary": "S\u1EEDa b\u1EA3ng ch\u1EA5m c\u00F4ng."
+  },
+  {
+    "ContainingType": "Salary.Apis.Api.SalaryApi",
+    "Method": "UpdateSalaryTimeSheetDetails",
+    "RelativePath": "salary/edit-salary-time-sheet-summary-details",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Salary.Apis.Commands.UpdateSalaryTimeSheetSummaryDetailsCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Salary"
+    ],
+    "Description": "S\u1EEDa b\u1EA3ng c\u00F4ng t\u1ED5ng h\u1EE3p.",
+    "Summary": "S\u1EEDa b\u1EA3ng c\u00F4ng t\u1ED5ng h\u1EE3p."
+  }
+]

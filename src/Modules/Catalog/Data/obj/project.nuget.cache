@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VySy2IgH4k0=",
+  "success": true,
+  "projectFilePath": "D:\\Source\\Repos\\SmartAccCloud_API\\src\\Modules\\Catalog\\Data\\Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SMART-DEV20\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.3\\microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

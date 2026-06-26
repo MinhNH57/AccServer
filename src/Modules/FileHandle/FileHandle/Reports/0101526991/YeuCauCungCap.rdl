@@ -1,0 +1,3315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition">
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>143.7513mm</Height>
+        <ReportItems>
+          <Textbox Name="TextBox7">
+            <Left>0mm</Left>
+            <Top>30.37747mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.0896mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Người đề nghị: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ObjectName.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>3.52778mm</FontSize>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox10">
+            <Left>0mm</Left>
+            <Top>36.22724mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.0896mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Lý do: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ReasonName.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>3.52778mm</FontSize>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Tablix Name="Tablix1">
+            <Left>0mm</Left>
+            <Top>59.96119mm</Top>
+            <Height>11.63753mm</Height>
+            <Width>115.0896mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CustomProperties>
+              <CustomProperty>
+                <Name>MaxRowCount</Name>
+                <Value>100000</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>MaxColumnCount</Name>
+                <Value>20</Value>
+              </CustomProperty>
+            </CustomProperties>
+            <DataSetName>PrintVoucher</DataSetName>
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>16.19333mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>26.33844mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>17.87177mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>13.10928mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>25.01552mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>16.56126mm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>5.29167mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox11">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.29167mm</Height>
+                          <Width>16.19332mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>STT</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox12">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.29167mm</Height>
+                          <Width>26.33845mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Tên hàng hóa, vật tư</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Heavy</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox13">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.29167mm</Height>
+                          <Width>17.87178mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Đơn vị tính</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox17">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.29167mm</Height>
+                          <Width>13.10928mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Số lượng</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox41">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.29167mm</Height>
+                          <Width>25.01553mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Kho hàng</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox21">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.29167mm</Height>
+                          <Width>16.56127mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Ghi chú</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>6.34587mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox14">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.34587mm</Height>
+                          <Width>16.19332mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RowNumber.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox15">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.34587mm</Height>
+                          <Width>26.33845mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!CommodityName.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox16">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.34587mm</Height>
+                          <Width>17.87178mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!UnitPcs.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox18">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.34587mm</Height>
+                          <Width>13.10928mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Quantity.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Format>N2</Format>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox42">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.34587mm</Height>
+                          <Width>25.01553mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!WarehoseName.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Format>N0</Format>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox22">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.34587mm</Height>
+                          <Width>16.56127mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Notes.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Format>N0</Format>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+          </Tablix>
+          <Textbox Name="TextBox29">
+            <Left>1.04593mm</Left>
+            <Top>75.08791mm</Top>
+            <Height>13.22917mm</Height>
+            <Width>34.48127mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Người đề nghị</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.175mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="RecordDate1">
+            <Left>0mm</Left>
+            <Top>47.88544mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.0937mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ngày đề nghị</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> </Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>3.52777mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!RecordDate.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Format>d</Format>
+                      <rd:FormatType>
+                        <rd:Format>date</rd:Format>
+                      </rd:FormatType>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="RoomName1">
+            <Left>0mm</Left>
+            <Top>42.14729mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.1805mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>B</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>ộ phận :</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!RoomName.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="VoucherDate2">
+            <Left>0mm</Left>
+            <Top>53.79309mm</Top>
+            <Height>5.8167mm</Height>
+            <Width>115.0028mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ngày Y/V nhận hàng :</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!VoucherDate.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Format>d</Format>
+                      <rd:FormatType>
+                        <rd:Format>date</rd:Format>
+                      </rd:FormatType>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox4">
+            <Left>95.8453mm</Left>
+            <Top>5.90351mm</Top>
+            <Height>6.51536mm</Height>
+            <Width>19.30218mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Số:</Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>2.64583mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!NumberOfVouchers.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.5mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="NameUnit1">
+            <Left>0.08682mm</Left>
+            <Top>0.08268mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>95.95279mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!NameUnit.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.52777mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="AddressUnit1">
+            <Left>0.08682mm</Left>
+            <Top>5.8167mm</Top>
+            <Height>6.61045mm</Height>
+            <Width>95.94865mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!AddressUnit.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.64583mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>3.52778mm</FontSize>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox1">
+            <Left>0.16536mm</Left>
+            <Top>12.1667mm</Top>
+            <Height>8.06979mm</Height>
+            <Width>114.9986mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ĐỀ NGHỊ CUNG ỨNG HÀNG HÓA</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>4.29199mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox3">
+            <Left>0.21084mm</Left>
+            <Top>19.88095mm</Top>
+            <Height>5.45703mm</Height>
+            <Width>114.8209mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!RecordDate.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.64583mm</FontSize>
+                      <Format>d</Format>
+                      <rd:FormatType>
+                        <rd:Format>date</rd:Format>
+                      </rd:FormatType>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox5">
+            <Left>0mm</Left>
+            <Top>25.13541mm</Top>
+            <Height>5.45703mm</Height>
+            <Width>114.9945mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Dành cho kế toán chi)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.5mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#f44336</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox2">
+            <Left>40.82438mm</Left>
+            <Top>75.48892mm</Top>
+            <Height>12.96045mm</Height>
+            <Width>33.06878mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Người ký duyệt</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.175mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox6">
+            <Left>81.74797mm</Left>
+            <Top>75.43105mm</Top>
+            <Height>12.96045mm</Height>
+            <Width>33.06878mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Kế toán chi</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.175mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox53">
+            <Left>96.39513mm</Left>
+            <Top>0.26458mm</Top>
+            <Height>5.46116mm</Height>
+            <Width>18.69446mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Liên số 1</Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>2.5mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox8">
+            <Left>119.1493mm</Left>
+            <Top>0.34727mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>96.21323mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!NameUnit.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.52777mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox32">
+            <Left>119.1493mm</Left>
+            <Top>6.08128mm</Top>
+            <Height>6.61045mm</Height>
+            <Width>96.1278mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!AddressUnit.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.64583mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>3.52778mm</FontSize>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox33">
+            <Left>118.9633mm</Left>
+            <Top>12.43128mm</Top>
+            <Height>8.06566mm</Height>
+            <Width>115.5237mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ĐỀ NGHỊ CUNG ỨNG HÀNG HÓA</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>4.29199mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox35">
+            <Left>215.7222mm</Left>
+            <Top>0.52917mm</Top>
+            <Height>5.46116mm</Height>
+            <Width>18.69446mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Liên số 2</Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>2.5mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox56">
+            <Left>215.0029mm</Left>
+            <Top>5.89938mm</Top>
+            <Height>6.77995mm</Height>
+            <Width>19.30218mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Số:</Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>2.64583mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!NumberOfVouchers.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.5mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox57">
+            <Left>119.1824mm</Left>
+            <Top>20.05045mm</Top>
+            <Height>5.45703mm</Height>
+            <Width>115.2591mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=First(Fields!RecordDate.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.64583mm</FontSize>
+                      <Format>d</Format>
+                      <rd:FormatType>
+                        <rd:Format>date</rd:Format>
+                      </rd:FormatType>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox58">
+            <Left>119.1493mm</Left>
+            <Top>25.30905mm</Top>
+            <Height>5.4529mm</Height>
+            <Width>115.255mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Dành cho kế toán công nợ)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.5mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#f44336</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox59">
+            <Left>118.9674mm</Left>
+            <Top>30.42295mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.3501mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Người đề nghị: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ObjectName.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>3.52778mm</FontSize>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox60">
+            <Left>118.9674mm</Left>
+            <Top>36.27272mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.3501mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Lý do: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ReasonName.Value,"PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <FontSize>3.52778mm</FontSize>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox61">
+            <Left>118.9674mm</Left>
+            <Top>47.93092mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.3542mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ngày đề nghị</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> </Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>3.52777mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!RecordDate.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Format>d</Format>
+                      <rd:FormatType>
+                        <rd:Format>date</rd:Format>
+                      </rd:FormatType>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox62">
+            <Left>118.9674mm</Left>
+            <Top>42.19277mm</Top>
+            <Height>6.08542mm</Height>
+            <Width>115.441mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>B</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>ộ phận :</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!RoomName.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox63">
+            <Left>118.9674mm</Left>
+            <Top>53.83857mm</Top>
+            <Height>5.81256mm</Height>
+            <Width>115.5278mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ngày Y/V nhận hàng :</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!VoucherDate.Value, "PrintVoucher")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <Format>d</Format>
+                      <rd:FormatType>
+                        <rd:Format>date</rd:Format>
+                      </rd:FormatType>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Tablix Name="Tablix3">
+            <Left>119.0583mm</Left>
+            <Top>60.14722mm</Top>
+            <Height>11.63753mm</Height>
+            <Width>115.0896mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CustomProperties>
+              <CustomProperty>
+                <Name>MaxRowCount</Name>
+                <Value>100000</Value>
+              </CustomProperty>
+              <CustomProperty>
+                <Name>MaxColumnCount</Name>
+                <Value>20</Value>
+              </CustomProperty>
+            </CustomProperties>
+            <DataSetName>PrintVoucher</DataSetName>
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>16.18919mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>26.33844mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>17.86764mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>13.10514mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>25.01552mm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>16.56953mm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>5.28754mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox64">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.28754mm</Height>
+                          <Width>16.18919mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>STT</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox65">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.28754mm</Height>
+                          <Width>26.33845mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Tên hàng hóa, vật tư</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Heavy</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox66">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.28754mm</Height>
+                          <Width>17.86763mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Đơn vị tính</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox67">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.28754mm</Height>
+                          <Width>13.10513mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Số lượng</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox68">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.28754mm</Height>
+                          <Width>25.01553mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Kho hàng</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox69">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>5.28754mm</Height>
+                          <Width>16.56953mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Ghi chú</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>3.175mm</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>6.35mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox70">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.35mm</Height>
+                          <Width>16.18919mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!RowNumber.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox71">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.35mm</Height>
+                          <Width>26.33845mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!CommodityName.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox72">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.35mm</Height>
+                          <Width>17.86763mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!UnitPcs.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox73">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.35mm</Height>
+                          <Width>13.10513mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Quantity.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Format>N2</Format>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox74">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.35mm</Height>
+                          <Width>25.01553mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!WarehoseName.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Format>N0</Format>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="TextBox75">
+                          <Left>0in</Left>
+                          <Top>0in</Top>
+                          <Height>6.35mm</Height>
+                          <Width>16.56953mm</Width>
+                          <Style>
+                            <FontFamily>Arial</FontFamily>
+                            <FontSize>3.52778mm</FontSize>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingLeft>0.70556mm</PaddingLeft>
+                            <PaddingRight>0.70556mm</PaddingRight>
+                            <PaddingTop>0.70556mm</PaddingTop>
+                            <PaddingBottom>0.70556mm</PaddingBottom>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                          </Style>
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Notes.Value</Value>
+                                  <Style>
+                                    <FontFamily>Times New Roman</FontFamily>
+                                    <FontSize>2.175mm</FontSize>
+                                    <Format>N0</Format>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <FontFamily>Arial</FontFamily>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                        </Textbox>
+                        <RowSpan>1</RowSpan>
+                        <ColSpan>1</ColSpan>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details2" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+          </Tablix>
+          <Textbox Name="TextBox76">
+            <Left>119.8521mm</Left>
+            <Top>75.40211mm</Top>
+            <Height>13.22917mm</Height>
+            <Width>34.48127mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Người đề nghị</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.175mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox77">
+            <Left>159.6305mm</Left>
+            <Top>75.80312mm</Top>
+            <Height>12.96045mm</Height>
+            <Width>33.06878mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Người ký duyệt</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.175mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox78">
+            <Left>200.5541mm</Left>
+            <Top>75.74524mm</Top>
+            <Height>12.96045mm</Height>
+            <Width>33.06878mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>3.52778mm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.70556mm</PaddingLeft>
+              <PaddingRight>0.70556mm</PaddingRight>
+              <PaddingTop>0.70556mm</PaddingTop>
+              <PaddingBottom>0.70556mm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Kế toán công nợ</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>3.175mm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>2.175mm</FontSize>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Line Name="Line1">
+            <Left>117.2972mm</Left>
+            <Top>0.17363mm</Top>
+            <Height>143.5792mm</Height>
+            <Width>0mm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Color>#4d4d4d</Color>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+        </ReportItems>
+        <Style>
+          <FontFamily>Arial</FontFamily>
+          <FontSize>3.52778mm</FontSize>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>234.95mm</Width>
+      <Page>
+        <PageHeight>188.44mm</PageHeight>
+        <PageWidth>270mm</PageWidth>
+        <LeftMargin>15mm</LeftMargin>
+        <RightMargin>15mm</RightMargin>
+        <TopMargin>5mm</TopMargin>
+        <BottomMargin>5mm</BottomMargin>
+        <ColumnSpacing>12.7mm</ColumnSpacing>
+        <Style>
+          <BackgroundColor>White</BackgroundColor>
+          <FontFamily>Arial</FontFamily>
+          <FontSize>3.52778mm</FontSize>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <DataSources>
+    <DataSource Name="WSmartAcc">
+      <rd:SecurityType>None</rd:SecurityType>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Server=210.245.94.31, 56789;Database=RANGDONGERP2026;User ID=usErp_SMA_BDQpv6WZxUGyKr7C;Password=CAfG!aHbIiMh5$CgK$*PrD;TrustServerCertificate=True;MultipleActiveResultSets=true</ConnectString>
+        <rd:IsDesignState>true</rd:IsDesignState>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="PrintVoucher">
+      <Query>
+        <DataSourceName>WSmartAcc</DataSourceName>
+        <CommandText>dbo.PrintVouchersAll</CommandText>
+        <CommandType>StoredProcedure</CommandType>
+        <QueryParameters>
+          <QueryParameter Name="@Parameter">
+            <Value>=Parameters!Parameter.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Id">
+            <Value>=Parameters!Id.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@UserCode">
+            <Value>=Parameters!UserCode.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@CodeUnit">
+            <Value>=Parameters!CodeUnit.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@AccountSymbol">
+            <Value>=Parameters!AccountSymbol.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@BeginDate">
+            <Value>=Parameters!BeginDate.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@EndDate">
+            <Value>=Parameters!EndDate.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Date">
+            <Value>=Parameters!Date.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@PathImages">
+            <Value>=Parameters!PathImages.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@PathLogo">
+            <Value>=Parameters!PathLogo.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@SmartSoftware">
+            <Value>=Parameters!SmartSoftware.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <QueryDesignerState xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational">
+          <StoredProcedure Name="PrintVouchersAll" Schema="dbo">
+            <Parameters>
+              <SParameter Name="@Parameter" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@Id" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@UserCode" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@CodeUnit" IsNull="false" DataType="System.Int32" Value="" />
+              <SParameter Name="@AccountSymbol" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@BeginDate" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@EndDate" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@Date" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@PathImages" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@PathLogo" IsNull="false" DataType="System.String" Value="" />
+              <SParameter Name="@SmartSoftware" IsNull="false" DataType="System.String" Value="" />
+            </Parameters>
+            <SchemaLevels>
+              <SchemaInfo Name="dbo" SchemaType="Schema" />
+              <SchemaInfo Name="Procedures" SchemaType="Category" />
+              <SchemaInfo Name="PrintVouchersAll" SchemaType="Procedure" />
+            </SchemaLevels>
+          </StoredProcedure>
+        </QueryDesignerState>
+      </Query>
+      <Fields>
+        <Field Name="PATHLOGO">
+          <DataField>PATHLOGO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PATHQRCODE">
+          <DataField>PATHQRCODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Id">
+          <DataField>Id</DataField>
+          <rd:TypeName>System.Guid</rd:TypeName>
+        </Field>
+        <Field Name="RowNumber">
+          <DataField>RowNumber</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="UserCode">
+          <DataField>UserCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Parameter">
+          <DataField>Parameter</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DataName">
+          <DataField>DataName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="VoucherDate">
+          <DataField>VoucherDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="RecordDate">
+          <DataField>RecordDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="NumberOfVouchers">
+          <DataField>NumberOfVouchers</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InvoiceNumber">
+          <DataField>InvoiceNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PersonCode">
+          <DataField>PersonCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PersonName">
+          <DataField>PersonName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PersonAddress">
+          <DataField>PersonAddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PersonTaxCode">
+          <DataField>PersonTaxCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ObjectCode">
+          <DataField>ObjectCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ObjectName">
+          <DataField>ObjectName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ObjectAddress">
+          <DataField>ObjectAddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ObjectTaxCode">
+          <DataField>ObjectTaxCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DeliveryLocation">
+          <DataField>DeliveryLocation</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ContactPerson">
+          <DataField>ContactPerson</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ReasonCode">
+          <DataField>ReasonCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ReasonName">
+          <DataField>ReasonName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MethodOfPaymentsCode">
+          <DataField>MethodOfPaymentsCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MethodOfPaymentsName">
+          <DataField>MethodOfPaymentsName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Pricing">
+          <DataField>Pricing</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="EInvoice">
+          <DataField>EInvoice</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="VoucherStatus">
+          <DataField>VoucherStatus</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LicensePlates">
+          <DataField>LicensePlates</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InvoiceSymbol">
+          <DataField>InvoiceSymbol</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InvoiceTemplate">
+          <DataField>InvoiceTemplate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Register">
+          <DataField>Register</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="PurchasePurposeName">
+          <DataField>PurchasePurposeName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ShippingMethodsname">
+          <DataField>ShippingMethodsname</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DataType">
+          <DataField>DataType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DebitSide">
+          <DataField>DebitSide</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditSide">
+          <DataField>CreditSide</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AccountSymbol">
+          <DataField>AccountSymbol</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CommodityCode">
+          <DataField>CommodityCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CommodityName">
+          <DataField>CommodityName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WarehoseCode">
+          <DataField>WarehoseCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WarehoseName">
+          <DataField>WarehoseName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WarehoseCodeReceive">
+          <DataField>WarehoseCodeReceive</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="WarehoseNameReceive">
+          <DataField>WarehoseNameReceive</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProductCode">
+          <DataField>ProductCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProductName">
+          <DataField>ProductName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UnitPcs">
+          <DataField>UnitPcs</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UnitPackage">
+          <DataField>UnitPackage</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ConversionFactor">
+          <DataField>ConversionFactor</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="QuantityOfInventory">
+          <DataField>QuantityOfInventory</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Price">
+          <DataField>Price</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="AmountOfMoney">
+          <DataField>AmountOfMoney</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="ForeignCurrencyType">
+          <DataField>ForeignCurrencyType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ExchangeRate">
+          <DataField>ExchangeRate</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="AmountOfMoneyUsd">
+          <DataField>AmountOfMoneyUsd</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="VatType">
+          <DataField>VatType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="VatRate">
+          <DataField>VatRate</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="AmountVat">
+          <DataField>AmountVat</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="DiscountRate">
+          <DataField>DiscountRate</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="CoefficientVcf">
+          <DataField>CoefficientVcf</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Temperature">
+          <DataField>Temperature</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="CoefficientWcf">
+          <DataField>CoefficientWcf</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="Quantity15">
+          <DataField>Quantity15</DataField>
+          <rd:TypeName>System.Double</rd:TypeName>
+        </Field>
+        <Field Name="AmountDiscount">
+          <DataField>AmountDiscount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="AmountAfterDiscount">
+          <DataField>AmountAfterDiscount</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="DebitObjectCode">
+          <DataField>DebitObjectCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DebitObjectName">
+          <DataField>DebitObjectName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DebitObjectTax">
+          <DataField>DebitObjectTax</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditObjectCode">
+          <DataField>CreditObjectCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditObjectName">
+          <DataField>CreditObjectName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditObjectTax">
+          <DataField>CreditObjectTax</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RevenueExpenseCode">
+          <DataField>RevenueExpenseCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RevenueExpenseName">
+          <DataField>RevenueExpenseName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ContractCode">
+          <DataField>ContractCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ContractName">
+          <DataField>ContractName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ConstructionCode">
+          <DataField>ConstructionCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ConstructionName">
+          <DataField>ConstructionName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProjectCode">
+          <DataField>ProjectCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProjectName">
+          <DataField>ProjectName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RoomCode">
+          <DataField>RoomCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RoomName">
+          <DataField>RoomName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProductionActivitieCode">
+          <DataField>ProductionActivitieCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ProductionActivitieName">
+          <DataField>ProductionActivitieName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FundingSourceCode">
+          <DataField>FundingSourceCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FundingSourceName">
+          <DataField>FundingSourceName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Notes">
+          <DataField>Notes</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IdAsc">
+          <DataField>IdAsc</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CodeUnit">
+          <DataField>CodeUnit</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NameUnit">
+          <DataField>NameUnit</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AddressUnit">
+          <DataField>AddressUnit</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsActive">
+          <DataField>IsActive</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="CreateDate">
+          <DataField>CreateDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CreateBy">
+          <DataField>CreateBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ModifyDate">
+          <DataField>ModifyDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ModifyBy">
+          <DataField>ModifyBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IdData">
+          <DataField>IdData</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AmountInWords">
+          <DataField>AmountInWords</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Template">
+          <DataField>Template</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Decision">
+          <DataField>Decision</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Time">
+          <DataField>Time</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="Parameter">
+      <DataType>String</DataType>
+      <Prompt>Parameter</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Id">
+      <DataType>String</DataType>
+      <Prompt>Id</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="UserCode">
+      <DataType>String</DataType>
+      <Prompt>UserCode</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="CodeUnit">
+      <DataType>Integer</DataType>
+      <Prompt>CodeUnit</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AccountSymbol">
+      <DataType>String</DataType>
+      <Prompt>AccountSymbol</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+    <ReportParameter Name="BeginDate">
+      <DataType>String</DataType>
+      <Prompt>BeginDate</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+    <ReportParameter Name="EndDate">
+      <DataType>String</DataType>
+      <Prompt>EndDate</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+    <ReportParameter Name="Date">
+      <DataType>String</DataType>
+      <Prompt>Date</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+    <ReportParameter Name="PathImages">
+      <DataType>String</DataType>
+      <Prompt>PathImages</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+    <ReportParameter Name="PathLogo">
+      <DataType>String</DataType>
+      <Prompt>PathLogo</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+    <ReportParameter Name="SmartSoftware">
+      <DataType>String</DataType>
+      <Prompt>SmartSoftware</Prompt>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>3</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Parameter</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Id</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>UserCode</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>CodeUnit</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>AccountSymbol</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>BeginDate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>EndDate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>Date</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>PathImages</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>PathLogo</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>SmartSoftware</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Language>vi-VN</Language>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:PageUnit>Mm</rd:PageUnit>
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+</Report>

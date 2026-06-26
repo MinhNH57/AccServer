@@ -1,0 +1,20 @@
+﻿09:48:18 [INFO] Now listening on: https://localhost:5001
+09:48:18 [INFO] Now listening on: http://localhost:5193
+09:48:18 [INFO] Application started. Press Ctrl+C to shut down.
+09:48:18 [INFO] Hosting environment: Development
+09:48:18 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Identity\Identity
+10:11:53 [INFO] Now listening on: https://localhost:5001
+10:11:53 [INFO] Now listening on: http://localhost:5193
+10:11:53 [INFO] Application started. Press Ctrl+C to shut down.
+10:11:53 [INFO] Hosting environment: Development
+10:11:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Identity\Identity
+15:26:52 [INFO] Now listening on: https://localhost:5001
+15:26:52 [INFO] Now listening on: http://localhost:5193
+15:26:52 [INFO] Application started. Press Ctrl+C to shut down.
+15:26:52 [INFO] Hosting environment: Development
+15:26:52 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Identity\Identity
+16:10:38 [INFO] Now listening on: https://localhost:5001
+16:10:38 [INFO] Now listening on: http://localhost:5193
+16:10:38 [INFO] Application started. Press Ctrl+C to shut down.
+16:10:38 [INFO] Hosting environment: Development
+16:10:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Identity\Identity

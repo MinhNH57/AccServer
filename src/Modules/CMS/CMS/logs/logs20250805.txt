@@ -1,0 +1,30 @@
+﻿08:37:22 [INFO] Now listening on: https://localhost:7131
+08:37:22 [INFO] Now listening on: http://localhost:5148
+08:37:22 [INFO] Application started. Press Ctrl+C to shut down.
+08:37:22 [INFO] Hosting environment: Development
+08:37:22 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+08:55:27 [INFO] Now listening on: https://localhost:7131
+08:55:27 [INFO] Now listening on: http://localhost:5148
+08:55:27 [INFO] Application started. Press Ctrl+C to shut down.
+08:55:27 [INFO] Hosting environment: Development
+08:55:27 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+09:41:18 [INFO] Now listening on: https://localhost:7131
+09:41:18 [INFO] Now listening on: http://localhost:5148
+09:41:18 [INFO] Application started. Press Ctrl+C to shut down.
+09:41:18 [INFO] Hosting environment: Development
+09:41:18 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+09:43:26 [INFO] Now listening on: https://localhost:7131
+09:43:26 [INFO] Now listening on: http://localhost:5148
+09:43:26 [INFO] Application started. Press Ctrl+C to shut down.
+09:43:26 [INFO] Hosting environment: Development
+09:43:26 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+09:43:32 [INFO] Now listening on: https://localhost:7131
+09:43:32 [INFO] Now listening on: http://localhost:5148
+09:43:32 [INFO] Application started. Press Ctrl+C to shut down.
+09:43:32 [INFO] Hosting environment: Development
+09:43:32 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+19:28:53 [INFO] Now listening on: https://localhost:7131
+19:28:53 [INFO] Now listening on: http://localhost:5148
+19:28:53 [INFO] Application started. Press Ctrl+C to shut down.
+19:28:53 [INFO] Hosting environment: Development
+19:28:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS

@@ -1,0 +1,96 @@
+﻿08:29:36 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:29:37 [INFO] Now listening on: https://localhost:5244
+08:29:37 [INFO] Now listening on: http://localhost:5224
+08:29:37 [INFO] Application started. Press Ctrl+C to shut down.
+08:29:37 [INFO] Hosting environment: Development
+08:29:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+08:29:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:29:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:33:03 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:33:03 [INFO] Now listening on: https://localhost:5244
+08:33:03 [INFO] Now listening on: http://localhost:5224
+08:33:03 [INFO] Application started. Press Ctrl+C to shut down.
+08:33:03 [INFO] Hosting environment: Development
+08:33:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+08:33:04 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:33:04 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:34:37 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:34:38 [INFO] Now listening on: https://localhost:5244
+08:34:38 [INFO] Now listening on: http://localhost:5224
+08:34:38 [INFO] Application started. Press Ctrl+C to shut down.
+08:34:38 [INFO] Hosting environment: Development
+08:34:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+08:34:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:34:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:47:29 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:47:30 [INFO] Now listening on: https://localhost:5244
+16:47:30 [INFO] Now listening on: http://localhost:5224
+16:47:30 [INFO] Application started. Press Ctrl+C to shut down.
+16:47:30 [INFO] Hosting environment: Development
+16:47:30 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+16:48:18 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:48:18 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:53:49 [INFO] Now listening on: https://localhost:5244
+16:53:49 [INFO] Now listening on: http://localhost:5224
+16:53:49 [INFO] Application started. Press Ctrl+C to shut down.
+16:53:49 [INFO] Hosting environment: Development
+16:53:49 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+16:53:49 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:53:50 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:53:50 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:55:09 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:55:09 [INFO] Now listening on: https://localhost:5244
+16:55:09 [INFO] Now listening on: http://localhost:5224
+16:55:09 [INFO] Application started. Press Ctrl+C to shut down.
+16:55:09 [INFO] Hosting environment: Development
+16:55:09 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+16:55:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:55:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:01:41 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:01:41 [INFO] Now listening on: https://localhost:5244
+17:01:41 [INFO] Now listening on: http://localhost:5224
+17:01:41 [INFO] Application started. Press Ctrl+C to shut down.
+17:01:41 [INFO] Hosting environment: Development
+17:01:41 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+17:01:42 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:01:42 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:02:18 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:02:18 [INFO] Now listening on: https://localhost:5244
+17:02:18 [INFO] Now listening on: http://localhost:5224
+17:02:18 [INFO] Application started. Press Ctrl+C to shut down.
+17:02:18 [INFO] Hosting environment: Development
+17:02:18 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+17:02:19 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:02:19 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:05:26 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:05:26 [INFO] Now listening on: https://localhost:5244
+17:05:26 [INFO] Now listening on: http://localhost:5224
+17:05:26 [INFO] Application started. Press Ctrl+C to shut down.
+17:05:26 [INFO] Hosting environment: Development
+17:05:26 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+17:05:27 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:05:27 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:10:26 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:10:26 [INFO] Now listening on: https://localhost:5244
+17:10:26 [INFO] Now listening on: http://localhost:5224
+17:10:26 [INFO] Application started. Press Ctrl+C to shut down.
+17:10:26 [INFO] Hosting environment: Development
+17:10:26 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+17:10:27 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:10:27 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:20:09 [INFO] Now listening on: https://localhost:5244
+18:20:09 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:20:09 [INFO] Now listening on: http://localhost:5224
+18:20:10 [INFO] Application started. Press Ctrl+C to shut down.
+18:20:10 [INFO] Hosting environment: Development
+18:20:10 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+18:20:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:20:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:39:55 [INFO] Now listening on: https://localhost:5244
+18:39:55 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:39:55 [INFO] Now listening on: http://localhost:5224
+18:39:55 [INFO] Application started. Press Ctrl+C to shut down.
+18:39:55 [INFO] Hosting environment: Development
+18:39:55 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+18:39:56 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:39:56 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.

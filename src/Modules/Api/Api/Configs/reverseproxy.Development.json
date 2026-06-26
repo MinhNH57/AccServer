@@ -1,0 +1,85 @@
+﻿{
+  "ReverseProxy": {
+    "Routes": {
+      "catalog-route": {
+        "ClusterId": "catalog-cluster",
+        //"AuthorizationPolicy": "customPolicy",
+        "Match": {
+          "Path": "/catalog-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "identity-route": {
+        "ClusterId": "identity-cluster",
+        //"AuthorizationPolicy": "customPolicy",
+        "Match": {
+          "Path": "/identity-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "system-route": {
+        "ClusterId": "system-cluster",
+        "Match": {
+          "Path": "/system-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "cms-route": {
+        "ClusterId": "cms-cluster",
+        "Match": {
+          "Path": "/cms-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "voucher-route": {
+        "ClusterId": "voucher-cluster",
+        "Match": {
+          "Path": "/voucher-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      }
+    },
+    "Clusters": {
+      "catalog-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7129"
+          }
+        }
+      },
+      "identity-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:5001"
+          }
+        }
+      },
+      "system-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7130"
+          }
+        }
+      },
+      "cms-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7131"
+          }
+        }
+      },
+      "voucher-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7032"
+          }
+        }
+      }
+    }
+    //"LoadBalancing": {
+    //  "catalog-cluster": {
+    //    "Policy": "RoundRobin"
+    //  }
+    //}
+  }
+}

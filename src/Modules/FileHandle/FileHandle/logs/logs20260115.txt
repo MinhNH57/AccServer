@@ -1,0 +1,183 @@
+﻿08:40:55 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+08:40:55 [INFO] Now listening on: https://localhost:7135
+08:40:55 [INFO] Now listening on: http://localhost:5240
+08:40:55 [INFO] Application started. Press Ctrl+C to shut down.
+08:40:55 [INFO] Hosting environment: Development
+08:40:55 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+08:40:57 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:45:57 [INFO] Usage Telemetry: {"id":"d8130000-20b7-2221-d5d2-08de53d71ff7","created":"2026-01-15T08:40:55.2599460\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-15T08:40:55.2613847\u002B07:00","configured":"2026-01-15T08:40:55.4453845\u002B07:00","started":"2026-01-15T08:40:57.3190547\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+09:18:04 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:18:05 [INFO] Now listening on: https://localhost:7135
+09:18:05 [INFO] Now listening on: http://localhost:5240
+09:18:05 [INFO] Application started. Press Ctrl+C to shut down.
+09:18:05 [INFO] Hosting environment: Development
+09:18:05 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:18:06 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:23:06 [INFO] Usage Telemetry: {"id":"10970000-20b7-2221-cfb5-08de53dc50f3","created":"2026-01-15T09:18:04.9255939\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-15T09:18:04.9272357\u002B07:00","configured":"2026-01-15T09:18:05.1532167\u002B07:00","started":"2026-01-15T09:18:06.3357415\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+09:23:31 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:23:32 [INFO] Now listening on: https://localhost:7135
+09:23:32 [INFO] Now listening on: http://localhost:5240
+09:23:32 [INFO] Application started. Press Ctrl+C to shut down.
+09:23:32 [INFO] Hosting environment: Development
+09:23:32 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:23:32 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:38:52 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:38:53 [INFO] Now listening on: https://localhost:7135
+11:38:53 [INFO] Now listening on: http://localhost:5240
+11:38:53 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:38:53 [INFO] Application started. Press Ctrl+C to shut down.
+11:38:53 [INFO] Hosting environment: Development
+11:38:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:41:10 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:41:11 [INFO] Now listening on: https://localhost:7135
+11:41:11 [INFO] Now listening on: http://localhost:5240
+11:41:11 [INFO] Application started. Press Ctrl+C to shut down.
+11:41:11 [INFO] Hosting environment: Development
+11:41:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:41:11 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:44:36 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:44:36 [INFO] Now listening on: https://localhost:7135
+11:44:36 [INFO] Now listening on: http://localhost:5240
+11:44:36 [INFO] Application started. Press Ctrl+C to shut down.
+11:44:36 [INFO] Hosting environment: Development
+11:44:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:44:36 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:48:05 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:48:05 [INFO] Now listening on: https://localhost:7135
+11:48:05 [INFO] Now listening on: http://localhost:5240
+11:48:05 [INFO] Application started. Press Ctrl+C to shut down.
+11:48:05 [INFO] Hosting environment: Development
+11:48:05 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:48:05 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:50:59 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:50:59 [INFO] Now listening on: https://localhost:7135
+11:50:59 [INFO] Now listening on: http://localhost:5240
+11:50:59 [INFO] Application started. Press Ctrl+C to shut down.
+11:50:59 [INFO] Hosting environment: Development
+11:50:59 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:50:59 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:57:09 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:57:10 [INFO] Now listening on: https://localhost:7135
+11:57:10 [INFO] Now listening on: http://localhost:5240
+11:57:10 [INFO] Application started. Press Ctrl+C to shut down.
+11:57:10 [INFO] Hosting environment: Development
+11:57:10 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:57:11 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:58:36 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:58:37 [INFO] Now listening on: https://localhost:7135
+11:58:37 [INFO] Now listening on: http://localhost:5240
+11:58:37 [INFO] Application started. Press Ctrl+C to shut down.
+11:58:37 [INFO] Hosting environment: Development
+11:58:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:58:37 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+12:00:17 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+12:00:17 [INFO] Now listening on: https://localhost:7135
+12:00:17 [INFO] Now listening on: http://localhost:5240
+12:00:17 [INFO] Application started. Press Ctrl+C to shut down.
+12:00:17 [INFO] Hosting environment: Development
+12:00:17 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+12:00:17 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:43:40 [INFO] HTTP POST /report/print responded 200 in 5163.1713 ms
+13:45:30 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5718ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 1, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 349, cur-in: 0, sync-ops: 2, async-ops: 3, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 115.05, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=3,QueuedItems=0,CompletedItems=11102,Timers=7), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+13:45:40 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on smartcache.ssoftware.vn:53697/Interactive, Initializing/NotStarted, last: HMGET, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, last-mbeat: 0s ago, global: 0s ago, v: 2.8.24.3255, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 2, async-ops: 4, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=20,Max=32767), POOL: (Threads=3,QueuedItems=0,CompletedItems=11138,Timers=11), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on smartcache.ssoftware.vn:53697/Interactive, Initializing/NotStarted, last: HMGET, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, last-mbeat: 0s ago, global: 0s ago, v: 2.8.24.3255
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+13:45:41 [INFO] HTTP POST /report/print responded 200 in 404.5671 ms
+13:46:20 [INFO] HTTP POST /report/print responded 200 in 333.1457 ms
+13:49:31 [INFO] HTTP POST /report/print responded 200 in 231.0290 ms
+13:51:17 [INFO] HTTP POST /report/print responded 200 in 218.2305 ms
+13:51:48 [INFO] HTTP POST /report/print responded 200 in 195.1641 ms
+13:55:25 [INFO] HTTP POST /report/print responded 200 in 454.9839 ms
+13:55:31 [INFO] HTTP POST /report/print responded 200 in 209.0922 ms
+13:56:19 [INFO] HTTP POST /report/print responded 200 in 230.8788 ms
+13:56:33 [INFO] HTTP POST /report/print responded 200 in 296.1365 ms
+13:59:01 [INFO] HTTP POST /report/print responded 200 in 466.4156 ms
+14:00:27 [INFO] HTTP POST /report/print responded 200 in 272.6876 ms
+14:00:29 [INFO] HTTP POST /report/print responded 200 in 238.7489 ms
+14:04:38 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+14:04:38 [INFO] Now listening on: https://localhost:7135
+14:04:38 [INFO] Now listening on: http://localhost:5240
+14:04:38 [INFO] Application started. Press Ctrl+C to shut down.
+14:04:38 [INFO] Hosting environment: Development
+14:04:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+14:04:38 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:58:23 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+14:58:23 [INFO] Now listening on: https://localhost:7135
+14:58:23 [INFO] Now listening on: http://localhost:5240
+14:58:23 [INFO] Application started. Press Ctrl+C to shut down.
+14:58:23 [INFO] Hosting environment: Development
+14:58:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+14:58:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:17:50 [INFO] HTTP POST /report/print responded 200 in 3558.6183 ms
+15:17:58 [INFO] HTTP POST /report/print responded 200 in 813.8783 ms
+15:18:36 [INFO] HTTP POST /report/print responded 200 in 1425.3739 ms
+15:18:44 [INFO] HTTP POST /report/print responded 200 in 543.1443 ms
+15:18:55 [INFO] HTTP POST /report/print responded 200 in 410.1690 ms
+15:28:51 [INFO] HTTP POST /report/print responded 200 in 8253.5823 ms
+15:28:51 [INFO] HTTP POST /report/print responded 200 in 3053.1538 ms
+15:29:55 [INFO] HTTP POST /report/print responded 200 in 499.2674 ms
+15:33:14 [INFO] HTTP POST /report/print responded 200 in 523.0122 ms
+15:34:04 [INFO] HTTP POST /report/print responded 200 in 649.8390 ms
+15:35:00 [INFO] HTTP POST /report/print responded 200 in 355.8273 ms
+15:36:22 [INFO] HTTP POST /report/print responded 200 in 398.1477 ms
+15:36:57 [INFO] HTTP POST /report/print responded 200 in 337.6535 ms
+15:37:21 [INFO] HTTP POST /report/print responded 200 in 360.1063 ms
+15:40:19 [INFO] HTTP POST /report/print responded 200 in 402.2401 ms
+15:46:11 [INFO] HTTP POST /report/print responded 200 in 4939.3174 ms
+15:46:21 [INFO] HTTP POST /report/print responded 200 in 358.5838 ms
+15:46:25 [INFO] HTTP POST /report/print responded 200 in 15526.7625 ms
+15:46:35 [INFO] HTTP POST /report/print responded 200 in 311.4863 ms
+15:47:06 [INFO] HTTP POST /report/print responded 200 in 315.7543 ms
+16:31:16 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+16:31:16 [INFO] Now listening on: https://localhost:7135
+16:31:16 [INFO] Now listening on: http://localhost:5240
+16:31:16 [INFO] Application started. Press Ctrl+C to shut down.
+16:31:16 [INFO] Hosting environment: Development
+16:31:16 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+16:31:16 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:01:40 [INFO] HTTP POST /report/print responded 200 in 3750.3880 ms
+18:04:32 [INFO] HTTP POST /report/print responded 200 in 769.4126 ms
+18:20:04 [INFO] HTTP POST /report/print responded 200 in 2340.9836 ms
+18:31:50 [INFO] HTTP POST /report/print responded 200 in 870.4104 ms
+18:32:08 [INFO] HTTP POST /report/print responded 200 in 387.5033 ms
+18:34:53 [INFO] HTTP POST /report/print responded 200 in 2764.4875 ms
+18:35:03 [INFO] HTTP POST /report/print responded 200 in 326.9037 ms
+18:35:24 [INFO] HTTP POST /report/print responded 200 in 539.5105 ms
+18:36:12 [INFO] HTTP POST /report/print responded 200 in 523.0868 ms
+18:37:19 [INFO] HTTP POST /report/print responded 200 in 497.0451 ms
+18:38:28 [INFO] HTTP POST /report/print responded 200 in 440.0052 ms
+18:39:15 [INFO] HTTP POST /report/print responded 200 in 556.4930 ms
+18:39:38 [INFO] HTTP POST /report/print responded 200 in 592.6789 ms
+18:40:05 [INFO] HTTP POST /report/print responded 200 in 305.1764 ms
+18:40:41 [INFO] HTTP POST /report/print responded 200 in 314.5808 ms
+18:41:25 [INFO] HTTP POST /report/print responded 200 in 483.5312 ms
+18:54:21 [INFO] HTTP POST /report/print responded 200 in 1173.9194 ms
+18:54:27 [INFO] HTTP POST /report/print responded 200 in 443.0200 ms
+18:54:36 [INFO] HTTP POST /report/print responded 200 in 187.5651 ms
+18:56:06 [INFO] HTTP POST /report/print responded 200 in 424.4713 ms
+18:57:25 [INFO] HTTP POST /report/print responded 200 in 558.4907 ms
+18:59:59 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+19:00:00 [INFO] Now listening on: https://localhost:7135
+19:00:00 [INFO] Now listening on: http://localhost:5240
+19:00:00 [INFO] Application started. Press Ctrl+C to shut down.
+19:00:00 [INFO] Hosting environment: Development
+19:00:00 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+19:00:00 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+19:02:33 [INFO] HTTP POST /report/print responded 200 in 3700.8369 ms
+19:02:54 [INFO] HTTP POST /report/print responded 200 in 255.8731 ms
+19:04:25 [INFO] HTTP POST /report/print responded 200 in 230.5631 ms
+19:06:46 [INFO] HTTP POST /report/print responded 200 in 496.7578 ms
+19:07:00 [INFO] HTTP POST /report/print responded 200 in 181.9714 ms

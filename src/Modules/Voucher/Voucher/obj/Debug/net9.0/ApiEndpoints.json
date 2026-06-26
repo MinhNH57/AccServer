@@ -1,0 +1,3200 @@
+[
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.CreditContractApi.GetCreditContractEndpoint",
+    "Method": "FindAll",
+    "RelativePath": "CreditContract/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Voucher.Acc.Model.CreditContract, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "CreditContract"
+    ],
+    "EndpointName": "ListCreditContract",
+    "Description": "Nh\u1EADn danh s\u00E1ch phi\u1EBFu \u0111\u01B0\u1EE3c ph\u00E2n trang.",
+    "Summary": "Danh s\u00E1ch phi\u1EBFu kh\u1EBF \u01B0\u1EDBc vay."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.CreditContractApi.GetCreditContractEndpoint",
+    "Method": "FindOne",
+    "RelativePath": "CreditContract/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.CreditContract, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CreditContract"
+    ],
+    "EndpointName": "FindCreditContractContents"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.CreditContractApi.GetCreditContractEndpoint",
+    "Method": "Update",
+    "RelativePath": "CreditContract/{id:Guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToUpdate",
+        "Type": "Voucher.Acc.Model.CreditContract",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.CreditContract, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ],
+    "EndpointName": "UpdateCreditContract"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.CreditContractApi.GetCreditContractEndpoint",
+    "Method": "Delete",
+    "RelativePath": "CreditContract/{id:Guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "CreditContract"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.HRM.Features.Queries.GetVoucher.GetVoucherEndpoint",
+    "Method": "FindAll",
+    "RelativePath": "HRMvoucher/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Voucher.HRM.Entities.SmartDataApplication, Voucher.HRM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMVouchers"
+    ],
+    "EndpointName": "HRMListVoucher",
+    "Description": "Nh\u1EADn danh s\u00E1ch phi\u1EBFu \u0111\u01B0\u1EE3c ph\u00E2n trang.",
+    "Summary": "Danh s\u00E1ch phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.HRM.Apis.VoucherHrmApi",
+    "Method": "Create",
+    "RelativePath": "HRMvoucher/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemToCreate",
+        "Type": "Voucher.HRM.Entities.SmartDataApplication",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.HRM.Entities.SmartDataApplication, Voucher.HRM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMvoucher"
+    ],
+    "EndpointName": "CreateVoucher",
+    "Description": "T\u1EA1o m\u1ED9t phi\u1EBFu m\u1EDBi.",
+    "Summary": "T\u1EA1o m\u1ED9t phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.HRM.Apis.VoucherHrmApi",
+    "Method": "FindOne",
+    "RelativePath": "HRMvoucher/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.HRM.Entities.SmartDataApplication, Voucher.HRM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMvoucher"
+    ],
+    "EndpointName": "Voucher",
+    "Description": "Nh\u1EADn m\u1ED9t phi\u1EBFu theo Id.",
+    "Summary": "Nh\u1EADn m\u1ED9t phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.HRM.Apis.VoucherHrmApi",
+    "Method": "Update",
+    "RelativePath": "HRMvoucher/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToUpdate",
+        "Type": "Voucher.HRM.Entities.SmartDataApplication",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.HRM.Entities.SmartDataApplication, Voucher.HRM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMvoucher"
+    ],
+    "EndpointName": "UpdateVoucher",
+    "Description": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t phi\u1EBFu.",
+    "Summary": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.HRM.Apis.VoucherHrmApi",
+    "Method": "Delete",
+    "RelativePath": "HRMvoucher/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "DeleteVoucher",
+    "Description": "X\u00F3a m\u1ED9t phi\u1EBFu ch\u1EC9 \u0111\u1ECBnh.",
+    "Summary": "X\u00F3a phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.HRM.Features.Queries.GetDataSynGrid.GetDataSynGridQueryEndpoint",
+    "Method": "Handler",
+    "RelativePath": "HRMvouchers/paging-filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.HRM.Features.Queries.GetDataSynGrid.GetDataSynGridRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMvouchers"
+    ],
+    "Summary": "L\u1EA5y voucher b\u1EB1ng Store"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetDataManufacture.GetManufactureEndpoint",
+    "Method": "FindAll",
+    "RelativePath": "Manufacture/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Voucher.Acc.Model.SmartDataManufacture, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Manufacture"
+    ],
+    "EndpointName": "ListDataManufacture",
+    "Summary": "Danh s\u00E1ch y\u00EAu c\u1EA7u."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetDataManufacture.GetManufactureEndpoint",
+    "Method": "FindOne",
+    "RelativePath": "Manufacture/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.SmartDataManufacture, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Manufacture"
+    ],
+    "EndpointName": "DataManufacture"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.ManufactureApi.Update.UpdateManufactureEndpoint",
+    "Method": "UpdateVoucher",
+    "RelativePath": "Manufacture/update-manufacture/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.ManufactureApi.Update.UpdateManufactureRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Manufacture"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetDataStatistical.GetDataStatisticalEndpoint",
+    "Method": "Handler",
+    "RelativePath": "production/get-data-statistical",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Voucher.Acc.Features.Queries.GetDataStatistical.GetDataStatisticalQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ProductionPlan"
+    ],
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u th\u1ED1ng k\u00EA s\u1EA3n xu\u1EA5t"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.DataStatistical.InsertDataStatisticalEndpoint",
+    "Method": "Handler",
+    "RelativePath": "production/insert-data-statistical",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.DataStatistical.InsertDataStatisticalCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ProductionPlan"
+    ],
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u th\u1ED1ng k\u00EA s\u1EA3n xu\u1EA5t"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetProductionPlan.GetProductionPlanEndpoint",
+    "Method": "FindAll",
+    "RelativePath": "ProductionPlan/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Voucher.Acc.Model.ProductPlant.SmartProductionPlan, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "ProductionPlan"
+    ],
+    "EndpointName": "ListProductionPlan",
+    "Summary": "Danh s\u00E1ch k\u1EBF ho\u1EA1ch sx."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetProductionPlan.GetProductionPlanEndpoint",
+    "Method": "FindOne",
+    "RelativePath": "ProductionPlan/{id:Guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.ProductPlant.SmartProductionPlan, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ProductionPlan"
+    ],
+    "EndpointName": "DataProductionPlan"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetVoucher.GetVoucherEndpoint",
+    "Method": "FindAll",
+    "RelativePath": "voucher/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Voucher.Acc.Model.SmartData, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "ListVoucher",
+    "Description": "Nh\u1EADn danh s\u00E1ch phi\u1EBFu \u0111\u01B0\u1EE3c ph\u00E2n trang.",
+    "Summary": "Danh s\u00E1ch phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Apis.VoucherApi",
+    "Method": "Create",
+    "RelativePath": "voucher/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemToCreate",
+        "Type": "Voucher.Acc.Model.SmartData",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.SmartData, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "CreateVoucher",
+    "Description": "T\u1EA1o m\u1ED9t phi\u1EBFu m\u1EDBi.",
+    "Summary": "T\u1EA1o m\u1ED9t phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Apis.VoucherApi",
+    "Method": "FindOne",
+    "RelativePath": "voucher/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.SmartData, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "Voucher",
+    "Description": "Nh\u1EADn m\u1ED9t phi\u1EBFu theo Id.",
+    "Summary": "Nh\u1EADn m\u1ED9t phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Apis.VoucherApi",
+    "Method": "Update",
+    "RelativePath": "voucher/{id:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToUpdate",
+        "Type": "Voucher.Acc.Model.SmartData",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.SmartData, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "UpdateVoucher",
+    "Description": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t phi\u1EBFu.",
+    "Summary": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Apis.VoucherApi",
+    "Method": "Delete",
+    "RelativePath": "voucher/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "DeleteVoucher",
+    "Description": "X\u00F3a m\u1ED9t phi\u1EBFu ch\u1EC9 \u0111\u1ECBnh.",
+    "Summary": "X\u00F3a phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.AdminAccountTransfer.AdminAccountTransferEndpoint",
+    "Method": "AdminAccountTransfer",
+    "RelativePath": "voucher/AdminAccountTransfer",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.AdminCalculatingCostOfGoodsSold.CalculatingCostOfGoodsSoldEndpont",
+    "Method": "CalculatingCostOfGoodsSold",
+    "RelativePath": "voucher/AdminCalculatingCostOfGoodsSold",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "IsUpdate",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.ConfirmVoucher.ConfirmVoucherEndpont",
+    "Method": "ConfirmVoucher",
+    "RelativePath": "voucher/confirm-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.ConfirmVoucher.ConfirmVoucherRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "sendNoti",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.Sales.GetSalesVoucherContent.GetSalesVoucherContentEndpoint",
+    "Method": "GetSalesVoucherContent",
+    "RelativePath": "voucher/content-sales/{idVoucher}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVoucher",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SalesVouchers"
+    ],
+    "EndpointName": "SalesVoucherContent",
+    "Description": "Nh\u1EADn danh s\u00E1ch phi\u1EBFu b\u00E1n h\u00E0ng.",
+    "Summary": "Danh s\u00E1ch n\u1ED9i dung phi\u1EBFu b\u00E1n h\u00E0ng."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetVoucherContent.GetVoucherContentEndPoint",
+    "Method": "GetVoucherContent",
+    "RelativePath": "voucher/content/{idVoucher}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVoucher",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "ContentVoucher",
+    "Description": "Nh\u1EADn danh s\u00E1ch n\u1ED9i dung phi\u1EBFu.",
+    "Summary": "Danh s\u00E1ch n\u1ED9i dung phi\u1EBFu."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.CostOfGoodsSoldTransfer.CostOfGoodsSoldTransferEndpoint",
+    "Method": "CostOfGoodsSoldTransfer",
+    "RelativePath": "voucher/CostOfGoodsSoldTransfer",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.CreateContentsSupplierEvaluation.CreateContentsSupplierEvaluationEndpoint",
+    "Method": "CreateContentsSupplierEvaluation",
+    "RelativePath": "voucher/create-contents-supplier-evaluation",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.CreateContentsSupplierEvaluation.CreateContentsSupplierEvaluationRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "T\u1EA1o n\u1ED9i dung ki\u1EC3m \u0111\u1ECBnh nh\u00E0 cung c\u1EA5p"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.CreateSmartContentsQuanlityControl.SmartContentsQuanlityControlEndpoint",
+    "Method": "CreateDataQuantityControl",
+    "RelativePath": "voucher/create-data-quanlity-control",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.CreateSmartContentsQuanlityControl.QuanlityControlRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "T\u1EA1o m\u1EDBi phi\u1EBFu QC s\u1EA3n ph\u1EA9m."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.CreateInvoiceSmart.CreateInvoiceSmartEndpoint",
+    "Method": "CreateInvoiceSmart",
+    "RelativePath": "voucher/create-invoice-smart",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.CreateInvoiceSmart.CreateInvoiceSmartCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.ManufactureApi.Create.CreateManufactureVoucherCommandEndpoint",
+    "Method": "CreateVoucher",
+    "RelativePath": "voucher/create-manufacture-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dynamicData",
+        "Type": "System.Collections.Generic.List\u00601[[Voucher.Acc.Model.DynamicListDataModel, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.CreateOtherVoucher.CreateOtherVoucherEndpoint",
+    "Method": "CreateOtherVoucher",
+    "RelativePath": "voucher/create-othervoucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Queries.CreateOtherVoucher.CreateOtherVoucherQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "T\u1EA1o phi\u1EBFu kh\u00E1c"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartDataPaletProductions.CreateSmartDataPaletProductionsEndpoint",
+    "Method": "CreateSmartDataPaletProductions",
+    "RelativePath": "voucher/create-palet-product",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Model.SmartDataPaletProductions",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartDataProductPlan.CreateProductPlan.CreateProductPlanApi",
+    "Method": "CreateVoucherEndpoint",
+    "RelativePath": "voucher/create-production-plan/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Model.ProductPlant.SmartProductionPlan",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ],
+    "Summary": "T\u1EA1o m\u1EDBi k\u1EBF ho\u1EA1ch sx"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.RequirePayment.CreateRequiredPaymentEndpoint",
+    "Method": "CreateRequiredPayment",
+    "RelativePath": "voucher/create-require-payment",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.RequirePayment.CreateRequiPaymentDataModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ],
+    "Summary": "T\u1EA1o \u0111\u1EC1 ngh\u1ECB thanh to\u00E1n"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SalesTemp.SalesSmartDataTempEndpoint",
+    "Method": "CreateSalesTemp",
+    "RelativePath": "voucher/create-sale-temp",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.SalesTemp.CreateSalesSmartDataTempCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.Sales.CreateSalesVoucher.CreateSalesVoucherCommandEndpoint",
+    "Method": "CreateVoucher",
+    "RelativePath": "voucher/create-sales-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dynamicData",
+        "Type": "System.Collections.Generic.List\u00601[[Voucher.Acc.Model.DynamicListDataModel, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartData.CreateVoucher.CreateVoucherApi",
+    "Method": "CreateVoucherEndpoint",
+    "RelativePath": "voucher/create-smart-data/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.SmartData.CreateVoucher.Models.CreateSmartDataModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ],
+    "Summary": "T\u1EA1o m\u1EDBi phi\u1EBFu"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.CreateSmartLogsOfUsingVouchers.CreateSmartLogsOfUsingVouchersEndpoint",
+    "Method": "CreateSmartLogVoucher",
+    "RelativePath": "voucher/create-smart-logs-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Model.SmartLogsOfUsingVouchers",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartData.CreateDynamicVoucher.CreateDynamicVoucherEndpoint",
+    "Method": "CreateVoucher",
+    "RelativePath": "voucher/create-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dynamicData",
+        "Type": "System.Collections.Generic.List\u00601[[Voucher.Acc.Model.DynamicListDataModel, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.GetDataInventoryForOrderBuy.DataInventoryForOrderBuy",
+    "Method": "GetDataInventoryForOrderBuy",
+    "RelativePath": "voucher/dataInventoryForOrderBuy/{numberOfvoucher}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numberOfvoucher",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "Danh s\u00E1ch \u0111\u1EC1 ngh\u1ECB cung \u1EE9ng c\u00F2n t\u1ED3n"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Apis.VoucherApi",
+    "Method": "FindOneDebtOffSet",
+    "RelativePath": "voucher/debt-off-set/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Voucher.Acc.Model.DebtOffSet.SmartDebtOffSet, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "DebtOffSetVoucher",
+    "Description": "Get phi\u1EBFu theo Id v\u00E0 l\u1EA5y ra n\u1ED9i dung.",
+    "Summary": "Get phi\u1EBFu theo ID."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetDebtOffSet.GetDebtOffSetEndpoint",
+    "Method": "GetVoucherContent",
+    "RelativePath": "voucher/debtOffSetContents/{idVoucher}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVoucher",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "DebtOffSetContents",
+    "Description": "Nh\u1EADn danh s\u00E1ch n\u1ED9i dung phi\u1EBFu b\u00F9 tr\u1EEB.",
+    "Summary": "Danh s\u00E1ch n\u1ED9i dung phi\u1EBFu b\u00F9 tr\u1EEB."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartDataProductPlan.DeleteProductPlan.DeleteProductPlanEndpoint",
+    "Method": "DeleteVoucher",
+    "RelativePath": "voucher/delete-product-plan/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "delete-product-plan",
+    "Summary": "X\u00F3a k\u1EBF ho\u1EA1ch sx."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SalesTemp.SalesSmartDataTempEndpoint",
+    "Method": "DeleteSalesTemp",
+    "RelativePath": "voucher/delete-sale-temp",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVoucher",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.Sales.DeleteSalesVoucher.DeleteSalesVocherEndpoint",
+    "Method": "DeleteVoucher",
+    "RelativePath": "voucher/delete-sale-voucher/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "delete-sale-voucher",
+    "Summary": "X\u00F3a ch\u1EE9ng t\u1EEB."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartData.DeleteVoucher.DeleteVocherEndpoint",
+    "Method": "DeleteVoucher",
+    "RelativePath": "voucher/delete-voucher/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "delete-voucher",
+    "Summary": "X\u00F3a ch\u1EE9ng t\u1EEB."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Fund.Apis",
+    "Method": "CreateFundMoneyPaid",
+    "RelativePath": "voucher/fund/create-fund-money-paid",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Fund.CreatFundSmartMoneyPaidModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "T\u1EA1o m\u1EDBi l\u1EA7n thu ti\u1EC1n t\u1EEB phi\u1EBFu d\u1EF1 thu"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.GenNoInv.GenNoInvEndpoint",
+    "Method": "GenNoInv",
+    "RelativePath": "voucher/gen-no-inv",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.GenNoInv.GenNoInvRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "GenNoInv",
+    "Summary": "Gen s\u1ED1 ch\u1EE9ng t\u1EEB."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.GetDataInheritVoucherType.GetDataInheritVoucherTypeEndpont",
+    "Method": "GetDataInheritVoucherType",
+    "RelativePath": "voucher/get-data-inheritvouchertype",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ParameterPlus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.GetDebitBlanc.GetDebitBlancEndpont",
+    "Method": "GetDebitBlanc",
+    "RelativePath": "voucher/get-debit-blanc",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ObjectCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "AcountNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContractCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "InvoiceNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetQuantityOfInventory.GetQuantityOfInventoryEndpont",
+    "Method": "GetDebitBlanc",
+    "RelativePath": "voucher/get-quantity-of-inventory",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CommodityCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WarehoseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "L\u1EA5y s\u1ED1 l\u01B0\u1EE3ng t\u1ED3n"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetVoucherInherit.GetVoucherInheritEndpoint",
+    "Method": "GetVoucherInherit",
+    "RelativePath": "voucher/inherit-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "datatype",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Queries.GetVoucherInherit.GetVoucherInheritQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "L\u1EA5y danh s\u00E1ch phi\u1EBFu \u0111\u1EC3 k\u1EBF th\u1EEBa."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.Invoice.InvoiceApi",
+    "Method": "CreateInvoiceFromMultiplePumpCodesAsync",
+    "RelativePath": "voucher/invoice/create-invoice-from-multiple-pump-code",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Invoice.CreateInvoiceFromMultiplePumpCodesRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "T\u1EA1o h\u00F3a \u0111\u01A1n SMART t\u1EEB nhi\u1EC1u m\u00E3 b\u01A1m.",
+    "Summary": "T\u1EA1o h\u00F3a \u0111\u01A1n SMART t\u1EEB nhi\u1EC1u m\u00E3 b\u01A1m."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.Invoice.InvoiceApi",
+    "Method": "CreateInvoice",
+    "RelativePath": "voucher/invoice/create-invoice-from-pump-code",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Invoice.CreateInvoiceRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "T\u1EA1o m\u1EDBi h\u00F3a \u0111\u01A1n t\u1EEB m\u00E3 b\u01A1m.",
+    "Summary": "T\u1EA1o m\u1EDBi h\u00F3a \u0111\u01A1n t\u1EEB m\u00E3 b\u01A1m."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.Invoice.InvoiceApi",
+    "Method": "PublishInvoicesAsync",
+    "RelativePath": "voucher/invoice/publish-invoice",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Invoice.PublishInvoicesRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "Ph\u00E1t h\u00E0nh h\u00F3a \u0111\u01A1n.",
+    "Summary": "Ph\u00E1t h\u00E0nh h\u00F3a \u0111\u01A1n."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.Invoice.InvoiceApi",
+    "Method": "RoundUpMoney",
+    "RelativePath": "voucher/invoice/round-up-money-smart",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Invoice.RoundUpMoneyRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "C\u1EADp nh\u1EADt s\u1ED1 ti\u1EC1n l\u00E0m tr\u00F2n v\u00E0o h\u00F3a \u0111\u01A1n SMART.",
+    "Summary": "C\u1EADp nh\u1EADt s\u1ED1 ti\u1EC1n l\u00E0m tr\u00F2n v\u00E0o h\u00F3a \u0111\u01A1n SMART."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.ToKhai01.ToKhai01Endpont",
+    "Method": "ExportPdf",
+    "RelativePath": "voucher/pdf",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Voucher.Acc.Model.VatPrintDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.Sales.GetSalesVoucher.GetSalesVoucherEndpoint",
+    "Method": "FindAll",
+    "RelativePath": "voucher/sales",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Voucher.Acc.Model.SalesSmartData, Voucher.Acc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "SalesVouchers"
+    ],
+    "EndpointName": "ListSalesVoucher",
+    "Description": "Nh\u1EADn danh s\u00E1ch phi\u1EBFu \u0111\u01B0\u1EE3c ph\u00E2n trang.",
+    "Summary": "Danh s\u00E1ch phi\u1EBFu b\u00E1n h\u00E0ng."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.SalesData.ApiSales",
+    "Method": "CreateSalesSmartData",
+    "RelativePath": "voucher/sgas/create-sales-smart-data",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelAction",
+        "Type": "Voucher.Sgas.Model.Sales.SalesModelAction",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "T\u1EA1o h\u00F3a \u0111\u01A1n b\u00E1n h\u00E0ng",
+    "Summary": "T\u1EA1o h\u00F3a \u0111\u01A1n b\u00E1n h\u00E0ng."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.StoreProcedures.ApiStore",
+    "Method": "GetDataForShiftNoteBook",
+    "RelativePath": "voucher/sgas/get-data-for-shift-notebook",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Store.StoreRequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "L\u1EA5y th\u00F4ng tin h\u00F3a d\u1EEF li\u1EC7u mua h\u00E0ng t\u1EEB store.",
+    "Summary": "L\u1EA5y th\u00F4ng tin d\u1EEF li\u1EC7u mua h\u00E0ng t\u1EEB store."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.StoreProcedures.ApiStore",
+    "Method": "GetDataForShiftNoteBookByDate",
+    "RelativePath": "voucher/sgas/get-data-for-shift-notebook-by-date",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Store.StoreRequestModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "L\u1EA5y th\u00F4ng tin h\u00F3a d\u1EEF li\u1EC7u mua h\u00E0ng t\u1EEB store theo ng\u00E0y.",
+    "Summary": "L\u1EA5y th\u00F4ng tin d\u1EEF li\u1EC7u mua h\u00E0ng t\u1EEB store theo ng\u00E0y."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.StoreProcedures.ApiStore",
+    "Method": "GetInventoryForTrading",
+    "RelativePath": "voucher/sgas/get-inventory-for-trading",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.Store.GetInventoryForTradingRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "L\u1EA5y th\u00F4ng tin h\u00F3a d\u1EEF li\u1EC7u mua h\u00E0ng t\u1EEB store theo ng\u00E0y.",
+    "Summary": "L\u1EA5y th\u00F4ng tin d\u1EEF li\u1EC7u mua h\u00E0ng t\u1EEB store theo ng\u00E0y."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.SalesData.ApiSales",
+    "Method": "GetSaleDataById",
+    "RelativePath": "voucher/sgas/get-sales-data-by-id/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "L\u1EA5y th\u00F4ng tin h\u00F3a \u0111\u01A1n b\u00E1n h\u00E0ng theo s\u1ED1 ch\u1EE9ng Id.",
+    "Summary": "L\u1EA5y th\u00F4ng tin h\u00F3a \u0111\u01A1n b\u00E1n h\u00E0ng."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.PumpCodes.ApiPumpCode",
+    "Method": "UpdatePumpCode",
+    "RelativePath": "voucher/sgas/pump/update-pump-code",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Sgas.Model.SmartDataPumpCode.UpdatePumpCodeRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "C\u1EADp nh\u1EADt m\u00E3 b\u01A1m.",
+    "Summary": "C\u1EADp nh\u1EADt m\u00E3 b\u01A1m."
+  },
+  {
+    "ContainingType": "Voucher.Sgas.Features.SalesData.ApiSales",
+    "Method": "UpdateSalesSmartData",
+    "RelativePath": "voucher/sgas/update-sales-smart-data",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelAction",
+        "Type": "Voucher.Sgas.Model.Sales.SalesModelAction",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SgasVoucher"
+    ],
+    "Description": "C\u1EADp nh\u1EADt h\u00F3a \u0111\u01A1n b\u00E1n h\u00E0ng",
+    "Summary": "C\u1EADp nh\u1EADt h\u00F3a \u0111\u01A1n b\u00E1n h\u00E0ng."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartCalculateProductionCost.SmartCalculateProductionCostEndpoint",
+    "Method": "SmartCalculateProductionCost",
+    "RelativePath": "voucher/SmartCalculateProductionCost",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "IsUpdate",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetTaxListVoucher.GetTaxListVoucherEndPoint",
+    "Method": "GetListVatTax",
+    "RelativePath": "voucher/tax-list/{idVoucher}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVoucher",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "GetListVatTax",
+    "Description": "Nh\u1EADn danh s\u00E1ch thu\u1EBF GTGT.",
+    "Summary": "Danh s\u00E1ch thu\u1EBF GTGT."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.ToKhai01.ToKhai01Endpont",
+    "Method": "ToKhai01",
+    "RelativePath": "voucher/tokhai01",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.UpdateQuantityExp.UpdateContentVocherEndpoint",
+    "Method": "UpdateContentVocher",
+    "RelativePath": "voucher/update-content",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.UpdateQuantityExp.UpdateContentVocherCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetDebtOffSet.GetDebtOffSetEndpoint",
+    "Method": "UpdateVoucher",
+    "RelativePath": "voucher/update-debtOffSet/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Queries.GetDebtOffSet.UpdateDebtOffSetRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartDataProductPlan.UpdateProductPlan.UpdateProductPlanEndpoint",
+    "Method": "UpdateVoucher",
+    "RelativePath": "voucher/update-product-plan/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.SmartDataProductPlan.UpdateProductPlan.UpdateProductPlanRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.RequirePayment.Update.RequiPaymentUpdateEnpoint",
+    "Method": "UpdateVoucher",
+    "RelativePath": "voucher/update-require-payment",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Model.RequiPaymentData",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SalesTemp.SalesSmartDataTempEndpoint",
+    "Method": "UpdateSalesTemp",
+    "RelativePath": "voucher/update-sale-temp",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.SalesTemp.UpdateSalesSmartDataTempCommand",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Voucher"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.Sales.UpdateSalesVoucher.UpdateSalesVoucherEndpoint",
+    "Method": "UpdateVoucher",
+    "RelativePath": "voucher/update-sales-voucher/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.Sales.UpdateSalesVoucher.UpdateSalesVoucherRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Commands.SmartData.UpdateVoucher.UpdateSalesVoucherEndpoint",
+    "Method": "UpdateVoucher",
+    "RelativePath": "voucher/update-voucher/{id}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Commands.SmartData.UpdateVoucher.UpdateVoucherRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ]
+  },
+  {
+    "ContainingType": "Voucher.Acc.Apis.VoucherApi",
+    "Method": "FindOneSales",
+    "RelativePath": "voucher/voucher-sales/{id:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typeVoucher",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "EndpointName": "SalesVoucher",
+    "Description": "Get phi\u1EBFu theo Id v\u00E0 l\u1EA5y ra n\u1ED9i dung.",
+    "Summary": "Get phi\u1EBFu theo ID."
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherFromStoreQueryEndpoint",
+    "Method": "GetDynamic",
+    "RelativePath": "vouchers/get-dynamic-voucher",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "DataType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "TableName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Condition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "L\u1EA5y voucher b\u1EB1ng Store"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetContentPaymentRq.GetContentPaymentRequiredEndpoint",
+    "Method": "GetVoucherContent",
+    "RelativePath": "vouchers/get-payemnt-rq-content/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "L\u1EA5y voucher b\u1EB1ng Store"
+  },
+  {
+    "ContainingType": "Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridQueryEndpoint",
+    "Method": "Handler",
+    "RelativePath": "vouchers/paging-filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Vouchers"
+    ],
+    "Summary": "L\u1EA5y voucher b\u1EB1ng Store"
+  }
+]

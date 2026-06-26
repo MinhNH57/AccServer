@@ -1,0 +1,3 @@
+﻿namespace FixedAsset.Domain.Events;
+
+public record class FAChangeFinancialLeasingToOwnerUpdatedDomainEvent(FAChangeFinancialLeasingToOwner FAChangeFinancialLeasingToOwner) : INotification;

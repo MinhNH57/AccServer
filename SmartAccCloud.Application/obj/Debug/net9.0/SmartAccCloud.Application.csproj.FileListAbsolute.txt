@@ -1,0 +1,5 @@
+D:\Source\Repos\SmartAccCloud_API\SmartAccCloud.Application\obj\Debug\net9.0\SmartAccCloud.Application.csproj.AssemblyReference.cache
+D:\Source\Repos\SmartAccCloud_API\SmartAccCloud.Application\obj\Debug\net9.0\SmartAccCloud.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\SmartAccCloud_API\SmartAccCloud.Application\obj\Debug\net9.0\SmartAccCloud.Application.AssemblyInfoInputs.cache
+D:\Source\Repos\SmartAccCloud_API\SmartAccCloud.Application\obj\Debug\net9.0\SmartAccCloud.Application.AssemblyInfo.cs
+D:\Source\Repos\SmartAccCloud_API\SmartAccCloud.Application\obj\Debug\net9.0\SmartAccCloud.Application.csproj.CoreCompileInputs.cache

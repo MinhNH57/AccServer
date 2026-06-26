@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <SatelliteResourceLanguages>en-US;vi-VN</SatelliteResourceLanguages>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Folder Include="NewFolder\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FirebaseAdmin" />
+        <PackageReference Include="Carter" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="key\public_key.xml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

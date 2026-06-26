@@ -1,0 +1,1659 @@
+[
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindComponentProperty",
+    "RelativePath": "cms/properties",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "FindComponentProperty",
+    "Description": "L\u1EA5y danh s\u00E1ch c\u00E1c m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "Danh s\u00E1ch c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "CreateComponentProperty",
+    "RelativePath": "cms/properties",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Infrastructure.Entities.ComponentProperty",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "CreateComponentProperty",
+    "Description": "T\u1EA1o m\u1EDBi m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh.",
+    "Summary": "T\u1EA1o m\u1EDBi thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindOneComponentProperty",
+    "RelativePath": "cms/properties/{propertyId:guid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "FindOneComponentProperty",
+    "Description": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id.",
+    "Summary": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "UpdateComponentProperty",
+    "RelativePath": "cms/properties/{propertyId:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "insertItem",
+        "Type": "Systems.Infrastructure.Entities.ComponentProperty",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "UpdateComponentProperty",
+    "Description": "C\u1EADp nh\u1EADt m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh.",
+    "Summary": "C\u1EADp nh\u1EADt thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "DeleteComponentProperty",
+    "RelativePath": "cms/properties/{propertyId:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "DeleteComponentProperty",
+    "Description": "X\u00F3a m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh.",
+    "Summary": "X\u00F3a thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "UpdateComponentPropertiesByKey",
+    "RelativePath": "cms/properties/update",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Systems.Features.Cms.ComponentPropertyUpdate",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Response.Result",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentProperties"
+    ],
+    "EndpointName": "UpdateComponentPropertiesByKey",
+    "Description": "C\u1EADp nh\u1EADt m\u1ED9t m\u1EE5c trong thu\u1ED9c t\u00EDnh theo key.",
+    "Summary": "C\u1EADp nh\u1EADt thu\u1ED9c t\u00EDnh b\u1EB1ng m\u00E3 key."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindComponentSetting",
+    "RelativePath": "cms/settings",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindComponentSetting",
+    "Description": "L\u1EA5y danh s\u00E1ch c\u00E1c m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "Danh s\u00E1ch c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "CreateComponentSetting",
+    "RelativePath": "cms/settings",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Infrastructure.Entities.ComponentSetting",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentSetting, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "CreateComponentSetting",
+    "Description": "T\u1EA1o m\u1ED9t m\u1EE5c m\u1EDBi trong c\u1EA5u h\u00ECnh.",
+    "Summary": "T\u1EA1o m\u1EDBi c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "UpdateComponentSetting",
+    "RelativePath": "cms/settings/{settingId:guid}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateItem",
+        "Type": "Systems.Infrastructure.Entities.ComponentSetting",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentSetting, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "UpdateComponentSetting",
+    "Description": "C\u1EADp nh\u1EADt m\u1ED9t m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "C\u1EADp nh\u1EADt c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "DeleteComponentSetting",
+    "RelativePath": "cms/settings/{settingId:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "DeleteComponentSetting",
+    "Description": "X\u00F3a m\u1ED9t m\u1EE5c trong c\u1EA5u h\u00ECnh.",
+    "Summary": "X\u00F3a c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "GenerateComponentProperties",
+    "RelativePath": "cms/settings/{settingId:guid}/generate-properties",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentSetting, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "GenerateComponentProperties",
+    "Description": "T\u1EA1o thu\u1ED9c t\u00EDnh c\u1EE7a m\u1ED9t c\u1EA5u h\u00ECnh.",
+    "Summary": "T\u1EA1o thu\u1ED9c t\u00EDnh c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindComponentProperties",
+    "RelativePath": "cms/settings/{settingId:guid}/properties",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindComponentProperties",
+    "Description": "L\u1EA5y danh s\u00E1ch thu\u1ED9c t\u00EDnh c\u1EE7a c\u1EA5u h\u00ECnh.",
+    "Summary": "Danh s\u00E1ch thu\u1ED9c t\u00EDnh th\u00E0nh ph\u1EA7n c\u1EE7a c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "UpdateComponentProperties",
+    "RelativePath": "cms/settings/{settingId:guid}/properties",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "UpdateComponentProperties",
+    "Description": "C\u1EADp nh\u1EADt danh s\u00E1ch thu\u1ED9c t\u00EDnh theo c\u1EA5u h\u00ECnh.",
+    "Summary": "C\u1EADp nh\u1EADt danh s\u00E1ch thu\u1ED9c t\u00EDnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindOneComponentSetting",
+    "RelativePath": "cms/settings/{settingId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settingId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[Systems.Infrastructure.Entities.ComponentSetting, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindOneComponentSetting",
+    "Description": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id.",
+    "Summary": "L\u1EA5y chi ti\u1EBFt c\u1EA5u h\u00ECnh theo id."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindComponentPropertiesByKey",
+    "RelativePath": "cms/settings/get-component-properties/{keyCms}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyCms",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Collections.Generic.List\u00601[[Systems.Infrastructure.Entities.ComponentProperty, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ComponentSettings"
+    ],
+    "EndpointName": "FindComponentPropertiesWithKey",
+    "Description": "L\u1EA5y danh s\u00E1ch thu\u1ED9c t\u00EDnh c\u1EE7a c\u1EA5u h\u00ECnh theo key.",
+    "Summary": "Danh s\u00E1ch thu\u1ED9c t\u00EDnh th\u00E0nh ph\u1EA7n c\u1EE7a c\u1EA5u h\u00ECnh."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsApi",
+    "Method": "FindColumnNames",
+    "RelativePath": "cms/tables/{tableId}/column-names",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ColumnNames"
+    ],
+    "EndpointName": "FindColumnNames",
+    "Description": "L\u1EA5y danh s\u00E1ch c\u00E1c c\u1ED9t trong b\u1EA3ng d\u01B0\u1EDBi d\u1EA1ng m\u1ED9t chu\u1ED7i c\u00E1ch nhau b\u1EDBi d\u1EA5u \u0022,\u0022.",
+    "Summary": "Danh s\u00E1ch c\u00E1c c\u1ED9t trong b\u1EA3ng d\u01B0\u1EDBi d\u1EA1ng m\u1ED9t chu\u1ED7i c\u00E1ch nhau b\u1EDBi d\u1EA5u \u0022,\u0022."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsExcelApi",
+    "Method": "GenerateExcelProperties",
+    "RelativePath": "config-excel-system/settings/excel/generate-properties",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Systems.Models.ExcelRequest.ExcelDataParameter",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ExcelConfigs"
+    ],
+    "EndpointName": "GenerateExcelProperties",
+    "Description": "T\u1EA1o thu\u1ED9c t\u00EDnh c\u1EE7a m\u1ED9t c\u1EA5u h\u00ECnh excel config.",
+    "Summary": "T\u1EA1o thu\u1ED9c t\u00EDnh c\u1EA5u h\u00ECnh excel config."
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsExcelApi",
+    "Method": "GetExcelConfig",
+    "RelativePath": "config-excel-system/settings/excel/get-excel-config/{dataType}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ExcelConfigs"
+    ],
+    "EndpointName": "get-excel-config",
+    "Description": "L\u1EA5y th\u00F4ng tin excel config",
+    "Summary": "L\u1EA5y th\u00F4ng tin excel config"
+  },
+  {
+    "ContainingType": "Systems.Apis.CmsExcelApi",
+    "Method": "UpdateExcelConfigs",
+    "RelativePath": "config-excel-system/settings/excel/update-excel-config",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.ExcelRequest.ExcelDataUpdateRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "ExcelConfigs"
+    ],
+    "EndpointName": "update-excel-config",
+    "Description": "C\u1EADp nh\u1EADt th\u00F4ng tin excel config",
+    "Summary": "C\u1EADp nh\u1EADt th\u00F4ng tin excel config"
+  },
+  {
+    "ContainingType": "Systems.Apis.LockApi",
+    "Method": "GetLockDetailByCodeUnit",
+    "RelativePath": "lock-system/get-lock-detail-by-user",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "get-lock-detail-by-user",
+    "Description": "L\u1EA5y th\u00F4ng tin kho\u00E1 s\u1ED5 khi \u0111\u0103ng nh\u1EADp",
+    "Summary": ""
+  },
+  {
+    "ContainingType": "Systems.Apis.LockApi",
+    "Method": "GetLockByUnit",
+    "RelativePath": "lock-system/get-system-lock",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.LockRequest.LockRequestStore",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "get-lock-unit",
+    "Description": "L\u1EA5y th\u00F4ng tin kho\u00E1 s\u1ED5 \u0111\u01A1n v\u1ECB/Kho\u00E1 s\u1ED5 t\u1EA5t c\u1EA3 (qu\u1EA3n tr\u1ECB)",
+    "Summary": ""
+  },
+  {
+    "ContainingType": "Systems.Apis.LockApi",
+    "Method": "UpdateLockLst",
+    "RelativePath": "lock-system/update-system-lock",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.LockRequest.LockUpdateRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "update-system-lock",
+    "Description": "C\u1EADp nh\u1EADt th\u00F4ng tin kho\u00E1 s\u1ED5",
+    "Summary": ""
+  },
+  {
+    "ContainingType": "Systems.Apis.MenuApi",
+    "Method": "GetMenu",
+    "RelativePath": "menu/get-all",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "X-Tenant-Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "get-all",
+    "Description": "L\u1EA5y ra t\u1EA5t c\u1EA3 menu",
+    "Summary": "L\u1EA5y ra t\u1EA5t c\u1EA3 menu"
+  },
+  {
+    "ContainingType": "Systems.Apis.MenuApi",
+    "Method": "GetMenuByUser",
+    "RelativePath": "menu/get-by-code-user/{codeUser}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "X-Tenant-Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "codeUser",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "get-by-code-user",
+    "Description": "L\u1EA5y menu theo quy\u1EC1n user",
+    "Summary": "L\u1EA5y menu theo quy\u1EC1n user"
+  },
+  {
+    "ContainingType": "Systems.Apis.OptionApi",
+    "Method": "UpdateOptionAsync",
+    "RelativePath": "option/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Systems.Apis.OptionRequest, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "UpdateOption",
+    "Description": "C\u1EADp nh\u1EADt option",
+    "Summary": "C\u1EADp nh\u1EADt option"
+  },
+  {
+    "ContainingType": "Systems.Apis.RuleUnitApi",
+    "Method": "GetRuleUnitByUser",
+    "RelativePath": "rule-unit/get-by-user",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeUser",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "codeUnit",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "RuleUnit"
+    ],
+    "EndpointName": "get-by-user",
+    "Summary": "L\u1EA5y danh s\u00E1ch quy\u1EC1n truy c\u1EADp \u0111\u01A1n v\u1ECB c\u1EE7a 1 User"
+  },
+  {
+    "ContainingType": "Systems.Apis.RuleUnitApi",
+    "Method": "GetRuleRoleByNameRole",
+    "RelativePath": "rule-unit/get-rule-role-by-name-role",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameRole",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "RuleRole"
+    ],
+    "EndpointName": "get-rule-role",
+    "Summary": "L\u1EA5y ra c\u1EA5u h\u00ECnh truy c\u1EADp theo t\u00EAn quy\u1EC1n"
+  },
+  {
+    "ContainingType": "Systems.Apis.RuleUnitApi",
+    "Method": "GetUserByUnit",
+    "RelativePath": "rule-unit/get-user-by-code-unit/{codeUnit}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "X-Tenant-Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "codeUnit",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "RuleUnit"
+    ],
+    "EndpointName": "get-user-by-code-unit"
+  },
+  {
+    "ContainingType": "Systems.Apis.RuleUnitApi",
+    "Method": "UpdateRuleForRole",
+    "RelativePath": "rule-unit/update-rule-role",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.HRM.RuleForRoleUpdate",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "RuleRole"
+    ],
+    "EndpointName": "update-rule-role",
+    "Summary": "C\u1EADp nh\u1EADt quy\u1EC1n cho Role"
+  },
+  {
+    "ContainingType": "Systems.Apis.RuleUnitApi",
+    "Method": "UpdateRuleUnit",
+    "RelativePath": "rule-unit/update-rule-unit",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.RulesUnitUpdate",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "RuleUnit"
+    ],
+    "EndpointName": "update-rule-unit",
+    "Summary": "C\u1EADp nh\u1EADt quy\u1EC1n truy c\u1EADp \u0111\u01A1n v\u1ECB c\u1EE7a 1 User"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "AddRuleApprove",
+    "RelativePath": "systems/add-rule-approve",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Systems.Infrastructure.Entities.CatalogRecipientOfMessage, Systems, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "ownerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dataType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "job",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "Description": "Th\u00EAm c\u1EA5u h\u00ECnh tr\u00ECnh k\u00FD",
+    "Summary": "Th\u00EAm c\u1EA5u h\u00ECnh tr\u00ECnh k\u00FD"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "DeleteRuleApprove",
+    "RelativePath": "systems/delete-rule-approve",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dataType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "job",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "Description": "Xoa c\u1EA5u h\u00ECnh tr\u00ECnh k\u00FD",
+    "Summary": "Xoa c\u1EA5u h\u00ECnh tr\u00ECnh k\u00FD"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetAllFunction",
+    "RelativePath": "systems/get-all-function",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "GetAllFunction",
+    "Description": "T\u1EA5t l\u1EA5y danh s\u00E1ch ch\u1EE9c n\u0103ng.",
+    "Summary": "T\u1EA5t l\u1EA5y danh s\u00E1ch ch\u1EE9c n\u0103ng"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetRuleUser",
+    "RelativePath": "systems/get-all-rules/{codeUser}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeUser",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "get-all-rules",
+    "Description": "L\u1EA5y quy\u1EC1n ch\u1EE9c n\u0103ng c\u1EE7a User",
+    "Summary": "L\u1EA5y quy\u1EC1n ch\u1EE9c n\u0103ng c\u1EE7a User"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetRuleApprove",
+    "RelativePath": "systems/get-rule-approve",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dataType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "job",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "Description": "L\u1EA5y lu\u1ED3ng tr\u00ECnh k\u00FD",
+    "Summary": "L\u1EA5y lu\u1ED3ng tr\u00ECnh k\u00FD"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetRuleApproveSummary",
+    "RelativePath": "systems/get-rule-approve-summary",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "Description": "L\u1EA5y c\u00E1c lu\u1ED3ng tr\u00ECnh k\u00FD theo ng\u01B0\u1EDDi d\u00F9ng",
+    "Summary": "L\u1EA5y c\u00E1c lu\u1ED3ng tr\u00ECnh k\u00FD theo ng\u01B0\u1EDDi d\u00F9ng"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetRuleUserBaseUnion",
+    "RelativePath": "systems/get-rule-user-union-fund",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "Systems.Models.Fund.RuleUserQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "GetRuleUserBaseUnion",
+    "Description": "L\u1EA5y quy\u1EC1n t\u1ED5 nh\u00F3m",
+    "Summary": "L\u1EA5y quy\u1EC1n t\u1ED5 nh\u00F3m"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetPermisssion",
+    "RelativePath": "systems/get-rules-by-key/{keyFunction}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyFunction",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "Get-rules-by-key",
+    "Description": "L\u1EA5y ra quy\u1EC1n ch\u1EE9c n\u0103ng c\u1EE7a User",
+    "Summary": "L\u1EA5y ra quy\u1EC1n ch\u1EE9c n\u0103ng c\u1EE7a User"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "GetUnitInfo",
+    "RelativePath": "systems/get-unit-info",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeUnit",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "GetUnitInfo",
+    "Description": "L\u1EA5y Th\u00F4ng tin \u0111\u01A1n v\u1ECB",
+    "Summary": "L\u1EA5y Th\u00F4ng tin \u0111\u01A1n v\u1ECB"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "UpdateRuleFunction",
+    "RelativePath": "systems/update-rule-user",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.CreateUpdateUserRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "UpdateRuleUser",
+    "Description": "T\u1EA1o m\u1EDBi quy\u1EC1n cho User.",
+    "Summary": "T\u1EA1o m\u1EDBi quy\u1EC1n cho User"
+  },
+  {
+    "ContainingType": "Systems.Apis.SystemApi",
+    "Method": "UpdateRuleUnionFunction",
+    "RelativePath": "systems/update-rule-user-union-fund",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Models.Fund.CreateUpdateUserUnionRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "UpdateRuleUnionFunction",
+    "Description": "Ph\u00E2n quy\u1EC1n theo nh\u00F3m kh\u00E1ch h\u00E0ng",
+    "Summary": "Ph\u00E2n quy\u1EC1n theo nh\u00F3m kh\u00E1ch h\u00E0ng"
+  },
+  {
+    "ContainingType": "Systems.Apis.TenantApi",
+    "Method": "GetTenantById",
+    "RelativePath": "tenants/get-by-id/{tenantId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Systems"
+    ],
+    "EndpointName": "get-by-id",
+    "Description": "L\u1EA5y ra th\u00F4ng tin \u0111\u01A1n v\u1ECB thu\u00EA",
+    "Summary": "L\u1EA5y ra th\u00F4ng tin \u0111\u01A1n v\u1ECB thu\u00EA"
+  },
+  {
+    "ContainingType": "Systems.Apis.VoucherNumberApi",
+    "Method": "CreateVoucherNumber",
+    "RelativePath": "voucher-number/create",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Infrastructure.Entities.CatalogVoucherNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "VoucherNumber"
+    ],
+    "Summary": "T\u1EA1o m\u1EDBi danh m\u1EE5c s\u1ED1 ch\u1EE9ng t\u1EEB"
+  },
+  {
+    "ContainingType": "Systems.Apis.VoucherNumberApi",
+    "Method": "DeleteVoucherNumber",
+    "RelativePath": "voucher-number/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "VoucherNumber"
+    ],
+    "Summary": "X\u00F3a danh m\u1EE5c s\u1ED1 ch\u1EE9ng t\u1EEB"
+  },
+  {
+    "ContainingType": "Systems.Apis.VoucherNumberApi",
+    "Method": "GetAll",
+    "RelativePath": "voucher-number/get-all",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "VoucherNumber"
+    ],
+    "Summary": "L\u1EA5y ra danh s\u00E1ch danh m\u1EE5c s\u1ED1 ch\u1EE9ng t\u1EEB"
+  },
+  {
+    "ContainingType": "Systems.Apis.VoucherNumberApi",
+    "Method": "GetById",
+    "RelativePath": "voucher-number/get-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "VoucherNumber"
+    ],
+    "Summary": "L\u1EA5y ra danh m\u1EE5c s\u1ED1 ch\u1EE9ng t\u1EEB theo Id"
+  },
+  {
+    "ContainingType": "Systems.Apis.VoucherNumberApi",
+    "Method": "UpdateVoucherNumber",
+    "RelativePath": "voucher-number/update",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Systems.Infrastructure.Entities.CatalogVoucherNumber",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "VoucherNumber"
+    ],
+    "Summary": "C\u1EADp danh m\u1EE5c s\u1ED1 ch\u1EE9ng t\u1EEB"
+  }
+]

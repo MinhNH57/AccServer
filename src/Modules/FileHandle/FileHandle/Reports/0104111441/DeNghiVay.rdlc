@@ -1,0 +1,2520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns:df="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition/defaultfontfamily" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition">
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>25.45292cm</Height>
+        <ReportItems>
+          <Textbox Name="TextBox2">
+            <Left>0.47625cm</Left>
+            <Top>0.18480cm</Top>
+            <Height>1.16417cm</Height>
+            <Width>9.36584cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>LIÊN ĐOÀN LAO ĐỘNG THÀNH PHỐ HÀ NỘI</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40400cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>QUỸ TRỢ VỐN (HANOI FEI)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40400cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40400cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox4">
+            <Left>10.16cm</Left>
+            <Top>0.19761cm</Top>
+            <Height>1.13771cm</Height>
+            <Width>8.99583cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40400cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Độc lập - Tự do - Hạnh phúc</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40400cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <TextDecoration>Underline</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40400cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox5">
+            <Left>11.19146cm</Left>
+            <Top>1.50771cm</Top>
+            <Height>0.71438cm</Height>
+            <Width>6.77334cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Hà Nội, ngày         tháng        năm 2025</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox6">
+            <Left>5.63521cm</Left>
+            <Top>2.30188cm</Top>
+            <Height>0.74042cm</Height>
+            <Width>9.8425cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>ĐƠN ĐỀ NGHỊ VAY VỐN /CAM KẾT TRẢ NỢ</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.43000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox7">
+            <Left>2.75043cm</Left>
+            <Top>3.0948cm</Top>
+            <Height>1.21667cm</Height>
+            <Width>14.97542cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Kính gửi</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.43000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <TextDecoration>Underline</TextDecoration>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> :  Quỹ trợ vốn CNVCLĐ nghèo Thủ đô phát triển kinh tế gia đình</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.43000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Hanoi FEI)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.43000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.43000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox8">
+            <Left>1.00459cm</Left>
+            <Top>4.29907cm</Top>
+            <Height>0.71438cm</Height>
+            <Width>10.08064cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Họ và tên người vay: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!ObjName.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox9">
+            <Left>1.00459cm</Left>
+            <Top>5.02874cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>9.9219cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ngày, tháng, năm sinh: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=FormatDateTime(First(Fields!DateOfBirth.Value,"ExcelObject"), DateFormat.ShortDate)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox10">
+            <Left>0.97813cm</Left>
+            <Top>5.71376cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>7.47448cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Số CC/CCCD/Hộ chiếu: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!CitizenIDNumber.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox11">
+            <Left>8.46584cm</Left>
+            <Top>5.71376cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>5.11969cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Cấp ngày: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=FormatDateTime(First(Fields!RangeDate.Value,"ExcelObject"), DateFormat.ShortDate)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox12">
+            <Left>13.73105cm</Left>
+            <Top>5.71376cm</Top>
+            <Height>0.66063cm</Height>
+            <Width>5.4901cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Tại: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!GrantedBy.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox13">
+            <Left>0.99219cm</Left>
+            <Top>6.37604cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>18.17691cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Địa chỉ thường trú: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!PermanentAddress.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox14">
+            <Left>0.99219cm</Left>
+            <Top>7.06437cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>18.17691cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Nơi ở hiện nay: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!AddressObject.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox15">
+            <Left>1.00418cm</Left>
+            <Top>9.25049cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>6.48229cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Tham gia Bảo hiểm xã hội bắt buộc:  </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox16">
+            <Left>1.00418cm</Left>
+            <Top>9.92725cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>18.17687cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Điện thoại: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!PhoneNumber.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox17">
+            <Left>1.00418cm</Left>
+            <Top>10.60442cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>18.17691cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Mức thu nhập bình quân 6 tháng gần nhất: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!Income.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> VNĐ</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox19">
+            <Left>1.00418cm</Left>
+            <Top>11.28159cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>3.65084cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Tình trạng hôn nhân: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox20">
+            <Left>1.00418cm</Left>
+            <Top>11.93229cm</Top>
+            <Height>0.97896cm</Height>
+            <Width>18.17687cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Sau khi nghiên cứu quy định vay vốn của Quỹ trợ vốn CNVCLĐ nghèo Thủ đô phát triển kinh tế gia đình. Tôi làm đơn này xin được vay vốn, cụ thể như sau:</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox21">
+            <Left>0.92480cm</Left>
+            <Top>12.90009cm</Top>
+            <Height>2.83063cm</Height>
+            <Width>18.17687cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>- Mức vay:  </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!ContractValue.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>VNĐ           Bằng chữ: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=code.ConvertNumberToText(Sum(Fields!ContractValue.Value,"ExcelObject"), True)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.46146cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>- Thời gian vay: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!CreditPeriod.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> tháng, từ tháng thứ </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!MonthPeriod.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> có thể tất toán hợp đồng vay vốn.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.46146cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>- Mục đích sử dụng vốn vay : </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!PurposeCredit.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.46146cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Số người lao động được tạo việc làm, duy trì, mở rộng sản xuất: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=Sum(Fields!CreateJobs.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Normal</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> người (sản phẩm vay sản xuất, kinh doanh cải thiện thu nhập).</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.46146cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>- Phương thức hoàn trả: Hàng tháng trả một phần vốn </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>vay (gốc vay, lãi vay) và nộp tiền Tiết kiệm bắt buộc (TKBB)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value> theo quy định của Quỹ trợ vốn trong từng thời kỳ.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Format>#,0;(#,0)</Format>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.46146cm</LineHeight>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox23">
+            <Left>0.89793cm</Left>
+            <Top>15.72865cm</Top>
+            <Height>6.79896cm</Height>
+            <Width>18.17687cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <VerticalAlign>Middle</VerticalAlign>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Tôi xin cam kết:</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>1. Sử dụng vốn vay đúng mục đích, hoàn trả vốn vay (gốc vay, lãi vay) đầy đủ, đúng hạn và nộp tiền TKBB theo quy định để tiết kiệm cho bản thân.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>2. Hoàn tất việc trả vốn vay (gốc vay, lãi vay) còn lại trước khi chuyển công tác hoặc chấm dứt hợp đồng lao động, hợp đồng làm việc với đơn vị đang công tác.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>3. Trường hợp tôi chậm trả khoản vay (gốc vay, lãi vay) và TKBB theo Hợp đồng vay vốn, tôi đồng ý ủy quyền cho đơn vị tôi đang công tác khấu trừ vào lương hàng tháng hoặc các khoản thu nhập khác (nếu có) của tôi tại đơn vị để hoàn tất nghĩa vụ thanh toán đến hạn.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>4. Vợ/chồng tôi sẽ có trách nhiệm trả nợ thay trong trường hợp tôi không có khả năng thanh toán khoản vay cho Quỹ trợ vốn.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>5. Đồng ý cho Quỹ trợ vốn khai thác thông tin tín dụng của bản thân tại Trung tâm Thông tin tín dụng Quốc gia Việt Nam (CIC) </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>và cung cấp thông tin để CIC sử dụng các thông tin đó trong hoạt động thông tin tín dụng theo quy định của Ngân hàng nhà nước Việt Nam.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>6. Chịu trách nhiệm trước pháp luật về cam kết của mình.</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40000cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Italic</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <LineHeight>0.48700cm</LineHeight>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox24">
+            <Left>0.97813cm</Left>
+            <Top>23.17585cm</Top>
+            <Height>1.08479cm</Height>
+            <Width>6.00604cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>LÃNH ĐẠO ĐƠN VỊ XÁC NHẬN</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>              (Ký tên, đóng dấu)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.35300cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.35278cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox25">
+            <Left>7.26116cm</Left>
+            <Top>23.17585cm</Top>
+            <Height>1.08479cm</Height>
+            <Width>4.78896cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>NGƯỜI LÀM ĐƠN</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>(Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.35278cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.35278cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox26">
+            <Left>12.88314cm</Left>
+            <Top>23.17585cm</Top>
+            <Height>1.08479cm</Height>
+            <Width>5.92667cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value> </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.35278cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>VỢ/CHỒNG NGƯỜI LÀM ĐƠN</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>  (Ký, ghi rõ họ tên)</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.35278cm</FontSize>
+                      <FontStyle>Normal</FontStyle>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox1">
+            <Left>12.3825cm</Left>
+            <Top>4.31271cm</Top>
+            <Height>0.71438cm</Height>
+            <Width>5.34417cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Nam:                 Nữ:</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox3">
+            <Left>0.99219cm</Left>
+            <Top>7.75188cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>18.17687cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Đơn vị công tác/Công đoàn cơ sở: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!GrpName.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox18">
+            <Left>0.99219cm</Left>
+            <Top>8.54563cm</Top>
+            <Height>0.66146cm</Height>
+            <Width>18.17687cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <FontSize>0.35278cm</FontSize>
+              <PaddingLeft>0.07056cm</PaddingLeft>
+              <PaddingRight>0.07056cm</PaddingRight>
+              <PaddingTop>0.07056cm</PaddingTop>
+              <PaddingBottom>0.07056cm</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Nghề nghiệp: </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=First(Fields!GuarantorNameJob.Value,"ExcelObject")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox27">
+            <Left>8.46667cm</Left>
+            <Top>9.28687cm</Top>
+            <Height>0.60854cm</Height>
+            <Width>1.27cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Có</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox28">
+            <Left>14.44625cm</Left>
+            <Top>9.28687cm</Top>
+            <Height>0.60854cm</Height>
+            <Width>1.27cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Không</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.40500cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox30">
+            <Left>7.80521cm</Left>
+            <Top>9.28687cm</Top>
+            <Height>0.47625cm</Height>
+            <Width>0.66146cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!IsInsurance.Value,"ExcelObject") = true, "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!IsInsurance.Value,"ExcelObject") = 1, "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox31">
+            <Left>13.6525cm</Left>
+            <Top>9.28687cm</Top>
+            <Height>0.47625cm</Height>
+            <Width>0.66146cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!IsInsurance.Value,"ExcelObject") = false, "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!IsInsurance.Value,"ExcelObject") = 1, "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Rectangle Name="Rectangle5">
+            <Left>16.03375cm</Left>
+            <Top>4.40531cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Textbox Name="TextBox32">
+            <Left>16.03334cm</Left>
+            <Top>4.33917cm</Top>
+            <Height>0.47625cm</Height>
+            <Width>0.66146cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!ObjSex.Value,"ExcelObject") = "Nữ", "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!IsInsurance.Value,"ExcelObject") = 1, "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox33">
+            <Left>13.52021cm</Left>
+            <Top>4.33917cm</Top>
+            <Height>0.47625cm</Height>
+            <Width>0.66146cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!ObjSex.Value,"ExcelObject") = "Nam", "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!IsInsurance.Value,"ExcelObject") = 1, "X", "")</Value>
+                    <Style>
+                      <FontFamily>Arial</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Rectangle Name="Rectangle9">
+            <Left>13.57271cm</Left>
+            <Top>4.37844cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Rectangle Name="Rectangle10">
+            <Left>13.70542cm</Left>
+            <Top>9.32615cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Rectangle Name="Rectangle11">
+            <Left>7.80521cm</Left>
+            <Top>9.32615cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Rectangle Name="Rectangle12">
+            <Left>4.97417cm</Left>
+            <Top>11.36385cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Rectangle Name="Rectangle13">
+            <Left>7.83167cm</Left>
+            <Top>11.36385cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Rectangle Name="Rectangle14">
+            <Left>11.53542cm</Left>
+            <Top>11.36344cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Rectangle Name="Rectangle15">
+            <Left>14.9225cm</Left>
+            <Top>11.36303cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.55563cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+            <KeepTogether>true</KeepTogether>
+          </Rectangle>
+          <Textbox Name="TextBox34">
+            <Left>5.60917cm</Left>
+            <Top>11.3374cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>1.5875cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Độc thân</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox35">
+            <Left>8.41375cm</Left>
+            <Top>11.3374cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>2.19604cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Đã kết hôn</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox36">
+            <Left>12.20556cm</Left>
+            <Top>11.3374cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>1.5875cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Ly hôn </Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox37">
+            <Left>15.68979cm</Left>
+            <Top>11.3374cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>1.5875cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Khác</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox39">
+            <Left>4.97375cm</Left>
+            <Top>11.29771cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.60854cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!MaritalStatus.Value,"ExcelObject") = "Độc thân", "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox41">
+            <Left>7.88458cm</Left>
+            <Top>11.29771cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.60854cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!MaritalStatus.Value,"ExcelObject") = "Đã kết hôn", "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox29">
+            <Left>11.56229cm</Left>
+            <Top>11.27125cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.60854cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!MaritalStatus.Value,"ExcelObject") = "Ly hôn", "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+          <Textbox Name="TextBox42">
+            <Left>14.93118cm</Left>
+            <Top>11.27993cm</Top>
+            <Height>0.52917cm</Height>
+            <Width>0.60813cm</Width>
+            <Style>
+              <FontFamily>Arial</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=IIf(First(Fields!MaritalStatus.Value,"ExcelObject") = "Khác", "X", "")</Value>
+                    <Style>
+                      <FontFamily>Times New Roman</FontFamily>
+                      <FontSize>0.37900cm</FontSize>
+                      <Color>#000000</Color>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <FontFamily>Arial</FontFamily>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+          </Textbox>
+        </ReportItems>
+        <Style>
+          <FontFamily>Arial</FontFamily>
+          <FontSize>0.35278cm</FontSize>
+          <Border>
+            <Width>0.03528cm</Width>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Body>
+      <Width>19.94958cm</Width>
+      <Page>
+        <PageHeight>29.69266cm</PageHeight>
+        <PageWidth>21.00585cm</PageWidth>
+        <PageHeader>
+          <Height>0.76729cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="TextBox22">
+              <Left>17.30334cm</Left>
+              <Top>0.10542cm</Top>
+              <Height>0.50271cm</Height>
+              <Width>2.09021cm</Width>
+              <Style>
+                <FontFamily>Arial</FontFamily>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+              </Style>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Mẫu : 01/FEI</Value>
+                      <Style>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>0.35278cm</FontSize>
+                        <Color>#000000</Color>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <FontFamily>Arial</FontFamily>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <FontFamily>Arial</FontFamily>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <LeftMargin>0.80000cm</LeftMargin>
+        <RightMargin>0.19400cm</RightMargin>
+        <TopMargin>0.50600cm</TopMargin>
+        <BottomMargin>0.50600cm</BottomMargin>
+        <ColumnSpacing>0.01300cm</ColumnSpacing>
+        <Style>
+          <BackgroundColor>White</BackgroundColor>
+          <FontFamily>Arial</FontFamily>
+          <FontSize>0.35278cm</FontSize>
+          <Border>
+            <Width>0.03528cm</Width>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <rd:SecurityType>None</rd:SecurityType>
+      <ConnectionProperties>
+        <DataProvider />
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="ExcelObject">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="ObjName">
+          <DataField>ObjName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ObjSex">
+          <DataField>ObjSex</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DOB">
+          <DataField>DOB</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CitizenIDNumber">
+          <DataField>CitizenIDNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AddressObject">
+          <DataField>AddressObject</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GrpName">
+          <DataField>GrpName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GuarantorNameJob">
+          <DataField>GuarantorNameJob</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PhoneNumber">
+          <DataField>PhoneNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Income">
+          <DataField>Income</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="ContractValue">
+          <DataField>ContractValue</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="CreditProductName">
+          <DataField>CreditProductName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RangeDate">
+          <DataField>RangeDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="GrantedBy">
+          <DataField>GrantedBy</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DateOfBirth">
+          <DataField>DateOfBirth</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="DisbursementDate">
+          <DataField>DisbursementDate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="CreditPeriod">
+          <DataField>CreditPeriod</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MaritalStatus">
+          <DataField>MaritalStatus</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInsurance">
+          <DataField>IsInsurance</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="Notes">
+          <DataField>Notes</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreateJobs">
+          <DataField>CreateJobs</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MonthPeriod">
+          <DataField>MonthPeriod</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="PurposeCredit">
+          <DataField>PurposeCredit</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PermanentAddress">
+          <DataField>PermanentAddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function ConvertNumberToText(ByVal inputNumber As Double, Optional ByVal suffix As Boolean = True) As String
+
+    Dim unitNumbers As String() = {"không", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"}
+    Dim placeValues As String() = {"", "nghìn,", "triệu,", "tỷ,"}
+    Dim isNegative As Boolean = False
+
+    Dim sNumber As String = inputNumber.ToString("#")
+
+    If String.IsNullOrEmpty(sNumber) Then
+        Return ""
+    End If
+    If String.Equals(sNumber, "0") Then
+        Return "0 đồng."
+    End If
+
+    Dim number As Double = Math.Abs(inputNumber)
+
+    Dim ones, tens, hundreds As Integer
+    Dim positionDigit As Integer = sNumber.Length
+    Dim result As String = " "
+
+    If positionDigit = 0 Then
+        result = unitNumbers(0) &amp; result
+    Else
+        Dim placeValue As Integer = 0
+
+        While positionDigit &gt; 0
+            tens = -1
+            hundreds = -1
+            ones = Convert.ToInt32(sNumber.Substring(positionDigit - 1, 1))
+            positionDigit -= 1
+
+
+            If positionDigit &gt; 0 Then
+                tens = Convert.ToInt32(sNumber.Substring(positionDigit - 1, 1))
+                positionDigit -= 1
+                If positionDigit &gt; 0 Then
+                    hundreds = Convert.ToInt32(sNumber.Substring(positionDigit - 1, 1))
+                    positionDigit -= 1
+                End If
+            End If
+
+            If ones &gt; 0 OrElse tens &gt; 0 OrElse hundreds &gt; 0 OrElse placeValue = 3 Then
+                result = placeValues(placeValue) &amp; result
+            End If
+
+            placeValue += 1
+            If placeValue &gt; 3 Then placeValue = 1
+
+            If ones = 1 AndAlso tens &gt; 1 Then
+                result = "một " &amp; result
+            Else
+                If ones = 5 AndAlso tens &gt; 0 Then
+                    result = "lăm " &amp; result
+                ElseIf ones &gt; 0 Then
+                    result = unitNumbers(ones) &amp; " " &amp; result
+                End If
+            End If
+
+            If tens &lt; 0 Then
+                Exit While
+            Else
+                If tens = 0 AndAlso ones &gt; 0 Then result = "lẻ " &amp; result
+                If tens = 1 Then result = "mười " &amp; result
+                If tens &gt; 1 Then result = unitNumbers(tens) &amp; " mươi " &amp; result
+            End If
+
+            If hundreds &lt; 0 Then
+                Exit While
+            Else
+                If hundreds &gt; 0 OrElse tens &gt; 0 OrElse ones &gt; 0 Then
+                    result = unitNumbers(hundreds) &amp; " trăm " &amp; result
+                End If
+            End If
+
+            result = " " &amp; result
+        End While
+    End If
+
+    result = result.Trim()
+    result = result.Substring(0, 1).ToUpper() &amp; result.Substring(1)
+
+    If inputNumber &lt; 0 Then
+        result = "Âm " &amp; result
+    End If
+
+    If result.EndsWith(",") Then
+        result = result.Substring(0, result.Length - 1)
+    End If
+
+    result = result.Replace("lẻ", "linh")
+
+    result &amp;= If(suffix, " đồng", "") &amp; "./."
+
+    Return result
+End Function
+</Code>
+  <Language>vi-VN</Language>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:PageUnit />
+  <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
+</Report>

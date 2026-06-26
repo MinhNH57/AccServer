@@ -1,0 +1,9 @@
+﻿global using System.ComponentModel;
+global using System.ComponentModel.DataAnnotations;
+global using BuildingBlocks.Caching;
+global using BuildingBlocks.MultiTenancy;
+global using Carter;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using BuildingBlocks.Response;
+global using Systems.Models;

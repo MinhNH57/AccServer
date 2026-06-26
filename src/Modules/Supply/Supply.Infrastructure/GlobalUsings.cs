@@ -1,0 +1,15 @@
+﻿global using System.Data;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Supply.Domain.AggregatesModel.SUAdjustmentAggregate;
+global using Supply.Domain.AggregatesModel.SUAllocationAggregate;
+global using Supply.Domain.AggregatesModel.SUAuditAggregate;
+global using Supply.Domain.AggregatesModel.SUDecrementAggregate;
+global using Supply.Domain.AggregatesModel.SUIncrementAggregate;
+global using Supply.Domain.AggregatesModel.SUTransferAggregate;
+global using Supply.Domain.Exceptions;
+global using Supply.Domain.SeedWork;
+global using Supply.Infrastructure.Entities;
+global using Supply.Infrastructure.Idempotency;

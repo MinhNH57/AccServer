@@ -1,0 +1,693 @@
+﻿13:29:12 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:29:14 [INFO] Now listening on: https://localhost:7129
+13:29:14 [INFO] Now listening on: http://localhost:5299
+13:29:14 [INFO] Application started. Press Ctrl+C to shut down.
+13:29:14 [INFO] Hosting environment: Development
+13:29:14 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+13:29:15 [INFO] HTTP GET / responded 302 in 1439.8887 ms
+13:29:15 [INFO] HTTP GET /scalar/v1 responded 200 in 44.1064 ms
+13:29:15 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:29:15 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:29:15 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.9122 ms
+13:29:16 [INFO] HTTP GET /scalar/scalar.js responded 200 in 23.4079 ms
+13:29:16 [INFO] HTTP GET /scalar/favicon.svg responded 200 in 0.5091 ms
+13:29:16 [INFO] HTTP GET /openapi/v1.json responded 200 in 94.8204 ms
+13:29:16 [INFO] HTTP GET /openapi/v1.json responded 200 in 14.8964 ms
+13:31:23 [INFO] HTTP GET /catalog/SmartOption responded 401 in 9.7930 ms
+13:31:55 [INFO] HTTP GET /catalog-units/get-all responded 200 in 3993.3209 ms
+13:31:55 [INFO] HTTP GET /catalog-units/get-all responded 200 in 69.8955 ms
+13:32:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 295.6625 ms
+13:32:23 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 51.6811 ms
+13:33:49 [INFO] HTTP GET /catalog/SmartOption responded 200 in 41.0807 ms
+13:33:50 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 41.9440 ms
+13:33:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.0078 ms
+13:33:56 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 92.3747 ms
+13:33:56 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 28.3914 ms
+13:33:57 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 44.3126 ms
+13:33:57 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 57.7920 ms
+13:33:57 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 253.9179 ms
+13:33:57 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 29.0875 ms
+13:34:12 [INFO] Usage Telemetry: {"id":"fc180000-20b7-2221-8c8a-08de5591bacc","created":"2026-01-17T13:29:12.5776097\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-17T13:29:12.5793622\u002B07:00","configured":"2026-01-17T13:29:12.6181730\u002B07:00","started":"2026-01-17T13:29:12.9581295\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:43:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 78.4349 ms
+13:43:29 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.9851 ms
+13:43:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 32.5792 ms
+13:43:47 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.1590 ms
+13:43:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.3554 ms
+13:43:52 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 30.2177 ms
+13:43:52 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 24.3251 ms
+13:43:52 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 28.9655 ms
+13:43:52 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 29.4406 ms
+13:44:18 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 351.6621 ms
+13:44:18 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 97.1092 ms
+13:45:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.4332 ms
+13:45:57 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 23.2545 ms
+13:45:57 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 219.3568 ms
+13:45:57 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 25.8606 ms
+13:45:57 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 23.3837 ms
+13:46:31 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 39.3623 ms
+13:46:31 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 36.5684 ms
+13:46:31 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Guid'. Path 'Id', line 1, position 10.
+ ---> System.ArgumentException: Could not cast or convert from {null} to System.Guid.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 198
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:46:31 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 91.2933 ms
+13:47:22 [INFO] HTTP GET /catalog/SmartOption responded 200 in 65.9851 ms
+13:47:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 287.0087 ms
+13:47:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 38.9225 ms
+13:47:51 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 36.7279 ms
+13:47:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.9760 ms
+13:47:58 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 35.6435 ms
+13:47:58 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 48.3255 ms
+13:47:58 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 23.7335 ms
+13:47:59 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 739.3785 ms
+13:48:33 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 38.5418 ms
+13:48:33 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 35.6797 ms
+13:49:08 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Guid'. Path 'Id', line 1, position 10.
+ ---> System.ArgumentException: Could not cast or convert from {null} to System.Guid.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 198
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:49:08 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 21.2310 ms
+13:49:14 [INFO] HTTP POST /catalog/dynamic-create-object responded 400 in 265.7266 ms
+13:51:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 58.6137 ms
+13:51:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.4967 ms
+13:51:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 306.8419 ms
+13:51:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 65.2853 ms
+13:51:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 91.0837 ms
+13:51:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 46.1707 ms
+13:51:42 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 53.9628 ms
+13:51:43 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 24.4161 ms
+13:51:43 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 56.4062 ms
+13:51:43 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 284.2492 ms
+13:51:43 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 303.8901 ms
+13:52:01 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 741.5437 ms
+13:52:02 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 508.9676 ms
+13:52:02 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 23.1675 ms
+13:52:02 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 25.2359 ms
+13:52:33 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 38.9438 ms
+13:52:33 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 34.1695 ms
+13:52:43 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Guid'. Path 'Id', line 1, position 10.
+ ---> System.ArgumentException: Could not cast or convert from {null} to System.Guid.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 198
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:52:43 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 54.1603 ms
+13:53:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 105.4518 ms
+13:53:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.8247 ms
+13:54:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 117.0322 ms
+13:54:03 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 86.3429 ms
+13:54:03 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 235.8176 ms
+13:54:10 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 29.4470 ms
+13:54:11 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 54.9510 ms
+13:54:11 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 118.7633 ms
+13:54:11 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.9274 ms
+13:54:47 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 39.1966 ms
+13:54:47 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 42.6263 ms
+13:54:47 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Guid'. Path 'Id', line 1, position 10.
+ ---> System.ArgumentException: Could not cast or convert from {null} to System.Guid.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 198
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:54:47 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 18.8266 ms
+13:55:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 50.3553 ms
+13:55:07 [INFO] HTTP PUT /catalog/delete-catalog responded 200 in 136.7769 ms
+13:55:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.9584 ms
+13:55:09 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 27.4833 ms
+13:55:09 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 49.0722 ms
+13:55:09 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 23.7362 ms
+13:55:09 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 23.5168 ms
+13:55:39 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 67.0811 ms
+13:55:40 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 131.0402 ms
+13:55:40 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Guid'. Path 'Id', line 1, position 10.
+ ---> System.ArgumentException: Could not cast or convert from {null} to System.Guid.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 198
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:55:40 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 31.0860 ms
+13:56:03 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 66.4872 ms
+13:56:40 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:56:42 [INFO] Now listening on: https://localhost:7129
+13:56:42 [INFO] Now listening on: http://localhost:5299
+13:56:42 [INFO] Application started. Press Ctrl+C to shut down.
+13:56:42 [INFO] Hosting environment: Development
+13:56:42 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+13:56:42 [INFO] HTTP GET / responded 302 in 337.1439 ms
+13:56:42 [INFO] HTTP GET /scalar/v1 responded 200 in 87.2516 ms
+13:56:42 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:56:42 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:56:43 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.6621 ms
+13:56:43 [INFO] HTTP GET /scalar/scalar.js responded 200 in 24.0945 ms
+13:56:43 [INFO] HTTP GET /openapi/v1.json responded 200 in 136.3919 ms
+13:56:43 [INFO] HTTP GET /openapi/v1.json responded 200 in 32.4989 ms
+13:57:51 [INFO] HTTP GET /catalog-units/get-all responded 200 in 1926.3279 ms
+13:58:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 328.8225 ms
+13:58:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 76.3204 ms
+13:58:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 71.1394 ms
+13:58:16 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 101.1211 ms
+13:58:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 58.0211 ms
+13:58:25 [INFO] HTTP PUT /catalog/delete-catalog responded 200 in 81.0982 ms
+13:58:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 53.0886 ms
+13:58:27 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 24.2794 ms
+13:58:27 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 27.8312 ms
+13:58:27 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.4333 ms
+13:58:27 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 23.1283 ms
+13:59:18 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 355.1846 ms
+13:59:18 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 143.1268 ms
+13:59:28 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Guid'. Path 'Id', line 1, position 10.
+ ---> System.ArgumentException: Could not cast or convert from {null} to System.Guid.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 198
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:59:28 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 10110.7382 ms
+14:00:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 111.5188 ms
+14:00:41 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 201.2015 ms
+14:00:56 [INFO] HTTP GET /catalog/SmartOption responded 200 in 45.6948 ms
+14:00:56 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 46.1853 ms
+14:00:56 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 208.7132 ms
+14:01:04 [INFO] HTTP PUT /catalog/delete-catalog responded 200 in 143.4644 ms
+14:01:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 64.4718 ms
+14:01:07 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 26.6878 ms
+14:01:07 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 24.9536 ms
+14:01:07 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 26.8702 ms
+14:01:07 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 29.2906 ms
+14:01:42 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 139.5233 ms
+14:01:42 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 89.0369 ms
+14:01:54 [EROR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'TardinessPolicy' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.AddAsync(Object entity, CancellationToken cancellationToken)
+   at BuildingBlocks.MultiTenancy.MultiTenantBaseContext.AddEntity(Object entity, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultiTenantBaseContext.cs:line 79
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 219
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+14:01:54 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 11855.2380 ms
+14:02:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 98.3200 ms
+14:03:01 [INFO] HTTP PUT /catalog/delete-catalog responded 200 in 350.7247 ms
+14:03:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.1302 ms
+14:03:05 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 184.6990 ms
+14:03:05 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 24.9328 ms
+14:03:05 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.9824 ms
+14:03:05 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 231.7322 ms
+14:03:56 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 14951.4822 ms
+14:04:04 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 8023.0523 ms
+14:06:34 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:06:36 [INFO] Now listening on: https://localhost:7129
+14:06:36 [INFO] Now listening on: http://localhost:5299
+14:06:36 [INFO] Application started. Press Ctrl+C to shut down.
+14:06:36 [INFO] Hosting environment: Development
+14:06:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:06:37 [INFO] HTTP GET / responded 302 in 475.1196 ms
+14:06:37 [INFO] HTTP GET /scalar/v1 responded 200 in 130.1864 ms
+14:06:37 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:06:37 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:06:37 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.7647 ms
+14:06:37 [INFO] HTTP GET /scalar/scalar.js responded 200 in 35.1688 ms
+14:06:37 [INFO] HTTP GET /openapi/v1.json responded 200 in 214.3453 ms
+14:06:37 [INFO] HTTP GET /openapi/v1.json responded 200 in 53.2191 ms
+14:07:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 2889.1407 ms
+14:07:28 [INFO] HTTP PUT /catalog/delete-catalog responded 200 in 173.8880 ms
+14:07:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 73.3188 ms
+14:07:35 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 24.3129 ms
+14:07:35 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 204.1930 ms
+14:07:35 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 25.7558 ms
+14:07:36 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 331.6177 ms
+14:08:54 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 48095.5360 ms
+14:09:24 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 30153.0001 ms
+14:09:46 [EROR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'TardinessPolicy' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.AddAsync(Object entity, CancellationToken cancellationToken)
+   at BuildingBlocks.MultiTenancy.MultiTenantBaseContext.AddEntity(Object entity, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultiTenantBaseContext.cs:line 79
+   at Catalog.Base.Features.CatalogApi.CreateEntityFromJson(CatalogService service, CreateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 219
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+14:09:46 [EROR] HTTP POST /catalog/dynamic-create-object responded 500 in 21603.8589 ms
+14:21:18 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:21:19 [INFO] Now listening on: https://localhost:7129
+14:21:19 [INFO] Now listening on: http://localhost:5299
+14:21:19 [INFO] Application started. Press Ctrl+C to shut down.
+14:21:19 [INFO] Hosting environment: Development
+14:21:19 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:21:20 [INFO] HTTP GET / responded 302 in 368.7438 ms
+14:21:20 [INFO] HTTP GET /scalar/v1 responded 200 in 67.9231 ms
+14:21:20 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:21:20 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:21:20 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 13.4708 ms
+14:21:20 [INFO] HTTP GET /scalar/scalar.js responded 200 in 27.8887 ms
+14:21:20 [INFO] HTTP GET /openapi/v1.json responded 200 in 173.1746 ms
+14:21:20 [INFO] HTTP GET /openapi/v1.json responded 200 in 39.2182 ms
+14:22:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2032.8605 ms
+14:22:31 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 147.7194 ms
+14:25:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 283.7906 ms
+14:25:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 284.4126 ms
+14:26:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 136.4074 ms
+14:26:03 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 71.3661 ms
+14:26:03 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 41.5632 ms
+14:26:37 [INFO] HTTP PUT /catalog/delete-catalog responded 200 in 302.1633 ms
+14:26:38 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 167.0423 ms
+14:26:39 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 94.6625 ms
+14:26:40 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 35.5856 ms
+14:26:40 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 125.3099 ms
+14:26:40 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 44.1914 ms
+14:27:23 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 6637.6870 ms
+14:27:26 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 3026.6436 ms
+14:27:37 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 11185.8225 ms
+14:32:19 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:32:20 [INFO] Now listening on: https://localhost:7129
+14:32:20 [INFO] Now listening on: http://localhost:5299
+14:32:20 [INFO] Application started. Press Ctrl+C to shut down.
+14:32:20 [INFO] Hosting environment: Development
+14:32:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:32:21 [INFO] HTTP GET / responded 302 in 298.1516 ms
+14:32:21 [INFO] HTTP GET /scalar/v1 responded 200 in 44.3176 ms
+14:32:21 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:32:21 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:32:21 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.4677 ms
+14:32:21 [INFO] HTTP GET /scalar/scalar.js responded 200 in 17.0305 ms
+14:32:21 [INFO] HTTP GET /openapi/v1.json responded 200 in 108.5128 ms
+14:32:21 [INFO] HTTP GET /openapi/v1.json responded 200 in 29.6527 ms
+14:37:19 [INFO] Usage Telemetry: {"id":"dc7c0000-20b7-2221-35a2-08de559a8bb8","created":"2026-01-17T14:32:19.0619449\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-17T14:32:19.0630627\u002B07:00","configured":"2026-01-17T14:32:19.0944191\u002B07:00","started":"2026-01-17T14:32:19.7674540\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+14:45:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 6536.2083 ms
+14:45:39 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 204.0017 ms
+14:45:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 247.3587 ms
+14:45:58 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 60.8267 ms
+14:45:58 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 37.4487 ms
+14:46:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 63.7881 ms
+14:46:04 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 274.3301 ms
+14:46:05 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 186.7154 ms
+14:46:05 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 32.4963 ms
+14:46:05 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 82.6379 ms
+14:46:05 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 211.2840 ms
+15:01:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1529.8915 ms
+15:01:29 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 144.6795 ms
+15:02:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 83.7066 ms
+15:02:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 52.3388 ms
+15:02:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.8175 ms
+15:03:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 819.3628 ms
+15:03:26 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 34.2846 ms
+15:03:26 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 29.6000 ms
+15:03:26 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 92.6843 ms
+15:03:26 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 28.5400 ms
+15:03:26 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 61.2725 ms
+15:09:38 [INFO] HTTP GET /catalog/SmartOption responded 200 in 7870.5719 ms
+15:09:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 284.4906 ms
+15:09:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1555.8642 ms
+15:09:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.6457 ms
+15:09:59 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 1251.9919 ms
+15:11:06 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 841.5970 ms
+15:11:13 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 6532.9158 ms
+15:11:33 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 882.8632 ms
+15:12:27 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 70.3685 ms
+15:12:31 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 29.6102 ms
+15:12:38 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 53.0815 ms
+15:13:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 178.0757 ms
+15:13:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 242.6499 ms
+15:14:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 95.4616 ms
+15:14:53 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 556.8989 ms
+15:14:53 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 461.9351 ms
+15:14:59 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 81.1751 ms
+15:14:59 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 175.6675 ms
+15:14:59 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 44.1018 ms
+15:14:59 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 48.0964 ms
+15:14:59 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 123.0026 ms
+15:14:59 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 133.7389 ms
+15:15:22 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:15:22 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 353.9191 ms
+15:15:22 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 82.0012 ms
+15:15:22 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP002","nameTardiness":"Kh\u00F4ng tr\u1EEB c\u00F4ng, v\u1EABn t\u00EDnh \u0111i mu\u1ED9n","beginMinute":1,"endMinute":4,"exedTime":null,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:15:22 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 121.2120 ms
+15:15:23 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP001","nameTardiness":"Kh\u00F4ng tr\u1EEB c\u00F4ng, kh\u00F4ng t\u00EDnh \u0111i mu\u1ED9n","beginMinute":3,"endMinute":3,"exedTime":null,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:15:23 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 88.2041 ms
+15:15:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.1161 ms
+15:15:32 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 32.9057 ms
+15:15:32 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 71.2734 ms
+15:15:32 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 26.4783 ms
+15:15:32 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 26.7818 ms
+15:15:32 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 102.7007 ms
+15:15:32 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 90.5125 ms
+15:16:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.1489 ms
+15:16:07 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 33.6936 ms
+15:16:07 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 66.7377 ms
+15:16:07 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 32.2741 ms
+15:16:07 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.5165 ms
+15:16:08 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 45.6732 ms
+15:16:19 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:16:19 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 64.5527 ms
+15:16:28 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 127.6692 ms
+15:19:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 301.5009 ms
+15:19:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 58.3584 ms
+15:19:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 52.8602 ms
+15:19:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.9813 ms
+15:19:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.2377 ms
+15:19:53 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 54.5338 ms
+15:19:54 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 73.0575 ms
+15:19:54 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 26.8048 ms
+15:19:54 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 41.8897 ms
+15:19:54 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 26.1359 ms
+15:19:54 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 133.0738 ms
+15:20:06 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:20:06 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 204.2157 ms
+15:20:35 [INFO] HTTP GET /catalog/SmartOption responded 200 in 134.5160 ms
+15:20:36 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 78.6564 ms
+15:22:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 65.3929 ms
+15:22:22 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 400.3500 ms
+15:24:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 99.3482 ms
+15:24:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 44.9398 ms
+15:26:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 80.6408 ms
+15:26:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.0918 ms
+15:26:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.2718 ms
+15:27:11 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 98.7298 ms
+15:27:12 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 195.8240 ms
+15:27:12 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 52.9555 ms
+15:27:12 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 248.1463 ms
+15:27:13 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 101.4486 ms
+15:27:13 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 122.4225 ms
+15:27:27 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:27:27 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 67.5186 ms
+15:27:32 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 52.6626 ms
+15:27:53 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 162.8505 ms
+15:27:53 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP001","nameTardiness":"Kh\u00F4ng tr\u1EEB c\u00F4ng, kh\u00F4ng t\u00EDnh \u0111i mu\u1ED9n","beginMinute":3,"endMinute":3,"exedTime":null,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:27:53 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 60.0386 ms
+15:28:01 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 140.3171 ms
+15:28:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 50.6986 ms
+15:28:04 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 73.3017 ms
+15:28:04 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 31.2478 ms
+15:28:04 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 35.9694 ms
+15:28:04 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 38.8632 ms
+15:28:04 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 45.4858 ms
+15:28:20 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:28:20 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 37.2538 ms
+15:28:24 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 42.3964 ms
+15:28:33 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"38443bb4-217b-4acd-9456-21722236ce3a","idAsc":2,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP002","nameTardiness":"Kh\u00F4ng tr\u1EEB c\u00F4ng, v\u1EABn t\u00EDnh \u0111i mu\u1ED9n","beginMinute":2,"endMinute":7,"exedTime":null,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:28:33 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 42.4089 ms
+15:28:33 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP001","nameTardiness":"Kh\u00F4ng tr\u1EEB c\u00F4ng, kh\u00F4ng t\u00EDnh \u0111i mu\u1ED9n","beginMinute":4,"endMinute":3,"exedTime":null,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:28:33 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 37.8803 ms
+15:28:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 327.8403 ms
+15:28:40 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 153.7279 ms
+15:28:40 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 194.4783 ms
+15:28:40 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 92.1013 ms
+15:28:40 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 28.2471 ms
+15:28:40 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 28.7821 ms
+15:28:54 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:28:54 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 36.6134 ms
+15:28:57 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 43.4389 ms
+15:28:57 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"38443bb4-217b-4acd-9456-21722236ce3a","idAsc":2,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP002","nameTardiness":"Kh\u00F4ng tr\u1EEB c\u00F4ng, v\u1EABn t\u00EDnh \u0111i mu\u1ED9n","beginMinute":2,"endMinute":7,"exedTime":null,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:28:57 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 112.2933 ms
+15:28:57 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":4,"endMinute":3,"exedTime":1,"exedDate":null,"notes":null,"isSpecTime":true}'.
+15:28:57 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 33.4614 ms
+15:29:06 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 88.6825 ms
+15:29:07 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 291.1929 ms
+15:29:07 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 30.7902 ms
+15:29:07 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 570.0448 ms
+15:29:07 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.7870 ms
+15:29:07 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 53.7268 ms
+15:47:54 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:47:55 [INFO] Now listening on: https://localhost:7129
+15:47:55 [INFO] Now listening on: http://localhost:5299
+15:47:55 [INFO] Application started. Press Ctrl+C to shut down.
+15:47:55 [INFO] Hosting environment: Development
+15:47:55 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:47:57 [INFO] HTTP GET / responded 302 in 1553.1949 ms
+15:47:57 [INFO] HTTP GET /scalar/v1 responded 200 in 54.3015 ms
+15:47:57 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:47:57 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:47:57 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.0210 ms
+15:47:57 [INFO] HTTP GET /scalar/scalar.js responded 200 in 23.4065 ms
+15:47:57 [INFO] HTTP GET /openapi/v1.json responded 200 in 90.7258 ms
+15:47:57 [INFO] HTTP GET /openapi/v1.json responded 200 in 18.2900 ms
+15:50:24 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2359.5683 ms
+15:50:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 48.1594 ms
+15:50:46 [INFO] HTTP GET /catalog/SmartOption responded 200 in 155.2506 ms
+15:50:46 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 45.3284 ms
+15:50:46 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 35.4960 ms
+15:51:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.0545 ms
+15:51:29 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 40.3411 ms
+15:51:29 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 48.8504 ms
+15:51:29 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 109.6409 ms
+15:51:30 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 90.4734 ms
+15:51:30 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.8918 ms
+15:51:34 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 117.6918 ms
+15:51:35 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 34.5933 ms
+15:51:35 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 122.3892 ms
+15:51:35 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 29.6776 ms
+15:51:35 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 37.9945 ms
+15:51:35 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 38.5201 ms
+15:52:49 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 73.2637 ms
+15:52:49 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 89.7442 ms
+15:52:50 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 94.0378 ms
+15:52:50 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 47.3832 ms
+15:52:50 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.0663 ms
+15:52:50 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 35.8839 ms
+15:52:54 [INFO] Usage Telemetry: {"id":"a83e0000-20b7-2221-eea7-08de55a51acc","created":"2026-01-17T15:47:54.0792711\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-17T15:47:54.0809999\u002B07:00","configured":"2026-01-17T15:47:54.1206051\u002B07:00","started":"2026-01-17T15:47:54.5942382\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+15:53:07 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"dsadsa","shiftName":"dsads","beginTime":"2026-01-17T01:00:00","endTime":"2026-01-17T03:00:00","codeWarehose":null,"nameWarehose":null,"notes":null,"isActive":true,"id":"dcd10239-8fe9-4681-8920-453e3aa5c0a9","codeUnit":888,"isCheckInDotting":true,"isCheckOutDotting":true,"beginCheckIn":"2026-01-17T00:30:00","endCheckIn":"2026-01-17T02:00:00","beginCheckOut":"2026-01-17T04:00:00","endCheckOut":"2026-01-17T04:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":0,"payRollDaysOfWork":0,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":0,"payRollDaysOfWorkEx":0,"payrollRegularRate":0,"payrollHolidayRate":0,"payrollDayOffRate":0,"compensationForHolidays":0,"payrollRegularRateEx":0,"payrollHolidayRateEx":0,"payrollDayOffRateEx":0,"isPenalizeNoCheckIn":false,"isPenalizeNoCheckOut":false,"deductedDaysCaseCheckIn":0,"deductedHoursCaseCheckIn":0,"deductedDaysCaseCheckOut":0,"deductedHoursCaseCheckOut":0,"codeRoom":null,"nameRooom":null,"requireBreakCheckIn":null,"isRequireBreakCheckOut":null,"breakEndTime":null,"breakStartTime":null,"isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":null,"checkInBreakEndTime":null,"checkOutBreakStartTime":null,"checkOutBreakEndTime":null}'.
+15:53:07 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 375.8012 ms
+15:53:07 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"dsadsa","shiftName":"dsads","beginTime":"2026-01-17T01:00:00","endTime":"2026-01-17T03:00:00","codeWarehose":null,"nameWarehose":null,"notes":null,"isActive":true,"id":"dcd10239-8fe9-4681-8920-453e3aa5c0a9","codeUnit":888,"isCheckInDotting":true,"isCheckOutDotting":true,"beginCheckIn":"2026-01-17T00:30:00","endCheckIn":"2026-01-17T02:00:00","beginCheckOut":"2026-01-17T04:00:00","endCheckOut":"2026-01-17T04:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":0,"payRollDaysOfWork":0,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":0,"payRollDaysOfWorkEx":0,"payrollRegularRate":0,"payrollHolidayRate":0,"payrollDayOffRate":0,"compensationForHolidays":0,"payrollRegularRateEx":0,"payrollHolidayRateEx":0,"payrollDayOffRateEx":0,"isPenalizeNoCheckIn":false,"isPenalizeNoCheckOut":false,"deductedDaysCaseCheckIn":0,"deductedHoursCaseCheckIn":0,"deductedDaysCaseCheckOut":0,"deductedHoursCaseCheckOut":0,"codeRoom":null,"nameRooom":null,"requireBreakCheckIn":null,"isRequireBreakCheckOut":null,"breakEndTime":null,"breakStartTime":null,"isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":null,"checkInBreakEndTime":null,"checkOutBreakStartTime":null,"checkOutBreakEndTime":null}'.
+15:53:07 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 39.3297 ms
+15:53:07 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+15:53:07 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 225.8417 ms
+15:53:07 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 47.6950 ms
+15:53:07 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"38443bb4-217b-4acd-9456-21722236ce3a","idAsc":2,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":2,"endMinute":7,"exedTime":1,"exedDate":3,"notes":null,"isSpecTime":true}'.
+15:53:07 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 173.9172 ms
+15:53:07 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":4,"endMinute":3,"exedTime":1,"exedDate":null,"notes":null,"isSpecTime":false}'.
+15:53:07 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 49.6152 ms
+15:53:13 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 127.0571 ms
+15:53:13 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 109.7487 ms
+15:53:13 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 42.9417 ms
+15:53:14 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 30.3046 ms
+15:53:14 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 27.2165 ms
+15:53:14 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 48.0348 ms
+16:16:15 [INFO] HTTP GET /catalog/SmartOption responded 200 in 5204.3499 ms
+16:16:15 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 305.8424 ms
+16:17:24 [INFO] HTTP GET /catalog/SmartOption responded 200 in 47.3895 ms
+16:17:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.7976 ms
+16:17:25 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 39.7779 ms
+16:20:11 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 63.5568 ms
+16:20:12 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 261.1487 ms
+16:20:12 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 80.1289 ms
+16:20:12 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 456.2801 ms
+16:20:12 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 33.2874 ms
+16:20:12 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 31.4842 ms
+16:21:19 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: t. Path 'isOverTime', line 1, position 259.
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsDouble()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.UpdateDynamicObject(CatalogService service, UpdateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 165
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:21:19 [EROR] HTTP PUT /catalog/dynamic-update-object responded 500 in 91.1595 ms
+16:21:19 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 36.2879 ms
+16:21:19 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"38443bb4-217b-4acd-9456-21722236ce3a","idAsc":2,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":2,"endMinute":7,"exedTime":1,"exedDate":3,"notes":null,"isSpecTime":true}'.
+16:21:19 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 36.4701 ms
+16:21:19 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":4,"endMinute":3,"exedTime":1,"exedDate":null,"notes":null,"isSpecTime":false}'.
+16:21:19 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 57.7896 ms
+16:21:19 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 30.0023 ms
+16:21:19 [INFO] HTTP POST /catalog/dynamic-create-object responded 200 in 242.7811 ms
+16:21:34 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: t. Path 'isOverTime', line 1, position 259.
+   at Newtonsoft.Json.JsonTextReader.ReadNumberValue(ReadType readType)
+   at Newtonsoft.Json.JsonTextReader.ReadAsDouble()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.UpdateDynamicObject(CatalogService service, UpdateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 165
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:21:34 [EROR] HTTP PUT /catalog/dynamic-update-object responded 500 in 374.0736 ms
+16:21:34 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 98.8812 ms
+16:21:34 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"38443bb4-217b-4acd-9456-21722236ce3a","idAsc":2,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":2,"endMinute":7,"exedTime":1,"exedDate":3,"notes":null,"isSpecTime":true}'.
+16:21:34 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 35.7658 ms
+16:21:34 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":4,"endMinute":3,"exedTime":1,"exedDate":null,"notes":null,"isSpecTime":false}'.
+16:21:34 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 33.8543 ms
+16:21:34 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 220.2172 ms
+16:21:34 [INFO] User: 'ADMIN' Edited data with type: 'CalculateMerit' content: '{"id":"1698a2c0-2c6e-4be6-9c1c-a43d22aa72d5","calculateCode":null,"codeRoom":null,"codeUnit":null,"dataType":"EAT","beginMerit":1,"endMerit":null,"beginHours":null,"endHours":1,"eatWorkShift":1,"salaryType":null,"appyFor":null,"allWeek":true,"monday":null,"tuesday":null,"wednesday":null,"thursday":null,"friday":null,"saturday":null,"sunday":null,"codeShiftsAdvanced":"dsadsa"}'.
+16:21:34 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 41.0060 ms
+16:23:08 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 82.8261 ms
+16:23:10 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 1713.7919 ms
+16:23:10 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 464.9745 ms
+16:23:13 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 2500.8864 ms
+16:23:13 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 123.3891 ms
+16:23:13 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 98.3832 ms
+16:23:55 [INFO] User: 'ADMIN' Edited data with type: 'SaleShiftsAdvanced' content: '{"id":"7400f7d5-6309-432f-9c9b-08de5593d6c2","idAsc":5,"codeUnit":null,"shiftCode":"dsadsa","shiftName":"dsadas","allowLateEarly":null,"lateArrivalMinutes":null,"allowedEarlyMinutes":null,"isPenalizeLateArrival":true,"isPenalizeEarlyLeave":true,"isOverTime":null,"isBeforeShift":null,"isAfterShift":null,"isBeforeWorkShift":null,"isBeforeTheSpecificTime":null,"beforeTheSpecificTime":null,"isBeforeRequireOvertimeCheckInAndCheckOut":null,"overCheckinBegin":null,"overCheckOutEnd":null,"isAfterWorkShift":null,"isAfterTheSpecificTime":null,"afterTheSpecificTime":null,"isAfterRequireOvertimeAttendance":null,"isRestBetweenShifts":null,"isShiftMeal":null,"codeSalaryPaid":null,"nameSalaryPaid":null,"isBasedOnPayrollDays":null,"isBasedOnActualDays":null,"isManeuveringWork":null,"createBy":null,"createDate":null,"modifyBy":null,"moddifyDate":null,"isPaidLeaveForTheEntireShift":false,"isPaidLeaveForThePartShift":false,"isTheEntireShiftOnBusinessTrips":false,"isThePartShiftOnBusinessTrips":false}'.
+16:23:55 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 294.4142 ms
+16:23:55 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 123.1819 ms
+16:23:55 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"38443bb4-217b-4acd-9456-21722236ce3a","idAsc":2,"dataType":"EARLY","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":2,"endMinute":7,"exedTime":1,"exedDate":3,"notes":null,"isSpecTime":true}'.
+16:23:55 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 31.7448 ms
+16:23:56 [INFO] User: 'ADMIN' Edited data with type: 'TardinessPolicy' content: '{"id":"462f8b68-91d4-4d68-9fcb-4872197169ea","idAsc":1,"dataType":"LATE","codeShift":"dsadsa","tardinessPolicyCode":null,"tardinessPolicyName":null,"codeTardiness":"TP003","nameTardiness":"Tr\u1EEB c\u00F4ng theo s\u1ED1 c\u1ED1 \u0111\u1ECBnh","beginMinute":4,"endMinute":3,"exedTime":1,"exedDate":null,"notes":null,"isSpecTime":false}'.
+16:23:56 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 1176.9775 ms
+16:23:56 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 26.3254 ms
+16:23:56 [INFO] User: 'ADMIN' Edited data with type: 'CalculateMerit' content: '{"id":"1698a2c0-2c6e-4be6-9c1c-a43d22aa72d5","calculateCode":null,"codeRoom":null,"codeUnit":null,"dataType":"EAT","beginMerit":1,"endMerit":null,"beginHours":null,"endHours":1,"eatWorkShift":1,"salaryType":null,"appyFor":null,"allWeek":true,"monday":null,"tuesday":null,"wednesday":null,"thursday":null,"friday":null,"saturday":null,"sunday":null,"codeShiftsAdvanced":"dsadsa"}'.
+16:23:56 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 34.4493 ms
+16:24:03 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 55.3636 ms
+16:24:03 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 40.8357 ms
+16:24:03 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 29.2249 ms
+16:24:03 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 56.0560 ms
+16:24:03 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 29.2471 ms
+16:24:03 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 24.1580 ms

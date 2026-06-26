@@ -1,0 +1,175 @@
+﻿08:39:48 [INFO] Now listening on: https://localhost:5244
+08:39:48 [INFO] Now listening on: http://localhost:5224
+08:39:48 [INFO] Application started. Press Ctrl+C to shut down.
+08:39:48 [INFO] Hosting environment: Development
+08:39:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+08:39:51 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:39:51 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:41:35 [INFO] Now listening on: https://localhost:5244
+08:41:35 [INFO] Now listening on: http://localhost:5224
+08:41:36 [INFO] Application started. Press Ctrl+C to shut down.
+08:41:36 [INFO] Hosting environment: Development
+08:41:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+08:41:36 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:41:36 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:52:08 [INFO] Now listening on: https://localhost:5244
+09:52:08 [INFO] Now listening on: http://localhost:5224
+09:52:08 [INFO] Application started. Press Ctrl+C to shut down.
+09:52:08 [INFO] Hosting environment: Development
+09:52:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+09:52:09 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:52:09 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:18:59 [INFO] Now listening on: https://localhost:5244
+10:19:00 [INFO] Now listening on: http://localhost:5224
+10:19:00 [INFO] Application started. Press Ctrl+C to shut down.
+10:19:00 [INFO] Hosting environment: Development
+10:19:00 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+10:19:00 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:19:00 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:33:49 [INFO] Now listening on: https://localhost:5244
+13:33:49 [INFO] Now listening on: http://localhost:5224
+13:33:49 [INFO] Application started. Press Ctrl+C to shut down.
+13:33:49 [INFO] Hosting environment: Development
+13:33:49 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+13:33:49 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:33:49 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:36:52 [INFO] Now listening on: https://localhost:5244
+13:36:52 [INFO] Now listening on: http://localhost:5224
+13:36:52 [INFO] Application started. Press Ctrl+C to shut down.
+13:36:52 [INFO] Hosting environment: Development
+13:36:52 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+13:36:53 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:36:53 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:57:11 [INFO] Now listening on: https://localhost:5244
+13:57:11 [INFO] Now listening on: http://localhost:5224
+13:57:11 [INFO] Application started. Press Ctrl+C to shut down.
+13:57:11 [INFO] Hosting environment: Development
+13:57:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+13:57:12 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:57:12 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:58:19 [INFO] Now listening on: https://localhost:5244
+13:58:19 [INFO] Now listening on: http://localhost:5224
+13:58:19 [INFO] Application started. Press Ctrl+C to shut down.
+13:58:19 [INFO] Hosting environment: Development
+13:58:19 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+13:58:20 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:58:20 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:25:19 [INFO] Now listening on: https://localhost:5244
+14:25:19 [INFO] Now listening on: http://localhost:5224
+14:25:19 [INFO] Application started. Press Ctrl+C to shut down.
+14:25:19 [INFO] Hosting environment: Development
+14:25:19 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+14:25:19 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:25:19 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:32:20 [INFO] Now listening on: https://localhost:5244
+14:32:20 [INFO] Now listening on: http://localhost:5224
+14:32:20 [INFO] Application started. Press Ctrl+C to shut down.
+14:32:20 [INFO] Hosting environment: Development
+14:32:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+14:32:20 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:32:20 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:50:47 [INFO] Now listening on: https://localhost:5244
+14:50:48 [INFO] Now listening on: http://localhost:5224
+14:50:48 [INFO] Application started. Press Ctrl+C to shut down.
+14:50:48 [INFO] Hosting environment: Development
+14:50:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+14:50:49 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:50:49 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:56:54 [INFO] Now listening on: https://localhost:5244
+14:56:54 [INFO] Now listening on: http://localhost:5224
+14:56:54 [INFO] Application started. Press Ctrl+C to shut down.
+14:56:54 [INFO] Hosting environment: Development
+14:56:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+14:56:54 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:56:54 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:11:37 [INFO] Now listening on: https://localhost:5244
+15:11:37 [INFO] Now listening on: http://localhost:5224
+15:11:37 [INFO] Application started. Press Ctrl+C to shut down.
+15:11:37 [INFO] Hosting environment: Development
+15:11:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+15:11:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:11:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:17:33 [INFO] Now listening on: https://localhost:5244
+15:17:33 [INFO] Now listening on: http://localhost:5224
+15:17:33 [INFO] Application started. Press Ctrl+C to shut down.
+15:17:33 [INFO] Hosting environment: Development
+15:17:33 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+15:17:34 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:17:34 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:30:16 [INFO] Now listening on: https://localhost:5244
+15:30:16 [INFO] Now listening on: http://localhost:5224
+15:30:16 [INFO] Application started. Press Ctrl+C to shut down.
+15:30:16 [INFO] Hosting environment: Development
+15:30:16 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+15:30:18 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:30:18 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+20:53:02 [INFO] Now listening on: https://localhost:5244
+20:53:02 [INFO] Now listening on: http://localhost:5224
+20:53:02 [INFO] Application started. Press Ctrl+C to shut down.
+20:53:02 [INFO] Hosting environment: Development
+20:53:02 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+20:53:04 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+20:53:04 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+21:13:06 [INFO] Now listening on: https://localhost:5244
+21:13:06 [INFO] Now listening on: http://localhost:5224
+21:13:06 [INFO] Application started. Press Ctrl+C to shut down.
+21:13:06 [INFO] Hosting environment: Development
+21:13:06 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+21:13:07 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+21:13:07 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+21:47:01 [INFO] Now listening on: https://localhost:5244
+21:47:01 [INFO] Now listening on: http://localhost:5224
+21:47:01 [INFO] Application started. Press Ctrl+C to shut down.
+21:47:01 [INFO] Hosting environment: Development
+21:47:01 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+21:47:01 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+21:47:01 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:02:10 [INFO] Now listening on: https://localhost:5244
+22:02:10 [INFO] Now listening on: http://localhost:5224
+22:02:10 [INFO] Application started. Press Ctrl+C to shut down.
+22:02:10 [INFO] Hosting environment: Development
+22:02:10 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+22:02:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:02:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:19:27 [INFO] Now listening on: https://localhost:5244
+22:19:27 [INFO] Now listening on: http://localhost:5224
+22:19:27 [INFO] Application started. Press Ctrl+C to shut down.
+22:19:27 [INFO] Hosting environment: Development
+22:19:27 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+22:19:27 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:19:27 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:36:55 [INFO] Now listening on: https://localhost:5244
+22:36:55 [INFO] Now listening on: http://localhost:5224
+22:36:55 [INFO] Application started. Press Ctrl+C to shut down.
+22:36:55 [INFO] Hosting environment: Development
+22:36:55 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+22:36:57 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:36:57 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:42:14 [INFO] Now listening on: https://localhost:5244
+22:42:14 [INFO] Now listening on: http://localhost:5224
+22:42:14 [INFO] Application started. Press Ctrl+C to shut down.
+22:42:14 [INFO] Hosting environment: Development
+22:42:14 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+22:42:15 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:42:15 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:45:03 [INFO] Now listening on: https://localhost:5244
+22:45:03 [INFO] Now listening on: http://localhost:5224
+22:45:03 [INFO] Application started. Press Ctrl+C to shut down.
+22:45:03 [INFO] Hosting environment: Development
+22:45:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+22:45:04 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:45:04 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:49:11 [INFO] Now listening on: https://localhost:5244
+22:49:11 [INFO] Now listening on: http://localhost:5224
+22:49:11 [INFO] Application started. Press Ctrl+C to shut down.
+22:49:11 [INFO] Hosting environment: Development
+22:49:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+22:49:12 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+22:49:12 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+23:17:08 [INFO] Now listening on: https://localhost:5244
+23:17:08 [INFO] Now listening on: http://localhost:5224
+23:17:08 [INFO] Application started. Press Ctrl+C to shut down.
+23:17:08 [INFO] Hosting environment: Development
+23:17:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FixedAsset\FixedAsset.API
+23:17:10 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+23:17:10 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.

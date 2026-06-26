@@ -1,0 +1,12 @@
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\bin\Debug\net9.0\Salary.deps.json
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\bin\Debug\net9.0\Salary.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\bin\Debug\net9.0\Salary.pdb
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.csproj.AssemblyReference.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.AssemblyInfoInputs.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.AssemblyInfo.cs
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.csproj.CoreCompileInputs.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\refint\Salary.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\Salary.pdb
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Salary\obj\Debug\net9.0\ref\Salary.dll

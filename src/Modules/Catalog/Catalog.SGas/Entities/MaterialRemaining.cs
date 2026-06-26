@@ -1,0 +1,31 @@
+﻿namespace Catalog.SGas.Entities;
+public class MaterialRemaining
+{
+    public string? AccountSymbol { get; set; }
+    public string? WarehoseCode { get; set; }
+    public string? WarehoseName { get; set; }
+    public string? CommodityCode { get; set; }
+    public string? CommodityName { get; set; }
+    public string? UnitPcs { get; set; }
+    public string? UnitPackage { get; set; }
+    public double? ConversionFactor { get; set; }
+    public double? PackageQuantity { get; set; }
+    public double? QuantityOfInventory { get; set; }
+    public double? Quantity { get; set; }
+    public double? Quantity15 { get; set; }
+    public double? Price { get; set; }
+    public decimal? AmountOfMoney { get; set; }
+    public Guid Id { get; set; }= Guid.NewGuid();
+    public int? CodeUnit { get; set; } = 888;
+    public string? Notes { get; set; }
+    public bool IsActive { get; set; }
+    public Guid IdData { get; set; }
+    public double? QuantityThree { get; set; }
+    public double? QuantitySix { get; set; }
+    public double? QuantityNine { get; set; }
+    public double? QuantityYear { get; set; }
+    public double? QuantityOverYear { get; set; }
+    public string? ShipmentNumber { get; set; }
+    public DateTime? RecordDate { get; set; }
+
+}

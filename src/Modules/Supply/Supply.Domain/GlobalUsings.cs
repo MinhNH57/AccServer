@@ -1,0 +1,9 @@
+﻿global using MediatR;
+global using Supply.Domain.AggregatesModel.SUAdjustmentAggregate;
+global using Supply.Domain.AggregatesModel.SUAllocationAggregate;
+global using Supply.Domain.AggregatesModel.SUAuditAggregate;
+global using Supply.Domain.AggregatesModel.SUDecrementAggregate;
+global using Supply.Domain.AggregatesModel.SUIncrementAggregate;
+global using Supply.Domain.AggregatesModel.SUTransferAggregate;
+global using Supply.Domain.Events;
+global using Supply.Domain.SeedWork;

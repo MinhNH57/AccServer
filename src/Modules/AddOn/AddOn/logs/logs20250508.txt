@@ -1,0 +1,22 @@
+﻿08:30:59 [INFO] Now listening on: https://localhost:7134
+08:30:59 [INFO] Now listening on: http://localhost:5261
+08:30:59 [INFO] Application started. Press Ctrl+C to shut down.
+08:30:59 [INFO] Hosting environment: Development
+08:30:59 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\AddOn\AddOn
+08:31:01 [INFO] HTTP GET / responded 302 in 939.0909 ms
+08:31:01 [INFO] HTTP GET /scalar/v1 responded 200 in 55.8205 ms
+08:31:01 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 7.8342 ms
+08:31:01 [INFO] HTTP GET /scalar/scalar.js responded 304 in 7.8345 ms
+08:31:01 [INFO] HTTP GET /openapi/v1.json responded 200 in 75.0331 ms
+08:31:01 [INFO] HTTP GET /favicon.ico responded 404 in 1.4621 ms
+09:35:48 [INFO] Now listening on: https://localhost:7134
+09:35:48 [INFO] Now listening on: http://localhost:5261
+09:35:48 [INFO] Application started. Press Ctrl+C to shut down.
+09:35:48 [INFO] Hosting environment: Development
+09:35:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\AddOn\AddOn
+09:35:49 [INFO] HTTP GET / responded 302 in 179.8664 ms
+09:35:49 [INFO] HTTP GET /scalar/v1 responded 200 in 153.1952 ms
+09:35:49 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 304 in 8.2906 ms
+09:35:49 [INFO] HTTP GET /scalar/scalar.js responded 304 in 8.2903 ms
+09:35:49 [INFO] HTTP GET /openapi/v1.json responded 200 in 74.3451 ms
+09:35:50 [INFO] HTTP GET /favicon.ico responded 404 in 1.0049 ms

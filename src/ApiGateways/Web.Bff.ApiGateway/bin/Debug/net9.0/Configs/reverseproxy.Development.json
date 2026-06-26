@@ -1,0 +1,291 @@
+﻿{
+  "ReverseProxy": {
+    "Routes": {
+      "catalog-route": {
+        "ClusterId": "catalog-cluster",
+        "CorsPolicy": "web",
+        //"AuthorizationPolicy": "customPolicy",
+        "Match": {
+          "Path": "/catalog-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "identity-route": {
+        "ClusterId": "identity-cluster",
+        "CorsPolicy": "web",
+        //"AuthorizationPolicy": "customPolicy",
+        "Match": {
+          "Path": "/identity-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "system-route": {
+        "ClusterId": "system-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/system-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "{**catch-all}" }
+        ]
+      },
+      "cms-route": {
+        "ClusterId": "cms-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/cms-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "voucher-route": {
+        "ClusterId": "voucher-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/voucher-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "file-route": {
+        "ClusterId": "file-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/file-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "report-route": {
+        "ClusterId": "report-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/report-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "/{**catch-all}" },
+          { "PathRemovePrefix": "/report-service" }
+        ]
+      },
+      "addon-route": {
+        "ClusterId": "addon-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/addon-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "{**catch-all}" }
+        ]
+      },
+      "notification-route": {
+        "ClusterId": "notification-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "{**catch-all}" }
+        ]
+      },
+      "fixedasset-route": {
+        "ClusterId": "fixedasset-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/fixedasset-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "/api/fa/{**catch-all}" }
+        ]
+      },
+      "supply-route": {
+        "ClusterId": "supply-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/supply-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "/api/su/{**catch-all}" }
+        ]
+      },
+      "refno-route": {
+        "ClusterId": "refno-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/refno-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "/api/refno/{**catch-all}" }
+        ]
+      },
+      "ledger-route": {
+        "ClusterId": "ledger-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/ledger-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "/api/ledger/{**catch-all}" }
+        ]
+      },
+      "ref-route": {
+        "ClusterId": "ref-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/ref-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "/api/ref/{**catch-all}" }
+        ]
+      },
+        "salary-route": {
+            "ClusterId": "salary-cluster",
+            "CorsPolicy": "web",
+            "Match": {
+                "Path": "/salary-service/{**catch-all}"
+            },
+        "Transforms": [
+          { "PathPattern": "{**catch-all}" }
+        ]
+      },
+      "email-route": {
+        "ClusterId": "email-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/email-service/{**catch-all}"
+        },
+        "Transforms": [
+          { "PathPattern": "{**catch-all}" }
+        ]
+      }
+    },
+    "Clusters": {
+      "catalog-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7129"
+            //"Address": "https://apicatalog.smarttime.vn"
+
+          }
+        }
+      },
+      "identity-cluster": {
+        "Destinations": {
+          "destination1": {
+            //"Address": "https://localhost:5001"
+            "Address": "https://apiidentity.smarttime.vn"
+
+          }
+        }
+      },
+      "system-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7130"
+            //"Address": "https://apisystems.smarttime.vn"
+
+          }
+        }
+      },
+      "cms-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7131"
+            //"Address": "https://apicms.smarttime.vn"
+          }
+        }
+      },
+      "voucher-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7132"
+            //"Address": "https://apivoucher.smarttime.vn"
+
+          }
+        }
+      },
+      "file-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7135"
+            //"Address": "https://apifilehandle.smarttime.vn"
+
+          }
+        }
+      },
+      "addon-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7134"
+            //"Address": "https://apiaddon.smarttime.vn"
+
+          }
+        }
+      },
+      "report-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7136"
+            //"Address": "https://apireport.smarttime.vn"
+
+          }
+        }
+      },
+      "notification-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7137"
+            //"Address": "https://apinotification.smarttime.vn"
+
+          }
+        }
+      },
+      "fixedasset-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:5244"
+
+          }
+        }
+      },
+      "supply-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:5245"
+          }
+        }
+      },
+      "refno-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:5246"
+          }
+        }
+      },
+      "ledger-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:5247"
+          }
+        }
+      },
+      "ref-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:5248"
+          }
+        }
+      },
+      "salary-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7260"
+          }
+        }
+      },
+      "email-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "https://localhost:7191"
+          }
+        }
+      }
+    }
+  }
+}

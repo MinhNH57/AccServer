@@ -1,0 +1,281 @@
+﻿09:48:19 [INFO] Now listening on: https://localhost:7130
+09:48:19 [INFO] Now listening on: http://localhost:5165
+09:48:19 [INFO] Application started. Press Ctrl+C to shut down.
+09:48:19 [INFO] Hosting environment: Development
+09:48:19 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+10:11:54 [INFO] Now listening on: https://localhost:7130
+10:11:54 [INFO] Now listening on: http://localhost:5165
+10:11:54 [INFO] Application started. Press Ctrl+C to shut down.
+10:11:54 [INFO] Hosting environment: Development
+10:11:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+10:13:00 [INFO] HTTP GET /menu/get-by-code-user/STAFF2274 responded 200 in 3055.7921 ms
+10:13:11 [INFO] HTTP GET /menu/get-by-code-user/STAFF2274 responded 200 in 61.0102 ms
+13:16:20 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 554.0736 ms
+13:16:39 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:16:39 [INFO] Cache miss  for FindComponentSettingQuery
+13:16:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:16:40 [INFO] HTTP GET /cms/settings responded 200 in 1464.9234 ms
+13:16:42 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:16:42 [INFO] Cache hit  for FindComponentSettingQuery
+13:16:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:16:42 [INFO] HTTP GET /cms/settings responded 200 in 98.7553 ms
+13:34:52 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 2265.1596 ms
+13:35:24 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:35:25 [INFO] Cache hit  for FindComponentSettingQuery
+13:35:25 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:35:25 [INFO] HTTP GET /cms/settings responded 200 in 531.2373 ms
+13:38:44 [EROR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=18KiB, 5812ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET KT:0101526991:menu:ADMIN, inst: 0, qu: 0, qs: 1, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 18448, sync-ops: 2, async-ops: 32, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 12346.04, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=32892,Timers=4), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at Systems.Apis.MenuApi.GetMenuByUser(SystemService service, String tenantId, String codeUser, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems\Apis\MenuApi.cs:line 36
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+13:38:44 [EROR] HTTP GET /menu/get-by-code-user/ADMIN responded 500 in 6227.1154 ms
+13:38:49 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 499 in 4599.1222 ms
+13:39:08 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 2181.0955 ms
+13:40:45 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:40:45 [INFO] Cache hit  for FindComponentSettingQuery
+13:40:45 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:40:45 [INFO] HTTP GET /cms/settings responded 200 in 391.9048 ms
+13:41:32 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = RequiredPayment }
+13:41:34 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[Systems.Infrastructure.Entities.ComponentSetting]
+13:41:34 [INFO] HTTP GET /cms/settings/RequiredPayment responded 200 in 2237.0733 ms
+13:41:39 [INFO] [START] Handle request=FindColumnNamesQuery - Response=ApiResponse`1 - RequestData=FindColumnNamesQuery { TableId = View_RequirePaymentWithSign }
+13:41:39 [INFO] [END] Handler FindColumnNamesQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[System.String]
+13:41:39 [INFO] HTTP GET /cms/tables/View_RequirePaymentWithSign/column-names responded 200 in 224.6036 ms
+13:44:19 [INFO] HTTP POST /cms/settings/078e74cc-a52f-4040-be75-e40af0e7ad0f/generate-properties responded 200 in 375.4754 ms
+13:44:22 [INFO] HTTP PUT /cms/settings/078e74cc-a52f-4040-be75-e40af0e7ad0f responded 200 in 684.6719 ms
+13:44:25 [INFO] [START] Handle request=FindColumnNamesQuery - Response=ApiResponse`1 - RequestData=FindColumnNamesQuery { TableId = View_RequirePaymentWithSign }
+13:44:25 [INFO] [END] Handler FindColumnNamesQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[System.String]
+13:44:25 [INFO] HTTP GET /cms/tables/View_RequirePaymentWithSign/column-names responded 200 in 35.8975 ms
+13:44:30 [INFO] HTTP PUT /cms/settings/078e74cc-a52f-4040-be75-e40af0e7ad0f responded 200 in 282.4801 ms
+13:44:31 [INFO] HTTP POST /cms/settings/078e74cc-a52f-4040-be75-e40af0e7ad0f/generate-properties responded 200 in 322.6514 ms
+13:44:37 [INFO] HTTP PUT /cms/settings/078e74cc-a52f-4040-be75-e40af0e7ad0f responded 200 in 107.7234 ms
+13:45:15 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 190.7488 ms
+13:45:21 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:45:21 [INFO] Cache miss  for FindComponentSettingQuery
+13:45:21 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:45:21 [INFO] HTTP GET /cms/settings responded 200 in 292.1461 ms
+13:47:24 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 435.4609 ms
+13:47:31 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:47:31 [INFO] Cache hit  for FindComponentSettingQuery
+13:47:31 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:47:31 [INFO] HTTP GET /cms/settings responded 200 in 89.7994 ms
+13:49:41 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 37.6997 ms
+13:49:58 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:49:58 [INFO] Cache hit  for FindComponentSettingQuery
+13:49:58 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:49:58 [INFO] HTTP GET /cms/settings responded 200 in 165.3841 ms
+13:50:00 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 398.9540 ms
+13:50:02 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:50:03 [INFO] Cache hit  for FindComponentSettingQuery
+13:50:03 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:50:03 [INFO] HTTP GET /cms/settings responded 200 in 321.8106 ms
+14:44:50 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:PurchasePurpose,Cbb_CatalogObject,Cbb_CatalogMethodOfPayments,Cbb_CatalogStatistical,Warehouse,Cbb_Currency,RequiredPaymentDetail,HeadInputInv,RPaymentFile,PaymentMoney,PaymentPlan,TravelExpenses,Cbb_CatalogBankAccount,PUOrderFile,Cbb_CatalogContract,Cbb_CatalogRevExp,Cbb_CatalogJob,SourcePayment, TypeName = , Expiration = 03:00:00 }
+14:44:50 [INFO] Cache miss  for FindComponentSettingQuery
+14:44:51 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:44:51 [INFO] HTTP GET /cms/settings responded 200 in 772.9347 ms
+14:51:58 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 332.0485 ms
+14:52:05 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:52:05 [INFO] Cache miss  for FindComponentSettingQuery
+14:52:07 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:52:07 [INFO] HTTP GET /cms/settings responded 200 in 1697.9164 ms
+14:56:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 335.6068 ms
+14:56:23 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:56:23 [INFO] Cache hit  for FindComponentSettingQuery
+14:56:23 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:56:23 [INFO] HTTP GET /cms/settings responded 200 in 176.5142 ms
+15:09:58 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 825.9946 ms
+15:10:17 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:10:18 [INFO] Cache hit  for FindComponentSettingQuery
+15:10:18 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:10:18 [INFO] HTTP GET /cms/settings responded 200 in 1590.6086 ms
+15:13:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:13:26 [INFO] Cache hit  for FindComponentSettingQuery
+15:13:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:13:26 [INFO] HTTP GET /cms/settings responded 200 in 34.8035 ms
+15:13:44 [INFO] HTTP GET /tenants/get-by-id/0101526991 responded 200 in 61.5568 ms
+15:13:45 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 204.9644 ms
+15:14:02 [INFO] HTTP GET /menu/get-by-code-user/RD01904 responded 200 in 143.7631 ms
+15:14:06 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:14:06 [INFO] Cache hit  for FindComponentSettingQuery
+15:14:06 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:14:06 [INFO] HTTP GET /cms/settings responded 200 in 192.3065 ms
+15:14:09 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:PurchasePurpose,Cbb_CatalogObject,Cbb_CatalogMethodOfPayments,Cbb_CatalogStatistical,Warehouse,Cbb_Currency,RequiredPaymentDetail,HeadInputInv,RPaymentFile,PaymentMoney,PaymentPlan,TravelExpenses,Cbb_CatalogBankAccount,PUOrderFile,Cbb_CatalogContract,Cbb_CatalogRevExp,Cbb_CatalogJob,SourcePayment, TypeName = , Expiration = 03:00:00 }
+15:14:10 [INFO] Cache hit  for FindComponentSettingQuery
+15:14:10 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:14:10 [INFO] HTTP GET /cms/settings responded 200 in 167.6509 ms
+15:14:50 [INFO] HTTP GET /tenants/get-by-id/0101526991 responded 200 in 15.0992 ms
+15:14:50 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 25.6029 ms
+15:14:55 [INFO] HTTP GET /menu/get-by-code-user/Khanh responded 200 in 85.6601 ms
+15:14:59 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:15:00 [INFO] Cache hit  for FindComponentSettingQuery
+15:15:00 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:15:00 [INFO] HTTP GET /cms/settings responded 200 in 87.8166 ms
+15:15:05 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:PurchasePurpose,Cbb_CatalogObject,Cbb_CatalogMethodOfPayments,Cbb_CatalogStatistical,Warehouse,Cbb_Currency,RequiredPaymentDetail,HeadInputInv,RPaymentFile,PaymentMoney,PaymentPlan,TravelExpenses,Cbb_CatalogBankAccount,PUOrderFile,Cbb_CatalogContract,Cbb_CatalogRevExp,Cbb_CatalogJob,SourcePayment, TypeName = , Expiration = 03:00:00 }
+15:15:06 [INFO] Cache hit  for FindComponentSettingQuery
+15:15:06 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:15:06 [INFO] HTTP GET /cms/settings responded 200 in 345.5978 ms
+15:15:39 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:PurchasePurpose,Cbb_CatalogObject,Cbb_CatalogMethodOfPayments,Cbb_CatalogStatistical,Warehouse,Cbb_Currency,RequiredPaymentDetail,HeadInputInv,RPaymentFile,PaymentMoney,PaymentPlan,TravelExpenses,Cbb_CatalogBankAccount,PUOrderFile,Cbb_CatalogContract,Cbb_CatalogRevExp,Cbb_CatalogJob,SourcePayment, TypeName = , Expiration = 03:00:00 }
+15:15:39 [INFO] Cache hit  for FindComponentSettingQuery
+15:15:39 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:15:39 [INFO] HTTP GET /cms/settings responded 200 in 83.3599 ms
+15:26:53 [INFO] Now listening on: https://localhost:7130
+15:26:53 [INFO] Now listening on: http://localhost:5165
+15:26:53 [INFO] Application started. Press Ctrl+C to shut down.
+15:26:53 [INFO] Hosting environment: Development
+15:26:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+15:27:49 [INFO] HTTP GET /menu/get-by-code-user/Khanh responded 200 in 2131.4113 ms
+15:28:02 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:28:04 [INFO] Cache hit  for FindComponentSettingQuery
+15:28:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:28:04 [INFO] HTTP GET /cms/settings responded 200 in 1907.6148 ms
+15:28:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:PurchasePurpose,Cbb_CatalogObject,Cbb_CatalogMethodOfPayments,Cbb_CatalogStatistical,Warehouse,Cbb_Currency,RequiredPaymentDetail,HeadInputInv,RPaymentFile,PaymentMoney,PaymentPlan,TravelExpenses,Cbb_CatalogBankAccount,PUOrderFile,Cbb_CatalogContract,Cbb_CatalogRevExp,Cbb_CatalogJob,SourcePayment, TypeName = , Expiration = 03:00:00 }
+15:28:29 [INFO] Cache hit  for FindComponentSettingQuery
+15:28:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:28:29 [INFO] HTTP GET /cms/settings responded 200 in 502.7806 ms
+15:28:43 [INFO] HTTP GET /tenants/get-by-id/0101526991 responded 200 in 13.9644 ms
+15:28:45 [INFO] HTTP GET /tenants/get-by-id/0101526991 responded 200 in 122.5767 ms
+15:28:45 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 2377.7074 ms
+15:28:46 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 323.3660 ms
+15:28:46 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 32.5882 ms
+15:28:46 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/0 responded 200 in 613.4226 ms
+15:28:57 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 676.8085 ms
+15:29:05 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:29:05 [INFO] Cache hit  for FindComponentSettingQuery
+15:29:05 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:29:05 [INFO] HTTP GET /cms/settings responded 200 in 173.5602 ms
+15:33:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1298.1274 ms
+15:33:54 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:33:54 [INFO] Cache hit  for FindComponentSettingQuery
+15:33:54 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:33:54 [INFO] HTTP GET /cms/settings responded 200 in 108.8288 ms
+15:47:30 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 237.7598 ms
+15:47:50 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:47:50 [INFO] Cache hit  for FindComponentSettingQuery
+15:47:50 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:47:50 [INFO] HTTP GET /cms/settings responded 200 in 54.8505 ms
+16:09:49 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1284.0115 ms
+16:09:55 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:10:06 [EROR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=8KiB, 5375ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, inst: 0, qu: 0, qs: 1, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 8284, sync-ops: 2, async-ops: 50, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 2532.17, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=7584,Timers=4), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetDataCacheAsync[T](IDistributedCache cache, String key, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 47
+   at BuildingBlocks.Behaviors.QueryCachingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\QueryCachingBehavior.cs:line 20
+   at BuildingBlocks.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\LoggingBehavior.cs:line 22
+   at Systems.Apis.CmsApi.FindComponentSetting(SystemService services, FilteringRequest filtering, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems\Apis\CmsApi.cs:line 134
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:10:06 [EROR] HTTP GET /cms/settings responded 500 in 12052.0729 ms
+16:10:39 [INFO] Now listening on: https://localhost:7130
+16:10:39 [INFO] Now listening on: http://localhost:5165
+16:10:39 [INFO] Application started. Press Ctrl+C to shut down.
+16:10:39 [INFO] Hosting environment: Development
+16:10:39 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+16:11:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1570.7263 ms
+16:11:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:11:29 [INFO] Cache hit  for FindComponentSettingQuery
+16:11:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:11:29 [INFO] HTTP GET /cms/settings responded 200 in 3009.8351 ms
+16:16:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 66.5870 ms
+16:16:35 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:16:35 [INFO] Cache hit  for FindComponentSettingQuery
+16:16:35 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:16:35 [INFO] HTTP GET /cms/settings responded 200 in 311.6714 ms
+16:18:13 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:18:16 [INFO] Cache hit  for FindComponentSettingQuery
+16:18:16 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:18:16 [INFO] HTTP GET /cms/settings responded 200 in 2968.1064 ms
+16:18:16 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 227.3851 ms
+16:25:06 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 108.2405 ms
+16:25:18 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:25:18 [INFO] Cache miss  for FindComponentSettingQuery
+16:25:20 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:25:20 [INFO] HTTP GET /cms/settings responded 200 in 1830.5025 ms
+16:27:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 28.7971 ms
+16:27:17 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:27:17 [INFO] Cache hit  for FindComponentSettingQuery
+16:27:17 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:27:17 [INFO] HTTP GET /cms/settings responded 200 in 150.2965 ms
+16:29:46 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 30.6050 ms
+16:29:56 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:29:56 [INFO] Cache hit  for FindComponentSettingQuery
+16:29:56 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:29:56 [INFO] HTTP GET /cms/settings responded 200 in 169.7216 ms
+16:31:49 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 41.3800 ms
+16:32:00 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:32:00 [INFO] Cache hit  for FindComponentSettingQuery
+16:32:00 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:32:00 [INFO] HTTP GET /cms/settings responded 200 in 213.1750 ms
+16:32:03 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:32:03 [INFO] Cache hit  for FindComponentSettingQuery
+16:32:03 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:32:03 [INFO] HTTP GET /cms/settings responded 200 in 97.6878 ms
+16:37:35 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 186.4302 ms
+16:37:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:37:38 [INFO] Cache hit  for FindComponentSettingQuery
+16:37:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:37:38 [INFO] HTTP GET /cms/settings responded 200 in 74.1375 ms
+16:37:45 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:37:45 [INFO] Cache hit  for FindComponentSettingQuery
+16:37:45 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:37:45 [INFO] HTTP GET /cms/settings responded 200 in 51.5761 ms
+16:39:35 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 54.6737 ms
+16:39:42 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:39:42 [INFO] Cache hit  for FindComponentSettingQuery
+16:39:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:39:42 [INFO] HTTP GET /cms/settings responded 200 in 262.6223 ms
+16:39:50 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:39:50 [INFO] Cache hit  for FindComponentSettingQuery
+16:39:50 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:39:50 [INFO] HTTP GET /cms/settings responded 200 in 235.6390 ms
+16:44:10 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 42.4173 ms
+16:44:20 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:44:20 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:20 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:20 [INFO] HTTP GET /cms/settings responded 200 in 122.1307 ms
+16:44:23 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:44:23 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:23 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:23 [INFO] HTTP GET /cms/settings responded 200 in 105.3879 ms
+16:49:18 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 39.3145 ms
+16:49:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:49:28 [INFO] Cache hit  for FindComponentSettingQuery
+16:49:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:49:28 [INFO] HTTP GET /cms/settings responded 200 in 52.8889 ms
+16:56:17 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 60.6121 ms
+16:56:25 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:56:25 [INFO] Cache hit  for FindComponentSettingQuery
+16:56:25 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:56:25 [INFO] HTTP GET /cms/settings responded 200 in 189.0522 ms
+17:00:14 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:00:14 [INFO] Cache hit  for FindComponentSettingQuery
+17:00:14 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:00:14 [INFO] HTTP GET /cms/settings responded 200 in 170.0003 ms
+17:13:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 68.6572 ms
+17:13:57 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:13:57 [INFO] Cache hit  for FindComponentSettingQuery
+17:13:57 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:13:57 [INFO] HTTP GET /cms/settings responded 200 in 121.9072 ms
+17:24:59 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:24:59 [INFO] Cache hit  for FindComponentSettingQuery
+17:24:59 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:24:59 [INFO] HTTP GET /cms/settings responded 200 in 342.4225 ms
+17:35:54 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 494.6526 ms
+17:39:01 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:39:01 [INFO] Cache hit  for FindComponentSettingQuery
+17:39:01 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:39:01 [INFO] HTTP GET /cms/settings responded 200 in 3165.6161 ms

@@ -1,0 +1,1421 @@
+[
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetOrganizationUnitSupplyTransferAsync",
+    "RelativePath": "api/su/v1/organization_unit_get/organization_unit_supply_transfer",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.OrganizationUnitSupplyTransfer, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Danh m\u1EE5c"
+    ],
+    "EndpointName": "GetOrganizationUnitSupplyTransfer",
+    "Description": "L\u1EA5y \u0111\u01A1n v\u1ECB s\u1EED d\u1EE5ng c\u1EE7a CCDC",
+    "Summary": "L\u1EA5y \u0111\u01A1n v\u1ECB s\u1EED d\u1EE5ng c\u1EE7a CCDC"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "DeleteSUAdjustmentBatchVoucherAsync",
+    "RelativePath": "api/su/v1/su_adjustment/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUAdjustmentDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.BatchVoucherResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u ch\u1EC9nh"
+    ],
+    "EndpointName": "DeleteSUAdjustment",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUAdjustmentDetailFullAsync",
+    "RelativePath": "api/su/v1/su_adjustment/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAdjustmentResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u ch\u1EC9nh"
+    ],
+    "EndpointName": "GetSUAdjustmentDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUAdjustmentGetSUAdjustmentAsync",
+    "RelativePath": "api/su/v1/su_adjustment/get_su_adjustment",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Supply.API.Application.Models.GetSUAdjustmentSupplyAvailableQuery",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUAdjustmentSupplyAvailable, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u ch\u1EC9nh"
+    ],
+    "EndpointName": "PostSUAdjustmentGetSUAdjustment",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 CCDC",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 CCDC"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUAdjustmentPagingFilterAsync",
+    "RelativePath": "api/su/v1/su_adjustment/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.Pagination\u00601[[Supply.API.Application.Models.SUAdjustmentDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u ch\u1EC9nh"
+    ],
+    "EndpointName": "PostSUAdjustmentPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUAdjustmentSaveFullAsync",
+    "RelativePath": "api/su/v1/su_adjustment/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAdjustmentCreateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u ch\u1EC9nh"
+    ],
+    "EndpointName": "PostSUAdjustmentSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PutSUAdjustmentSaveFullAsync",
+    "RelativePath": "api/su/v1/su_adjustment/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAdjustmentUpdateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u ch\u1EC9nh"
+    ],
+    "EndpointName": "PutSUAdjustmentSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "DeleteSUAllocationAsync",
+    "RelativePath": "api/su/v1/su_allocation/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUAllocationDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.BatchVoucherResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ph\u00E2n b\u1ED5 chi ph\u00ED"
+    ],
+    "EndpointName": "DeleteSUAllocation",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "CheckExistsSUAllocationAsync",
+    "RelativePath": "api/su/v1/su_allocation/check_exists_su_allocation",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUAllocationDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ph\u00E2n b\u1ED5 chi ph\u00ED"
+    ],
+    "EndpointName": "CheckExistsSUAllocation",
+    "Description": "Ki\u1EC3m tra c\u00F3 ph\u00E2n b\u1ED5 chi ph\u00ED CCDC kh\u00F4ng",
+    "Summary": "Ki\u1EC3m tra c\u00F3 ph\u00E2n b\u1ED5 chi ph\u00ED CCDC kh\u00F4ng"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUAllocationDetailFullAsync",
+    "RelativePath": "api/su/v1/su_allocation/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAllocationResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ph\u00E2n b\u1ED5 chi ph\u00ED"
+    ],
+    "EndpointName": "GetSUAllocationDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUAllocationSaveFullAsync",
+    "RelativePath": "api/su/v1/su_allocation/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAllocationCreateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ph\u00E2n b\u1ED5 chi ph\u00ED"
+    ],
+    "EndpointName": "PostSUAllocationSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PutSUAllocationSaveFullAsync",
+    "RelativePath": "api/su/v1/su_allocation/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAllocationUpdateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ph\u00E2n b\u1ED5 chi ph\u00ED"
+    ],
+    "EndpointName": "PutSUAllocationSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUAllocationExpenseAsync",
+    "RelativePath": "api/su/v1/su_allocation/su_allocation_expense",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAllocationExpenseResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ph\u00E2n b\u1ED5 chi ph\u00ED"
+    ],
+    "EndpointName": "GetSUAllocationDetail",
+    "Description": "L\u1EA5y chi ti\u1EBFt ph\u00E2n b\u1ED5 chi ph\u00ED CCDC",
+    "Summary": "L\u1EA5y chi ti\u1EBFt ph\u00E2n b\u1ED5 chi ph\u00ED CCDC"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "DeleteSUAuditBatchVoucherAsync",
+    "RelativePath": "api/su/v1/su_audit/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUAuditDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.BatchVoucherResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "DeleteSUAuditBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUAuditDetailFullAsync",
+    "RelativePath": "api/su/v1/su_audit/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAuditResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "GetSUAuditDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUAuditGetSupplyForAuditAsync",
+    "RelativePath": "api/su/v1/su_audit/get_supply_to_audit",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch_id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "audit_date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "is_management_book",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUAuditSupplyForAudit, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "GetSUAuditGetSupplyForAudit",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUAuditPagingFilterAsync",
+    "RelativePath": "api/su/v1/su_audit/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.Pagination\u00601[[Supply.API.Application.Models.SUAuditDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "PostSUAuditPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUAuditSaveFullAsync",
+    "RelativePath": "api/su/v1/su_audit/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAuditCreateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "PostSUAuditSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PutSUAuditSaveFullAsync",
+    "RelativePath": "api/su/v1/su_audit/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUAuditUpdateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "PutSUAuditSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUDecrementAvailableSupplyForDecrementAsync",
+    "RelativePath": "api/su/v1/su_decrement/available_supply_for_decrement",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Supply.API.Application.Models.GetAvailableSupplyForDecrementQuery",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUDecrementAvailableSupply, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m"
+    ],
+    "EndpointName": "PostSUDecrementAvailableSupplyForDecrement",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 CCDC c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 CCDC c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "DeleteSUDecrementBatchVoucherAsync",
+    "RelativePath": "api/su/v1/su_decrement/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUDecrementDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.BatchVoucherResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m"
+    ],
+    "EndpointName": "DeleteSUDecrementBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUDecrementDetailFullAsync",
+    "RelativePath": "api/su/v1/su_decrement/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUDecrementResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m"
+    ],
+    "EndpointName": "GetSUDecrementDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUDecrementPagingFilterAsync",
+    "RelativePath": "api/su/v1/su_decrement/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.Pagination\u00601[[Supply.API.Application.Models.SUDecrementDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m"
+    ],
+    "EndpointName": "PostSUDecrementPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUDecrementSaveFullAsync",
+    "RelativePath": "api/su/v1/su_decrement/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUDecrementCreateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m"
+    ],
+    "EndpointName": "PostSUDecrement",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PutSUDecrementSaveFullAsync",
+    "RelativePath": "api/su/v1/su_decrement/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUDecrementUpdateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m"
+    ],
+    "EndpointName": "PutSUDecrementSaveFullAsync",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUIncrementAllSupplyGroupAsync",
+    "RelativePath": "api/su/v1/su_increment/all_supply_group",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "GetSUIncrementAllSupplyGroup",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 nh\u00F3m CCDC",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 nh\u00F3m CCDC"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "DeleteSUIncrementBatchVoucherAsync",
+    "RelativePath": "api/su/v1/su_increment/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUIncrementDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.BatchVoucherResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "DeleteSUIncrementBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUIncrementDetailFullAsync",
+    "RelativePath": "api/su/v1/su_increment/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUIncrementResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "GetSUIncrementDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUIncrementSUArisingAsync",
+    "RelativePath": "api/su/v1/su_increment/get_su_arising",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.RelatedVoucher, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "GetSUIncrementSUArising",
+    "Description": "L\u1EA5y ch\u1EE9ng t\u1EEB ph\u00E1t sinh c\u1EE7a CCDC",
+    "Summary": "L\u1EA5y ch\u1EE9ng t\u1EEB ph\u00E1t sinh c\u1EE7a CCDC"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUIncrementNextValueAsync",
+    "RelativePath": "api/su/v1/su_increment/next_value",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "branch_id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ch\u1EE9ng t\u1EEB"
+    ],
+    "EndpointName": "GetSUIncrementNextValue",
+    "Description": "L\u1EA5y m\u00E3 CCDC ti\u1EBFp theo",
+    "Summary": "L\u1EA5y m\u00E3 CCDC ti\u1EBFp theo"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUIncrementPagingFilterAsync",
+    "RelativePath": "api/su/v1/su_increment/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.Pagination\u00601[[Supply.API.Application.Models.SUIncrementDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "PostSUIncrementPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUIncrementSaveFullAsync",
+    "RelativePath": "api/su/v1/su_increment/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUIncrementCreateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "PostSUIncrementSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PutSUIncrementSaveFullAsync",
+    "RelativePath": "api/su/v1/su_increment/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUIncrementUpdateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng"
+    ],
+    "EndpointName": "PutSUIncrementSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUListSupplyLedgerAsync",
+    "RelativePath": "api/su/v1/su_list/supply_ledger",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.Pagination\u00601[[Supply.API.Application.Models.SULedger, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "S\u1ED5 theo d\u00F5i CCDC"
+    ],
+    "EndpointName": "PostSUListSupplyLedger",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "DeleteSUTransferAsync",
+    "RelativePath": "api/su/v1/su_transfer/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SUTransferDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.BatchVoucherResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n"
+    ],
+    "EndpointName": "DeleteSUTransfer",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUTransferDetailFullAsync",
+    "RelativePath": "api/su/v1/su_transfer/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUTransferResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n"
+    ],
+    "EndpointName": "GetSUTransferDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "GetSUTransferSupplyTransferAsync",
+    "RelativePath": "api/su/v1/su_transfer/get_supply_transfer",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[Supply.API.Application.Models.SupplyTransfer, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n"
+    ],
+    "EndpointName": "GetSUTransferSupplyTransfer",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 CCDC \u0111i\u1EC1u chuy\u1EC3n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 CCDC \u0111i\u1EC1u chuy\u1EC3n"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUTransferPagingFilterAsync",
+    "RelativePath": "api/su/v1/su_transfer/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.Pagination\u00601[[Supply.API.Application.Models.SUTransferDto, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n"
+    ],
+    "EndpointName": "PostSUTransferPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PostSUTransferSaveFullAsync",
+    "RelativePath": "api/su/v1/su_transfer/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUTransferCreateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n"
+    ],
+    "EndpointName": "PostSUTransferSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "SuppliesApi",
+    "Method": "PutSUTransferSaveFullAsync",
+    "RelativePath": "api/su/v1/su_transfer/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Supply.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Supply.Domain.SeedWork.Response\u00601[[Supply.API.Application.Models.SUTransferUpdateResponse, Supply.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n"
+    ],
+    "EndpointName": "PutSUTransferSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  }
+]

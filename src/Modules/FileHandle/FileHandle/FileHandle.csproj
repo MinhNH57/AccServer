@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <SatelliteResourceLanguages>en-US;vi-VN</SatelliteResourceLanguages>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Reports\0104111441\DeNghiVay.rdlc">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BoldReports.CRI.Barcode" />
+        <PackageReference Include="BoldReports.Net.Core" />
+        <PackageReference Include="EPPlus" />
+        <PackageReference Include="MiniExcel" />
+        <PackageReference Include="Syncfusion.Blazor.FileManager" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks.Messaging\BuildingBlocks.Messaging.csproj" />
+        <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="key\public_key.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="EventHandlers\Extensions\" />
+      <Folder Include="Uploads\0109393468\" />
+      <Folder Include="Uploads\0109393468\120825\" />
+      <Folder Include="Uploads\0109393468\200925\" />
+      <Folder Include="Uploads\Courses\891\" />
+      <Folder Include="Uploads\Exam\" />
+      <Folder Include="Uploads\XINNGHI\100\" />
+      <Folder Include="wwwroot\Resources\" />
+    </ItemGroup>
+
+</Project>

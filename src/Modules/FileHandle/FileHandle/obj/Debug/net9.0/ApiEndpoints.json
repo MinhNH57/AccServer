@@ -1,0 +1,927 @@
+[
+  {
+    "ContainingType": "FileHandle.Controllers.FileManagerController",
+    "Method": "Download",
+    "RelativePath": "api/FileManager/Download",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "downloadInput",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileManagerController",
+    "Method": "FileOperations",
+    "RelativePath": "api/FileManager/FileOperations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "args",
+        "Type": "Syncfusion.EJ2.FileManager.Base.FileManagerDirectoryContent",
+        "IsRequired": true
+      },
+      {
+        "Name": "CodeUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileManagerController",
+    "Method": "GetImage",
+    "RelativePath": "api/FileManager/GetImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Names",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PreviousName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateModified",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateCreated",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HasChild",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsFile",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilterPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FilterId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RenameFiles",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CaseSensitive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShowHiddenItems",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Data",
+        "Type": "Syncfusion.EJ2.FileManager.Base.FileManagerDirectoryContent[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.NewName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Names",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Size",
+        "Type": "System.Nullable\u00601[[System.Int64, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.PreviousName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.DateModified",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.DateCreated",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.HasChild",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.IsFile",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.FilterPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.FilterId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.TargetPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.RenameFiles",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.UploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.CaseSensitive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.SearchString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.ShowHiddenItems",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Data",
+        "Type": "Syncfusion.EJ2.FileManager.Base.FileManagerDirectoryContent[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.TargetData",
+        "Type": "Syncfusion.EJ2.FileManager.Base.FileManagerDirectoryContent",
+        "IsRequired": false
+      },
+      {
+        "Name": "TargetData.Permission",
+        "Type": "Syncfusion.EJ2.FileManager.Base.AccessPermission",
+        "IsRequired": false
+      },
+      {
+        "Name": "Permission",
+        "Type": "Syncfusion.EJ2.FileManager.Base.AccessPermission",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileManagerController",
+    "Method": "Upload",
+    "RelativePath": "api/FileManager/Upload",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "uploadFiles",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "action",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "DeleteAllFileFundTask",
+    "RelativePath": "file/delete-all-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "FileHandle.Models.QueryFile",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "X\u00F3a t\u1EA5t c\u1EA3 file"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "DeleteFileFund",
+    "RelativePath": "file/delete-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idFile",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "X\u00F3a file"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "DownloadSampleFile",
+    "RelativePath": "file/download-template-file/{type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA3i file template"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "GetFileByProduct",
+    "RelativePath": "file/get-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "FileHandle.Models.QueryFile",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA3i file \u0111\u00E3 up"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "GetFileById",
+    "RelativePath": "file/get-file-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "Download file b\u1EB1ng ID"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "GetFileByIdVoucher",
+    "RelativePath": "file/get-file/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA3i file \u0111\u00E3 up"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "GetFileByIdContents",
+    "RelativePath": "file/get-lstfile/{IdContents}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdContents",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "L\u1EA5y ra danh s\u00E1ch File theo IdContents"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "HRMUploadFileTask",
+    "RelativePath": "file/HRMupload-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdContent",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColumnTable",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "KeyTable",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberVoucher",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA3i file"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "UploadFileFundTask",
+    "RelativePath": "file/upload-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdContent",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ColumnTable",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "KeyTable",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberVoucher",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA3i file"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "UploadListFile",
+    "RelativePath": "file/upload-list-files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdContent",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfVouchers",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartFileAttachs",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "Upload nhi\u1EC1u file trong HRM"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "UploadFile",
+    "RelativePath": "file/upload-multi-files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdContent",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfVouchers",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Files",
+        "Type": "System.Collections.Generic.IList\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartFileAttachs",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "Upload nhi\u1EC1u file"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileWorksController",
+    "Method": "UploadMultipleFile",
+    "RelativePath": "file/upload-multi-files-v2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FileHandle.Models.MultipleFileUploadModel, FileHandle, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "Upload nhi\u1EC1u file"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileExcelController",
+    "Method": "ImportExcelSalaryTask",
+    "RelativePath": "fileExcel/create-excel-smart-data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FileHandle.Models.Request.CreateExcelSmartDataRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA1o d\u1EEF li\u1EC7u excel \u0111\u00E3 import v\u00E0o"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileExcelController",
+    "Method": "ImportExcelSalaryTask",
+    "RelativePath": "fileExcel/create-voucher-smart-data-by-excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FileHandle.Models.Request.CreateVoucherToExcelRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA1o d\u1EEF li\u1EC7u excel \u0111\u00E3 import v\u00E0o"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileExcelController",
+    "Method": "ImportExcelSalaryTask",
+    "RelativePath": "fileExcel/import-file-excel-smart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "Nh\u1EADp file Excel"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FileExcelController",
+    "Method": "ImportExcelSalaryTask",
+    "RelativePath": "fileExcel/upload-file-excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "Summary": "T\u1EA3i l\u00EAn file Excel"
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FundController",
+    "Method": "Export",
+    "RelativePath": "fund",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.FundController",
+    "Method": "Export2",
+    "RelativePath": "fund/export2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.PrintVoucher",
+    "Method": "Print",
+    "RelativePath": "report/print",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FileHandle.Models.PrintVoucherRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileHandle.Controllers.PrintVoucher",
+    "Method": "ExportData",
+    "RelativePath": "report/test-export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

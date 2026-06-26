@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace Ref.API.Model;
+
+public class ReferenceRequest
+{
+    public Guid? ReferenceId { get; set; }
+    public int RefType1 { get; set; }
+    public string RefNoFinance2 { get; set; }
+    public string RefNoManagement2 { get; set; }
+    public Guid RefId2 { get; set; }
+    public int RefType2 { get; set; }
+    public int ReferenceType { get; set; }
+    public int State { get; set; }
+    public Guid RefId1 { get; set; }
+}

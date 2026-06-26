@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2607EF5-D45C-0799-DBAB-8F9823749714}|src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\minh\\onedrive\\desktop\\smartacccloud_api\\src\\buildingblocks\\buildingblocks\\buildingblocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2607EF5-D45C-0799-DBAB-8F9823749714}|src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:src\\buildingblocks\\buildingblocks\\buildingblocks.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA8EC3-ABEF-44AE-BC21-275070F41089}|src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj|c:\\users\\minh\\onedrive\\desktop\\smartacccloud_api\\src\\apigateways\\web.bff.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA8EC3-ABEF-44AE-BC21-275070F41089}|src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj|solutionrelative:src\\apigateways\\web.bff.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA8EC3-ABEF-44AE-BC21-275070F41089}|src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj|c:\\users\\minh\\onedrive\\desktop\\smartacccloud_api\\src\\apigateways\\web.bff.apigateway\\web.bff.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64DA8EC3-ABEF-44AE-BC21-275070F41089}|src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj|solutionrelative:src\\apigateways\\web.bff.apigateway\\web.bff.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64DA8EC3-ABEF-44AE-BC21-275070F41089}|src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj|c:\\users\\minh\\onedrive\\desktop\\smartacccloud_api\\src\\apigateways\\web.bff.apigateway\\configs\\reverseproxy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64DA8EC3-ABEF-44AE-BC21-275070F41089}|src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj|solutionrelative:src\\apigateways\\web.bff.apigateway\\configs\\reverseproxy.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF51E018-2E85-4CA4-BCDE-2C546EEFCD4B}|src\\Modules\\Catalog\\Base\\Catalog.Base.csproj|c:\\users\\minh\\onedrive\\desktop\\smartacccloud_api\\src\\modules\\catalog\\base\\infrastructure\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF51E018-2E85-4CA4-BCDE-2C546EEFCD4B}|src\\Modules\\Catalog\\Base\\Catalog.Base.csproj|solutionrelative:src\\modules\\catalog\\base\\infrastructure\\catalogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuildingBlocks",
+              "DocumentMoniker": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "RelativeDocumentMoniker": "src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "ToolTip": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "RelativeToolTip": "src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-01T13:28:53.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "reverseproxy.json",
+              "DocumentMoniker": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Web.Bff.ApiGateway\\Configs\\reverseproxy.json",
+              "RelativeDocumentMoniker": "src\\ApiGateways\\Web.Bff.ApiGateway\\Configs\\reverseproxy.json",
+              "ToolTip": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Web.Bff.ApiGateway\\Configs\\reverseproxy.json",
+              "RelativeToolTip": "src\\ApiGateways\\Web.Bff.ApiGateway\\Configs\\reverseproxy.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-01T11:38:50.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Web.Bff.ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ApiGateways\\Web.Bff.ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Web.Bff.ApiGateway\\Program.cs",
+              "RelativeToolTip": "src\\ApiGateways\\Web.Bff.ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T11:38:14.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.Bff.ApiGateway",
+              "DocumentMoniker": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj",
+              "RelativeDocumentMoniker": "src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj",
+              "RelativeToolTip": "src\\ApiGateways\\Web.Bff.ApiGateway\\Web.Bff.ApiGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-01T11:36:41.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Infrastructure\\CatalogDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Modules\\Catalog\\Base\\Infrastructure\\CatalogDbContext.cs",
+              "ToolTip": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Infrastructure\\CatalogDbContext.cs",
+              "RelativeToolTip": "src\\Modules\\Catalog\\Base\\Infrastructure\\CatalogDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T08:23:54.961Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

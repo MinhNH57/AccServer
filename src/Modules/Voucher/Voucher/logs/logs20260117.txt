@@ -1,0 +1,39 @@
+﻿13:29:13 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:29:17 [INFO] Now listening on: https://localhost:7132
+13:29:17 [INFO] Now listening on: http://localhost:5274
+13:29:17 [INFO] Application started. Press Ctrl+C to shut down.
+13:29:17 [INFO] Hosting environment: Development
+13:29:17 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+13:34:13 [INFO] Usage Telemetry: {"id":"68a60000-20b7-2221-2711-08de5591bb17","created":"2026-01-17T13:29:13.0665280\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-17T13:29:13.0693223\u002B07:00","configured":"2026-01-17T13:29:13.1162973\u002B07:00","started":"2026-01-17T13:29:13.2806527\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:56:41 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:56:46 [INFO] Now listening on: https://localhost:7132
+13:56:46 [INFO] Now listening on: http://localhost:5274
+13:56:46 [INFO] Application started. Press Ctrl+C to shut down.
+13:56:46 [INFO] Hosting environment: Development
+13:56:46 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+14:06:36 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:06:40 [INFO] Now listening on: https://localhost:7132
+14:06:40 [INFO] Now listening on: http://localhost:5274
+14:06:40 [INFO] Application started. Press Ctrl+C to shut down.
+14:06:40 [INFO] Hosting environment: Development
+14:06:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+14:21:15 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:21:17 [INFO] Now listening on: https://localhost:7132
+14:21:17 [INFO] Now listening on: http://localhost:5274
+14:21:17 [INFO] Application started. Press Ctrl+C to shut down.
+14:21:17 [INFO] Hosting environment: Development
+14:21:17 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+14:32:21 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:32:25 [INFO] Now listening on: https://localhost:7132
+14:32:25 [INFO] Now listening on: http://localhost:5274
+14:32:25 [INFO] Application started. Press Ctrl+C to shut down.
+14:32:25 [INFO] Hosting environment: Development
+14:32:25 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+14:37:21 [INFO] Usage Telemetry: {"id":"041e0000-20b7-2221-38f3-08de559a8c93","created":"2026-01-17T14:32:20.4972535\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-17T14:32:20.4990603\u002B07:00","configured":"2026-01-17T14:32:20.5307847\u002B07:00","started":"2026-01-17T14:32:21.1914890\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+15:47:56 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:48:00 [INFO] Now listening on: https://localhost:7132
+15:48:00 [INFO] Now listening on: http://localhost:5274
+15:48:00 [INFO] Application started. Press Ctrl+C to shut down.
+15:48:00 [INFO] Hosting environment: Development
+15:48:00 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:52:56 [INFO] Usage Telemetry: {"id":"a8530000-20b7-2221-1325-08de55a51b94","created":"2026-01-17T15:47:55.3843302\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-17T15:47:55.3865868\u002B07:00","configured":"2026-01-17T15:47:55.4220405\u002B07:00","started":"2026-01-17T15:47:56.5635043\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}

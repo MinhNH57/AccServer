@@ -1,0 +1,90 @@
+﻿{
+  "ReverseProxy": {
+    "Routes": {
+      "catalog-route": {
+        "ClusterId": "catalog-cluster",
+        "CorsPolicy": "web",
+        //"AuthorizationPolicy": "customPolicy",
+        "Match": {
+          "Path": "/catalog-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "identity-route": {
+        "ClusterId": "identity-cluster",
+        "CorsPolicy": "web",
+        //"AuthorizationPolicy": "customPolicy",
+        "Match": {
+          "Path": "/identity-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "system-route": {
+        "ClusterId": "system-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/system-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "cms-route": {
+        "ClusterId": "cms-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/cms-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      },
+      "voucher-route": {
+        "ClusterId": "voucher-cluster",
+        "CorsPolicy": "web",
+        "Match": {
+          "Path": "/voucher-service/{**catch-all}"
+        },
+        "Transforms": [ { "PathPattern": "{**catch-all}" } ]
+      }
+    },
+    "Clusters": {
+      "catalog-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "Url"
+          }
+        }
+      },
+      "identity-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "Url"
+          }
+        }
+      },
+      "system-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "Url"
+          }
+        }
+      },
+      "cms-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "Url"
+          }
+        }
+      },
+      "voucher-cluster": {
+        "Destinations": {
+          "destination1": {
+            "Address": "Url"
+          }
+        }
+      }
+    }
+    //"LoadBalancing": {
+    //  "catalog-cluster": {
+    //    "Policy": "RoundRobin"
+    //  }
+    //}
+  }
+}

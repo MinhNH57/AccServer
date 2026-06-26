@@ -1,0 +1,521 @@
+[
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.BalanceFluctuationAnalysis.BalanceFluctuationAnalysisEndPoint",
+    "Method": "BalanceFluctuationAnalysis",
+    "RelativePath": "steels/analysis-balance-fluctuation",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankOfAccountReceive",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "Summary": "T\u1ED5ng h\u1EE3p thu chi theo B\u0110SD"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "ConfirmVoucher",
+    "RelativePath": "steels/confirm-voucher",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listNumberVoucher",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "confirm-voucher",
+    "Summary": "Duy\u1EC7t ph\u00EDa"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.BalanceFluctuation.Endpoints.BalanceFluctuationEndpoint",
+    "Method": "CreateBalanceFluctuation",
+    "RelativePath": "steels/create-balance-fluctuation",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "check-sum",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "AddOn.TonMyAnh.Mobile.BalanceFluctuation.Models.CreateBalanceFluctuationRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ]
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.BalanceFluctuation.Endpoints.BalanceFluctuationEndpoint",
+    "Method": "CreateBalanceFluctuations",
+    "RelativePath": "steels/create-balance-fluctuations",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "check-sum",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "requests",
+        "Type": "System.Collections.Generic.List\u00601[[AddOn.TonMyAnh.Mobile.BalanceFluctuation.Models.CreateBalanceFluctuationRequest, AddOn, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ]
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "GetReportDebt",
+    "RelativePath": "steels/debt-report",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "debt-report",
+    "Summary": "B\u00E1o c\u00E1o c\u00F4ng n\u1EE3"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.GetData.GetDynamicDataEndpont",
+    "Method": "GetDynamicData",
+    "RelativePath": "steels/get-data/{tableName}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "GetData",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u \u0111\u1ED9ng"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "GetPagination",
+    "RelativePath": "steels/get-pagination",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "searchFieldNames",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchValues",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortField",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDirection",
+        "Type": "System.Nullable\u00601[[BuildingBlocks.Pagination.Version2.Enums.SortDirection, BuildingBlocks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "get-pagination",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u danh s\u00E1ch phi\u1EBFu c\u1EA7n duy\u1EC7t"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "Get",
+    "RelativePath": "steels/get/{numberOfVoucher}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numberOfVoucher",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "get"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "GetBaoCaoLaiLo",
+    "RelativePath": "steels/performance-report",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "performance-report",
+    "Summary": "B\u00E1o c\u00E1o l\u00E3i l\u1ED7"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "ReportProfitGrpProduct",
+    "RelativePath": "steels/profit-grp-product-report",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "profit-grp-product-report"
+  },
+  {
+    "ContainingType": "AddOn.TonMyAnh.Mobile.Report.Endpoints.ReportEndpoint",
+    "Method": "Getprofit",
+    "RelativePath": "steels/profit-report",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Steel"
+    ],
+    "EndpointName": "profit-report"
+  }
+]

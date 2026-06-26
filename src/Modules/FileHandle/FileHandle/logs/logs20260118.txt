@@ -1,0 +1,46 @@
+﻿09:42:03 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:42:04 [INFO] Now listening on: https://localhost:7135
+09:42:04 [INFO] Now listening on: http://localhost:5240
+09:42:04 [INFO] Application started. Press Ctrl+C to shut down.
+09:42:04 [INFO] Hosting environment: Development
+09:42:04 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:42:04 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:47:04 [INFO] Usage Telemetry: {"id":"d0150000-20b7-2221-bc09-08de563b29bf","created":"2026-01-18T09:42:03.6680247\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T09:42:03.6698861\u002B07:00","configured":"2026-01-18T09:42:03.8825290\u002B07:00","started":"2026-01-18T09:42:04.3679619\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+09:55:07 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:55:08 [INFO] Now listening on: https://localhost:7135
+09:55:08 [INFO] Now listening on: http://localhost:5240
+09:55:08 [INFO] Application started. Press Ctrl+C to shut down.
+09:55:08 [INFO] Hosting environment: Development
+09:55:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:55:08 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:55:51 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:55:51 [INFO] Now listening on: https://localhost:7135
+09:55:51 [INFO] Now listening on: http://localhost:5240
+09:55:51 [INFO] Application started. Press Ctrl+C to shut down.
+09:55:51 [INFO] Hosting environment: Development
+09:55:51 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:55:51 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:56:14 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:56:15 [INFO] Now listening on: https://localhost:7135
+09:56:15 [INFO] Now listening on: http://localhost:5240
+09:56:15 [INFO] Application started. Press Ctrl+C to shut down.
+09:56:15 [INFO] Hosting environment: Development
+09:56:15 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:56:15 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+10:01:15 [INFO] Usage Telemetry: {"id":"c8200000-20b7-2221-3ee6-08de563d24ff","created":"2026-01-18T09:56:14.6891022\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T09:56:14.6906588\u002B07:00","configured":"2026-01-18T09:56:14.9325332\u002B07:00","started":"2026-01-18T09:56:15.3228019\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+11:35:03 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:35:03 [INFO] Now listening on: https://localhost:7135
+11:35:03 [INFO] Now listening on: http://localhost:5240
+11:35:03 [INFO] Application started. Press Ctrl+C to shut down.
+11:35:03 [INFO] Hosting environment: Development
+11:35:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:35:06 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:40:06 [INFO] Usage Telemetry: {"id":"3c200000-20b7-2221-8129-08de564af28a","created":"2026-01-18T11:35:02.9921337\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T11:35:02.9931067\u002B07:00","configured":"2026-01-18T11:35:03.1114075\u002B07:00","started":"2026-01-18T11:35:06.1448877\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+12:02:11 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+12:02:11 [INFO] Now listening on: https://localhost:7135
+12:02:11 [INFO] Now listening on: http://localhost:5240
+12:02:11 [INFO] Application started. Press Ctrl+C to shut down.
+12:02:11 [INFO] Hosting environment: Development
+12:02:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+12:02:11 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+12:07:11 [INFO] Usage Telemetry: {"id":"741a0000-20b7-2221-c263-08de564ebcf3","created":"2026-01-18T12:02:11.0719010\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T12:02:11.0735278\u002B07:00","configured":"2026-01-18T12:02:11.2419262\u002B07:00","started":"2026-01-18T12:02:11.8955039\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}

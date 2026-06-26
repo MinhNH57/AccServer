@@ -1,0 +1,676 @@
+﻿08:40:54 [INFO] Now listening on: https://localhost:7130
+08:40:54 [INFO] Now listening on: http://localhost:5165
+08:40:54 [INFO] Application started. Press Ctrl+C to shut down.
+08:40:54 [INFO] Hosting environment: Development
+08:40:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+08:52:51 [INFO] HTTP GET /tenants/get-by-id/0101526991 responded 200 in 2057.9950 ms
+08:52:56 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 2796.7503 ms
+08:53:12 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 155.4949 ms
+08:53:29 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+08:53:29 [INFO] Cache miss  for FindComponentSettingQuery
+08:53:29 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 52.4190 ms
+08:53:30 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+08:53:30 [INFO] HTTP GET /cms/settings responded 200 in 729.2174 ms
+09:05:14 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 711.0013 ms
+09:05:40 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:05:41 [INFO] Cache miss  for FindComponentSettingQuery
+09:05:41 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 895.8714 ms
+09:05:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:05:42 [INFO] HTTP GET /cms/settings responded 200 in 1468.8410 ms
+09:18:03 [INFO] Now listening on: https://localhost:7130
+09:18:03 [INFO] Now listening on: http://localhost:5165
+09:18:03 [INFO] Application started. Press Ctrl+C to shut down.
+09:18:03 [INFO] Hosting environment: Development
+09:18:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+09:23:32 [INFO] Now listening on: https://localhost:7130
+09:23:33 [INFO] Now listening on: http://localhost:5165
+09:23:33 [INFO] Application started. Press Ctrl+C to shut down.
+09:23:33 [INFO] Hosting environment: Development
+09:23:33 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+09:26:37 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 3013.3476 ms
+09:26:51 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:26:51 [INFO] Cache miss  for FindComponentSettingQuery
+09:26:52 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 51.8101 ms
+09:26:52 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:26:52 [INFO] HTTP GET /cms/settings responded 200 in 450.2496 ms
+09:29:01 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 24.6440 ms
+09:29:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:29:26 [INFO] Cache hit  for FindComponentSettingQuery
+09:29:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:29:26 [INFO] HTTP GET /cms/settings responded 200 in 136.8576 ms
+09:29:26 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 27.4383 ms
+09:33:36 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 26.1775 ms
+09:33:50 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:33:50 [INFO] Cache hit  for FindComponentSettingQuery
+09:33:50 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:33:50 [INFO] HTTP GET /cms/settings responded 200 in 35.1761 ms
+09:33:50 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 25.2731 ms
+09:42:42 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 100.8363 ms
+09:42:56 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:42:56 [INFO] Cache miss  for FindComponentSettingQuery
+09:42:56 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 23.5122 ms
+09:42:56 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:42:56 [INFO] HTTP GET /cms/settings responded 200 in 249.7385 ms
+09:48:55 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 33.4550 ms
+09:49:13 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:ReceiptHeaderView,Receipt-Content, TypeName = , Expiration = 03:00:00 }
+09:49:13 [INFO] Cache miss  for FindComponentSettingQuery
+09:49:13 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:49:13 [INFO] HTTP GET /cms/settings responded 200 in 329.6752 ms
+09:49:14 [INFO] HTTP GET /lock-system/get-lock-detail-by-user responded 200 in 102.7477 ms
+09:49:35 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:49:35 [INFO] Cache miss  for FindComponentSettingQuery
+09:49:35 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 21.8551 ms
+09:49:35 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:49:35 [INFO] HTTP GET /cms/settings responded 200 in 79.5530 ms
+09:56:02 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 35.3188 ms
+09:56:47 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:56:47 [INFO] Cache miss  for FindComponentSettingQuery
+09:56:47 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 61.9730 ms
+09:56:47 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:56:47 [INFO] HTTP GET /cms/settings responded 200 in 342.0118 ms
+09:59:20 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 48.3337 ms
+09:59:44 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+09:59:44 [INFO] Cache miss  for FindComponentSettingQuery
+09:59:44 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 23.7972 ms
+09:59:44 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+09:59:44 [INFO] HTTP GET /cms/settings responded 200 in 82.7683 ms
+10:02:46 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 95.4309 ms
+10:03:04 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:03:04 [INFO] Cache miss  for FindComponentSettingQuery
+10:03:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 30.9331 ms
+10:03:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:03:04 [INFO] HTTP GET /cms/settings responded 200 in 116.2614 ms
+10:04:42 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 45.2602 ms
+10:04:52 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:04:52 [INFO] Cache hit  for FindComponentSettingQuery
+10:04:52 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:04:52 [INFO] HTTP GET /cms/settings responded 200 in 36.0094 ms
+10:04:52 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 53.8920 ms
+10:08:19 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 36.6307 ms
+10:08:41 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 27.1810 ms
+10:11:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 40.5226 ms
+10:11:48 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:11:48 [INFO] Cache miss  for FindComponentSettingQuery
+10:11:48 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 88.0426 ms
+10:11:48 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:11:48 [INFO] HTTP GET /cms/settings responded 200 in 301.0832 ms
+10:16:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 40.4016 ms
+10:16:19 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 28.2737 ms
+10:18:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 54.0969 ms
+10:19:11 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:19:11 [INFO] Cache miss  for FindComponentSettingQuery
+10:19:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 90.5311 ms
+10:19:12 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:19:12 [INFO] HTTP GET /cms/settings responded 200 in 1308.4040 ms
+10:19:21 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = catalog-shifts }
+10:19:21 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[Systems.Infrastructure.Entities.ComponentSetting]
+10:19:21 [INFO] HTTP GET /cms/settings/catalog-shifts responded 200 in 236.0125 ms
+10:19:53 [INFO] HTTP PUT /cms/settings/1d69f611-e123-4b8b-b05d-94b4728fc325 responded 200 in 215.5673 ms
+10:19:56 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:19:56 [INFO] Cache miss  for FindComponentSettingQuery
+10:19:56 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:19:56 [INFO] HTTP GET /cms/settings responded 200 in 237.6486 ms
+10:20:03 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = catalog-shifts }
+10:20:03 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[Systems.Infrastructure.Entities.ComponentSetting]
+10:20:03 [INFO] HTTP GET /cms/settings/catalog-shifts responded 200 in 36.2048 ms
+10:20:11 [INFO] HTTP PUT /cms/settings/1d69f611-e123-4b8b-b05d-94b4728fc325 responded 200 in 54.5006 ms
+10:20:14 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:20:14 [INFO] Cache miss  for FindComponentSettingQuery
+10:20:14 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:20:14 [INFO] HTTP GET /cms/settings responded 200 in 73.9129 ms
+10:28:01 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 146.4670 ms
+10:29:38 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 194.7994 ms
+10:29:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:29:38 [INFO] Cache miss  for FindComponentSettingQuery
+10:29:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:29:38 [INFO] HTTP GET /cms/settings responded 200 in 100.4868 ms
+10:59:24 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 306.7303 ms
+10:59:37 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+10:59:37 [INFO] Cache miss  for FindComponentSettingQuery
+10:59:37 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 50.0100 ms
+10:59:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+10:59:38 [INFO] HTTP GET /cms/settings responded 200 in 1226.3685 ms
+11:04:07 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 43.7871 ms
+11:04:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:04:26 [INFO] Cache hit  for FindComponentSettingQuery
+11:04:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:04:26 [INFO] HTTP GET /cms/settings responded 200 in 43.6162 ms
+11:04:26 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 27.2770 ms
+11:26:05 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 730.4212 ms
+11:27:07 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:27:07 [INFO] Cache miss  for FindComponentSettingQuery
+11:27:08 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 101.4047 ms
+11:27:10 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:27:10 [INFO] HTTP GET /cms/settings responded 200 in 2527.9970 ms
+11:28:08 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 347.3220 ms
+11:28:37 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:28:37 [INFO] Cache hit  for FindComponentSettingQuery
+11:28:37 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:28:37 [INFO] HTTP GET /cms/settings responded 200 in 75.0365 ms
+11:28:39 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.5692 ms
+11:30:44 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.2374 ms
+11:30:55 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:30:55 [INFO] Cache hit  for FindComponentSettingQuery
+11:30:55 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:30:55 [INFO] HTTP GET /cms/settings responded 200 in 29.2978 ms
+11:30:55 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 21.3638 ms
+11:36:03 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 29.7853 ms
+11:37:11 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:37:11 [INFO] Cache miss  for FindComponentSettingQuery
+11:37:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 21.0243 ms
+11:37:11 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:37:11 [INFO] HTTP GET /cms/settings responded 200 in 153.6436 ms
+11:38:53 [INFO] Now listening on: https://localhost:7130
+11:38:53 [INFO] Now listening on: http://localhost:5165
+11:38:53 [INFO] Application started. Press Ctrl+C to shut down.
+11:38:53 [INFO] Hosting environment: Development
+11:38:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:39:25 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 709.7372 ms
+11:39:56 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 67.5198 ms
+11:39:56 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:39:56 [INFO] Cache hit  for FindComponentSettingQuery
+11:39:56 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:39:56 [INFO] HTTP GET /cms/settings responded 200 in 170.5025 ms
+11:41:11 [INFO] Now listening on: https://localhost:7130
+11:41:11 [INFO] Now listening on: http://localhost:5165
+11:41:11 [INFO] Application started. Press Ctrl+C to shut down.
+11:41:11 [INFO] Hosting environment: Development
+11:41:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:41:39 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 545.3636 ms
+11:41:51 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:41:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 41.7718 ms
+11:41:51 [INFO] Cache hit  for FindComponentSettingQuery
+11:41:51 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:41:51 [INFO] HTTP GET /cms/settings responded 200 in 115.8544 ms
+11:44:36 [INFO] Now listening on: https://localhost:7130
+11:44:36 [INFO] Now listening on: http://localhost:5165
+11:44:36 [INFO] Application started. Press Ctrl+C to shut down.
+11:44:36 [INFO] Hosting environment: Development
+11:44:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:48:05 [INFO] Now listening on: https://localhost:7130
+11:48:05 [INFO] Now listening on: http://localhost:5165
+11:48:05 [INFO] Application started. Press Ctrl+C to shut down.
+11:48:05 [INFO] Hosting environment: Development
+11:48:05 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:49:14 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 664.3958 ms
+11:49:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:49:27 [INFO] Cache miss  for FindComponentSettingQuery
+11:49:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 68.0455 ms
+11:49:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:49:29 [INFO] HTTP GET /cms/settings responded 200 in 1788.0760 ms
+11:50:59 [INFO] Now listening on: https://localhost:7130
+11:51:00 [INFO] Now listening on: http://localhost:5165
+11:51:00 [INFO] Application started. Press Ctrl+C to shut down.
+11:51:00 [INFO] Hosting environment: Development
+11:51:00 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:54:03 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:54:03 [INFO] Cache miss  for FindComponentSettingQuery
+11:54:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:54:05 [INFO] HTTP GET /cms/settings responded 200 in 2191.2654 ms
+11:55:55 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 96.8516 ms
+11:57:09 [INFO] Now listening on: https://localhost:7130
+11:57:09 [INFO] Now listening on: http://localhost:5165
+11:57:09 [INFO] Application started. Press Ctrl+C to shut down.
+11:57:09 [INFO] Hosting environment: Development
+11:57:09 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:58:36 [INFO] Now listening on: https://localhost:7130
+11:58:36 [INFO] Now listening on: http://localhost:5165
+11:58:37 [INFO] Application started. Press Ctrl+C to shut down.
+11:58:37 [INFO] Hosting environment: Development
+11:58:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:59:15 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 696.7209 ms
+11:59:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+11:59:26 [INFO] Cache miss  for FindComponentSettingQuery
+11:59:26 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 45.6011 ms
+11:59:34 [WARN] [PERFORMANCE The request FindComponentSettingQuery took 7 seconds,
+11:59:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+11:59:34 [INFO] HTTP GET /cms/settings responded 200 in 7728.9931 ms
+12:00:17 [INFO] Now listening on: https://localhost:7130
+12:00:17 [INFO] Now listening on: http://localhost:5165
+12:00:17 [INFO] Application started. Press Ctrl+C to shut down.
+12:00:17 [INFO] Hosting environment: Development
+12:00:17 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+13:02:49 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 6925.9438 ms
+13:03:44 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 43.4300 ms
+13:03:44 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+13:03:44 [INFO] Cache miss  for FindComponentSettingQuery
+13:03:47 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:03:47 [INFO] HTTP GET /cms/settings responded 200 in 2612.3776 ms
+13:05:45 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 65.5745 ms
+13:05:59 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+13:05:59 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 44.1492 ms
+13:05:59 [INFO] Cache hit  for FindComponentSettingQuery
+13:05:59 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:05:59 [INFO] HTTP GET /cms/settings responded 200 in 133.5641 ms
+13:08:24 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 639.7848 ms
+13:08:52 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+13:08:52 [INFO] Cache hit  for FindComponentSettingQuery
+13:08:52 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:08:52 [INFO] HTTP GET /cms/settings responded 200 in 51.1626 ms
+13:08:52 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 124.0786 ms
+13:11:14 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 117.8511 ms
+13:15:58 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 102.0840 ms
+13:19:09 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+13:19:09 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 100.3894 ms
+13:19:09 [INFO] Cache miss  for FindComponentSettingQuery
+13:19:09 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:19:09 [INFO] HTTP GET /cms/settings responded 200 in 585.8899 ms
+13:24:48 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 82.2775 ms
+13:25:47 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+13:25:47 [INFO] Cache miss  for FindComponentSettingQuery
+13:25:47 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 92.3288 ms
+13:25:47 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:25:47 [INFO] HTTP GET /cms/settings responded 200 in 297.0615 ms
+13:30:53 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 75.8152 ms
+13:31:58 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-contract, TypeName = , Expiration = 03:00:00 }
+13:31:58 [INFO] Cache miss  for FindComponentSettingQuery
+13:31:58 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:31:58 [INFO] HTTP GET /cms/settings responded 200 in 268.6869 ms
+13:32:46 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+13:32:46 [INFO] Cache miss  for FindComponentSettingQuery
+13:32:46 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 62.0200 ms
+13:32:46 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:32:46 [INFO] HTTP GET /cms/settings responded 200 in 238.7395 ms
+13:43:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 505.8264 ms
+13:43:19 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:43:20 [INFO] Cache hit  for FindComponentSettingQuery
+13:43:20 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:43:20 [INFO] HTTP GET /cms/settings responded 200 in 113.3466 ms
+13:52:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 40.0739 ms
+13:53:04 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+13:53:05 [INFO] Cache hit  for FindComponentSettingQuery
+13:53:05 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+13:53:05 [INFO] HTTP GET /cms/settings responded 200 in 835.3432 ms
+14:04:37 [INFO] Now listening on: https://localhost:7130
+14:04:37 [INFO] Now listening on: http://localhost:5165
+14:04:37 [INFO] Application started. Press Ctrl+C to shut down.
+14:04:37 [INFO] Hosting environment: Development
+14:04:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+14:05:49 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 670.6095 ms
+14:06:04 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:06:04 [INFO] Cache miss  for FindComponentSettingQuery
+14:06:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 91.6908 ms
+14:06:05 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:06:05 [INFO] HTTP GET /cms/settings responded 200 in 1693.2344 ms
+14:07:56 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 24.9836 ms
+14:08:14 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:08:15 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 23.9054 ms
+14:08:15 [INFO] Cache hit  for FindComponentSettingQuery
+14:08:15 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:08:15 [INFO] HTTP GET /cms/settings responded 200 in 61.0036 ms
+14:16:17 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 47.0198 ms
+14:16:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:16:26 [INFO] Cache hit  for FindComponentSettingQuery
+14:16:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:16:26 [INFO] HTTP GET /cms/settings responded 200 in 140.1782 ms
+14:16:50 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:16:50 [INFO] Cache miss  for FindComponentSettingQuery
+14:16:50 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 28.6805 ms
+14:16:50 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:16:50 [INFO] HTTP GET /cms/settings responded 200 in 318.2093 ms
+14:20:32 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 76.0881 ms
+14:20:40 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-contract, TypeName = , Expiration = 03:00:00 }
+14:20:40 [INFO] Cache miss  for FindComponentSettingQuery
+14:20:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:20:40 [INFO] HTTP GET /cms/settings responded 200 in 223.0833 ms
+14:21:06 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:21:06 [INFO] Cache hit  for FindComponentSettingQuery
+14:21:06 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:21:06 [INFO] HTTP GET /cms/settings responded 200 in 105.7182 ms
+14:21:06 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 85.0581 ms
+14:22:28 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 86.9908 ms
+14:22:42 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:22:42 [INFO] Cache hit  for FindComponentSettingQuery
+14:22:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:22:42 [INFO] HTTP GET /cms/settings responded 200 in 30.9193 ms
+14:22:42 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.9122 ms
+14:30:16 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 103.1849 ms
+14:31:43 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:31:43 [INFO] Cache miss  for FindComponentSettingQuery
+14:31:43 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 74.3766 ms
+14:31:43 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:31:43 [INFO] HTTP GET /cms/settings responded 200 in 268.8821 ms
+14:32:05 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:32:05 [INFO] Cache miss  for FindComponentSettingQuery
+14:32:05 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:32:05 [INFO] HTTP GET /cms/settings responded 200 in 419.3604 ms
+14:32:09 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:32:09 [INFO] Cache hit  for FindComponentSettingQuery
+14:32:09 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:32:09 [INFO] HTTP GET /cms/settings responded 200 in 105.9538 ms
+14:32:10 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:32:10 [INFO] Cache hit  for FindComponentSettingQuery
+14:32:10 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:32:10 [INFO] HTTP GET /cms/settings responded 200 in 90.3222 ms
+14:32:11 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:32:11 [INFO] Cache hit  for FindComponentSettingQuery
+14:32:11 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:32:11 [INFO] HTTP GET /cms/settings responded 200 in 258.8489 ms
+14:32:11 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:32:12 [INFO] Cache hit  for FindComponentSettingQuery
+14:32:12 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:32:12 [INFO] HTTP GET /cms/settings responded 200 in 491.7148 ms
+14:35:16 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 80.7919 ms
+14:35:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:35:28 [INFO] Cache hit  for FindComponentSettingQuery
+14:35:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:35:28 [INFO] HTTP GET /cms/settings responded 200 in 126.4934 ms
+14:35:28 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 124.0000 ms
+14:40:22 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 233.3134 ms
+14:40:42 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:40:42 [INFO] Cache miss  for FindComponentSettingQuery
+14:40:42 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 174.5038 ms
+14:40:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:40:42 [INFO] HTTP GET /cms/settings responded 200 in 352.6719 ms
+14:42:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 40.0130 ms
+14:43:05 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:43:05 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 50.7438 ms
+14:43:05 [INFO] Cache hit  for FindComponentSettingQuery
+14:43:05 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:43:05 [INFO] HTTP GET /cms/settings responded 200 in 117.5560 ms
+14:53:12 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 902.3823 ms
+14:53:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+14:53:28 [INFO] Cache miss  for FindComponentSettingQuery
+14:53:28 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 44.6383 ms
+14:53:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:53:28 [INFO] HTTP GET /cms/settings responded 200 in 176.2130 ms
+14:58:23 [INFO] Now listening on: https://localhost:7130
+14:58:23 [INFO] Now listening on: http://localhost:5165
+14:58:23 [INFO] Application started. Press Ctrl+C to shut down.
+14:58:23 [INFO] Hosting environment: Development
+14:58:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+15:17:01 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 790.3732 ms
+15:17:11 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:17:11 [INFO] Cache hit  for FindComponentSettingQuery
+15:17:11 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:17:11 [INFO] HTTP GET /cms/settings responded 200 in 122.5267 ms
+15:43:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 83.6461 ms
+15:43:30 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+15:43:30 [INFO] Cache miss  for FindComponentSettingQuery
+15:43:30 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 141.8396 ms
+15:43:32 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:43:32 [INFO] HTTP GET /cms/settings responded 200 in 2132.9748 ms
+15:45:47 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 33.1731 ms
+15:45:58 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:45:58 [INFO] Cache hit  for FindComponentSettingQuery
+15:45:58 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:45:58 [INFO] HTTP GET /cms/settings responded 200 in 89.3974 ms
+15:53:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+15:53:27 [INFO] Cache miss  for FindComponentSettingQuery
+15:53:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 369.5195 ms
+15:53:27 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:53:27 [INFO] HTTP GET /cms/settings responded 200 in 444.9310 ms
+15:55:23 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 83.5132 ms
+16:00:19 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:00:19 [INFO] Cache hit  for FindComponentSettingQuery
+16:00:19 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:00:19 [INFO] HTTP GET /cms/settings responded 200 in 138.7527 ms
+16:00:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:00:26 [INFO] Cache miss  for FindComponentSettingQuery
+16:00:26 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 52.9960 ms
+16:00:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:00:26 [INFO] HTTP GET /cms/settings responded 200 in 237.8682 ms
+16:02:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 135.8365 ms
+16:02:16 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:02:16 [INFO] Cache hit  for FindComponentSettingQuery
+16:02:16 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:02:16 [INFO] HTTP GET /cms/settings responded 200 in 60.7023 ms
+16:02:16 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 68.3479 ms
+16:13:17 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 148.4209 ms
+16:13:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:13:33 [INFO] Cache miss  for FindComponentSettingQuery
+16:13:33 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 59.5961 ms
+16:13:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:13:34 [INFO] HTTP GET /cms/settings responded 200 in 327.0321 ms
+16:19:57 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1023.6245 ms
+16:20:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:20:34 [INFO] Cache miss  for FindComponentSettingQuery
+16:20:35 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 876.5816 ms
+16:20:35 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:20:35 [INFO] HTTP GET /cms/settings responded 200 in 1997.1277 ms
+16:22:50 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 64.7814 ms
+16:23:00 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:23:00 [INFO] Cache hit  for FindComponentSettingQuery
+16:23:00 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:23:00 [INFO] HTTP GET /cms/settings responded 200 in 41.9181 ms
+16:23:00 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 121.2127 ms
+16:31:16 [INFO] Now listening on: https://localhost:7130
+16:31:16 [INFO] Now listening on: http://localhost:5165
+16:31:16 [INFO] Application started. Press Ctrl+C to shut down.
+16:31:16 [INFO] Hosting environment: Development
+16:31:16 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+16:34:14 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1441.8605 ms
+16:34:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:34:34 [INFO] Cache miss  for FindComponentSettingQuery
+16:34:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 116.7827 ms
+16:34:40 [WARN] [PERFORMANCE The request FindComponentSettingQuery took 5 seconds,
+16:34:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:34:40 [INFO] HTTP GET /cms/settings responded 200 in 5863.0743 ms
+16:36:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 36.4334 ms
+16:37:02 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:37:02 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 35.8448 ms
+16:37:02 [INFO] Cache hit  for FindComponentSettingQuery
+16:37:02 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:37:02 [INFO] HTTP GET /cms/settings responded 200 in 177.5465 ms
+16:39:59 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 61.3563 ms
+16:40:13 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:40:13 [INFO] Cache hit  for FindComponentSettingQuery
+16:40:13 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:40:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 300.9547 ms
+16:40:13 [INFO] HTTP GET /cms/settings responded 200 in 362.7486 ms
+16:42:03 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 508.8056 ms
+16:42:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:42:26 [INFO] Cache miss  for FindComponentSettingQuery
+16:42:26 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 41.6785 ms
+16:42:30 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:42:30 [INFO] HTTP GET /cms/settings responded 200 in 3517.7739 ms
+16:44:38 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 69.8670 ms
+16:44:49 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:44:49 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:49 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:49 [INFO] HTTP GET /cms/settings responded 200 in 136.9080 ms
+16:44:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 177.0265 ms
+16:47:45 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 108.1670 ms
+16:47:55 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:47:55 [INFO] Cache miss  for FindComponentSettingQuery
+16:47:55 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 125.2378 ms
+16:47:56 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:47:56 [INFO] HTTP GET /cms/settings responded 200 in 340.6011 ms
+16:53:21 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 33.0097 ms
+16:53:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:53:34 [INFO] Cache miss  for FindComponentSettingQuery
+16:53:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:53:34 [INFO] HTTP GET /cms/settings responded 200 in 215.9687 ms
+16:53:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 356.8475 ms
+16:59:00 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 46.8799 ms
+16:59:12 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:59:12 [INFO] Cache miss  for FindComponentSettingQuery
+16:59:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 58.1891 ms
+16:59:13 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:59:13 [INFO] HTTP GET /cms/settings responded 200 in 235.5097 ms
+16:59:23 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:59:23 [INFO] Cache hit  for FindComponentSettingQuery
+16:59:23 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:59:23 [INFO] HTTP GET /cms/settings responded 200 in 1451.9618 ms
+17:01:03 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 96.1327 ms
+17:01:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:01:33 [INFO] Cache hit  for FindComponentSettingQuery
+17:01:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:01:33 [INFO] HTTP GET /cms/settings responded 200 in 212.3434 ms
+17:01:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 259.3184 ms
+17:03:38 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 26.9004 ms
+17:04:04 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:04:04 [INFO] Cache hit  for FindComponentSettingQuery
+17:04:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:04:04 [INFO] HTTP GET /cms/settings responded 200 in 100.5329 ms
+17:04:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 86.6160 ms
+17:05:40 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 55.6650 ms
+17:05:55 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:05:55 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 254.5422 ms
+17:05:55 [INFO] Cache hit  for FindComponentSettingQuery
+17:05:55 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:05:55 [INFO] HTTP GET /cms/settings responded 200 in 310.8263 ms
+17:08:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 212.1645 ms
+17:08:51 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:08:51 [INFO] Cache miss  for FindComponentSettingQuery
+17:08:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 227.7830 ms
+17:08:54 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:08:54 [INFO] HTTP GET /cms/settings responded 200 in 3441.3851 ms
+17:09:32 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:09:32 [INFO] Cache hit  for FindComponentSettingQuery
+17:09:32 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:09:32 [INFO] HTTP GET /cms/settings responded 200 in 83.3641 ms
+17:11:59 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 161.9164 ms
+17:12:09 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:12:09 [INFO] Cache hit  for FindComponentSettingQuery
+17:12:09 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:12:09 [INFO] HTTP GET /cms/settings responded 200 in 421.7231 ms
+17:12:09 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 327.6855 ms
+17:12:36 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:12:37 [INFO] Cache hit  for FindComponentSettingQuery
+17:12:37 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:12:37 [INFO] HTTP GET /cms/settings responded 200 in 560.6216 ms
+17:14:03 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 145.9806 ms
+17:14:32 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:14:32 [INFO] Cache hit  for FindComponentSettingQuery
+17:14:32 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:14:32 [INFO] HTTP GET /cms/settings responded 200 in 131.4371 ms
+17:14:32 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 275.9975 ms
+17:16:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 63.9598 ms
+17:16:39 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:16:39 [INFO] Cache hit  for FindComponentSettingQuery
+17:16:39 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:16:39 [INFO] HTTP GET /cms/settings responded 200 in 42.2037 ms
+17:16:39 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 34.9788 ms
+17:21:02 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 78.5045 ms
+17:21:30 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 30.6611 ms
+17:21:30 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:21:30 [INFO] Cache hit  for FindComponentSettingQuery
+17:21:30 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:21:30 [INFO] HTTP GET /cms/settings responded 200 in 52.7035 ms
+17:53:19 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 77.9310 ms
+17:58:10 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+17:58:10 [INFO] Cache miss  for FindComponentSettingQuery
+17:58:11 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:58:11 [INFO] HTTP GET /cms/settings responded 200 in 529.5196 ms
+17:58:11 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 588.8724 ms
+18:01:02 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 134.8915 ms
+18:01:22 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:01:22 [INFO] Cache miss  for FindComponentSettingQuery
+18:01:22 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:01:22 [INFO] HTTP GET /cms/settings responded 200 in 211.3365 ms
+18:07:41 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 37.6783 ms
+18:14:00 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:14:00 [INFO] Cache miss  for FindComponentSettingQuery
+18:14:01 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 158.1371 ms
+18:14:01 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:14:01 [INFO] HTTP GET /cms/settings responded 200 in 443.4792 ms
+18:15:51 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 48.1098 ms
+18:16:04 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:16:04 [INFO] Cache hit  for FindComponentSettingQuery
+18:16:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:16:04 [INFO] HTTP GET /cms/settings responded 200 in 62.9513 ms
+18:16:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 43.3975 ms
+18:17:05 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 256.3653 ms
+18:17:15 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:17:15 [INFO] Cache hit  for FindComponentSettingQuery
+18:17:15 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:17:15 [INFO] HTTP GET /cms/settings responded 200 in 46.9859 ms
+18:17:16 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 154.7076 ms
+18:18:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 33.9446 ms
+18:18:40 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:18:40 [INFO] Cache hit  for FindComponentSettingQuery
+18:18:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:18:40 [INFO] HTTP GET /cms/settings responded 200 in 34.9842 ms
+18:18:40 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 25.7288 ms
+18:19:48 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 64.1407 ms
+18:19:54 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:19:54 [INFO] Cache hit  for FindComponentSettingQuery
+18:19:54 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:19:54 [INFO] HTTP GET /cms/settings responded 200 in 118.5342 ms
+18:20:39 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:20:39 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 53.9460 ms
+18:20:39 [INFO] Cache hit  for FindComponentSettingQuery
+18:20:39 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:20:39 [INFO] HTTP GET /cms/settings responded 200 in 193.6509 ms
+18:21:38 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 37.6761 ms
+18:21:48 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:21:48 [INFO] Cache hit  for FindComponentSettingQuery
+18:21:48 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:21:48 [INFO] HTTP GET /cms/settings responded 200 in 38.3765 ms
+18:21:48 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 32.2637 ms
+18:26:20 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 375.2104 ms
+18:26:48 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:26:48 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 97.2983 ms
+18:26:48 [INFO] Cache hit  for FindComponentSettingQuery
+18:26:48 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:26:48 [INFO] HTTP GET /cms/settings responded 200 in 116.9241 ms
+18:31:35 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 65.6316 ms
+18:31:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:31:38 [INFO] Cache hit  for FindComponentSettingQuery
+18:31:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:31:38 [INFO] HTTP GET /cms/settings responded 200 in 161.9262 ms
+18:32:29 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:32:29 [INFO] Cache miss  for FindComponentSettingQuery
+18:32:29 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 249.3296 ms
+18:32:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:32:29 [INFO] HTTP GET /cms/settings responded 200 in 786.8251 ms
+18:34:12 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 250.2095 ms
+18:34:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:34:38 [INFO] Cache hit  for FindComponentSettingQuery
+18:34:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:34:38 [INFO] HTTP GET /cms/settings responded 200 in 286.0923 ms
+18:41:41 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:41:41 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 26.5946 ms
+18:41:41 [INFO] Cache miss  for FindComponentSettingQuery
+18:41:41 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:41:41 [INFO] HTTP GET /cms/settings responded 200 in 287.6275 ms
+18:42:48 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 172.8018 ms
+18:42:59 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:42:59 [INFO] Cache hit  for FindComponentSettingQuery
+18:42:59 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:42:59 [INFO] HTTP GET /cms/settings responded 200 in 78.1212 ms
+18:42:59 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 91.4279 ms
+18:45:02 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.4571 ms
+18:47:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:47:38 [INFO] Cache hit  for FindComponentSettingQuery
+18:47:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:47:38 [INFO] HTTP GET /cms/settings responded 200 in 223.9481 ms
+18:47:38 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.0015 ms
+18:52:32 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 102.9638 ms
+18:54:13 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:54:13 [INFO] Cache miss  for FindComponentSettingQuery
+18:54:13 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:54:13 [INFO] HTTP GET /cms/settings responded 200 in 436.6032 ms
+18:55:54 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 46.3816 ms
+18:55:58 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:55:58 [INFO] Cache hit  for FindComponentSettingQuery
+18:55:58 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:55:58 [INFO] HTTP GET /cms/settings responded 200 in 74.1989 ms
+18:59:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+18:59:34 [INFO] Cache miss  for FindComponentSettingQuery
+18:59:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:59:34 [INFO] HTTP GET /cms/settings responded 200 in 80.2594 ms
+18:59:35 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 141.8357 ms
+19:00:00 [INFO] Now listening on: https://localhost:7130
+19:00:00 [INFO] Now listening on: http://localhost:5165
+19:00:00 [INFO] Application started. Press Ctrl+C to shut down.
+19:00:00 [INFO] Hosting environment: Development
+19:00:00 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+19:01:27 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 730.4892 ms
+19:02:08 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+19:02:08 [INFO] Cache miss  for FindComponentSettingQuery
+19:02:09 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+19:02:09 [INFO] HTTP GET /cms/settings responded 200 in 1884.1457 ms
+19:10:30 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 138.7066 ms
+19:10:49 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+19:10:49 [INFO] Cache miss  for FindComponentSettingQuery
+19:10:49 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 35.6684 ms
+19:10:49 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+19:10:49 [INFO] HTTP GET /cms/settings responded 200 in 427.1676 ms
+19:14:14 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 84.2208 ms
+19:14:25 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+19:14:25 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 100.7174 ms
+19:14:25 [INFO] Cache hit  for FindComponentSettingQuery
+19:14:25 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+19:14:25 [INFO] HTTP GET /cms/settings responded 200 in 210.7700 ms

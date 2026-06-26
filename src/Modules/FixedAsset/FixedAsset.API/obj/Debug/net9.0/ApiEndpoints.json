@@ -1,0 +1,1639 @@
+[
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFAAdjustmentBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAAdjustmentDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "DeleteFAAdjustmentBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAAdjustmentDetailFullAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAAdjustmentResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "GetFAAdjustmentDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAAdjustmentGetAvailableFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/get_available_fixed_asset",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAAdjustmentAvailableFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "GetFAAdjustmentGetAvailableFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAAdjustmentGetCustomFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/get_custom_fixed_asset",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAAdjustmentCustomFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "GetFAAdjustmentGetCustomFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh t\u00F9y ch\u1EC9nh",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh t\u00F9y ch\u1EC9nh"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFAAdjustmentPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FAAdjustmentDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "PostFAAdjustmentPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFAAdjustmentSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAAdjustmentCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "PostFAAdjustmentSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFAAdjustmentSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_adjustment/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAAdjustmentUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110\u00E1nh gi\u00E1 l\u1EA1i"
+    ],
+    "EndpointName": "PutFAAdjustmentSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFAAuditBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fa_audit/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAAuditDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "DeleteFAAuditBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAAuditDetailFullAsync",
+    "RelativePath": "api/fa/v1/fa_audit/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAAuditResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "GetFAAuditDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAAuditGetAvailableFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_audit/get_available_fixedasset_for_audit",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAAuditAvailableFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "GetFAAuditGetAvailableFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFAAuditPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fa_audit/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FAAuditDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "PostFAAuditPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFAAuditSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_audit/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAAuditCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "PostFAAuditSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFAAuditSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_audit/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAAuditUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ki\u1EC3m k\u00EA"
+    ],
+    "EndpointName": "PutFAAuditSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAChangeFinancialLeasingToOwnerAvailableFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_change_financial_leasing_to_owner/available_fixed_asset",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAChangeFinancialLeasingToOwnerAvailableFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Chuy\u1EC3n TS thu\u00EA t\u00E0i ch\u00EDnh th\u00E0nh TS s\u1EDF h\u1EEFu"
+    ],
+    "EndpointName": "GetFAChangeFinancialLeasingToOwnerAvailableFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFAChangeFinancialLeasingToOwnerBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fa_change_financial_leasing_to_owner/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FAChangeFinancialLeasingToOwnerDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Chuy\u1EC3n TS thu\u00EA t\u00E0i ch\u00EDnh th\u00E0nh TS s\u1EDF h\u1EEFu"
+    ],
+    "EndpointName": "DeleteFAChangeFinancialLeasingToOwnerBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFAChangeFinancialLeasingToOwnerDetailFullAsync",
+    "RelativePath": "api/fa/v1/fa_change_financial_leasing_to_owner/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAChangeFinancialLeasingToOwnerResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Chuy\u1EC3n TS thu\u00EA t\u00E0i ch\u00EDnh th\u00E0nh TS s\u1EDF h\u1EEFu"
+    ],
+    "EndpointName": "GetFAChangeFinancialLeasingToOwnerDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFAChangeFinancialLeasingToOwnerPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fa_change_financial_leasing_to_owner/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FAChangeFinancialLeasingToOwnerDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Chuy\u1EC3n TS thu\u00EA t\u00E0i ch\u00EDnh th\u00E0nh TS s\u1EDF h\u1EEFu"
+    ],
+    "EndpointName": "PostFAChangeFinancialLeasingToOwnerPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFAChangeFinancialLeasingToOwnerSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_change_financial_leasing_to_owner/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAChangeFinancialLeasingToOwnerCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Chuy\u1EC3n TS thu\u00EA t\u00E0i ch\u00EDnh th\u00E0nh TS s\u1EDF h\u1EEFu"
+    ],
+    "EndpointName": "PostFAChangeFinancialLeasingToOwnerSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFAChangeFinancialLeasingToOwnerSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_change_financial_leasing_to_owner/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAChangeFinancialLeasingToOwnerUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Chuy\u1EC3n TS thu\u00EA t\u00E0i ch\u00EDnh th\u00E0nh TS s\u1EDF h\u1EEFu"
+    ],
+    "EndpointName": "PutFAChangeFinancialLeasingToOwnerSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFADecrementBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FADecrementDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "DeleteFADecrementBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFADecrementDetailFullAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADecrementResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "GetFADecrementDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFADecrementGetAvailableFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/get_available_fixed_asset",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FADecrementAvailableFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "GetFADecrementGetAvailableFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFADecrementGetCustomFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/get_custom_fixed_asset",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FADecrementCustomFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "GetFADecrementGetCustomFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh t\u00F9y ch\u1EC9nh",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh t\u00F9y ch\u1EC9nh"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFADecrementPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FADecrementDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PostFADecrementPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFADecrementSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADecrementCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PostFADecrementSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFADecrementSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_decrement/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADecrementUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi gi\u1EA3m t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PutFADecrementSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFADepreciationBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FADepreciationDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "T\u00EDnh kh\u1EA5u hao"
+    ],
+    "EndpointName": "DeleteFADepreciationBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFADepreciationCheckExistsFADepreciationAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/check_exists_fa_depreciation",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FADepreciationDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "T\u00EDnh kh\u1EA5u hao"
+    ],
+    "EndpointName": "GetFADepreciationCheckExistsFADepreciation",
+    "Description": "Ki\u1EC3m tra c\u00F3 kh\u1EA5u hao t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh kh\u00F4ng",
+    "Summary": "Ki\u1EC3m tra c\u00F3 kh\u1EA5u hao t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh kh\u00F4ng"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFADepreciationDetailFullAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADepreciationResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "T\u00EDnh kh\u1EA5u hao"
+    ],
+    "EndpointName": "GetFADepreciationDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFADepreciationFADepreciationDetailAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/fa_depreciation_detail",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADepreciationDetailResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "T\u00EDnh kh\u1EA5u hao"
+    ],
+    "EndpointName": "GetFADepreciationFADepreciationDetail",
+    "Description": "L\u1EA5y chi ti\u1EBFt t\u00EDnh kh\u1EA5u hao",
+    "Summary": "L\u1EA5y chi ti\u1EBFt t\u00EDnh kh\u1EA5u hao"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFADepreciationPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FADepreciationDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "T\u00EDnh kh\u1EA5u hao"
+    ],
+    "EndpointName": "PostFADepreciationPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFADepreciationSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADepreciationCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "T\u00EDnh kh\u1EA5u hao"
+    ],
+    "EndpointName": "PostFADepreciationSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFADepreciationSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_depreciation/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FADepreciationUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PutFADepreciationSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFATransferBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fa_transfer/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FATransferDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "DeleteFATransferBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFATransferDetailFullAsync",
+    "RelativePath": "api/fa/v1/fa_transfer/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FATransferResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "GetFATransferDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFATransferGetAvailableFixedAssetAsync",
+    "RelativePath": "api/fa/v1/fa_transfer/get_available_fixed_asset",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FATransferAvailableFixedAsset, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "GetFATransferGetAvailableFixedAsset",
+    "Description": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n",
+    "Summary": "L\u1EA5y t\u1EA5t c\u1EA3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh c\u00F3 s\u1EB5n"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFATransferPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fa_transfer/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FATransferDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PostFATransferPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFATransferSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_transfer/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FATransferCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PostFATransferSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFATransferSaveFullAsync",
+    "RelativePath": "api/fa/v1/fa_transfer/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FATransferUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "\u0110i\u1EC1u chuy\u1EC3n t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PutFATransferSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "DeleteFixedAssetBatchVoucherAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/batch_voucher",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.FixedAssetDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.BatchVoucherResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "DeleteFixedAssetBatchVoucher",
+    "Description": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch",
+    "Summary": "Th\u1EF1c hi\u1EC7n xo\u00E1 theo danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFixedAssetDetailFullAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/detail_full",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FixedAssetResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "GetFixedAssetDetailFull",
+    "Description": "L\u1EA5y d\u1EEF li\u1EC7u theo id",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u theo id"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFixedAssetGetFAArisingAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/get_fa_arising",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.List\u00601[[FixedAsset.API.Application.Models.RelatedVoucher, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ch\u1EE9ng t\u1EEB"
+    ],
+    "EndpointName": "GetFixedAssetGetFAArising",
+    "Description": "L\u1EA5y ch\u1EE9ng t\u1EEB ph\u00E1t sinh c\u1EE7a t\u00E0i s\u1EA3n",
+    "Summary": "L\u1EA5y ch\u1EE9ng t\u1EEB ph\u00E1t sinh c\u1EE7a t\u00E0i s\u1EA3n"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "GetFixedAssetNextValueAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/next_value",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "branch_id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ch\u1EE9ng t\u1EEB"
+    ],
+    "EndpointName": "GetFixedAssetNextValue",
+    "Description": "L\u1EA5y m\u00E3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh ti\u1EBFp theo",
+    "Summary": "L\u1EA5y m\u00E3 t\u00E0i s\u1EA3n c\u1ED1 \u0111\u1ECBnh ti\u1EBFp theo"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFixedAssetPagingFilterAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/paging_filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.PaginationRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.Pagination\u00601[[FixedAsset.API.Application.Models.FixedAssetDto, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PostFixedAssetPagingFilter",
+    "Description": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang",
+    "Summary": "Paging l\u1EA5y v\u1EC1 danh s\u00E1ch c\u00F3 ph\u00E2n trang"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PostFixedAssetSaveFullAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/save_full",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAIncrementCreateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PostFixedAssetSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi",
+    "Summary": "Th\u1EF1c hi\u1EC7n th\u00EAm m\u1EDBi"
+  },
+  {
+    "ContainingType": "FixedAssetsApi",
+    "Method": "PutFixedAssetSaveFullAsync",
+    "RelativePath": "api/fa/v1/fixed_asset/save_full",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-request-id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FixedAsset.API.Application.Models.SaveFullRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FixedAsset.Domain.SeedWork.Response\u00601[[FixedAsset.API.Application.Models.FAIncrementUpdateResponse, FixedAsset.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Ghi t\u0103ng t\u00E0i s\u1EA3n"
+    ],
+    "EndpointName": "PutFixedAssetSaveFull",
+    "Description": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt",
+    "Summary": "Th\u1EF1c hi\u1EC7n c\u1EADp nh\u1EADt"
+  }
+]

@@ -1,0 +1,204 @@
+﻿13:17:58 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:18:03 [INFO] Now listening on: https://localhost:7132
+13:18:03 [INFO] Now listening on: http://localhost:5274
+13:18:03 [INFO] Application started. Press Ctrl+C to shut down.
+13:18:03 [INFO] Hosting environment: Development
+13:18:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+13:28:51 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:28:58 [INFO] Now listening on: https://localhost:7132
+13:28:58 [INFO] Now listening on: http://localhost:5274
+13:28:58 [INFO] Application started. Press Ctrl+C to shut down.
+13:28:58 [INFO] Hosting environment: Development
+13:28:58 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+13:33:48 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:33:51 [INFO] Usage Telemetry: {"id":"34500000-20b7-2221-eb8e-08de54c883d1","created":"2026-01-16T13:28:51.4955131\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-16T13:28:51.4986268\u002B07:00","configured":"2026-01-16T13:28:51.5649412\u002B07:00","started":"2026-01-16T13:28:51.8003261\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:33:54 [WARN] [PERFORMANCE The request GetDataSynGridQuery took 5 seconds,
+13:33:54 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:33:54 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 7006.6204 ms
+13:34:13 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+13:34:13 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+13:34:13 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 98.7375 ms
+13:34:14 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:34:14 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:34:14 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+13:34:14 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:34:14 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 127.6520 ms
+13:34:14 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:34:14 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 136.1037 ms
+13:34:28 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=5; handshake=12; [Login] initialization=0; authentication=0; [Post-Login] complete=14006; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at BuildingBlocks.Dapper.SmartDataServices.GetListObject[T](String strStoreName, String strConnect, Object values, CancellationToken clt) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Dapper\SmartDataServices.cs:line 73
+   at BuildingBlocks.Dapper.SmartDataServices.GetListObject[T](String strStoreName, String strConnect, Object values, CancellationToken clt) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Dapper\SmartDataServices.cs:line 85
+   at Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherFromStoreQueryHandler.Handle(GetVoucherFromStoreQuery command, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher.Acc\Features\Queries\GetVoucherStore\GetVoucherFromStoreQuery.cs:line 50
+   at BuildingBlocks.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\ValidationBehavior.cs:line 25
+   at BuildingBlocks.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\LoggingBehavior.cs:line 22
+   at Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherFromStoreQueryEndpoint.GetDynamic(VoucherServices services, GetVoucherQuery query, CancellationToken clt) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher.Acc\Features\Queries\GetVoucherStore\GetVoucherFromStoreQueryEndpoint.cs:line 25
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:01fb28fd-eabd-4d6c-a70d-05e42d3d44c7
+Error Number:-2,State:0,Class:11
+13:34:28 [EROR] HTTP GET /vouchers/get-dynamic-voucher responded 500 in 14129.1864 ms
+13:34:40 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+13:34:40 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+13:34:40 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 25.9186 ms
+13:34:40 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:34:40 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:34:40 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+13:34:40 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:34:40 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 133.1956 ms
+13:34:40 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:34:40 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 137.8010 ms
+13:34:40 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+13:34:40 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 264.4669 ms
+13:35:20 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:35:20 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:35:20 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 45.0058 ms
+13:35:22 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:35:22 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:35:22 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 35.9613 ms
+13:35:24 [INFO] [START] Handle request=GenNoInvComnand - Response=Result`1 - RequestData=GenNoInvComnand { Request = Voucher.Acc.Features.Commands.GenNoInv.GenNoInvRequest }
+13:35:59 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at BuildingBlocks.Dapper.SmartDataServices.GetSingleObject[T](String strQuery, String strConnect) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Dapper\SmartDataServices.cs:line 105
+   at BuildingBlocks.Dapper.SmartDataServices.GetSingleObject[T](String strQuery, String strConnect) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Dapper\SmartDataServices.cs:line 108
+   at Voucher.Acc.Features.Commands.GenNoInv.GenNoInvComnandHandler.Handle(GenNoInvComnand command, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher.Acc\Features\Commands\GenNoInv\GenNoInvComnandHandler.cs:line 16
+   at BuildingBlocks.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\ValidationBehavior.cs:line 25
+   at BuildingBlocks.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\LoggingBehavior.cs:line 22
+   at Voucher.Acc.Features.Commands.GenNoInv.GenNoInvEndpoint.GenNoInv(VoucherServices services, GenNoInvRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher.Acc\Features\Commands\GenNoInv\GenNoInvEndpoint.cs:line 27
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:464e19e1-d7ec-4542-bab9-f660cfbaa6a2
+Error Number:-2,State:0,Class:11
+13:35:59 [EROR] HTTP POST /voucher/gen-no-inv responded 500 in 35058.1926 ms
+13:37:08 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+13:37:08 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+13:37:08 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 26.4842 ms
+13:37:08 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:37:08 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+13:37:08 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:37:08 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 26.9298 ms
+13:37:08 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+13:37:08 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+13:37:08 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 26.7500 ms
+13:37:08 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+13:37:08 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 134.2433 ms
+14:45:37 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:45:44 [INFO] Now listening on: https://localhost:7132
+14:45:44 [INFO] Now listening on: http://localhost:5274
+14:45:44 [INFO] Application started. Press Ctrl+C to shut down.
+14:45:44 [INFO] Hosting environment: Development
+14:45:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+14:53:47 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:53:52 [INFO] Now listening on: https://localhost:7132
+14:53:52 [INFO] Now listening on: http://localhost:5274
+14:53:53 [INFO] Application started. Press Ctrl+C to shut down.
+14:53:53 [INFO] Hosting environment: Development
+14:53:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:09:50 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:09:57 [INFO] Now listening on: https://localhost:7132
+15:09:57 [INFO] Now listening on: http://localhost:5274
+15:09:57 [INFO] Application started. Press Ctrl+C to shut down.
+15:09:57 [INFO] Hosting environment: Development
+15:09:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:29:38 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:29:44 [INFO] Now listening on: https://localhost:7132
+15:29:44 [INFO] Now listening on: http://localhost:5274
+15:29:44 [INFO] Application started. Press Ctrl+C to shut down.
+15:29:44 [INFO] Hosting environment: Development
+15:29:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:44:01 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:44:08 [INFO] Now listening on: https://localhost:7132
+15:44:08 [INFO] Now listening on: http://localhost:5274
+15:44:08 [INFO] Application started. Press Ctrl+C to shut down.
+15:44:08 [INFO] Hosting environment: Development
+15:44:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:56:18 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:56:22 [INFO] Now listening on: https://localhost:7132
+15:56:22 [INFO] Now listening on: http://localhost:5274
+15:56:22 [INFO] Application started. Press Ctrl+C to shut down.
+15:56:22 [INFO] Hosting environment: Development
+15:56:22 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+16:12:14 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:12:17 [INFO] Now listening on: https://localhost:7132
+16:12:17 [INFO] Now listening on: http://localhost:5274
+16:12:17 [INFO] Application started. Press Ctrl+C to shut down.
+16:12:17 [INFO] Hosting environment: Development
+16:12:17 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+16:53:04 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:53:09 [INFO] Now listening on: https://localhost:7132
+16:53:09 [INFO] Now listening on: http://localhost:5274
+16:53:09 [INFO] Application started. Press Ctrl+C to shut down.
+16:53:09 [INFO] Hosting environment: Development
+16:53:09 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+16:55:44 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:55:49 [INFO] Now listening on: https://localhost:7132
+16:55:49 [INFO] Now listening on: http://localhost:5274
+16:55:49 [INFO] Application started. Press Ctrl+C to shut down.
+16:55:49 [INFO] Hosting environment: Development
+16:55:49 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+18:36:59 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:37:07 [INFO] Now listening on: https://localhost:7132
+18:37:07 [INFO] Now listening on: http://localhost:5274
+18:37:07 [INFO] Application started. Press Ctrl+C to shut down.
+18:37:07 [INFO] Hosting environment: Development
+18:37:07 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+18:40:25 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:40:33 [INFO] Now listening on: https://localhost:7132
+18:40:33 [INFO] Now listening on: http://localhost:5274
+18:40:33 [INFO] Application started. Press Ctrl+C to shut down.
+18:40:33 [INFO] Hosting environment: Development
+18:40:33 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+18:41:27 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:41:33 [INFO] Now listening on: https://localhost:7132
+18:41:33 [INFO] Now listening on: http://localhost:5274
+18:41:33 [INFO] Application started. Press Ctrl+C to shut down.
+18:41:33 [INFO] Hosting environment: Development
+18:41:33 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+18:44:29 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:44:34 [INFO] Now listening on: https://localhost:7132
+18:44:34 [INFO] Now listening on: http://localhost:5274
+18:44:34 [INFO] Application started. Press Ctrl+C to shut down.
+18:44:34 [INFO] Hosting environment: Development
+18:44:34 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher

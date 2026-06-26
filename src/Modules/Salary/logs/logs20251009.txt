@@ -1,0 +1,364 @@
+﻿08:29:35 [INFO] Now listening on: https://localhost:7260
+08:29:36 [INFO] Now listening on: http://localhost:5087
+08:29:36 [INFO] Application started. Press Ctrl+C to shut down.
+08:29:36 [INFO] Hosting environment: Development
+08:29:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:29:37 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:29:37 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:33:03 [INFO] Now listening on: https://localhost:7260
+08:33:03 [INFO] Now listening on: http://localhost:5087
+08:33:03 [INFO] Application started. Press Ctrl+C to shut down.
+08:33:03 [INFO] Hosting environment: Development
+08:33:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:33:04 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:33:04 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:34:38 [INFO] Now listening on: https://localhost:7260
+08:34:38 [INFO] Now listening on: http://localhost:5087
+08:34:38 [INFO] Application started. Press Ctrl+C to shut down.
+08:34:38 [INFO] Hosting environment: Development
+08:34:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:34:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:34:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:35:49 [INFO] Now listening on: https://localhost:7260
+08:35:49 [INFO] Now listening on: http://localhost:5087
+08:35:49 [INFO] Application started. Press Ctrl+C to shut down.
+08:35:49 [INFO] Hosting environment: Development
+08:35:49 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:35:50 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:35:50 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:36:41 [INFO] Now listening on: https://localhost:7260
+08:36:41 [INFO] Now listening on: http://localhost:5087
+08:36:41 [INFO] Application started. Press Ctrl+C to shut down.
+08:36:41 [INFO] Hosting environment: Development
+08:36:41 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:36:42 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:36:42 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:43:04 [INFO] Now listening on: https://localhost:7260
+08:43:04 [INFO] Now listening on: http://localhost:5087
+08:43:04 [INFO] Application started. Press Ctrl+C to shut down.
+08:43:04 [INFO] Hosting environment: Development
+08:43:04 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:43:05 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:43:05 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:45:44 [INFO] Now listening on: https://localhost:7260
+08:45:44 [INFO] Now listening on: http://localhost:5087
+08:45:44 [INFO] Application started. Press Ctrl+C to shut down.
+08:45:44 [INFO] Hosting environment: Development
+08:45:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:45:45 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:45:45 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:56:47 [INFO] Now listening on: https://localhost:7260
+08:56:47 [INFO] Now listening on: http://localhost:5087
+08:56:47 [INFO] Application started. Press Ctrl+C to shut down.
+08:56:47 [INFO] Hosting environment: Development
+08:56:47 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:56:48 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:56:48 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:59:44 [INFO] Now listening on: https://localhost:7260
+08:59:44 [INFO] Now listening on: http://localhost:5087
+08:59:44 [INFO] Application started. Press Ctrl+C to shut down.
+08:59:44 [INFO] Hosting environment: Development
+08:59:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+08:59:45 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:59:45 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:01:36 [INFO] Now listening on: https://localhost:7260
+09:01:36 [INFO] Now listening on: http://localhost:5087
+09:01:36 [INFO] Application started. Press Ctrl+C to shut down.
+09:01:36 [INFO] Hosting environment: Development
+09:01:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:01:37 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:01:37 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:13:16 [INFO] Now listening on: https://localhost:7260
+09:13:16 [INFO] Now listening on: http://localhost:5087
+09:13:16 [INFO] Application started. Press Ctrl+C to shut down.
+09:13:16 [INFO] Hosting environment: Development
+09:13:16 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:13:17 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:13:17 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:16:11 [INFO] Now listening on: https://localhost:7260
+09:16:11 [INFO] Now listening on: http://localhost:5087
+09:16:11 [INFO] Application started. Press Ctrl+C to shut down.
+09:16:11 [INFO] Hosting environment: Development
+09:16:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:16:12 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:16:12 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:23:39 [INFO] Now listening on: https://localhost:7260
+09:23:39 [INFO] Now listening on: http://localhost:5087
+09:23:39 [INFO] Application started. Press Ctrl+C to shut down.
+09:23:39 [INFO] Hosting environment: Development
+09:23:39 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:23:43 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:23:43 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:29:51 [INFO] Now listening on: https://localhost:7260
+09:29:51 [INFO] Now listening on: http://localhost:5087
+09:29:51 [INFO] Application started. Press Ctrl+C to shut down.
+09:29:51 [INFO] Hosting environment: Development
+09:29:51 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:29:52 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:29:52 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:30:39 [INFO] Now listening on: https://localhost:7260
+09:30:40 [INFO] Now listening on: http://localhost:5087
+09:30:40 [INFO] Application started. Press Ctrl+C to shut down.
+09:30:40 [INFO] Hosting environment: Development
+09:30:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:30:41 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:30:41 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:30:54 [INFO] Now listening on: https://localhost:7260
+09:30:54 [INFO] Now listening on: http://localhost:5087
+09:30:54 [INFO] Application started. Press Ctrl+C to shut down.
+09:30:54 [INFO] Hosting environment: Development
+09:30:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:30:55 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:30:55 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:31:48 [INFO] Now listening on: https://localhost:7260
+09:31:48 [INFO] Now listening on: http://localhost:5087
+09:31:48 [INFO] Application started. Press Ctrl+C to shut down.
+09:31:48 [INFO] Hosting environment: Development
+09:31:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:31:49 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:31:49 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:34:35 [INFO] Now listening on: https://localhost:7260
+09:34:35 [INFO] Now listening on: http://localhost:5087
+09:34:35 [INFO] Application started. Press Ctrl+C to shut down.
+09:34:35 [INFO] Hosting environment: Development
+09:34:35 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:34:36 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:34:36 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:39:37 [INFO] Now listening on: https://localhost:7260
+09:39:37 [INFO] Now listening on: http://localhost:5087
+09:39:37 [INFO] Application started. Press Ctrl+C to shut down.
+09:39:37 [INFO] Hosting environment: Development
+09:39:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:39:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:39:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:40:22 [INFO] Now listening on: https://localhost:7260
+09:40:22 [INFO] Now listening on: http://localhost:5087
+09:40:22 [INFO] Application started. Press Ctrl+C to shut down.
+09:40:22 [INFO] Hosting environment: Development
+09:40:22 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:40:23 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:40:23 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:40:36 [INFO] Now listening on: https://localhost:7260
+09:40:36 [INFO] Now listening on: http://localhost:5087
+09:40:36 [INFO] Application started. Press Ctrl+C to shut down.
+09:40:36 [INFO] Hosting environment: Development
+09:40:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:40:37 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:40:37 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:41:39 [INFO] Now listening on: https://localhost:7260
+09:41:39 [INFO] Now listening on: http://localhost:5087
+09:41:39 [INFO] Application started. Press Ctrl+C to shut down.
+09:41:39 [INFO] Hosting environment: Development
+09:41:39 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:41:39 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:41:39 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:42:14 [INFO] Now listening on: https://localhost:7260
+09:42:14 [INFO] Now listening on: http://localhost:5087
+09:42:14 [INFO] Application started. Press Ctrl+C to shut down.
+09:42:14 [INFO] Hosting environment: Development
+09:42:14 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:42:15 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:42:15 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:42:41 [INFO] Now listening on: https://localhost:7260
+09:42:41 [INFO] Now listening on: http://localhost:5087
+09:42:41 [INFO] Application started. Press Ctrl+C to shut down.
+09:42:41 [INFO] Hosting environment: Development
+09:42:41 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:42:42 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:42:42 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:43:08 [INFO] Now listening on: https://localhost:7260
+09:43:08 [INFO] Now listening on: http://localhost:5087
+09:43:08 [INFO] Application started. Press Ctrl+C to shut down.
+09:43:08 [INFO] Hosting environment: Development
+09:43:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:43:09 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:43:09 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:45:57 [INFO] Now listening on: https://localhost:7260
+09:45:57 [INFO] Now listening on: http://localhost:5087
+09:45:57 [INFO] Application started. Press Ctrl+C to shut down.
+09:45:57 [INFO] Hosting environment: Development
+09:45:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:45:57 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:45:57 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:47:24 [INFO] Now listening on: https://localhost:7260
+09:47:24 [INFO] Now listening on: http://localhost:5087
+09:47:24 [INFO] Application started. Press Ctrl+C to shut down.
+09:47:24 [INFO] Hosting environment: Development
+09:47:24 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:47:25 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:47:25 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:52:38 [INFO] Now listening on: https://localhost:7260
+09:52:38 [INFO] Now listening on: http://localhost:5087
+09:52:38 [INFO] Application started. Press Ctrl+C to shut down.
+09:52:38 [INFO] Hosting environment: Development
+09:52:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:52:39 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:52:39 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:54:03 [INFO] Now listening on: https://localhost:7260
+09:54:03 [INFO] Now listening on: http://localhost:5087
+09:54:03 [INFO] Application started. Press Ctrl+C to shut down.
+09:54:03 [INFO] Hosting environment: Development
+09:54:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+09:54:04 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:54:04 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:00:26 [INFO] Now listening on: https://localhost:7260
+10:00:26 [INFO] Now listening on: http://localhost:5087
+10:00:26 [INFO] Application started. Press Ctrl+C to shut down.
+10:00:26 [INFO] Hosting environment: Development
+10:00:26 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:00:26 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:00:26 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:03:08 [INFO] Now listening on: https://localhost:7260
+10:03:08 [INFO] Now listening on: http://localhost:5087
+10:03:08 [INFO] Application started. Press Ctrl+C to shut down.
+10:03:08 [INFO] Hosting environment: Development
+10:03:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:03:09 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:03:09 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:08:16 [INFO] Now listening on: https://localhost:7260
+10:08:17 [INFO] Now listening on: http://localhost:5087
+10:08:17 [INFO] Application started. Press Ctrl+C to shut down.
+10:08:17 [INFO] Hosting environment: Development
+10:08:17 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:08:18 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:08:18 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:09:26 [INFO] Now listening on: https://localhost:7260
+10:09:26 [INFO] Now listening on: http://localhost:5087
+10:09:26 [INFO] Application started. Press Ctrl+C to shut down.
+10:09:26 [INFO] Hosting environment: Development
+10:09:26 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:09:27 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:09:27 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:10:49 [INFO] Now listening on: https://localhost:7260
+10:10:49 [INFO] Now listening on: http://localhost:5087
+10:10:49 [INFO] Application started. Press Ctrl+C to shut down.
+10:10:49 [INFO] Hosting environment: Development
+10:10:49 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:10:50 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:10:50 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:13:41 [INFO] Now listening on: https://localhost:7260
+10:13:41 [INFO] Now listening on: http://localhost:5087
+10:13:41 [INFO] Application started. Press Ctrl+C to shut down.
+10:13:41 [INFO] Hosting environment: Development
+10:13:41 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:13:42 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:13:42 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:18:36 [INFO] Now listening on: https://localhost:7260
+10:18:36 [INFO] Now listening on: http://localhost:5087
+10:18:36 [INFO] Application started. Press Ctrl+C to shut down.
+10:18:36 [INFO] Hosting environment: Development
+10:18:36 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:18:37 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:18:37 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:22:37 [INFO] Now listening on: https://localhost:7260
+10:22:37 [INFO] Now listening on: http://localhost:5087
+10:22:37 [INFO] Application started. Press Ctrl+C to shut down.
+10:22:37 [INFO] Hosting environment: Development
+10:22:37 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:22:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:22:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:31:28 [INFO] Now listening on: https://localhost:7260
+10:31:28 [INFO] Now listening on: http://localhost:5087
+10:31:28 [INFO] Application started. Press Ctrl+C to shut down.
+10:31:28 [INFO] Hosting environment: Development
+10:31:28 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:31:29 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:31:29 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:36:22 [INFO] Now listening on: https://localhost:7260
+10:36:22 [INFO] Now listening on: http://localhost:5087
+10:36:23 [INFO] Application started. Press Ctrl+C to shut down.
+10:36:23 [INFO] Hosting environment: Development
+10:36:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:36:23 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:36:23 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:36:39 [INFO] Now listening on: https://localhost:7260
+10:36:39 [INFO] Now listening on: http://localhost:5087
+10:36:39 [INFO] Application started. Press Ctrl+C to shut down.
+10:36:39 [INFO] Hosting environment: Development
+10:36:39 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:36:40 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:36:40 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:37:56 [INFO] Now listening on: https://localhost:7260
+10:37:56 [INFO] Now listening on: http://localhost:5087
+10:37:56 [INFO] Application started. Press Ctrl+C to shut down.
+10:37:56 [INFO] Hosting environment: Development
+10:37:56 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:37:57 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:37:57 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:53:11 [INFO] Now listening on: https://localhost:7260
+10:53:11 [INFO] Now listening on: http://localhost:5087
+10:53:11 [INFO] Application started. Press Ctrl+C to shut down.
+10:53:11 [INFO] Hosting environment: Development
+10:53:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:53:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:53:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:58:38 [INFO] Now listening on: https://localhost:7260
+10:58:38 [INFO] Now listening on: http://localhost:5087
+10:58:38 [INFO] Application started. Press Ctrl+C to shut down.
+10:58:38 [INFO] Hosting environment: Development
+10:58:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+10:58:39 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:58:39 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:02:50 [INFO] Now listening on: https://localhost:7260
+11:02:50 [INFO] Now listening on: http://localhost:5087
+11:02:50 [INFO] Application started. Press Ctrl+C to shut down.
+11:02:50 [INFO] Hosting environment: Development
+11:02:50 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+11:02:50 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:02:50 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:12:26 [INFO] Now listening on: https://localhost:7260
+11:12:27 [INFO] Now listening on: http://localhost:5087
+11:12:27 [INFO] Application started. Press Ctrl+C to shut down.
+11:12:27 [INFO] Hosting environment: Development
+11:12:27 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+11:12:27 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:12:27 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:16:34 [INFO] Now listening on: https://localhost:7260
+11:16:34 [INFO] Now listening on: http://localhost:5087
+11:16:34 [INFO] Application started. Press Ctrl+C to shut down.
+11:16:34 [INFO] Hosting environment: Development
+11:16:34 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+11:16:35 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:16:35 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:17:39 [INFO] Now listening on: https://localhost:7260
+11:17:39 [INFO] Now listening on: http://localhost:5087
+11:17:39 [INFO] Application started. Press Ctrl+C to shut down.
+11:17:39 [INFO] Hosting environment: Development
+11:17:39 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+11:17:40 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:17:40 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:26:58 [INFO] Now listening on: https://localhost:7260
+11:26:58 [INFO] Now listening on: http://localhost:5087
+11:26:58 [INFO] Application started. Press Ctrl+C to shut down.
+11:26:58 [INFO] Hosting environment: Development
+11:26:58 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+11:27:00 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:27:00 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:28:53 [INFO] Now listening on: https://localhost:7260
+11:28:53 [INFO] Now listening on: http://localhost:5087
+11:28:53 [INFO] Application started. Press Ctrl+C to shut down.
+11:28:53 [INFO] Hosting environment: Development
+11:28:53 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+11:28:54 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:28:54 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:17:59 [INFO] Now listening on: https://localhost:7260
+13:17:59 [INFO] Now listening on: http://localhost:5087
+13:17:59 [INFO] Application started. Press Ctrl+C to shut down.
+13:17:59 [INFO] Hosting environment: Development
+13:17:59 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+13:18:00 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:18:00 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:55:58 [INFO] Now listening on: https://localhost:7260
+14:55:58 [INFO] Now listening on: http://localhost:5087
+14:55:58 [INFO] Application started. Press Ctrl+C to shut down.
+14:55:58 [INFO] Hosting environment: Development
+14:55:58 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+14:55:59 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:55:59 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:26:04 [INFO] Now listening on: https://localhost:7260
+15:26:04 [INFO] Now listening on: http://localhost:5087
+15:26:04 [INFO] Application started. Press Ctrl+C to shut down.
+15:26:04 [INFO] Hosting environment: Development
+15:26:04 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Salary
+15:26:05 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:26:05 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.

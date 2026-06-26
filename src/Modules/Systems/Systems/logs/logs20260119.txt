@@ -1,0 +1,593 @@
+﻿08:39:11 [INFO] Now listening on: https://localhost:7130
+08:39:11 [INFO] Now listening on: http://localhost:5165
+08:39:11 [INFO] Application started. Press Ctrl+C to shut down.
+08:39:11 [INFO] Hosting environment: Development
+08:39:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+11:40:50 [INFO] Now listening on: https://localhost:7130
+11:40:50 [INFO] Now listening on: http://localhost:5165
+11:40:50 [INFO] Application started. Press Ctrl+C to shut down.
+11:40:50 [INFO] Hosting environment: Development
+11:40:50 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+13:15:19 [INFO] Now listening on: https://localhost:7130
+13:15:19 [INFO] Now listening on: http://localhost:5165
+13:15:20 [INFO] Application started. Press Ctrl+C to shut down.
+13:15:20 [INFO] Hosting environment: Development
+13:15:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+14:40:07 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1819.7559 ms
+14:40:25 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+14:40:25 [INFO] Cache miss  for FindComponentSettingQuery
+14:40:25 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 71.2592 ms
+14:40:40 [WARN] [PERFORMANCE The request FindComponentSettingQuery took 14 seconds,
+14:40:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:40:40 [INFO] HTTP GET /cms/settings responded 200 in 14636.8184 ms
+14:40:40 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+14:40:40 [INFO] Cache hit  for FindComponentSettingQuery
+14:40:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:40:40 [INFO] HTTP GET /cms/settings responded 200 in 158.2136 ms
+14:40:46 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:40:46 [INFO] Cache miss  for FindComponentSettingQuery
+14:40:47 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:40:47 [INFO] HTTP GET /cms/settings responded 200 in 649.4097 ms
+14:43:25 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 47.7196 ms
+14:43:52 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+14:43:53 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 107.3249 ms
+14:43:53 [INFO] Cache hit  for FindComponentSettingQuery
+14:43:53 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:43:53 [INFO] HTTP GET /cms/settings responded 200 in 452.2445 ms
+14:44:03 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+14:44:04 [INFO] Cache hit  for FindComponentSettingQuery
+14:44:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+14:44:04 [INFO] HTTP GET /cms/settings responded 200 in 175.8693 ms
+15:06:12 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 57.2000 ms
+15:06:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+15:06:28 [INFO] Cache miss  for FindComponentSettingQuery
+15:06:28 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 33.6315 ms
+15:06:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:06:28 [INFO] HTTP GET /cms/settings responded 200 in 839.2658 ms
+15:06:46 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-account-symbol, TypeName = , Expiration = 03:00:00 }
+15:06:46 [INFO] Cache miss  for FindComponentSettingQuery
+15:06:46 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:06:46 [INFO] HTTP GET /cms/settings responded 200 in 461.8968 ms
+15:08:12 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 35.1575 ms
+15:08:33 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 54.6098 ms
+15:08:43 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+15:08:43 [INFO] Cache hit  for FindComponentSettingQuery
+15:08:43 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:08:43 [INFO] HTTP GET /cms/settings responded 200 in 50.5812 ms
+15:08:44 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 107.7556 ms
+15:08:48 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = SmartDataApplication-Leave }
+15:08:48 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[Systems.Infrastructure.Entities.ComponentSetting]
+15:08:48 [INFO] HTTP GET /cms/settings/SmartDataApplication-Leave responded 200 in 525.5896 ms
+15:09:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 33.2290 ms
+15:11:30 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 71.7128 ms
+15:22:17 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 50.4804 ms
+15:32:00 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 569.3083 ms
+15:32:51 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:32:51 [INFO] Cache hit  for FindComponentSettingQuery
+15:32:51 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:32:51 [INFO] HTTP GET /cms/settings responded 200 in 221.9422 ms
+15:43:19 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+15:43:20 [INFO] Cache hit  for FindComponentSettingQuery
+15:43:20 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+15:43:20 [INFO] HTTP GET /cms/settings responded 200 in 259.4663 ms
+15:49:38 [INFO] Now listening on: https://localhost:7130
+15:49:38 [INFO] Now listening on: http://localhost:5165
+15:49:38 [INFO] Application started. Press Ctrl+C to shut down.
+15:49:38 [INFO] Hosting environment: Development
+15:49:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+15:50:07 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 509.7413 ms
+15:53:57 [INFO] Now listening on: https://localhost:7130
+15:53:57 [INFO] Now listening on: http://localhost:5165
+15:53:57 [INFO] Application started. Press Ctrl+C to shut down.
+15:53:57 [INFO] Hosting environment: Development
+15:53:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+15:54:41 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 711.1267 ms
+15:57:24 [INFO] Now listening on: https://localhost:7130
+15:57:24 [INFO] Now listening on: http://localhost:5165
+15:57:24 [INFO] Application started. Press Ctrl+C to shut down.
+15:57:24 [INFO] Hosting environment: Development
+15:57:24 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+15:59:39 [INFO] Now listening on: https://localhost:7130
+15:59:39 [INFO] Now listening on: http://localhost:5165
+15:59:39 [INFO] Application started. Press Ctrl+C to shut down.
+15:59:39 [INFO] Hosting environment: Development
+15:59:39 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+16:00:08 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 636.1029 ms
+16:00:21 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:00:21 [INFO] Cache hit  for FindComponentSettingQuery
+16:00:21 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:00:21 [INFO] HTTP GET /cms/settings responded 200 in 116.2181 ms
+16:05:42 [INFO] Now listening on: https://localhost:7130
+16:05:42 [INFO] Now listening on: http://localhost:5165
+16:05:42 [INFO] Application started. Press Ctrl+C to shut down.
+16:05:42 [INFO] Hosting environment: Development
+16:05:42 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+16:06:12 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 647.0510 ms
+16:07:23 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:07:23 [INFO] Cache miss  for FindComponentSettingQuery
+16:07:25 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:07:25 [INFO] HTTP GET /cms/settings responded 200 in 2151.8586 ms
+16:07:49 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:07:49 [INFO] Cache hit  for FindComponentSettingQuery
+16:07:49 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:07:49 [INFO] HTTP GET /cms/settings responded 200 in 154.3510 ms
+16:12:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 28.1689 ms
+16:22:22 [INFO] Now listening on: https://localhost:7130
+16:22:22 [INFO] Now listening on: http://localhost:5165
+16:22:23 [INFO] Application started. Press Ctrl+C to shut down.
+16:22:23 [INFO] Hosting environment: Development
+16:22:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+16:24:00 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 693.1043 ms
+16:25:26 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 72.3808 ms
+16:25:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:25:38 [INFO] Cache miss  for FindComponentSettingQuery
+16:25:40 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:25:40 [INFO] HTTP GET /cms/settings responded 200 in 1782.9703 ms
+16:25:42 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:25:42 [INFO] Cache hit  for FindComponentSettingQuery
+16:25:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:25:42 [INFO] HTTP GET /cms/settings responded 200 in 67.5290 ms
+16:25:50 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+16:25:50 [INFO] Cache hit  for FindComponentSettingQuery
+16:25:50 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:25:50 [INFO] HTTP GET /cms/settings responded 200 in 59.7620 ms
+16:26:50 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 26.0745 ms
+16:26:59 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:catalog-shifts, TypeName = , Expiration = 03:00:00 }
+16:26:59 [INFO] Cache miss  for FindComponentSettingQuery
+16:26:59 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 23.5036 ms
+16:26:59 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:26:59 [INFO] HTTP GET /cms/settings responded 200 in 186.6042 ms
+16:27:36 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:27:36 [INFO] Cache miss  for FindComponentSettingQuery
+16:27:36 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:27:36 [INFO] HTTP GET /cms/settings responded 200 in 105.9851 ms
+16:27:36 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 22.6273 ms
+16:44:06 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 113.3715 ms
+16:44:25 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:25 [INFO] Cache miss  for FindComponentSettingQuery
+16:44:25 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:25 [INFO] HTTP GET /cms/settings responded 200 in 219.5418 ms
+16:44:25 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 139.9020 ms
+16:44:25 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:25 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:25 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:25 [INFO] HTTP GET /cms/settings responded 200 in 40.6113 ms
+16:44:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:26 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:26 [INFO] HTTP GET /cms/settings responded 200 in 36.4626 ms
+16:44:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:26 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:26 [INFO] HTTP GET /cms/settings responded 200 in 36.3562 ms
+16:44:26 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:26 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:26 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:26 [INFO] HTTP GET /cms/settings responded 200 in 33.0444 ms
+16:44:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:27 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:27 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:27 [INFO] HTTP GET /cms/settings responded 200 in 35.9648 ms
+16:44:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:27 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:27 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:27 [INFO] HTTP GET /cms/settings responded 200 in 32.7977 ms
+16:44:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:27 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:27 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:27 [INFO] HTTP GET /cms/settings responded 200 in 29.2975 ms
+16:44:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:27 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:27 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:27 [INFO] HTTP GET /cms/settings responded 200 in 30.6137 ms
+16:44:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:28 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:28 [INFO] HTTP GET /cms/settings responded 200 in 29.0140 ms
+16:44:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:28 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:28 [INFO] HTTP GET /cms/settings responded 200 in 83.2229 ms
+16:44:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:28 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:28 [INFO] HTTP GET /cms/settings responded 200 in 27.9458 ms
+16:44:28 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:28 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:28 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:28 [INFO] HTTP GET /cms/settings responded 200 in 30.4881 ms
+16:44:29 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:29 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:29 [INFO] HTTP GET /cms/settings responded 200 in 29.2590 ms
+16:44:29 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:29 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:29 [INFO] HTTP GET /cms/settings responded 200 in 51.1713 ms
+16:44:29 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:29 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:29 [INFO] HTTP GET /cms/settings responded 200 in 175.4088 ms
+16:44:29 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:29 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:29 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:29 [INFO] HTTP GET /cms/settings responded 200 in 44.3887 ms
+16:44:30 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:30 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:30 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:30 [INFO] HTTP GET /cms/settings responded 200 in 30.2644 ms
+16:44:30 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:30 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:30 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:30 [INFO] HTTP GET /cms/settings responded 200 in 34.2662 ms
+16:44:30 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:30 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:30 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:30 [INFO] HTTP GET /cms/settings responded 200 in 37.0168 ms
+16:44:31 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:31 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:31 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:31 [INFO] HTTP GET /cms/settings responded 200 in 31.0222 ms
+16:44:31 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:31 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:31 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:31 [INFO] HTTP GET /cms/settings responded 200 in 29.8652 ms
+16:44:32 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:32 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:32 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:32 [INFO] HTTP GET /cms/settings responded 200 in 111.5594 ms
+16:44:32 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:32 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:32 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:32 [INFO] HTTP GET /cms/settings responded 200 in 30.5646 ms
+16:44:32 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:32 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:32 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:32 [INFO] HTTP GET /cms/settings responded 200 in 145.3170 ms
+16:44:32 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:33 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:33 [INFO] HTTP GET /cms/settings responded 200 in 65.1172 ms
+16:44:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:33 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:33 [INFO] HTTP GET /cms/settings responded 200 in 33.9747 ms
+16:44:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:33 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:33 [INFO] HTTP GET /cms/settings responded 200 in 33.5734 ms
+16:44:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:33 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:33 [INFO] HTTP GET /cms/settings responded 200 in 37.7149 ms
+16:44:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:34 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:34 [INFO] HTTP GET /cms/settings responded 200 in 38.3052 ms
+16:44:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:44:34 [INFO] Cache hit  for FindComponentSettingQuery
+16:44:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:44:34 [INFO] HTTP GET /cms/settings responded 200 in 35.5212 ms
+16:45:34 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 27.2271 ms
+16:45:46 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:45:46 [INFO] Cache hit  for FindComponentSettingQuery
+16:45:46 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:45:46 [INFO] HTTP GET /cms/settings responded 200 in 38.8186 ms
+16:45:52 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:45:52 [INFO] Cache hit  for FindComponentSettingQuery
+16:45:52 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:45:52 [INFO] HTTP GET /cms/settings responded 200 in 94.6970 ms
+16:45:52 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 63.2473 ms
+16:46:12 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:46:12 [INFO] Cache hit  for FindComponentSettingQuery
+16:46:12 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:46:12 [INFO] HTTP GET /cms/settings responded 200 in 52.8405 ms
+16:46:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:46:33 [INFO] Cache hit  for FindComponentSettingQuery
+16:46:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:46:33 [INFO] HTTP GET /cms/settings responded 200 in 30.4192 ms
+16:46:34 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:46:34 [INFO] Cache hit  for FindComponentSettingQuery
+16:46:34 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:46:34 [INFO] HTTP GET /cms/settings responded 200 in 29.5314 ms
+16:47:00 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.8964 ms
+16:47:04 [INFO] HTTP GET /tenants/get-by-id/0101526991 responded 200 in 36.7649 ms
+16:47:05 [INFO] HTTP GET /rule-unit/get-user-by-code-unit/888 responded 200 in 90.5842 ms
+16:47:17 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 19.8776 ms
+16:47:27 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:47:27 [INFO] Cache hit  for FindComponentSettingQuery
+16:47:27 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:47:27 [INFO] HTTP GET /cms/settings responded 200 in 29.7578 ms
+16:49:23 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 27.4451 ms
+16:49:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:49:33 [INFO] Cache hit  for FindComponentSettingQuery
+16:49:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:49:33 [INFO] HTTP GET /cms/settings responded 200 in 33.2626 ms
+16:49:40 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 22.5639 ms
+16:50:32 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 123.5750 ms
+16:53:07 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 70.2588 ms
+16:53:19 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:53:19 [INFO] Cache hit  for FindComponentSettingQuery
+16:53:19 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:53:19 [INFO] HTTP GET /cms/settings responded 200 in 39.4440 ms
+16:53:19 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 23.2436 ms
+16:53:33 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = SmartDataApplication-Leave }
+16:53:47 [EROR] An error occurred using the connection to database 'RANGDONGERP2026' on server '210.245.94.31, 56789'.
+16:53:47 [EROR] An exception occurred while iterating over the results of a query for context type 'Systems.Infrastructure.SystemDbcontext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=9; handshake=13; [Login] initialization=0; authentication=0; [Post-Login] complete=14008; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4476c85e-8e9f-4aea-ac58-b7ed927f7f03
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=9; handshake=13; [Login] initialization=0; authentication=0; [Post-Login] complete=14008; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4476c85e-8e9f-4aea-ac58-b7ed927f7f03
+Error Number:-2,State:0,Class:11
+16:53:51 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=9; handshake=13; [Login] initialization=0; authentication=0; [Post-Login] complete=14008; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Systems.Features.Cms.FindOneComponentSettingQueryHandler.Handle(FindOneComponentSettingQuery query, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems\Features\Cms\FindOneComponentSettingQuery.cs:line 15
+   at BuildingBlocks.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\LoggingBehavior.cs:line 22
+   at Systems.Apis.CmsApi.FindOneComponentSetting(SystemService services, String settingId, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems\Apis\CmsApi.cs:line 145
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:4476c85e-8e9f-4aea-ac58-b7ed927f7f03
+Error Number:-2,State:0,Class:11
+16:53:51 [EROR] HTTP GET /cms/settings/SmartDataApplication-Leave responded 500 in 17674.5887 ms
+16:57:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 96.3549 ms
+16:57:23 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+16:57:23 [INFO] Cache miss  for FindComponentSettingQuery
+16:57:24 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+16:57:24 [INFO] HTTP GET /cms/settings responded 200 in 361.5462 ms
+16:57:24 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 97.5194 ms
+16:58:39 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 158.0372 ms
+16:59:46 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 22.0028 ms
+17:00:23 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 34.0549 ms
+17:00:42 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+17:00:42 [INFO] Cache miss  for FindComponentSettingQuery
+17:00:42 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:00:42 [INFO] HTTP GET /cms/settings responded 200 in 108.4130 ms
+17:00:42 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 22.7747 ms
+17:08:57 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 219.0099 ms
+17:11:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 29.9123 ms
+17:12:54 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 61.0933 ms
+17:13:32 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 26.2785 ms
+17:18:55 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.5501 ms
+17:20:10 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+17:20:10 [INFO] Cache miss  for FindComponentSettingQuery
+17:20:10 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:20:10 [INFO] HTTP GET /cms/settings responded 200 in 215.8883 ms
+17:20:10 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 49.7821 ms
+17:26:13 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 27.2108 ms
+17:26:46 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:SmartDataApplication-Leave, TypeName = , Expiration = 03:00:00 }
+17:26:46 [INFO] Cache miss  for FindComponentSettingQuery
+17:26:46 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 88.3722 ms
+17:26:46 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:26:46 [INFO] HTTP GET /cms/settings responded 200 in 311.7934 ms
+17:27:20 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:27:20 [INFO] Cache miss  for FindComponentSettingQuery
+17:27:21 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:27:21 [INFO] HTTP GET /cms/settings responded 200 in 412.0041 ms
+17:36:06 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = RequiredPayment }
+17:36:07 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[Systems.Infrastructure.Entities.ComponentSetting]
+17:36:07 [INFO] HTTP GET /cms/settings/RequiredPayment responded 200 in 582.0493 ms
+17:37:04 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:37:04 [INFO] Cache miss  for FindComponentSettingQuery
+17:37:04 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:37:04 [INFO] HTTP GET /cms/settings responded 200 in 105.6656 ms
+17:37:08 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:PurchasePurpose,Cbb_CatalogObject,Cbb_CatalogMethodOfPayments,Cbb_CatalogStatistical,Warehouse,Cbb_Currency,RequiredPaymentDetail,HeadInputInv,RPaymentFile,PaymentMoney,PaymentPlan,TravelExpenses,Cbb_CatalogBankAccount,PUOrderFile,Cbb_CatalogContract,Cbb_CatalogRevExp,Cbb_CatalogJob,SourcePayment,Declaration, TypeName = , Expiration = 03:00:00 }
+17:37:08 [INFO] Cache miss  for FindComponentSettingQuery
+17:37:08 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:37:08 [INFO] HTTP GET /cms/settings responded 200 in 345.4042 ms
+17:37:12 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = TravelExpenses }
+17:37:12 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[Systems.Infrastructure.Entities.ComponentSetting]
+17:37:12 [INFO] HTTP GET /cms/settings/TravelExpenses responded 200 in 33.2561 ms
+17:52:44 [INFO] Now listening on: https://localhost:7130
+17:52:44 [INFO] Now listening on: http://localhost:5165
+17:52:44 [INFO] Application started. Press Ctrl+C to shut down.
+17:52:44 [INFO] Hosting environment: Development
+17:52:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+17:53:14 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 1414.2392 ms
+17:53:18 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+17:53:18 [INFO] Cache miss  for FindComponentSettingQuery
+17:53:18 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+17:53:18 [INFO] HTTP GET /cms/settings responded 200 in 382.8011 ms
+18:09:21 [INFO] Now listening on: https://localhost:7130
+18:09:21 [INFO] Now listening on: http://localhost:5165
+18:09:21 [INFO] Application started. Press Ctrl+C to shut down.
+18:09:21 [INFO] Hosting environment: Development
+18:09:21 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems
+18:09:47 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 638.6995 ms
+18:10:17 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:10:17 [INFO] Cache miss  for FindComponentSettingQuery
+18:10:33 [EROR] An error occurred using the connection to database 'RANGDONGERP2026' on server '210.245.94.31, 56789'.
+18:10:33 [EROR] An exception occurred while iterating over the results of a query for context type 'Systems.Infrastructure.SystemDbcontext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task, ConfigureAwaitOptions options)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+18:10:36 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Systems.Features.Cms.FindComponentSettingQueryHandler.Handle(FindComponentSettingQuery request, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems\Features\Cms\FindComponentSettingQuery.cs:line 86
+   at BuildingBlocks.Behaviors.QueryCachingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\QueryCachingBehavior.cs:line 27
+   at BuildingBlocks.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\LoggingBehavior.cs:line 22
+   at Systems.Apis.CmsApi.FindComponentSetting(SystemService services, FilteringRequest filtering, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems\Apis\CmsApi.cs:line 134
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+18:10:36 [EROR] HTTP GET /cms/settings responded 500 in 19128.0783 ms
+18:11:04 [INFO] HTTP GET /menu/get-by-code-user/ADMIN responded 200 in 31.8494 ms
+18:11:33 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, CurrentUser = BuildingBlocks.Web.CurrentUser, CacheKey = KT:0101526991:setting:RequiredPayment,RequiredPaymentDetail, TypeName = , Expiration = 03:00:00 }
+18:11:33 [INFO] Cache miss  for FindComponentSettingQuery
+18:11:33 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[Systems.Infrastructure.Entities.ComponentSetting]]
+18:11:33 [INFO] HTTP GET /cms/settings responded 200 in 471.8436 ms
+18:27:32 [INFO] Now listening on: https://localhost:7130
+18:27:32 [INFO] Now listening on: http://localhost:5165
+18:27:32 [INFO] Application started. Press Ctrl+C to shut down.
+18:27:32 [INFO] Hosting environment: Development
+18:27:32 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Systems\Systems

@@ -1,0 +1,977 @@
+﻿08:40:53 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:40:54 [INFO] Now listening on: https://localhost:7129
+08:40:54 [INFO] Now listening on: http://localhost:5299
+08:40:54 [INFO] Application started. Press Ctrl+C to shut down.
+08:40:54 [INFO] Hosting environment: Development
+08:40:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+08:40:56 [INFO] HTTP GET / responded 302 in 1397.8793 ms
+08:40:56 [INFO] HTTP GET /scalar/v1 responded 200 in 58.5508 ms
+08:40:56 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:40:56 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:40:56 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 9.2274 ms
+08:40:56 [INFO] HTTP GET /scalar/scalar.js responded 200 in 26.1854 ms
+08:40:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 93.1665 ms
+08:40:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 15.1986 ms
+08:45:54 [INFO] Usage Telemetry: {"id":"307b0000-20b7-2221-c632-08de53d71eb8","created":"2026-01-15T08:40:53.1689619\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-15T08:40:53.1702712\u002B07:00","configured":"2026-01-15T08:40:53.2021628\u002B07:00","started":"2026-01-15T08:40:53.9861066\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+08:52:53 [INFO] HTTP GET /catalog-units/get-all responded 200 in 1805.5702 ms
+08:53:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 237.5695 ms
+08:53:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 66.5830 ms
+08:53:29 [INFO] HTTP GET /catalog/SmartOption responded 200 in 400.0456 ms
+08:53:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 46.3140 ms
+08:53:29 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.6009 ms
+09:05:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 5339.3194 ms
+09:05:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 959.8758 ms
+09:05:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1332.8819 ms
+09:05:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 906.9018 ms
+09:05:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 93.1858 ms
+09:18:03 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:18:04 [INFO] Now listening on: https://localhost:7129
+09:18:04 [INFO] Now listening on: http://localhost:5299
+09:18:04 [INFO] Application started. Press Ctrl+C to shut down.
+09:18:04 [INFO] Hosting environment: Development
+09:18:04 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:18:06 [INFO] HTTP GET / responded 302 in 1597.8419 ms
+09:18:06 [INFO] HTTP GET /scalar/v1 responded 200 in 76.6876 ms
+09:18:06 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:18:06 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:18:07 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.8474 ms
+09:18:07 [INFO] HTTP GET /scalar/scalar.js responded 200 in 28.8256 ms
+09:18:07 [INFO] HTTP GET /openapi/v1.json responded 200 in 149.5799 ms
+09:18:07 [INFO] HTTP GET /openapi/v1.json responded 200 in 30.5624 ms
+09:23:03 [INFO] Usage Telemetry: {"id":"308a0000-20b7-2221-3b38-08de53dc4f9c","created":"2026-01-15T09:18:02.6739061\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-15T09:18:02.6755994\u002B07:00","configured":"2026-01-15T09:18:02.7224719\u002B07:00","started":"2026-01-15T09:18:03.2014467\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+09:23:32 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:23:34 [INFO] Now listening on: https://localhost:7129
+09:23:34 [INFO] Now listening on: http://localhost:5299
+09:23:34 [INFO] Application started. Press Ctrl+C to shut down.
+09:23:34 [INFO] Hosting environment: Development
+09:23:34 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:23:35 [INFO] HTTP GET / responded 302 in 443.4548 ms
+09:23:35 [INFO] HTTP GET /scalar/v1 responded 200 in 91.0704 ms
+09:23:35 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:23:35 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:23:35 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.1133 ms
+09:23:35 [INFO] HTTP GET /scalar/scalar.js responded 200 in 34.8338 ms
+09:23:35 [INFO] HTTP GET /openapi/v1.json responded 200 in 199.7676 ms
+09:23:35 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.6320 ms
+09:26:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1844.1843 ms
+09:26:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.3608 ms
+09:26:51 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 2344.2525 ms
+09:26:51 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2937.7209 ms
+09:26:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.5064 ms
+09:29:01 [INFO] HTTP GET /catalog/SmartOption responded 200 in 77.2451 ms
+09:29:01 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.8166 ms
+09:29:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 119.9353 ms
+09:29:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.2765 ms
+09:29:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 30.2441 ms
+09:33:36 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1293.5208 ms
+09:33:36 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.3369 ms
+09:33:49 [INFO] HTTP GET /catalog/SmartOption responded 200 in 39.1856 ms
+09:33:50 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.1748 ms
+09:33:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.4747 ms
+09:42:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 185.2543 ms
+09:42:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.5215 ms
+09:42:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 38.6356 ms
+09:42:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.7353 ms
+09:42:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.6953 ms
+09:48:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 896.5844 ms
+09:48:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.1426 ms
+09:49:13 [INFO] HTTP GET /catalog/CatalogVoucherNumber responded 200 in 32.4032 ms
+09:49:35 [INFO] HTTP GET /catalog/SmartOption responded 200 in 84.0393 ms
+09:49:35 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.2197 ms
+09:49:35 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.7430 ms
+09:56:01 [INFO] HTTP GET /catalog/SmartOption responded 200 in 151.3315 ms
+09:56:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.2758 ms
+09:56:46 [INFO] HTTP GET /catalog/SmartOption responded 200 in 94.9480 ms
+09:56:47 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 31.9422 ms
+09:56:47 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.7763 ms
+09:59:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 96.6846 ms
+09:59:20 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 49.6345 ms
+09:59:43 [INFO] HTTP GET /catalog/SmartOption responded 200 in 69.1921 ms
+09:59:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.0567 ms
+09:59:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.7146 ms
+10:02:44 [INFO] HTTP GET /catalog/SmartOption responded 200 in 356.4112 ms
+10:02:45 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.4592 ms
+10:03:04 [INFO] HTTP GET /catalog/SmartOption responded 200 in 42.4448 ms
+10:03:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.1742 ms
+10:03:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.4448 ms
+10:04:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 128.8640 ms
+10:04:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.7204 ms
+10:04:51 [INFO] HTTP GET /catalog/SmartOption responded 200 in 46.3291 ms
+10:04:52 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.7470 ms
+10:04:52 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.4279 ms
+10:08:18 [INFO] HTTP GET /catalog/SmartOption responded 200 in 81.2073 ms
+10:08:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 44.7544 ms
+10:08:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 31.9869 ms
+10:08:41 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.2647 ms
+10:08:41 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.1940 ms
+10:08:41 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.5846 ms
+10:08:41 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.9017 ms
+10:08:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.8740 ms
+10:08:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.1260 ms
+10:08:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.5869 ms
+10:08:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.3826 ms
+10:08:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.0293 ms
+10:08:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8583 ms
+10:08:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.4916 ms
+10:08:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.3094 ms
+10:08:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.7065 ms
+10:08:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.8839 ms
+10:08:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.5089 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8460 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.1471 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.0234 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.3571 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.4098 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.0873 ms
+10:08:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.6346 ms
+10:08:45 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.5593 ms
+10:08:45 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8717 ms
+10:08:45 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.0526 ms
+10:08:45 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.3358 ms
+10:08:45 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.8896 ms
+10:08:45 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.9596 ms
+10:08:46 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.3337 ms
+10:11:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 40.6179 ms
+10:11:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.5085 ms
+10:11:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 54.8254 ms
+10:11:48 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.4054 ms
+10:11:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.2349 ms
+10:16:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 4808.2345 ms
+10:16:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.1176 ms
+10:16:18 [INFO] HTTP GET /catalog/SmartOption responded 200 in 136.5109 ms
+10:16:19 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.7372 ms
+10:16:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.5241 ms
+10:16:19 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8300 ms
+10:16:19 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 44.6391 ms
+10:16:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.9244 ms
+10:16:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.1788 ms
+10:16:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.9886 ms
+10:16:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.2579 ms
+10:16:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.9128 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.4996 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.1213 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.6276 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.9358 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.6644 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.6309 ms
+10:16:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.0752 ms
+10:16:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8938 ms
+10:16:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.1096 ms
+10:16:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.0703 ms
+10:16:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.4004 ms
+10:16:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.3560 ms
+10:16:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.6252 ms
+10:16:23 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.0035 ms
+10:16:23 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.8081 ms
+10:16:23 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.5188 ms
+10:16:23 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.5026 ms
+10:16:23 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.0714 ms
+10:16:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.2727 ms
+10:16:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.7641 ms
+10:16:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.8964 ms
+10:16:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.8653 ms
+10:16:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8759 ms
+10:16:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.3954 ms
+10:16:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.0455 ms
+10:16:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.8194 ms
+10:16:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.7881 ms
+10:16:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.8284 ms
+10:16:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.3948 ms
+10:16:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.0541 ms
+10:16:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 21.6558 ms
+10:16:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.1269 ms
+10:16:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.1810 ms
+10:16:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.2659 ms
+10:16:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.8460 ms
+10:16:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 21.7730 ms
+10:16:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.3545 ms
+10:16:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.4848 ms
+10:16:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.5086 ms
+10:16:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.7733 ms
+10:16:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 36.0092 ms
+10:16:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 36.3597 ms
+10:16:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 43.3620 ms
+10:16:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.1121 ms
+10:16:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.6827 ms
+10:16:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 41.0191 ms
+10:16:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.3183 ms
+10:16:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.2398 ms
+10:16:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.4421 ms
+10:16:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.8547 ms
+10:16:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.6451 ms
+10:16:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.9266 ms
+10:16:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.1429 ms
+10:16:30 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.3053 ms
+10:18:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 94.7832 ms
+10:18:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 70.4373 ms
+10:19:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 68.1106 ms
+10:19:11 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 48.4128 ms
+10:19:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 30.2862 ms
+10:19:56 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.2548 ms
+10:20:14 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.1590 ms
+10:28:00 [INFO] HTTP GET /catalog/SmartOption responded 200 in 169.8540 ms
+10:28:01 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 38.4593 ms
+10:29:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 298.1436 ms
+10:29:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 202.1521 ms
+10:29:38 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 584.9366 ms
+10:59:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 679.1461 ms
+10:59:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 643.8873 ms
+10:59:36 [INFO] HTTP GET /catalog/SmartOption responded 200 in 102.1734 ms
+10:59:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 227.0667 ms
+10:59:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 372.7558 ms
+11:04:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 56.7177 ms
+11:04:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 49.6435 ms
+11:04:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 93.5650 ms
+11:04:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 60.9116 ms
+11:04:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 47.6780 ms
+11:26:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 11640.4206 ms
+11:26:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 69.8126 ms
+11:27:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 94.7895 ms
+11:27:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 133.7508 ms
+11:27:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 40.9978 ms
+11:28:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 358.2473 ms
+11:28:08 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.3742 ms
+11:28:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 3773.4047 ms
+11:28:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 4393.0699 ms
+11:28:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.1056 ms
+11:30:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 66.5426 ms
+11:30:43 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 3671.7145 ms
+11:30:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 34.2825 ms
+11:30:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.7319 ms
+11:30:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.6101 ms
+11:36:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 98.0050 ms
+11:36:03 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.0633 ms
+11:37:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 70.7923 ms
+11:37:11 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.8948 ms
+11:37:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.6972 ms
+11:37:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.6551 ms
+11:38:53 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:38:54 [INFO] Now listening on: https://localhost:7129
+11:38:54 [INFO] Now listening on: http://localhost:5299
+11:38:54 [INFO] Application started. Press Ctrl+C to shut down.
+11:38:54 [INFO] Hosting environment: Development
+11:38:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:38:55 [INFO] HTTP GET / responded 302 in 312.2868 ms
+11:38:55 [INFO] HTTP GET /scalar/v1 responded 200 in 47.0109 ms
+11:38:55 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:38:55 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:38:55 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 9.2700 ms
+11:38:55 [INFO] HTTP GET /scalar/scalar.js responded 200 in 25.5102 ms
+11:38:55 [INFO] HTTP GET /openapi/v1.json responded 200 in 105.3759 ms
+11:38:55 [INFO] HTTP GET /openapi/v1.json responded 200 in 41.6385 ms
+11:39:24 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1837.0434 ms
+11:39:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 60.6043 ms
+11:39:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 182.7380 ms
+11:39:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 58.1891 ms
+11:39:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.9940 ms
+11:40:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.1441 ms
+11:41:10 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:41:12 [INFO] Now listening on: https://localhost:7129
+11:41:12 [INFO] Now listening on: http://localhost:5299
+11:41:12 [INFO] Application started. Press Ctrl+C to shut down.
+11:41:12 [INFO] Hosting environment: Development
+11:41:12 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:41:13 [INFO] HTTP GET / responded 302 in 399.1340 ms
+11:41:13 [INFO] HTTP GET /scalar/v1 responded 200 in 147.9448 ms
+11:41:13 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:41:13 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:41:13 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.1503 ms
+11:41:13 [INFO] HTTP GET /scalar/scalar.js responded 200 in 25.5466 ms
+11:41:14 [INFO] HTTP GET /openapi/v1.json responded 200 in 196.7478 ms
+11:41:14 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.5564 ms
+11:41:38 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1548.2140 ms
+11:41:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.6326 ms
+11:41:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 101.8295 ms
+11:41:50 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 49.5033 ms
+11:41:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 35.1898 ms
+11:41:54 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.5103 ms
+11:44:36 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:44:38 [INFO] Now listening on: https://localhost:7129
+11:44:38 [INFO] Now listening on: http://localhost:5299
+11:44:38 [INFO] Application started. Press Ctrl+C to shut down.
+11:44:38 [INFO] Hosting environment: Development
+11:44:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:44:39 [INFO] HTTP GET / responded 302 in 416.9021 ms
+11:44:39 [INFO] HTTP GET /scalar/v1 responded 200 in 82.4124 ms
+11:44:39 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:44:39 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:44:39 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 11.9505 ms
+11:44:39 [INFO] HTTP GET /scalar/scalar.js responded 200 in 23.7094 ms
+11:44:39 [INFO] HTTP GET /openapi/v1.json responded 200 in 191.6063 ms
+11:44:39 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.4326 ms
+11:46:09 [EROR] An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Double'. Path 'payRollHoursOfWorkEx', line 1, position 724.
+ ---> System.InvalidCastException: Null object cannot be converted to a value type.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at Catalog.Base.Features.CatalogApi.UpdateDynamicObject(CatalogService service, UpdateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 165
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+11:46:09 [EROR] HTTP PUT /catalog/dynamic-update-object responded 500 in 76551.5623 ms
+11:48:05 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:48:07 [INFO] Now listening on: https://localhost:7129
+11:48:07 [INFO] Now listening on: http://localhost:5299
+11:48:07 [INFO] Application started. Press Ctrl+C to shut down.
+11:48:07 [INFO] Hosting environment: Development
+11:48:07 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:48:08 [INFO] HTTP GET / responded 302 in 390.4942 ms
+11:48:08 [INFO] HTTP GET /scalar/v1 responded 200 in 87.7769 ms
+11:48:08 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:48:08 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:48:08 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 13.9272 ms
+11:48:08 [INFO] HTTP GET /scalar/scalar.js responded 200 in 24.9760 ms
+11:48:08 [INFO] HTTP GET /openapi/v1.json responded 200 in 181.1029 ms
+11:48:08 [INFO] HTTP GET /openapi/v1.json responded 200 in 46.6692 ms
+11:49:13 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1740.4091 ms
+11:49:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 165.3687 ms
+11:49:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 93.7097 ms
+11:49:27 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 48.0267 ms
+11:49:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.8639 ms
+11:49:32 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.0283 ms
+11:50:59 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:51:01 [INFO] Now listening on: https://localhost:7129
+11:51:01 [INFO] Now listening on: http://localhost:5299
+11:51:01 [INFO] Application started. Press Ctrl+C to shut down.
+11:51:01 [INFO] Hosting environment: Development
+11:51:01 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:51:02 [INFO] HTTP GET / responded 302 in 467.8827 ms
+11:51:02 [INFO] HTTP GET /scalar/v1 responded 200 in 83.9829 ms
+11:51:02 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:51:02 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:51:02 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.1099 ms
+11:51:02 [INFO] HTTP GET /scalar/scalar.js responded 200 in 35.0001 ms
+11:51:02 [INFO] HTTP GET /openapi/v1.json responded 200 in 192.8429 ms
+11:51:02 [INFO] HTTP GET /openapi/v1.json responded 200 in 41.6746 ms
+11:51:43 [EROR] Failed executing DbCommand (48ms) [Parameters=[@p51='?' (DbType = Guid), @p0='?' (DbType = Boolean), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2), @p7='?' (DbType = DateTime2), @p8='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Size = 4000), @p14='?' (DbType = Double), @p15='?' (DbType = Single), @p16='?' (DbType = Single), @p17='?' (DbType = Single), @p18='?' (DbType = Single), @p19='?' (DbType = DateTime2), @p20='?' (DbType = DateTime2), @p21='?' (DbType = DateTime2), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Boolean), @p24='?' (DbType = Boolean), @p25='?' (DbType = Boolean), @p26='?' (DbType = Boolean), @p27='?' (DbType = Boolean), @p28='?' (DbType = Boolean), @p29='?' (DbType = Boolean), @p30='?' (Size = 4000), @p31='?' (Size = 4000), @p32='?' (Size = 4000), @p33='?' (DbType = DateTime2), @p34='?' (DbType = DateTime2), @p35='?' (DbType = Double), @p36='?' (DbType = Double), @p37='?' (DbType = DateTime2), @p38='?' (DbType = DateTime2), @p39='?' (DbType = Double), @p40='?' (DbType = Double), @p41='?' (DbType = Double), @p42='?' (DbType = Double), @p43='?' (DbType = Double), @p44='?' (DbType = Double), @p45='?' (DbType = Double), @p46='?' (DbType = Double), @p47='?' (DbType = Boolean), @p48='?' (Size = 4000), @p49='?' (Size = 4000), @p50='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CatalogSaleShifts] SET [AllowPartialCheckIn] = @p0, [BeginCheckIn] = @p1, [BeginCheckOut] = @p2, [BeginRestBetween] = @p3, [BeginTime] = @p4, [BreakEndTime] = @p5, [BreakStartTime] = @p6, [CheckInBreakEndTime] = @p7, [CheckInBreakStartTime] = @p8, [CheckOutBreakEndTime] = @p9, [CheckOutBreakStartTime] = @p10, [CodeRoom] = @p11, [CodeUnit] = @p12, [CodeWarehose] = @p13, [CompensationForHolidays] = @p14, [DeductedDaysCaseCheckIn] = @p15, [DeductedDaysCaseCheckOut] = @p16, [DeductedHoursCaseCheckIn] = @p17, [DeductedHoursCaseCheckOut] = @p18, [EndCheckIn] = @p19, [EndCheckOut] = @p20, [EndRestBetween] = @p21, [EndTime] = @p22, [IsActive] = @p23, [IsCheckInDotting] = @p24, [IsCheckOutDotting] = @p25, [IsPenalizeNoCheckIn] = @p26, [IsPenalizeNoCheckOut] = @p27, [IsRequireBreakCheckOut] = @p28, [IsRestBetweenShift] = @p29, [NameRooom] = @p30, [NameWarehose] = @p31, [Notes] = @p32, [PayRollBeginTime] = @p33, [PayRollBeginTimeEx] = @p34, [PayRollDaysOfWork] = @p35, [PayRollDaysOfWorkEx] = @p36, [PayRollEndTime] = @p37, [PayRollEndTimeEx] = @p38, [PayRollHoursOfWork] = @p39, [PayRollHoursOfWorkEx] = @p40, [PayrollDayOffRate] = @p41, [PayrollDayOffRateEx] = @p42, [PayrollHolidayRate] = @p43, [PayrollHolidayRateEx] = @p44, [PayrollRegularRate] = @p45, [PayrollRegularRateEx] = @p46, [RequireBreakCheckIn] = @p47, [ShiftCode] = @p48, [ShiftName] = @p49, [SplitByWorkingHours] = @p50
+OUTPUT 1
+WHERE [Id] = @p51;
+11:51:43 [EROR] An exception occurred in the database while saving changes for context type 'Catalog.Base.Infrastructure.CatalogDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'BeginRestBetween'.
+Invalid column name 'CodeRoom'.
+Invalid column name 'EndRestBetween'.
+Invalid column name 'PayRollBeginTime'.
+Invalid column name 'PayRollEndTime'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c81638c-b65a-46fc-bb37-c9a3efe2d7ae
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'BeginRestBetween'.
+Invalid column name 'CodeRoom'.
+Invalid column name 'EndRestBetween'.
+Invalid column name 'PayRollBeginTime'.
+Invalid column name 'PayRollEndTime'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c81638c-b65a-46fc-bb37-c9a3efe2d7ae
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+11:51:58 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'BeginRestBetween'.
+Invalid column name 'CodeRoom'.
+Invalid column name 'EndRestBetween'.
+Invalid column name 'PayRollBeginTime'.
+Invalid column name 'PayRollEndTime'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:2c81638c-b65a-46fc-bb37-c9a3efe2d7ae
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Finbuckle.MultiTenant.EntityFrameworkCore.MultiTenantDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Catalog.Base.Features.CatalogApi.UpdateDynamicObject(CatalogService service, UpdateObjectDynamicRequest request) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Base\Features\CatalogApi.cs:line 175
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+11:51:58 [EROR] HTTP PUT /catalog/dynamic-update-object responded 500 in 44773.3544 ms
+11:53:53 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"CA1","shiftName":"ca h\u00E0nh ch\u00EDnh","beginTime":"1900-01-01T08:00:00","endTime":"1900-01-01T17:00:00","codeWarehose":"WH01","nameWarehose":"Kho ch\u00EDnh","notes":"Ca l\u00E0m vi\u1EC7c h\u00E0nh ch\u00EDnh","isActive":true,"id":"7a13b38f-2884-45bb-90c7-e6cde4da17c9","codeUnit":888,"isCheckInDotting":true,"isCheckOutDotting":true,"beginCheckIn":"1900-01-01T07:30:00","endCheckIn":"1900-01-01T08:30:00","beginCheckOut":"1900-01-01T16:30:00","endCheckOut":"1900-01-01T17:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":8,"payRollDaysOfWork":1,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":null,"payRollDaysOfWorkEx":null,"payrollRegularRate":1,"payrollHolidayRate":2,"payrollDayOffRate":1.5,"compensationForHolidays":0,"payrollRegularRateEx":null,"payrollHolidayRateEx":null,"payrollDayOffRateEx":null,"isPenalizeNoCheckIn":true,"isPenalizeNoCheckOut":true,"deductedDaysCaseCheckIn":null,"deductedHoursCaseCheckIn":null,"deductedDaysCaseCheckOut":null,"deductedHoursCaseCheckOut":null,"codeRoom":null,"nameRooom":"Ph\u00F2ng H\u00E0nh ch\u00EDnh","requireBreakCheckIn":true,"isRequireBreakCheckOut":true,"breakEndTime":"1900-01-01T13:00:00","breakStartTime":"1900-01-01T12:00:00","isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":"1900-01-01T11:45:00","checkInBreakEndTime":"1900-01-01T12:15:00","checkOutBreakStartTime":"1900-01-01T12:45:00","checkOutBreakEndTime":"1900-01-01T13:15:00"}'.
+11:53:55 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 8033.5162 ms
+11:54:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 137.6965 ms
+11:55:54 [INFO] HTTP GET /catalog/SmartOption responded 200 in 160.7585 ms
+11:55:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 38.2336 ms
+11:57:09 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:57:11 [INFO] Now listening on: https://localhost:7129
+11:57:11 [INFO] Now listening on: http://localhost:5299
+11:57:12 [INFO] Application started. Press Ctrl+C to shut down.
+11:57:12 [INFO] Hosting environment: Development
+11:57:12 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:57:12 [INFO] HTTP GET / responded 302 in 566.9476 ms
+11:57:13 [INFO] HTTP GET /scalar/v1 responded 200 in 121.1700 ms
+11:57:13 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:57:13 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:57:13 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 14.4757 ms
+11:57:13 [INFO] HTTP GET /scalar/scalar.js responded 200 in 37.7193 ms
+11:57:13 [INFO] HTTP GET /openapi/v1.json responded 200 in 212.0920 ms
+11:57:13 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.5952 ms
+11:57:33 [INFO] HTTP GET /catalog/SmartOption responded 401 in 16.9297 ms
+11:58:36 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:58:38 [INFO] Now listening on: https://localhost:7129
+11:58:38 [INFO] Now listening on: http://localhost:5299
+11:58:38 [INFO] Application started. Press Ctrl+C to shut down.
+11:58:38 [INFO] Hosting environment: Development
+11:58:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:58:38 [INFO] HTTP GET / responded 302 in 260.3478 ms
+11:58:38 [INFO] HTTP GET /scalar/v1 responded 200 in 77.4856 ms
+11:58:38 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:58:38 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:58:38 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 8.4860 ms
+11:58:38 [INFO] HTTP GET /scalar/scalar.js responded 200 in 17.3607 ms
+11:58:39 [INFO] HTTP GET /openapi/v1.json responded 200 in 123.2765 ms
+11:58:39 [INFO] HTTP GET /openapi/v1.json responded 200 in 44.5220 ms
+11:59:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 9389.2298 ms
+11:59:14 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 55.1897 ms
+11:59:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 112.3113 ms
+11:59:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 64.8413 ms
+11:59:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.8156 ms
+11:59:38 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.4603 ms
+12:00:17 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+12:00:19 [INFO] Now listening on: https://localhost:7129
+12:00:19 [INFO] Now listening on: http://localhost:5299
+12:00:19 [INFO] Application started. Press Ctrl+C to shut down.
+12:00:19 [INFO] Hosting environment: Development
+12:00:19 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+12:00:20 [INFO] HTTP GET / responded 302 in 428.9251 ms
+12:00:20 [INFO] HTTP GET /scalar/v1 responded 200 in 85.1848 ms
+12:00:20 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+12:00:20 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+12:00:20 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.5223 ms
+12:00:20 [INFO] HTTP GET /scalar/scalar.js responded 200 in 24.8843 ms
+12:00:21 [INFO] HTTP GET /openapi/v1.json responded 200 in 187.2556 ms
+12:00:21 [INFO] HTTP GET /openapi/v1.json responded 200 in 44.5242 ms
+12:00:33 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"CA1","shiftName":"ca h\u00E0nh ch\u00EDnh","beginTime":"1900-01-01T08:00:00","endTime":"1900-01-01T17:00:00","codeWarehose":"WH01","nameWarehose":"Kho ch\u00EDnh","notes":"Ca l\u00E0m vi\u1EC7c h\u00E0nh ch\u00EDnh","isActive":true,"id":"7a13b38f-2884-45bb-90c7-e6cde4da17c9","codeUnit":888,"isCheckInDotting":true,"isCheckOutDotting":true,"beginCheckIn":"1900-01-01T07:30:00","endCheckIn":"1900-01-01T08:30:00","beginCheckOut":"1900-01-01T16:30:00","endCheckOut":"1900-01-01T17:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":8,"payRollDaysOfWork":1,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":null,"payRollDaysOfWorkEx":null,"payrollRegularRate":1,"payrollHolidayRate":2,"payrollDayOffRate":1.5,"compensationForHolidays":0,"payrollRegularRateEx":null,"payrollHolidayRateEx":null,"payrollDayOffRateEx":null,"isPenalizeNoCheckIn":true,"isPenalizeNoCheckOut":true,"deductedDaysCaseCheckIn":null,"deductedHoursCaseCheckIn":null,"deductedDaysCaseCheckOut":null,"deductedHoursCaseCheckOut":null,"codeRoom":null,"nameRooom":"Ph\u00F2ng H\u00E0nh ch\u00EDnh","requireBreakCheckIn":true,"isRequireBreakCheckOut":true,"breakEndTime":"1900-01-01T13:00:00","breakStartTime":"1900-01-01T12:00:00","isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":"1900-01-01T11:45:00","checkInBreakEndTime":"1900-01-01T12:15:00","checkOutBreakStartTime":"1900-01-01T12:45:00","checkOutBreakEndTime":"1900-01-01T13:15:00"}'.
+12:00:33 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 10119.2352 ms
+12:00:44 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"CA1","shiftName":"ca h\u00E0nh ch\u00EDnh","beginTime":"1900-01-01T08:00:00","endTime":"1900-01-01T17:00:00","codeWarehose":"WH01","nameWarehose":"Kho ch\u00EDnh","notes":"Ca l\u00E0m vi\u1EC7c h\u00E0nh ch\u00EDnh","isActive":true,"id":"7a13b38f-2884-45bb-90c7-e6cde4da17c9","codeUnit":888,"isCheckInDotting":false,"isCheckOutDotting":true,"beginCheckIn":"1900-01-01T07:30:00","endCheckIn":"1900-01-01T08:30:00","beginCheckOut":"1900-01-01T16:30:00","endCheckOut":"1900-01-01T17:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":8,"payRollDaysOfWork":1,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":null,"payRollDaysOfWorkEx":null,"payrollRegularRate":1,"payrollHolidayRate":2,"payrollDayOffRate":1.5,"compensationForHolidays":0,"payrollRegularRateEx":null,"payrollHolidayRateEx":null,"payrollDayOffRateEx":null,"isPenalizeNoCheckIn":true,"isPenalizeNoCheckOut":true,"deductedDaysCaseCheckIn":null,"deductedHoursCaseCheckIn":null,"deductedDaysCaseCheckOut":null,"deductedHoursCaseCheckOut":null,"codeRoom":null,"nameRooom":"Ph\u00F2ng H\u00E0nh ch\u00EDnh","requireBreakCheckIn":true,"isRequireBreakCheckOut":true,"breakEndTime":"1900-01-01T13:00:00","breakStartTime":"1900-01-01T12:00:00","isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":"1900-01-01T11:45:00","checkInBreakEndTime":"1900-01-01T12:15:00","checkOutBreakStartTime":"1900-01-01T12:45:00","checkOutBreakEndTime":"1900-01-01T13:15:00"}'.
+12:00:44 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 3582.7258 ms
+12:01:01 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 155.2690 ms
+12:01:09 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"CA1","shiftName":"ca h\u00E0nh ch\u00EDnh","beginTime":"1900-01-01T08:00:00","endTime":"1900-01-01T17:00:00","codeWarehose":"WH01","nameWarehose":"Kho ch\u00EDnh","notes":"Ca l\u00E0m vi\u1EC7c h\u00E0nh ch\u00EDnh","isActive":true,"id":"7a13b38f-2884-45bb-90c7-e6cde4da17c9","codeUnit":888,"isCheckInDotting":false,"isCheckOutDotting":false,"beginCheckIn":"1900-01-01T07:30:00","endCheckIn":"1900-01-01T08:30:00","beginCheckOut":"1900-01-01T16:30:00","endCheckOut":"1900-01-01T17:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":8,"payRollDaysOfWork":1,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":null,"payRollDaysOfWorkEx":null,"payrollRegularRate":1,"payrollHolidayRate":2,"payrollDayOffRate":1.5,"compensationForHolidays":0,"payrollRegularRateEx":null,"payrollHolidayRateEx":null,"payrollDayOffRateEx":null,"isPenalizeNoCheckIn":true,"isPenalizeNoCheckOut":true,"deductedDaysCaseCheckIn":null,"deductedHoursCaseCheckIn":null,"deductedDaysCaseCheckOut":null,"deductedHoursCaseCheckOut":null,"codeRoom":null,"nameRooom":"Ph\u00F2ng H\u00E0nh ch\u00EDnh","requireBreakCheckIn":true,"isRequireBreakCheckOut":true,"breakEndTime":"1900-01-01T13:00:00","breakStartTime":"1900-01-01T12:00:00","isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":"1900-01-01T11:45:00","checkInBreakEndTime":"1900-01-01T12:15:00","checkOutBreakStartTime":"1900-01-01T12:45:00","checkOutBreakEndTime":"1900-01-01T13:15:00"}'.
+12:01:09 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 45.7591 ms
+13:02:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 283.7886 ms
+13:02:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 46.0045 ms
+13:03:43 [INFO] HTTP GET /catalog/SmartOption responded 200 in 41.1586 ms
+13:03:44 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.9695 ms
+13:03:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 37.0661 ms
+13:03:52 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.3014 ms
+13:04:25 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"CA1","shiftName":"Ca h\u00E0nh ch\u00EDnh","beginTime":"1900-01-01T08:00:00","endTime":"1900-01-01T17:00:00","codeWarehose":"WH01","nameWarehose":"Kho ch\u00EDnh","notes":"Ca l\u00E0m vi\u1EC7c h\u00E0nh ch\u00EDnh","isActive":true,"id":"7a13b38f-2884-45bb-90c7-e6cde4da17c9","codeUnit":888,"isCheckInDotting":false,"isCheckOutDotting":false,"beginCheckIn":"1900-01-01T07:30:00","endCheckIn":"1900-01-01T08:30:00","beginCheckOut":"1900-01-01T16:30:00","endCheckOut":"1900-01-01T17:30:00","allowPartialCheckIn":false,"splitByWorkingHours":false,"payRollBeginTime":null,"payRollEndTime":null,"payRollHoursOfWork":8,"payRollDaysOfWork":1,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":null,"payRollDaysOfWorkEx":null,"payrollRegularRate":1,"payrollHolidayRate":2,"payrollDayOffRate":1.5,"compensationForHolidays":0,"payrollRegularRateEx":null,"payrollHolidayRateEx":null,"payrollDayOffRateEx":null,"isPenalizeNoCheckIn":true,"isPenalizeNoCheckOut":true,"deductedDaysCaseCheckIn":null,"deductedHoursCaseCheckIn":null,"deductedDaysCaseCheckOut":null,"deductedHoursCaseCheckOut":null,"codeRoom":null,"nameRooom":"Ph\u00F2ng H\u00E0nh ch\u00EDnh","requireBreakCheckIn":true,"isRequireBreakCheckOut":true,"breakEndTime":"1900-01-01T13:00:00","breakStartTime":"1900-01-01T12:00:00","isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":"1900-01-01T11:45:00","checkInBreakEndTime":"1900-01-01T12:15:00","checkOutBreakStartTime":"1900-01-01T12:45:00","checkOutBreakEndTime":"1900-01-01T13:15:00"}'.
+13:04:25 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 66.0671 ms
+13:05:45 [INFO] HTTP GET /catalog/SmartOption responded 200 in 156.7563 ms
+13:05:45 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.0805 ms
+13:05:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 179.3051 ms
+13:05:58 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 96.3777 ms
+13:05:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 120.3277 ms
+13:06:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.7549 ms
+13:06:30 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 47.7834 ms
+13:06:49 [INFO] User: 'ADMIN' Edited data with type: 'CatalogSaleShifts' content: '{"shiftCode":"CA1","shiftName":"Ca h\u00E0nh ch\u00EDnh","beginTime":"1900-01-01T08:00:00","endTime":"1900-01-01T17:00:00","codeWarehose":"WH01","nameWarehose":"Kho ch\u00EDnh","notes":"Ca l\u00E0m vi\u1EC7c h\u00E0nh ch\u00EDnh","isActive":true,"id":"7a13b38f-2884-45bb-90c7-e6cde4da17c9","codeUnit":888,"isCheckInDotting":false,"isCheckOutDotting":false,"beginCheckIn":"1900-01-01T07:30:00","endCheckIn":"1900-01-01T08:30:00","beginCheckOut":"1900-01-01T16:30:00","endCheckOut":"1900-01-01T17:30:00","allowPartialCheckIn":false,"splitByWorkingHours":true,"payRollBeginTime":"2026-01-15T01:00:00+07:00","payRollEndTime":"2026-01-15T02:30:00+07:00","payRollHoursOfWork":8,"payRollDaysOfWork":1,"payRollBeginTimeEx":null,"payRollEndTimeEx":null,"payRollHoursOfWorkEx":null,"payRollDaysOfWorkEx":null,"payrollRegularRate":1,"payrollHolidayRate":2,"payrollDayOffRate":1.5,"compensationForHolidays":0,"payrollRegularRateEx":null,"payrollHolidayRateEx":null,"payrollDayOffRateEx":null,"isPenalizeNoCheckIn":true,"isPenalizeNoCheckOut":true,"deductedDaysCaseCheckIn":null,"deductedHoursCaseCheckIn":null,"deductedDaysCaseCheckOut":null,"deductedHoursCaseCheckOut":null,"codeRoom":null,"nameRooom":"Ph\u00F2ng H\u00E0nh ch\u00EDnh","requireBreakCheckIn":true,"isRequireBreakCheckOut":true,"breakEndTime":"1900-01-01T13:00:00","breakStartTime":"1900-01-01T12:00:00","isRestBetweenShift":false,"beginRestBetween":null,"endRestBetween":null,"checkInBreakStartTime":"1900-01-01T11:45:00","checkInBreakEndTime":"1900-01-01T12:15:00","checkOutBreakStartTime":"1900-01-01T12:45:00","checkOutBreakEndTime":"1900-01-01T13:15:00"}'.
+13:06:49 [INFO] HTTP PUT /catalog/dynamic-update-object responded 200 in 64.1127 ms
+13:06:53 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 90.6868 ms
+13:08:22 [INFO] HTTP GET /catalog/SmartOption responded 200 in 116.0353 ms
+13:08:23 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 202.6716 ms
+13:08:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 679.1286 ms
+13:08:52 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 145.2796 ms
+13:08:52 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.5064 ms
+13:11:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 3822.6099 ms
+13:11:14 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 39.8290 ms
+13:15:57 [INFO] HTTP GET /catalog/SmartOption responded 200 in 103.3829 ms
+13:15:58 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.4854 ms
+13:19:08 [INFO] HTTP GET /catalog/SmartOption responded 200 in 123.8851 ms
+13:19:09 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 48.6165 ms
+13:19:09 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.1952 ms
+13:19:14 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.7096 ms
+13:24:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 243.9202 ms
+13:24:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 38.2367 ms
+13:25:46 [INFO] HTTP GET /catalog/SmartOption responded 200 in 109.5946 ms
+13:25:47 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.4645 ms
+13:25:47 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.7817 ms
+13:30:51 [INFO] HTTP GET /catalog/SmartOption responded 200 in 97.4544 ms
+13:30:53 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 38.0003 ms
+13:31:59 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 85.1405 ms
+13:32:45 [INFO] HTTP GET /catalog/SmartOption responded 200 in 125.9475 ms
+13:32:46 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 188.9742 ms
+13:32:46 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 95.2466 ms
+13:32:51 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 95.7564 ms
+13:43:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 233.5638 ms
+13:43:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.0406 ms
+13:52:34 [INFO] HTTP GET /catalog/SmartOption responded 400 in 14278.8214 ms
+13:52:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 122.6986 ms
+13:52:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.9919 ms
+14:04:37 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:04:38 [INFO] Now listening on: https://localhost:7129
+14:04:38 [INFO] Now listening on: http://localhost:5299
+14:04:38 [INFO] Application started. Press Ctrl+C to shut down.
+14:04:38 [INFO] Hosting environment: Development
+14:04:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:04:40 [INFO] HTTP GET / responded 302 in 1554.1053 ms
+14:04:41 [INFO] HTTP GET /scalar/v1 responded 200 in 146.5978 ms
+14:04:41 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:04:41 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:04:41 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.9111 ms
+14:04:41 [INFO] HTTP GET /scalar/scalar.js responded 200 in 36.3512 ms
+14:04:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 179.0488 ms
+14:04:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 32.6779 ms
+14:05:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 5720.2903 ms
+14:05:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.4827 ms
+14:06:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 119.4096 ms
+14:06:03 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 49.6864 ms
+14:06:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.4532 ms
+14:06:11 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.7476 ms
+14:07:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 79.4502 ms
+14:07:56 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.4031 ms
+14:08:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 166.9863 ms
+14:08:14 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.6743 ms
+14:08:14 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.5924 ms
+14:09:24 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.5685 ms
+14:11:54 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 127.0593 ms
+14:16:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 154.9289 ms
+14:16:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.8566 ms
+14:16:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.8698 ms
+14:16:50 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 139.8698 ms
+14:16:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.3057 ms
+14:17:17 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5421ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 1, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 2, async-ops: 37, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 694.02, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=2,QueuedItems=0,CompletedItems=3682,Timers=7), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+14:17:18 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 6256.5102 ms
+14:20:32 [INFO] HTTP GET /catalog/SmartOption responded 200 in 150.8410 ms
+14:20:32 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.9325 ms
+14:20:40 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 175.3555 ms
+14:21:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 110.1253 ms
+14:21:06 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.6690 ms
+14:21:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.5172 ms
+14:21:12 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 155.3906 ms
+14:22:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 179.0724 ms
+14:22:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 47.4099 ms
+14:22:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 61.0495 ms
+14:22:41 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 40.4707 ms
+14:22:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 74.8020 ms
+14:22:46 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.5803 ms
+14:30:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 184.6249 ms
+14:30:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.5749 ms
+14:31:42 [INFO] HTTP GET /catalog/SmartOption responded 200 in 312.5542 ms
+14:31:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.4620 ms
+14:31:43 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 79.6875 ms
+14:32:17 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.5485 ms
+14:35:15 [INFO] HTTP GET /catalog/SmartOption responded 200 in 94.9158 ms
+14:35:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 111.3126 ms
+14:35:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 151.9930 ms
+14:35:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 57.1223 ms
+14:35:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.7568 ms
+14:35:31 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.4477 ms
+14:40:21 [INFO] HTTP GET /catalog/SmartOption responded 200 in 759.2673 ms
+14:40:22 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 417.8894 ms
+14:40:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 53.1606 ms
+14:40:41 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.3342 ms
+14:40:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.6672 ms
+14:40:48 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 371.7751 ms
+14:41:23 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.8053 ms
+14:42:51 [INFO] HTTP GET /catalog/SmartOption responded 200 in 179.5866 ms
+14:42:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 35.0567 ms
+14:43:04 [INFO] HTTP GET /catalog/SmartOption responded 200 in 119.4195 ms
+14:43:05 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 35.5515 ms
+14:43:05 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 48.1008 ms
+14:43:08 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 31.6761 ms
+14:53:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 403.5171 ms
+14:53:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 118.4748 ms
+14:53:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 103.1508 ms
+14:53:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.5214 ms
+14:53:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.8063 ms
+14:53:32 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 58.6675 ms
+14:58:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+14:58:25 [INFO] Now listening on: https://localhost:7129
+14:58:25 [INFO] Now listening on: http://localhost:5299
+14:58:25 [INFO] Application started. Press Ctrl+C to shut down.
+14:58:25 [INFO] Hosting environment: Development
+14:58:25 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+14:58:26 [INFO] HTTP GET / responded 302 in 539.7634 ms
+14:58:26 [INFO] HTTP GET /scalar/v1 responded 200 in 113.0243 ms
+14:58:26 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:58:26 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+14:58:26 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 15.6274 ms
+14:58:26 [INFO] HTTP GET /scalar/scalar.js responded 200 in 43.5058 ms
+14:58:27 [INFO] HTTP GET /openapi/v1.json responded 200 in 229.5980 ms
+14:58:27 [INFO] HTTP GET /openapi/v1.json responded 200 in 43.1156 ms
+15:16:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2432.9867 ms
+15:17:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 39.2641 ms
+15:43:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 4106.7791 ms
+15:43:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 142.7815 ms
+15:43:29 [INFO] HTTP GET /catalog/SmartOption responded 200 in 78.5522 ms
+15:43:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 55.1879 ms
+15:43:30 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 55.1075 ms
+15:43:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 63.3394 ms
+15:45:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 80.6757 ms
+15:45:47 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 49.1426 ms
+15:53:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 11747.9279 ms
+15:53:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 12133.3684 ms
+15:53:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.8158 ms
+15:53:59 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 32.0974 ms
+15:55:22 [INFO] HTTP GET /catalog/SmartOption responded 200 in 77.0836 ms
+15:55:22 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.3351 ms
+16:00:20 [INFO] HTTP GET /catalog/SmartOption responded 200 in 972.7159 ms
+16:00:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 45.1147 ms
+16:00:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 57.2630 ms
+16:00:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.5310 ms
+16:00:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.8210 ms
+16:02:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 113.5353 ms
+16:02:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.1871 ms
+16:02:15 [INFO] HTTP GET /catalog/SmartOption responded 200 in 141.2707 ms
+16:02:16 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 64.1534 ms
+16:02:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.6417 ms
+16:02:19 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 108.1890 ms
+16:13:17 [INFO] HTTP GET /catalog/SmartOption responded 200 in 698.8532 ms
+16:13:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 69.9002 ms
+16:13:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 88.6635 ms
+16:13:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 137.4647 ms
+16:13:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.7624 ms
+16:13:39 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 281.5924 ms
+16:19:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 632.9343 ms
+16:19:56 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 232.1157 ms
+16:20:18 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5031ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 2, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 349, cur-in: 0, sync-ops: 2, async-ops: 72, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 3801.1, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=3,QueuedItems=0,CompletedItems=14628,Timers=7), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+16:20:19 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5500ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 2, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 2, async-ops: 73, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 3802.05, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=3,QueuedItems=0,CompletedItems=14633,Timers=7), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+16:20:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 17963.1650 ms
+16:20:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 19550.8343 ms
+16:20:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 2693.9862 ms
+16:20:58 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 42.4889 ms
+16:22:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 106.5987 ms
+16:22:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.7790 ms
+16:23:00 [INFO] HTTP GET /catalog/SmartOption responded 200 in 110.1043 ms
+16:23:00 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.7773 ms
+16:23:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 39.9049 ms
+16:23:14 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 330.1663 ms
+16:31:16 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:31:18 [INFO] Now listening on: https://localhost:7129
+16:31:18 [INFO] Now listening on: http://localhost:5299
+16:31:18 [INFO] Application started. Press Ctrl+C to shut down.
+16:31:18 [INFO] Hosting environment: Development
+16:31:18 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+16:31:19 [INFO] HTTP GET / responded 302 in 584.6436 ms
+16:31:19 [INFO] HTTP GET /scalar/v1 responded 200 in 101.2506 ms
+16:31:19 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:31:19 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:31:19 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.2631 ms
+16:31:19 [INFO] HTTP GET /scalar/scalar.js responded 200 in 31.3397 ms
+16:31:20 [INFO] HTTP GET /openapi/v1.json responded 200 in 193.4795 ms
+16:31:20 [INFO] HTTP GET /openapi/v1.json responded 200 in 43.3802 ms
+16:34:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1893.9922 ms
+16:34:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.8772 ms
+16:34:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 224.6699 ms
+16:34:34 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 54.1501 ms
+16:34:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.7675 ms
+16:35:12 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 99.9618 ms
+16:36:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 181.8916 ms
+16:36:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.6281 ms
+16:37:01 [INFO] HTTP GET /catalog/SmartOption responded 200 in 72.0935 ms
+16:37:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.7375 ms
+16:37:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.8207 ms
+16:37:06 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 112.2289 ms
+16:39:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 111.0320 ms
+16:39:58 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 37.6894 ms
+16:40:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 128.3205 ms
+16:40:13 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 58.9393 ms
+16:40:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 41.6938 ms
+16:40:20 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.4653 ms
+16:42:01 [INFO] HTTP GET /catalog/SmartOption responded 200 in 799.4084 ms
+16:42:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 81.5603 ms
+16:42:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 79.6824 ms
+16:42:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.3062 ms
+16:42:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.2921 ms
+16:42:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 136.8259 ms
+16:44:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 155.8247 ms
+16:44:37 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 189.0622 ms
+16:44:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 79.2712 ms
+16:44:49 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 36.6147 ms
+16:44:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 248.9821 ms
+16:44:53 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.5162 ms
+16:47:44 [INFO] HTTP GET /catalog/SmartOption responded 200 in 286.6100 ms
+16:47:45 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.7494 ms
+16:47:54 [INFO] HTTP GET /catalog/SmartOption responded 200 in 65.5300 ms
+16:47:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.9592 ms
+16:47:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.9361 ms
+16:48:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.0054 ms
+16:53:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 159.7621 ms
+16:53:21 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 4310.9365 ms
+16:53:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 50.0209 ms
+16:53:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 66.0299 ms
+16:53:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 40.9259 ms
+16:53:49 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.9017 ms
+16:59:00 [INFO] HTTP GET /catalog/SmartOption responded 200 in 68.0956 ms
+16:59:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 94.3194 ms
+16:59:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 50.6352 ms
+16:59:12 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.9654 ms
+16:59:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 63.4237 ms
+16:59:16 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 63.8318 ms
+16:59:21 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 575.0803 ms
+17:01:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 82.8568 ms
+17:01:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 133.0832 ms
+17:01:32 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.9400 ms
+17:01:33 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 69.0706 ms
+17:01:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 61.8319 ms
+17:02:14 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.2226 ms
+17:03:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 100.5268 ms
+17:03:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.2353 ms
+17:04:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 95.4556 ms
+17:04:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 59.0913 ms
+17:04:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 77.1064 ms
+17:04:26 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 31.6843 ms
+17:05:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 149.1335 ms
+17:05:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 38.7836 ms
+17:05:54 [INFO] HTTP GET /catalog/SmartOption responded 200 in 35.1541 ms
+17:05:55 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.2414 ms
+17:05:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 64.7308 ms
+17:05:59 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 149.3272 ms
+17:08:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 61.6486 ms
+17:08:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 134.6975 ms
+17:08:49 [INFO] HTTP GET /catalog/SmartOption responded 200 in 76.8310 ms
+17:08:51 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 170.8762 ms
+17:08:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 80.9183 ms
+17:09:02 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.7687 ms
+17:09:32 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 237.6887 ms
+17:11:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 161.1491 ms
+17:11:58 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 433.8863 ms
+17:12:08 [INFO] HTTP GET /catalog/SmartOption responded 200 in 69.7551 ms
+17:12:09 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 38.5484 ms
+17:12:09 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 158.6622 ms
+17:12:14 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.9871 ms
+17:12:36 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 41.0106 ms
+17:14:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 218.3277 ms
+17:14:03 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.2293 ms
+17:14:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 150.1906 ms
+17:14:32 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 34.9495 ms
+17:14:32 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 102.8600 ms
+17:14:38 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 75.2592 ms
+17:16:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 103.7472 ms
+17:16:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.5885 ms
+17:16:38 [INFO] HTTP GET /catalog/SmartOption responded 200 in 72.0936 ms
+17:16:39 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 76.0859 ms
+17:16:39 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 30.6571 ms
+17:16:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 24.5119 ms
+17:21:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 191.8612 ms
+17:21:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.7525 ms
+17:21:29 [INFO] HTTP GET /catalog/SmartOption responded 200 in 270.5560 ms
+17:21:30 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 112.5520 ms
+17:21:30 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 289.2790 ms
+17:21:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.2411 ms
+17:53:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 391.8405 ms
+17:53:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 77.9668 ms
+17:58:09 [INFO] HTTP GET /catalog/SmartOption responded 200 in 159.6665 ms
+17:58:10 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 60.6579 ms
+17:58:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 143.5507 ms
+17:58:22 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 134.3791 ms
+17:58:22 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 31.6200 ms
+18:01:00 [INFO] HTTP GET /catalog/SmartOption responded 200 in 150.3913 ms
+18:01:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 58.9043 ms
+18:07:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 73.3365 ms
+18:07:41 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.5317 ms
+18:14:00 [INFO] HTTP GET /catalog/SmartOption responded 200 in 231.8195 ms
+18:14:00 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 38.4059 ms
+18:14:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.9145 ms
+18:14:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.9142 ms
+18:14:04 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 35.9616 ms
+18:15:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 188.4088 ms
+18:15:51 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.9092 ms
+18:16:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 223.2605 ms
+18:16:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 37.5876 ms
+18:16:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 55.9623 ms
+18:16:07 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 40.9512 ms
+18:16:07 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 25.9795 ms
+18:17:04 [INFO] HTTP GET /catalog/SmartOption responded 200 in 94.1636 ms
+18:17:05 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.1169 ms
+18:17:15 [INFO] HTTP GET /catalog/SmartOption responded 200 in 141.2639 ms
+18:17:15 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.8359 ms
+18:17:15 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 71.7937 ms
+18:17:19 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 31.5805 ms
+18:17:19 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 39.1744 ms
+18:18:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 114.5211 ms
+18:18:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 41.5924 ms
+18:18:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 97.2229 ms
+18:18:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.7746 ms
+18:18:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.4074 ms
+18:18:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 48.3567 ms
+18:18:43 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 29.4217 ms
+18:19:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 75.8558 ms
+18:19:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 52.0335 ms
+18:20:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 71.0011 ms
+18:20:39 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 23.9061 ms
+18:20:39 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 58.5830 ms
+18:20:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 32.5536 ms
+18:20:42 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 25.5254 ms
+18:21:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 66.9925 ms
+18:21:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 374.9504 ms
+18:21:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 53.8947 ms
+18:21:48 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 26.9580 ms
+18:21:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.5225 ms
+18:22:04 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 25.6997 ms
+18:22:04 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 115.7194 ms
+18:26:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 304.9749 ms
+18:26:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.8870 ms
+18:26:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 67.1197 ms
+18:26:48 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.8360 ms
+18:26:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.9828 ms
+18:26:52 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 182.9533 ms
+18:26:53 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 32.4085 ms
+18:31:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 49.6329 ms
+18:31:35 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 153.0438 ms
+18:32:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 102.0386 ms
+18:32:28 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.5327 ms
+18:32:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.3126 ms
+18:32:31 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 137.1352 ms
+18:32:31 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 32.9929 ms
+18:34:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 239.5947 ms
+18:34:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 44.0209 ms
+18:41:40 [INFO] HTTP GET /catalog/SmartOption responded 200 in 178.1928 ms
+18:41:40 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 47.4061 ms
+18:41:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.4260 ms
+18:41:43 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 28.2681 ms
+18:41:44 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 41.0048 ms
+18:42:47 [INFO] HTTP GET /catalog/SmartOption responded 200 in 90.0517 ms
+18:42:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 36.0487 ms
+18:42:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 129.2210 ms
+18:42:59 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 31.0625 ms
+18:42:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.4139 ms
+18:43:12 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 75.9349 ms
+18:43:12 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 71.1827 ms
+18:45:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 66.5256 ms
+18:45:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.7677 ms
+18:47:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 117.1559 ms
+18:47:37 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 27.4646 ms
+18:47:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 255.8324 ms
+18:47:42 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 22.4698 ms
+18:47:42 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 29.9474 ms
+18:52:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 427.6757 ms
+18:52:32 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.3560 ms
+18:55:54 [INFO] HTTP GET /catalog/SmartOption responded 200 in 515.5043 ms
+18:55:54 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 71.4441 ms
+18:59:34 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 235.3283 ms
+18:59:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 563.0935 ms
+18:59:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.0892 ms
+18:59:39 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 1847.7376 ms
+18:59:39 [INFO] HTTP GET /catalog/ responded 404 in 20.5398 ms
+18:59:39 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 29.5335 ms
+19:00:00 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+19:00:01 [INFO] Now listening on: https://localhost:7129
+19:00:01 [INFO] Now listening on: http://localhost:5299
+19:00:01 [INFO] Application started. Press Ctrl+C to shut down.
+19:00:01 [INFO] Hosting environment: Development
+19:00:01 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+19:00:02 [INFO] HTTP GET / responded 302 in 481.9375 ms
+19:00:02 [INFO] HTTP GET /scalar/v1 responded 200 in 87.9208 ms
+19:00:02 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+19:00:02 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+19:00:02 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.4643 ms
+19:00:02 [INFO] HTTP GET /scalar/scalar.js responded 200 in 34.1074 ms
+19:00:03 [INFO] HTTP GET /openapi/v1.json responded 200 in 201.1802 ms
+19:00:03 [INFO] HTTP GET /openapi/v1.json responded 200 in 44.1144 ms
+19:01:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 3216.1067 ms
+19:01:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 37.1429 ms
+19:10:30 [INFO] HTTP GET /catalog/SmartOption responded 200 in 318.1074 ms
+19:10:30 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.8306 ms
+19:10:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 67.4372 ms
+19:10:49 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 56.2575 ms
+19:10:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 30.4204 ms
+19:10:52 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 61.4309 ms
+19:10:53 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 86.4478 ms
+19:10:53 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 70.2745 ms
+19:14:13 [INFO] HTTP GET /catalog/SmartOption responded 200 in 267.0160 ms
+19:14:14 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.8044 ms
+19:14:24 [INFO] HTTP GET /catalog/SmartOption responded 200 in 105.0373 ms
+19:14:25 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 30.0471 ms
+19:14:25 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 35.0278 ms
+19:14:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 33.4852 ms
+19:14:29 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 65.6674 ms
+19:14:29 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 30.0350 ms

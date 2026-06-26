@@ -1,0 +1,33 @@
+﻿15:20:19 [INFO] Now listening on: https://localhost:7131
+15:20:19 [INFO] Now listening on: http://localhost:5148
+15:20:19 [INFO] Application started. Press Ctrl+C to shut down.
+15:20:19 [INFO] Hosting environment: Development
+15:20:19 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+15:22:00 [INFO] Now listening on: https://localhost:7131
+15:22:00 [INFO] Now listening on: http://localhost:5148
+15:22:00 [INFO] Application started. Press Ctrl+C to shut down.
+15:22:00 [INFO] Hosting environment: Development
+15:22:00 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\CMS\CMS
+15:23:21 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:23:21 [INFO] Cache miss  for FindComponentSettingQuery
+15:23:23 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+15:25:06 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:25:06 [INFO] Cache hit  for FindComponentSettingQuery
+15:25:06 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+15:25:09 [INFO] [START] Handle request=FindOneComponentSettingQuery - Response=ApiResponse`1 - RequestData=FindOneComponentSettingQuery { SettingId = HRM_AdvancementHistory }
+15:25:09 [INFO] [END] Handler FindOneComponentSettingQuery with BuildingBlocks.Pagination.Version1.ApiResponse`1[CMS.Model.ComponentSetting]
+15:38:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:38:38 [INFO] Cache miss  for FindComponentSettingQuery
+15:38:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+15:39:38 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:39:38 [INFO] Cache hit  for FindComponentSettingQuery
+15:39:38 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+15:40:17 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:40:17 [INFO] Cache hit  for FindComponentSettingQuery
+15:40:17 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+15:43:44 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:43:44 [INFO] Cache hit  for FindComponentSettingQuery
+15:43:44 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]
+15:45:12 [INFO] [START] Handle request=FindComponentSettingQuery - Response=Result`1 - RequestData=FindComponentSettingQuery { Filtering = BuildingBlocks.Pagination.Version1.FilteringRequest, currentUser = CMS.CurrentUser, CacheKey = KT:0109393468:setting:HRM_AdvancementHistory, TypeName = , Expiration = 03:00:00 }
+15:45:12 [INFO] Cache hit  for FindComponentSettingQuery
+15:45:12 [INFO] [END] Handler FindComponentSettingQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[CMS.Model.ComponentSetting]]

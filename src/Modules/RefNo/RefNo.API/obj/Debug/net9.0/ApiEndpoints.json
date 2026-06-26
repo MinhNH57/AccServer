@@ -1,0 +1,37 @@
+[
+  {
+    "ContainingType": "RefNo.API.Apis.RefNosApi",
+    "Method": "GetRefNoNextValueAsync",
+    "RelativePath": "api/refno/v1/refno/next_value",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categories",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "branch_id",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RefNo.API.Model.Response\u00601[[System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "S\u1ED1 ch\u1EE9ng t\u1EEB"
+    ],
+    "EndpointName": "GetRefNoNextValue",
+    "Description": "L\u1EA5y s\u1ED1 CT ghi t\u0103ng ti\u1EBFp theo",
+    "Summary": "L\u1EA5y s\u1ED1 CT ghi t\u0103ng ti\u1EBFp theo"
+  }
+]

@@ -1,0 +1,115 @@
+﻿08:39:13 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+08:39:14 [INFO] Now listening on: https://localhost:7135
+08:39:14 [INFO] Now listening on: http://localhost:5240
+08:39:14 [INFO] Application started. Press Ctrl+C to shut down.
+08:39:14 [INFO] Hosting environment: Development
+08:39:14 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+08:39:22 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:40:51 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+11:40:52 [INFO] Now listening on: https://localhost:7135
+11:40:52 [INFO] Now listening on: http://localhost:5240
+11:40:52 [INFO] Application started. Press Ctrl+C to shut down.
+11:40:52 [INFO] Hosting environment: Development
+11:40:52 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+11:40:52 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:45:52 [INFO] Usage Telemetry: {"id":"3c100000-20b7-2221-ee47-08de5714eccf","created":"2026-01-19T11:40:51.7202006\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T11:40:51.7217467\u002B07:00","configured":"2026-01-19T11:40:51.9393252\u002B07:00","started":"2026-01-19T11:40:52.9213652\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:15:21 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+13:15:21 [INFO] Now listening on: https://localhost:7135
+13:15:21 [INFO] Now listening on: http://localhost:5240
+13:15:21 [INFO] Application started. Press Ctrl+C to shut down.
+13:15:21 [INFO] Hosting environment: Development
+13:15:21 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+13:15:22 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:20:22 [INFO] Usage Telemetry: {"id":"44110000-20b7-2221-2ab9-08de5722200d","created":"2026-01-19T13:15:21.1428173\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T13:15:21.1445174\u002B07:00","configured":"2026-01-19T13:15:21.3590865\u002B07:00","started":"2026-01-19T13:15:22.7398728\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+14:41:12 [INFO] HTTP POST /report/print responded 200 in 6715.0896 ms
+14:41:56 [INFO] HTTP POST /report/print responded 200 in 404.2433 ms
+14:45:09 [INFO] HTTP POST /report/print responded 200 in 1805.7502 ms
+14:45:22 [INFO] HTTP POST /report/print responded 200 in 310.6911 ms
+14:46:12 [INFO] HTTP POST /report/print responded 200 in 433.8346 ms
+14:46:51 [INFO] HTTP POST /report/print responded 200 in 405.0077 ms
+15:49:38 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+15:49:38 [INFO] Now listening on: https://localhost:7135
+15:49:38 [INFO] Now listening on: http://localhost:5240
+15:49:38 [INFO] Application started. Press Ctrl+C to shut down.
+15:49:38 [INFO] Hosting environment: Development
+15:49:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+15:49:39 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:53:57 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+15:53:57 [INFO] Now listening on: https://localhost:7135
+15:53:57 [INFO] Now listening on: http://localhost:5240
+15:53:57 [INFO] Application started. Press Ctrl+C to shut down.
+15:53:57 [INFO] Hosting environment: Development
+15:53:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+15:53:57 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:57:23 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+15:57:24 [INFO] Now listening on: https://localhost:7135
+15:57:24 [INFO] Now listening on: http://localhost:5240
+15:57:24 [INFO] Application started. Press Ctrl+C to shut down.
+15:57:24 [INFO] Hosting environment: Development
+15:57:24 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+15:57:24 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:59:39 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+15:59:40 [INFO] Now listening on: https://localhost:7135
+15:59:40 [INFO] Now listening on: http://localhost:5240
+15:59:40 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:59:40 [INFO] Application started. Press Ctrl+C to shut down.
+15:59:40 [INFO] Hosting environment: Development
+15:59:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+16:05:42 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+16:05:42 [INFO] Now listening on: https://localhost:7135
+16:05:42 [INFO] Now listening on: http://localhost:5240
+16:05:42 [INFO] Application started. Press Ctrl+C to shut down.
+16:05:42 [INFO] Hosting environment: Development
+16:05:42 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+16:05:42 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:22:22 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+16:22:23 [INFO] Now listening on: https://localhost:7135
+16:22:23 [INFO] Now listening on: http://localhost:5240
+16:22:23 [INFO] Application started. Press Ctrl+C to shut down.
+16:22:23 [INFO] Hosting environment: Development
+16:22:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+16:22:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:27:37 [INFO] HTTP POST /report/print responded 200 in 4007.6412 ms
+17:28:16 [INFO] HTTP POST /report/print responded 200 in 519.0114 ms
+17:29:42 [INFO] HTTP POST /report/print responded 200 in 457.9058 ms
+17:31:59 [INFO] HTTP POST /report/print responded 200 in 376.2198 ms
+17:32:02 [INFO] HTTP POST /report/print responded 200 in 213.7274 ms
+17:32:26 [INFO] HTTP POST /report/print responded 200 in 412.2372 ms
+17:43:08 [INFO] HTTP POST /report/print responded 200 in 4509.9877 ms
+17:52:44 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+17:52:44 [INFO] Now listening on: https://localhost:7135
+17:52:44 [INFO] Now listening on: http://localhost:5240
+17:52:44 [INFO] Application started. Press Ctrl+C to shut down.
+17:52:44 [INFO] Hosting environment: Development
+17:52:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+17:52:47 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:53:33 [INFO] HTTP POST /report/print responded 200 in 2564.2467 ms
+17:54:14 [INFO] HTTP POST /report/print responded 200 in 463.7996 ms
+17:55:21 [INFO] HTTP POST /report/print responded 200 in 407.1830 ms
+17:55:59 [INFO] HTTP POST /report/print responded 200 in 229.8808 ms
+17:57:47 [INFO] Usage Telemetry: {"id":"90700000-20b7-2221-3bf0-08de5748e034","created":"2026-01-19T17:52:44.3970943\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T17:52:44.3983222\u002B07:00","configured":"2026-01-19T17:52:44.6208229\u002B07:00","started":"2026-01-19T17:52:47.2462799\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+18:05:22 [INFO] HTTP POST /report/print responded 200 in 2629.5412 ms
+18:05:42 [INFO] HTTP POST /report/print responded 200 in 618.2205 ms
+18:09:21 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+18:09:21 [INFO] Now listening on: https://localhost:7135
+18:09:21 [INFO] Now listening on: http://localhost:5240
+18:09:21 [INFO] Application started. Press Ctrl+C to shut down.
+18:09:21 [INFO] Hosting environment: Development
+18:09:21 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+18:09:21 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:11:53 [INFO] HTTP POST /report/print responded 200 in 8436.1278 ms
+18:12:05 [INFO] HTTP POST /report/print responded 200 in 568.2238 ms
+18:12:42 [INFO] HTTP POST /report/print responded 200 in 810.7176 ms
+18:13:51 [INFO] HTTP POST /report/print responded 200 in 320.8281 ms
+18:14:54 [INFO] HTTP POST /report/print responded 200 in 413.9907 ms
+18:14:56 [INFO] HTTP POST /report/print responded 200 in 215.2273 ms
+18:15:08 [INFO] HTTP POST /report/print responded 200 in 382.9679 ms
+18:17:02 [INFO] HTTP POST /report/print responded 200 in 378.4009 ms
+18:21:05 [INFO] HTTP POST /report/print responded 200 in 384.5650 ms
+18:27:32 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+18:27:32 [INFO] Now listening on: https://localhost:7135
+18:27:32 [INFO] Now listening on: http://localhost:5240
+18:27:32 [INFO] Application started. Press Ctrl+C to shut down.
+18:27:32 [INFO] Hosting environment: Development
+18:27:32 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+18:27:32 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"

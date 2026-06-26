@@ -1,0 +1,21 @@
+﻿namespace Catalog.HRM.Entities;
+
+public class HRM_CatalogForeignLanguageLevel
+{
+    public Guid? Id { get; set; }
+    public string? CodeForeignLanguage { get; set; } = "1";
+    public string? NameFL { get; set; }
+    public string? LevelCode { get; set; }
+    public string? LevelName { get; set; }
+    public bool? Arrange { get; set; }
+    public bool? Show { get; set; }
+    public bool? PositionLevel { get; set; }
+
+    public DateTime? CreateDate { get; set; }
+    public int? CreateBy { get; set; }
+    public DateTime? ModifyDate { get; set; }
+    public int? ModifyBy { get; set; }
+    public int? CodeUnit { get; set; }
+    public bool? IsActive { get; set; }
+    public string? Notes { get; set; }
+}

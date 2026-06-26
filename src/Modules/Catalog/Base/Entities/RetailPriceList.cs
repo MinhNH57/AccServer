@@ -1,0 +1,19 @@
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Catalog.Base.Entities;
+public class RetailPriceList
+{
+    public Guid Id { get; set; } = Guid.NewGuid();
+    public string? WarehoseCode { get; set; }
+    public string? WarehoseName { get; set; }
+    public string? CommodityCode { get; set; }
+    public string? CommodityName { get; set; }
+    public string? UnitPcs { get; set; }
+    public double? Price { get; set; }
+    public double? VatRate { get; set; }
+    public double? EnvironmentalProtectionFee { get; set; }
+    public string? Notes { get; set; }
+    public bool IsActive { get; set; }
+    public int? CodeUnit { get; set; } = 100; 
+     
+}

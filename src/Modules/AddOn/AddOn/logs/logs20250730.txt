@@ -1,0 +1,11 @@
+﻿10:43:33 [INFO] Now listening on: https://localhost:7134
+10:43:33 [INFO] Now listening on: http://localhost:5261
+10:43:33 [INFO] Application started. Press Ctrl+C to shut down.
+10:43:33 [INFO] Hosting environment: Development
+10:43:33 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\AddOn\AddOn
+10:43:35 [INFO] HTTP GET / responded 302 in 1088.8854 ms
+10:43:35 [INFO] HTTP GET /scalar/v1 responded 200 in 50.1621 ms
+10:43:35 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 9.6121 ms
+10:43:35 [INFO] HTTP GET /scalar/scalar.js responded 200 in 39.0303 ms
+10:43:35 [INFO] HTTP GET /openapi/v1.json responded 200 in 62.5797 ms
+10:43:35 [INFO] HTTP GET /favicon.ico responded 404 in 1.1787 ms

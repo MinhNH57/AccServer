@@ -1,0 +1,134 @@
+﻿09:48:20 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+09:48:20 [INFO] Now listening on: https://localhost:7135
+09:48:20 [INFO] Now listening on: http://localhost:5240
+09:48:20 [INFO] Application started. Press Ctrl+C to shut down.
+09:48:20 [INFO] Hosting environment: Development
+09:48:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+09:48:20 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:53:20 [INFO] Usage Telemetry: {"id":"c0200000-20b7-2221-3cfc-08de524e3618","created":"2026-01-13T09:48:20.1674434\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-13T09:48:20.1688491\u002B07:00","configured":"2026-01-13T09:48:20.3526857\u002B07:00","started":"2026-01-13T09:48:20.6077339\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+10:11:54 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+10:11:54 [INFO] Now listening on: https://localhost:7135
+10:11:54 [INFO] Now listening on: http://localhost:5240
+10:11:54 [INFO] Application started. Press Ctrl+C to shut down.
+10:11:54 [INFO] Hosting environment: Development
+10:11:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+10:11:54 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+10:16:54 [INFO] Usage Telemetry: {"id":"e0980000-20b7-2221-1b8d-08de525180d8","created":"2026-01-13T10:11:54.0664646\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-13T10:11:54.0679623\u002B07:00","configured":"2026-01-13T10:11:54.2126707\u002B07:00","started":"2026-01-13T10:11:54.4238959\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:17:06 [INFO] HTTP POST /report/print responded 200 in 4935.2434 ms
+13:35:51 [INFO] HTTP POST /report/print responded 200 in 1101.1557 ms
+13:45:43 [INFO] HTTP POST /report/print responded 200 in 2565.0338 ms
+13:50:31 [INFO] HTTP POST /report/print responded 200 in 589.2431 ms
+13:53:01 [INFO] HTTP POST /report/print responded 200 in 890.2906 ms
+13:54:54 [INFO] HTTP POST /report/print responded 200 in 298.6196 ms
+13:55:55 [INFO] HTTP POST /report/print responded 200 in 237.0042 ms
+13:57:24 [INFO] HTTP POST /report/print responded 200 in 361.1169 ms
+13:58:25 [INFO] HTTP POST /report/print responded 200 in 315.8166 ms
+13:58:55 [INFO] HTTP POST /report/print responded 200 in 370.8118 ms
+13:59:47 [INFO] HTTP POST /report/print responded 200 in 252.7340 ms
+14:01:20 [INFO] HTTP POST /report/print responded 200 in 269.1378 ms
+14:02:07 [INFO] HTTP POST /report/print responded 200 in 838.2773 ms
+14:03:03 [INFO] HTTP POST /report/print responded 200 in 390.8482 ms
+14:03:28 [INFO] HTTP POST /report/print responded 200 in 222.1566 ms
+14:08:58 [INFO] HTTP POST /report/print responded 200 in 3295.8237 ms
+14:14:00 [INFO] HTTP POST /report/print responded 200 in 234.3969 ms
+14:14:13 [INFO] HTTP POST /report/print responded 200 in 337.1111 ms
+14:18:39 [INFO] HTTP POST /report/print responded 200 in 400.9042 ms
+14:19:42 [INFO] HTTP POST /report/print responded 200 in 245.2922 ms
+14:25:09 [INFO] HTTP POST /report/print responded 200 in 1267.3461 ms
+14:28:24 [INFO] HTTP POST /report/print responded 200 in 365.0658 ms
+14:31:14 [INFO] HTTP POST /report/print responded 200 in 503.3211 ms
+14:31:41 [INFO] HTTP POST /report/print responded 200 in 447.2650 ms
+14:36:08 [INFO] HTTP POST /report/print responded 200 in 491.2369 ms
+14:37:02 [INFO] HTTP POST /report/print responded 200 in 277.2678 ms
+14:38:36 [INFO] HTTP POST /report/print responded 200 in 326.7765 ms
+14:39:09 [INFO] HTTP POST /report/print responded 200 in 570.0033 ms
+14:39:46 [INFO] HTTP POST /report/print responded 200 in 636.1817 ms
+14:40:34 [INFO] HTTP POST /report/print responded 200 in 318.9490 ms
+14:41:54 [INFO] HTTP POST /report/print responded 200 in 241.0811 ms
+14:52:57 [INFO] HTTP POST /report/print responded 200 in 980.5300 ms
+14:56:49 [INFO] HTTP POST /report/print responded 200 in 656.9290 ms
+15:10:32 [INFO] HTTP POST /report/print responded 200 in 1441.8516 ms
+15:11:27 [INFO] HTTP POST /report/print responded 200 in 305.9050 ms
+15:12:08 [INFO] HTTP POST /report/print responded 200 in 237.1465 ms
+15:12:36 [INFO] HTTP POST /report/print responded 200 in 249.7188 ms
+15:12:51 [INFO] HTTP POST /report/print responded 200 in 279.2766 ms
+15:13:34 [INFO] HTTP POST /report/print responded 200 in 232.9388 ms
+15:26:54 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+15:26:54 [INFO] Now listening on: https://localhost:7135
+15:26:54 [INFO] Now listening on: http://localhost:5240
+15:26:54 [INFO] Application started. Press Ctrl+C to shut down.
+15:26:54 [INFO] Hosting environment: Development
+15:26:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+15:26:58 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:30:14 [INFO] HTTP POST /report/print responded 200 in 55912.2113 ms
+15:48:37 [INFO] HTTP POST /report/print responded 200 in 2913.2598 ms
+16:10:38 [INFO] Configured endpoint development-delete-file-event-handler, Consumer: FileHandle.EventHandlers.DeleteFileEventHandler
+16:10:38 [INFO] Now listening on: https://localhost:7135
+16:10:38 [INFO] Now listening on: http://localhost:5240
+16:10:38 [INFO] Application started. Press Ctrl+C to shut down.
+16:10:38 [INFO] Hosting environment: Development
+16:10:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\FileHandle\FileHandle
+16:10:38 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:12:24 [INFO] HTTP POST /report/print responded 200 in 10042.8820 ms
+16:12:37 [INFO] HTTP GET /Uploads/0101526991/RequirePayment/RP0001/00011634.pdf responded 404 in 2.2602 ms
+16:12:45 [INFO] HTTP GET /file/get-file-by-id/d5331467-722e-4979-3f55-08de5282ca53 responded 400 in 138.0120 ms
+16:12:49 [INFO] HTTP GET /file/get-file-by-id/d5331467-722e-4979-3f55-08de5282ca53 responded 400 in 305.8514 ms
+16:12:53 [INFO] HTTP GET /Uploads/0101526991/RequirePayment/RP0001/00011634.pdf responded 404 in 0.0853 ms
+16:15:38 [INFO] Usage Telemetry: {"id":"146a0000-20b7-2221-5d4c-08de52839e68","created":"2026-01-13T16:10:38.5022718\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-13T16:10:38.5039687\u002B07:00","configured":"2026-01-13T16:10:38.6850189\u002B07:00","started":"2026-01-13T16:10:38.9140749\u002B07:00","name":"IBus","endpoints":[{"name":"development-delete-file-event-handler","type":"RabbitMQ","prefetch_count":40,"consumer_count":1,"message_count":1},{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+16:16:50 [INFO] HTTP POST /report/print responded 200 in 925.3469 ms
+16:18:30 [INFO] HTTP POST /report/print responded 200 in 608.8706 ms
+16:19:18 [INFO] HTTP POST /report/print responded 200 in 1008.0395 ms
+16:25:31 [INFO] HTTP POST /report/print responded 200 in 608.9940 ms
+16:25:32 [INFO] HTTP POST /report/print responded 200 in 1590.9929 ms
+16:27:39 [INFO] HTTP POST /report/print responded 200 in 395.1281 ms
+16:27:39 [INFO] HTTP POST /report/print responded 200 in 400.1923 ms
+16:30:15 [INFO] HTTP POST /report/print responded 200 in 398.3138 ms
+16:38:02 [INFO] HTTP POST /report/print responded 200 in 3213.4539 ms
+16:38:02 [INFO] HTTP POST /report/print responded 200 in 3646.7654 ms
+16:39:59 [INFO] HTTP POST /report/print responded 200 in 165.5670 ms
+16:40:00 [INFO] HTTP POST /report/print responded 200 in 357.9228 ms
+16:40:39 [INFO] HTTP POST /report/print responded 200 in 403.3998 ms
+16:40:58 [INFO] HTTP POST /report/print responded 200 in 181.8383 ms
+16:40:58 [INFO] HTTP POST /report/print responded 200 in 251.5604 ms
+16:42:35 [INFO] HTTP POST /report/print responded 200 in 168.1804 ms
+16:42:35 [INFO] HTTP POST /report/print responded 200 in 467.7005 ms
+16:44:33 [INFO] HTTP POST /report/print responded 200 in 175.8975 ms
+16:44:33 [INFO] HTTP POST /report/print responded 200 in 291.6164 ms
+16:49:46 [INFO] HTTP POST /report/print responded 200 in 854.2253 ms
+17:00:26 [INFO] HTTP POST /report/print responded 200 in 571.0823 ms
+17:00:30 [INFO] HTTP POST /report/print responded 200 in 187.0627 ms
+17:01:02 [INFO] HTTP POST /report/print responded 200 in 518.2406 ms
+17:02:12 [INFO] HTTP POST /report/print responded 200 in 309.3750 ms
+17:03:57 [INFO] HTTP POST /report/print responded 200 in 315.2848 ms
+17:05:12 [INFO] HTTP POST /report/print responded 200 in 438.7519 ms
+17:05:56 [INFO] HTTP POST /report/print responded 200 in 291.4457 ms
+17:07:20 [INFO] HTTP POST /report/print responded 200 in 345.5963 ms
+17:08:45 [INFO] HTTP POST /report/print responded 200 in 304.0238 ms
+17:09:17 [INFO] HTTP POST /report/print responded 200 in 260.8488 ms
+17:10:20 [INFO] HTTP POST /report/print responded 200 in 430.4209 ms
+17:10:56 [INFO] HTTP POST /report/print responded 200 in 273.9101 ms
+17:11:19 [INFO] HTTP POST /report/print responded 200 in 223.7347 ms
+17:11:36 [INFO] HTTP POST /report/print responded 200 in 297.5161 ms
+17:11:53 [INFO] HTTP POST /report/print responded 200 in 393.4680 ms
+17:14:10 [INFO] HTTP POST /report/print responded 200 in 522.6932 ms
+17:14:32 [INFO] HTTP POST /report/print responded 200 in 194.3747 ms
+17:15:14 [INFO] HTTP POST /report/print responded 200 in 133.1654 ms
+17:16:12 [INFO] HTTP POST /report/print responded 200 in 245.4837 ms
+17:16:14 [INFO] HTTP POST /report/print responded 200 in 116.6358 ms
+17:16:39 [INFO] HTTP POST /report/print responded 200 in 220.5711 ms
+17:17:14 [INFO] HTTP POST /report/print responded 200 in 164.3221 ms
+17:18:30 [INFO] HTTP POST /report/print responded 200 in 264.8962 ms
+17:18:32 [INFO] HTTP POST /report/print responded 200 in 133.7991 ms
+17:19:38 [INFO] HTTP POST /report/print responded 200 in 140.0517 ms
+17:21:40 [INFO] HTTP POST /report/print responded 200 in 151.3262 ms
+17:21:49 [INFO] HTTP POST /report/print responded 200 in 233.9533 ms
+17:21:52 [INFO] HTTP POST /report/print responded 200 in 145.0041 ms
+17:23:22 [INFO] HTTP POST /report/print responded 200 in 241.9609 ms
+17:23:30 [INFO] HTTP POST /report/print responded 200 in 234.2855 ms
+17:23:33 [INFO] HTTP POST /report/print responded 200 in 116.8548 ms
+17:24:02 [INFO] HTTP POST /report/print responded 200 in 189.6821 ms
+17:24:50 [INFO] HTTP POST /report/print responded 200 in 529.8372 ms
+17:25:14 [INFO] HTTP POST /report/print responded 200 in 248.5625 ms
+17:26:14 [INFO] HTTP POST /report/print responded 200 in 244.8890 ms
+17:27:30 [INFO] HTTP POST /report/print responded 200 in 145.5628 ms
+17:27:53 [INFO] HTTP POST /report/print responded 200 in 128.0715 ms

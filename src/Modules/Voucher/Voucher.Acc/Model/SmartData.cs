@@ -1,0 +1,149 @@
+﻿using System.ComponentModel.DataAnnotations;
+using Voucher.Acc.Features.Commands.SmartData.CreateVoucher.Models;
+using Voucher.Acc.Model.Contracts;
+
+namespace Voucher.Acc.Model;
+
+public class SmartData : IBaseEntity
+{
+    [Key]
+    public Guid Id { get; set; }
+    public string? DataType { get; set; }
+    public string? DataName { get; set; }
+    public bool? CostAllotment { get; set; }
+    public DateTime? VoucherDate { get; set; }
+    public DateTime? RecordDate { get; set; }
+    public string? NumberOfVouchers { get; set; }
+    public string? InvoiceNumber { get; set; }
+    public string? PersonCode { get; set; }
+    public string? PersonName { get; set; }
+    public string? PersonAddress { get; set; }
+    public string? PersonTaxCode { get; set; }
+    public string? ObjectCode { get; set; }
+    public string? ObjectName { get; set; }
+    public string? ObjectAddress { get; set; }
+    public string? ObjectTaxCode { get; set; }
+    public string? GroupAreaCode { get; set; }
+    public string? GroupAreaName { get; set; }
+    public string? GroupCode { get; set; }
+    public string? GroupName { get; set; }
+    public string? WarehoseCode { get; set; }
+    public string? WarehoseName { get; set; }
+    public string? WarehoseCodeReceive { get; set; }
+    public string? WarehoseNameReceive { get; set; }
+    public string? ReasonCode { get; set; }
+    public string? ReasonName { get; set; }
+    public string? ShippingMethodsCode { get; set; }
+    public string? ShippingMethodsName { get; set; }
+    public string? MethodOfPaymentsCode { get; set; }
+    public string? MethodOfPaymentsName { get; set; }
+    public string? Description { get; set; }
+    public string? Notes { get; set; }
+    public bool Pricing { get; set; }
+    public bool EInvoice { get; set; }
+    public bool? InvocePublished { get; set; }
+    public string? KeyInvoce { get; set; }
+    public string? ENumberInvoice { get; set; }
+    public string? ENumberInvoiceDraft { get; set; }
+    public string? InvoiceResult { get; set; }
+    public Guid? IdDataInherit { get; set; }
+    public bool NotEnvironment { get; set; }
+    public string? VehiclesName { get; set; }
+    public string? ProfileStatus { get; set; }
+    public string? VoucherStatus { get; set; }
+    public string? LicensePlates { get; set; }
+    public string? InvoiceSymbol { get; set; }
+    public string? InvoiceTemplate { get; set; }
+    public string? SignTransfer { get; set; }
+    public bool Register { get; set; }
+    //public int IdAsc { get; set; }
+    public int? CodeUnit { get; set; }
+    public bool IsActive { get; set; }
+    public DateTime CreatedDate { get; set; }
+    public string? CreatedBy { get; set; }
+    public DateTime? ModifiedDate { get; set; }
+    public string? ModifiedBy { get; set; }
+    public bool? Selectted { get; set; }
+    public bool? InvoiceCancel { get; set; }
+    public string? ObjectEmail { get; set; }
+    public string? LOAIPHIEU { get; set; }
+    public string? IdDataHead { get; set; }
+    public bool? ComfirmVoucher { get; set; }
+    public string? VoucherNoInherit { get; set; }
+    public bool Delivered { get; set; }
+    public string? ContractNo { get; set; }
+    public bool Vat { get; set; }
+    public bool SaveTemp { get; set; }
+    public Guid? IdVoucherSource { get; set; }
+    public string? SignAdjust { get; set; }
+    public string? MemberRate { get; set; }
+    public string? ForeignCurrencyType { get; set; }
+    public double? ExchangeRate { get; set; }
+    public string? PurchasePurposeCode { get; set; }
+    public string? PurchasePurposeName { get; set; }
+
+    public DateTime? MaturityDate { get; set; }
+    public string? ContactPerson { get; set; }
+    public bool IsCPMuaHang { get; set; }
+    public string? PaymentVoucherNumber { get; set; }
+    public double? VatRate { get; set; }
+    public string? DiscountTypeCode { get; set; }
+    public string? DiscountTypeName { get; set; }
+    public double? DiscountValue { get; set; }
+    public string? Status { get; set; }
+    public bool? StatusAccount { get; set; } = false;
+    public double? TotalMoney { get; set; } = 0;
+    public string? StaffCode { get; set; } = string.Empty;
+    public string? StaffName { get; set; } = string.Empty;
+    public string? CreditAccount { get; set; } = string.Empty;
+    public string? DebitAccount { get; set; } = string.Empty;
+    public string? VoucherModeCode { get; set; } = "KKHD";
+    public string? VoucherModeName { get; set; } = "";
+    public string? VoucherLookupCode { get; set; } = "";
+    public string? VoucherLookupLink { get; set; } = "";
+    public bool? NotApplyPrice { get; set; }
+    // Hạn thanh toán 
+    public DateTime? DueDate { get; set; }
+    // Số ngày thanh toán
+    public int? PaymentTermDays { get; set; }
+    //Loại xuất kho
+    public int? ExportType { get; set; } = 0;
+    public string? AccountingShortcutsCode { get; set; } = "";
+    public string? AccountingShortcutsName { get; set; } = "";
+    public string? CreditSideShortcuts { get; set; } = "";
+    public string? DebitSideShortcuts { get; set; } = "";
+    /// <summary>
+    /// Địa chỉ ngân hàng
+    /// </summary>
+    public string? AddressBank { get; set; } = "";
+    /// <summary>
+    /// Stk ngân hàng quốc tế
+    /// </summary>
+    public string? SwiftCode { get; set; } = "";
+    //// <summary>
+    /// Phí trích từ tài khoản số
+    /// </summary>
+    public string? ChargesDebitaccount { get; set; } = "";
+    //// <summary>
+    /// Mã phí
+    /// </summary>
+    public int? FeeCode { get; set; } = 0;
+    //// <summary>
+    /// Tên phí
+    /// </summary>
+    public string? FeeName { get; set; } = "";
+    public decimal? AmountOfMoneyUsd { get; set; } = 0;
+    //// <summary>
+    /// Nộp vào ngân sách nhà nước
+    /// </summary>
+    public bool RemitToStateBudget { get; set; }
+    public string? CustomsDeclarationNo { get; set; }
+    public DateTime? CustomsDeclarationDate { get; set; }
+    public string? DeclarationTypeCode { get; set; }
+    public List<SmartContentsData>? SmartContentsDatas { get; set; } = [];
+
+    public List<SmartFileAttach>? SmartFileAttaches { get; set; } = [];
+    public List<SmartVatTaxList>? SmartVatTaxLists { get; set; } = [];
+    public List<SmartPaymentVendor>? SmartPaymentVendors { get; set; } = [];
+
+}

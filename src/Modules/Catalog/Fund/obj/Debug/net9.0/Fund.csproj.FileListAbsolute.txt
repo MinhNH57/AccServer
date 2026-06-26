@@ -1,0 +1,12 @@
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\bin\Debug\net9.0\Fund.deps.json
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\bin\Debug\net9.0\Fund.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\bin\Debug\net9.0\Fund.pdb
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.csproj.AssemblyReference.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.AssemblyInfoInputs.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.AssemblyInfo.cs
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.csproj.CoreCompileInputs.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\refint\Fund.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\Fund.pdb
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Fund\obj\Debug\net9.0\ref\Fund.dll

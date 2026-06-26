@@ -1,0 +1,402 @@
+﻿08:39:11 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:39:12 [INFO] Now listening on: https://localhost:7129
+08:39:12 [INFO] Now listening on: http://localhost:5299
+08:39:12 [INFO] Application started. Press Ctrl+C to shut down.
+08:39:12 [INFO] Hosting environment: Development
+08:39:12 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+08:39:15 [INFO] HTTP GET / responded 302 in 1835.2646 ms
+08:39:15 [INFO] HTTP GET /scalar/v1 responded 200 in 96.6861 ms
+08:39:15 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:39:15 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:39:15 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 24.1738 ms
+08:39:15 [INFO] HTTP GET /scalar/scalar.js responded 200 in 60.1526 ms
+08:39:16 [INFO] HTTP GET /openapi/v1.json responded 200 in 183.1310 ms
+08:39:16 [INFO] HTTP GET /openapi/v1.json responded 200 in 32.3721 ms
+11:40:50 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:40:51 [INFO] Now listening on: https://localhost:7129
+11:40:51 [INFO] Now listening on: http://localhost:5299
+11:40:51 [INFO] Application started. Press Ctrl+C to shut down.
+11:40:51 [INFO] Hosting environment: Development
+11:40:51 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:40:53 [INFO] HTTP GET / responded 302 in 1539.4586 ms
+11:40:53 [INFO] HTTP GET /scalar/v1 responded 200 in 81.5441 ms
+11:40:53 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:40:53 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:40:53 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.9526 ms
+11:40:53 [INFO] HTTP GET /scalar/scalar.js responded 200 in 29.0044 ms
+11:40:54 [INFO] HTTP GET /openapi/v1.json responded 200 in 147.3882 ms
+11:40:54 [INFO] HTTP GET /openapi/v1.json responded 200 in 32.4338 ms
+11:45:50 [INFO] Usage Telemetry: {"id":"48910000-20b7-2221-c215-08de5714eba4","created":"2026-01-19T11:40:49.7595554\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T11:40:49.7611752\u002B07:00","configured":"2026-01-19T11:40:49.8071662\u002B07:00","started":"2026-01-19T11:40:50.2262659\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:15:19 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:15:21 [INFO] Now listening on: https://localhost:7129
+13:15:21 [INFO] Now listening on: http://localhost:5299
+13:15:21 [INFO] Application started. Press Ctrl+C to shut down.
+13:15:21 [INFO] Hosting environment: Development
+13:15:21 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+13:15:23 [INFO] HTTP GET / responded 302 in 1719.3192 ms
+13:15:23 [INFO] HTTP GET /scalar/v1 responded 200 in 77.3472 ms
+13:15:23 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:15:23 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+13:15:23 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.5141 ms
+13:15:23 [INFO] HTTP GET /scalar/scalar.js responded 200 in 31.4946 ms
+13:15:23 [INFO] HTTP GET /openapi/v1.json responded 200 in 157.2450 ms
+13:15:23 [INFO] HTTP GET /openapi/v1.json responded 200 in 35.7898 ms
+13:20:19 [INFO] Usage Telemetry: {"id":"605d0000-20b7-2221-f4b8-08de57221eb8","created":"2026-01-19T13:15:18.9132043\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T13:15:18.9147707\u002B07:00","configured":"2026-01-19T13:15:18.9603971\u002B07:00","started":"2026-01-19T13:15:19.5411576\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+14:40:03 [INFO] HTTP GET /catalog/SmartOption responded 200 in 13626.8264 ms
+14:40:05 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 73.9090 ms
+14:40:24 [INFO] HTTP GET /catalog/SmartOption responded 200 in 582.6373 ms
+14:40:25 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 55.4094 ms
+14:40:40 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 132.7561 ms
+14:40:40 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 44.3086 ms
+14:43:25 [INFO] HTTP GET /catalog/SmartOption responded 200 in 797.6416 ms
+14:43:25 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 50.5739 ms
+14:43:51 [INFO] HTTP GET /catalog/SmartOption responded 200 in 44.8576 ms
+14:43:52 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 166.5828 ms
+14:43:53 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 138.3619 ms
+15:06:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 133.3478 ms
+15:06:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 48.7214 ms
+15:06:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 37.2815 ms
+15:06:28 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 341.7021 ms
+15:06:29 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 30.7682 ms
+15:06:47 [INFO] HTTP GET /catalog/CatalogAccountSymbol responded 200 in 69.7055 ms
+15:08:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 47.0174 ms
+15:08:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.7226 ms
+15:08:28 [INFO] HTTP GET /catalog/SmartOption responded 200 in 231.3396 ms
+15:08:29 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 81.2963 ms
+15:08:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 36.9974 ms
+15:08:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.5965 ms
+15:08:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 33.0789 ms
+15:08:44 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 104.1178 ms
+15:08:44 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 134.2899 ms
+15:09:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 196.3820 ms
+15:09:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 216.8082 ms
+15:11:29 [INFO] HTTP GET /catalog/SmartOption responded 200 in 67.5604 ms
+15:11:30 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.3778 ms
+15:22:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 281.3961 ms
+15:22:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 62.4415 ms
+15:31:37 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5047ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 1, aw: False, bw: Inactive, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 349, cur-in: 0, sync-ops: 2, async-ops: 65, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 3096.47, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=3,QueuedItems=0,CompletedItems=18839,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:31:43 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 2, async-ops: 66, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=3,QueuedItems=0,CompletedItems=18868,Timers=7), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:31:57 [INFO] HTTP GET /catalog/SmartOption responded 200 in 25702.6863 ms
+15:31:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.1110 ms
+15:49:39 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:49:40 [INFO] Now listening on: https://localhost:7129
+15:49:40 [INFO] Now listening on: http://localhost:5299
+15:49:40 [INFO] Application started. Press Ctrl+C to shut down.
+15:49:40 [INFO] Hosting environment: Development
+15:49:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:49:40 [INFO] HTTP GET / responded 302 in 407.9931 ms
+15:49:40 [INFO] HTTP GET /scalar/v1 responded 200 in 83.4724 ms
+15:49:40 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:49:40 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:49:40 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 11.1929 ms
+15:49:40 [INFO] HTTP GET /scalar/scalar.js responded 200 in 29.5355 ms
+15:49:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 186.6914 ms
+15:49:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 41.5901 ms
+15:50:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2534.6905 ms
+15:50:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 50.4890 ms
+15:53:57 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:53:58 [INFO] Now listening on: https://localhost:7129
+15:53:58 [INFO] Now listening on: http://localhost:5299
+15:53:58 [INFO] Application started. Press Ctrl+C to shut down.
+15:53:58 [INFO] Hosting environment: Development
+15:53:58 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:53:58 [INFO] HTTP GET / responded 302 in 214.2477 ms
+15:53:58 [INFO] HTTP GET /scalar/v1 responded 200 in 37.4291 ms
+15:53:58 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:53:58 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:53:58 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.0682 ms
+15:53:58 [INFO] HTTP GET /scalar/scalar.js responded 200 in 16.0613 ms
+15:53:59 [INFO] HTTP GET /openapi/v1.json responded 200 in 97.3945 ms
+15:53:59 [INFO] HTTP GET /openapi/v1.json responded 200 in 33.4935 ms
+15:54:39 [INFO] HTTP GET /catalog/SmartOption responded 200 in 3116.7857 ms
+15:54:40 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 126.6276 ms
+15:57:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:57:25 [INFO] Now listening on: https://localhost:7129
+15:57:25 [INFO] Now listening on: http://localhost:5299
+15:57:25 [INFO] Application started. Press Ctrl+C to shut down.
+15:57:25 [INFO] Hosting environment: Development
+15:57:25 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:57:26 [INFO] HTTP GET / responded 302 in 467.9338 ms
+15:57:26 [INFO] HTTP GET /scalar/v1 responded 200 in 115.7995 ms
+15:57:26 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:57:26 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:57:26 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.1605 ms
+15:57:26 [INFO] HTTP GET /scalar/scalar.js responded 200 in 24.5026 ms
+15:57:27 [INFO] HTTP GET /openapi/v1.json responded 200 in 191.1023 ms
+15:57:27 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.9483 ms
+15:58:08 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=20,Max=32767), POOL: (Threads=5,QueuedItems=0,CompletedItems=481,Timers=10), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:58:16 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=20,Max=32767), POOL: (Threads=5,QueuedItems=0,CompletedItems=521,Timers=10), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:58:22 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 13, aw: False, bw: CheckingForTimeout, rs: ReadAsync, ws: Flushed, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 3, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 0.36, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=20,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=577,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:58:32 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (8000ms elapsed, timeout is 5000ms), command=HMGET, inst: 0, qu: 0, qs: 3, aw: False, bw: SpinningDown, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 16, cur-in: 0, sync-ops: 0, async-ops: 4, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 8.37, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=6,QueuedItems=0,CompletedItems=623,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:58:32 [INFO] HTTP GET /catalog/SmartOption responded 400 in 44925.7116 ms
+15:58:38 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5609ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 1, aw: False, bw: SpinningDown, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 5, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 16.37, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=678,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:58:50 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 6000ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 2, aw: False, bw: SpinningDown, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 6, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 22.37, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=703,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:58:55 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisTimeoutException: Timeout awaiting response (outbound=0KiB, inbound=0KiB, 5015ms elapsed, timeout is 5000ms), command=HMGET, next: HMGET __tenant__identifier__0101526991, inst: 0, qu: 0, qs: 3, aw: False, bw: SpinningDown, rs: ReadAsync, ws: Idle, in: 0, in-pipe: 0, out-pipe: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 7, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: 32.84, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=734,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at Finbuckle.MultiTenant.Stores.DistributedCacheStore.DistributedCacheStore`1.TryGetByIdentifierAsync(String identifier)
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:59:12 [EROR] Exception in TryGetByIdentifierAsync
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=HMGET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 8, serverEndpoint: smartcache.ssoftware.vn:53697, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: SMART-DEV20(SE.Redis-v2.8.24.3255), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=1,Free=32766,Min=20,Max=32767), POOL: (Threads=4,QueuedItems=0,CompletedItems=764,Timers=6), v: 2.8.24.3255 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(IDistributedCache cache, String key, CancellationToken token)
+   at BuildingBlocks.Caching.DistributedCacheExtensions.GetOrCreateAsync[T](IDistributedCache cache, String key, Func`1 factory, DistributedCacheEntryOptions options, CancellationToken token) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Caching\DistributedCacheExtensions.cs:line 18
+   at BuildingBlocks.MultiTenancy.MultitenantStoreCustomize.TryGetByIdentifierAsync(String identifier) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\MultiTenancy\MultitenantStoreCustomize.cs:line 80
+   at Finbuckle.MultiTenant.Stores.MultiTenantStoreWrapper`1.TryGetByIdentifierAsync(String identifier)
+15:59:12 [INFO] HTTP GET /catalog/SmartOption responded 400 in 39436.7221 ms
+15:59:39 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:59:40 [INFO] Now listening on: https://localhost:7129
+15:59:40 [INFO] Now listening on: http://localhost:5299
+15:59:40 [INFO] Application started. Press Ctrl+C to shut down.
+15:59:40 [INFO] Hosting environment: Development
+15:59:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:59:41 [INFO] HTTP GET / responded 302 in 262.5811 ms
+15:59:41 [INFO] HTTP GET /scalar/v1 responded 200 in 46.5537 ms
+15:59:41 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:59:41 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:59:41 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 8.4158 ms
+15:59:41 [INFO] HTTP GET /scalar/scalar.js responded 200 in 18.8301 ms
+15:59:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 104.7382 ms
+15:59:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 24.5302 ms
+16:00:07 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1681.1699 ms
+16:00:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 44.2867 ms
+16:05:42 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:05:44 [INFO] Now listening on: https://localhost:7129
+16:05:44 [INFO] Now listening on: http://localhost:5299
+16:05:44 [INFO] Application started. Press Ctrl+C to shut down.
+16:05:44 [INFO] Hosting environment: Development
+16:05:44 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+16:05:45 [INFO] HTTP GET / responded 302 in 400.2021 ms
+16:05:45 [INFO] HTTP GET /scalar/v1 responded 200 in 107.9160 ms
+16:05:45 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:05:45 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:05:45 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.4034 ms
+16:05:45 [INFO] HTTP GET /scalar/scalar.js responded 200 in 23.4598 ms
+16:05:45 [INFO] HTTP GET /openapi/v1.json responded 200 in 191.3886 ms
+16:05:45 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.7258 ms
+16:06:11 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1711.4771 ms
+16:06:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 147.4856 ms
+16:12:04 [INFO] HTTP GET /catalog/SmartOption responded 200 in 173.5092 ms
+16:12:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.0042 ms
+16:22:22 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:22:24 [INFO] Now listening on: https://localhost:7129
+16:22:24 [INFO] Now listening on: http://localhost:5299
+16:22:24 [INFO] Application started. Press Ctrl+C to shut down.
+16:22:24 [INFO] Hosting environment: Development
+16:22:24 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+16:22:25 [INFO] HTTP GET / responded 302 in 415.2688 ms
+16:22:25 [INFO] HTTP GET /scalar/v1 responded 200 in 86.5732 ms
+16:22:25 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:22:25 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:22:25 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.1833 ms
+16:22:25 [INFO] HTTP GET /scalar/scalar.js responded 200 in 37.7170 ms
+16:22:25 [INFO] HTTP GET /openapi/v1.json responded 200 in 189.2424 ms
+16:22:25 [INFO] HTTP GET /openapi/v1.json responded 200 in 48.2984 ms
+16:23:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1633.4256 ms
+16:24:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 41.1094 ms
+16:25:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 125.0036 ms
+16:25:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.2788 ms
+16:26:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 100.0444 ms
+16:26:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.1441 ms
+16:26:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 71.0085 ms
+16:26:59 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 58.3027 ms
+16:26:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.7645 ms
+16:27:03 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 58.2758 ms
+16:27:04 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 35.2282 ms
+16:27:04 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 30.9777 ms
+16:27:04 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 30.3528 ms
+16:27:04 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 31.5674 ms
+16:27:04 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 29.5831 ms
+16:27:04 [INFO] HTTP GET /catalog/CatalogTypeOfWork responded 200 in 32.9226 ms
+16:27:12 [INFO] HTTP GET /catalog/CatalogSaleShifts responded 200 in 36.4734 ms
+16:27:12 [INFO] HTTP GET /catalog/SaleShiftsAdvanced responded 200 in 39.6982 ms
+16:27:12 [INFO] HTTP GET /catalog/CalculateMerit responded 200 in 35.8107 ms
+16:27:12 [INFO] HTTP GET /catalog/TardinessPenalty responded 200 in 27.6525 ms
+16:27:12 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 33.6253 ms
+16:27:12 [INFO] HTTP GET /catalog/TardinessPolicy responded 200 in 36.7245 ms
+16:27:13 [INFO] HTTP GET /catalog/CatalogTypeOfWork responded 200 in 24.6407 ms
+16:27:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 60.6704 ms
+16:27:36 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 62.5015 ms
+16:27:36 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 27.4305 ms
+16:44:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 350.7849 ms
+16:44:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.2053 ms
+16:44:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 60.0568 ms
+16:44:25 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.9430 ms
+16:45:33 [INFO] HTTP GET /catalog/SmartOption responded 200 in 51.6571 ms
+16:45:34 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 36.3273 ms
+16:45:44 [INFO] HTTP GET /catalog/SmartOption responded 200 in 78.5515 ms
+16:45:46 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.6193 ms
+16:46:59 [INFO] HTTP GET /catalog/SmartOption responded 200 in 45.4730 ms
+16:46:59 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.3862 ms
+16:47:05 [INFO] HTTP GET /catalog-units/get-all responded 200 in 757.6226 ms
+16:47:17 [INFO] HTTP GET /catalog/SmartOption responded 200 in 29.6247 ms
+16:47:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.3119 ms
+16:47:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 31.3536 ms
+16:47:27 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.6028 ms
+16:49:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 95.5353 ms
+16:49:23 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.9723 ms
+16:49:32 [INFO] HTTP GET /catalog/SmartOption responded 200 in 28.6581 ms
+16:49:33 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 184.4722 ms
+16:49:40 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 57.5568 ms
+16:50:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 472.9208 ms
+16:50:31 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 109.5041 ms
+16:53:06 [INFO] HTTP GET /catalog/SmartOption responded 200 in 75.7511 ms
+16:53:07 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.3588 ms
+16:53:18 [INFO] HTTP GET /catalog/SmartOption responded 200 in 32.9922 ms
+16:53:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.1257 ms
+16:53:19 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 40.3943 ms
+16:57:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 43.6070 ms
+16:57:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.3518 ms
+16:57:22 [INFO] HTTP GET /catalog/SmartOption responded 200 in 31.9915 ms
+16:57:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 232.2975 ms
+16:57:24 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 30.4121 ms
+16:58:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 43.3978 ms
+16:58:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.0082 ms
+16:59:45 [INFO] HTTP GET /catalog/SmartOption responded 200 in 194.5822 ms
+16:59:45 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.8587 ms
+17:00:22 [INFO] HTTP GET /catalog/SmartOption responded 200 in 48.5229 ms
+17:00:23 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.7901 ms
+17:00:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 34.6483 ms
+17:00:42 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.7726 ms
+17:00:42 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 33.1933 ms
+17:08:56 [INFO] HTTP GET /catalog/SmartOption responded 200 in 209.5595 ms
+17:08:57 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.6213 ms
+17:09:32 [INFO] HTTP GET /catalog/SmartOption responded 200 in 93.2972 ms
+17:11:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 69.5805 ms
+17:11:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.4942 ms
+17:12:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 30.0558 ms
+17:12:53 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 23.1111 ms
+17:13:27 [INFO] HTTP GET /catalog/SmartOption responded 200 in 29.1329 ms
+17:13:32 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 154.5213 ms
+17:18:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 208.2648 ms
+17:18:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.7529 ms
+17:20:09 [INFO] HTTP GET /catalog/SmartOption responded 200 in 67.3162 ms
+17:20:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.0931 ms
+17:20:15 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 52.1938 ms
+17:26:13 [INFO] HTTP GET /catalog/SmartOption responded 200 in 159.1825 ms
+17:26:13 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.7099 ms
+17:26:44 [INFO] HTTP GET /catalog/SmartOption responded 200 in 35.8080 ms
+17:26:46 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 36.4356 ms
+17:27:14 [INFO] HTTP GET /catalog/SmartDataApplication responded 200 in 57.8262 ms
+17:37:07 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 89.9954 ms
+17:37:07 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 162.0839 ms
+17:37:08 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 318.9631 ms
+17:37:08 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 30.9781 ms
+17:37:08 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 51.0234 ms
+17:37:08 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 41.9461 ms
+17:37:08 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 31.5114 ms
+17:37:08 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 35.3108 ms
+17:52:45 [INFO] Now listening on: https://localhost:7129
+17:52:45 [INFO] Now listening on: http://localhost:5299
+17:52:45 [INFO] Application started. Press Ctrl+C to shut down.
+17:52:45 [INFO] Hosting environment: Development
+17:52:45 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+17:52:46 [INFO] HTTP GET / responded 302 in 388.1182 ms
+17:52:46 [INFO] HTTP GET /scalar/v1 responded 200 in 77.5748 ms
+17:52:46 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:52:46 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+17:52:46 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 11.0503 ms
+17:52:46 [INFO] HTTP GET /scalar/scalar.js responded 200 in 30.2922 ms
+17:52:46 [INFO] HTTP GET /openapi/v1.json responded 200 in 161.8586 ms
+17:52:46 [INFO] HTTP GET /openapi/v1.json responded 200 in 40.4689 ms
+17:52:47 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:53:12 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1362.3150 ms
+17:53:12 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 34.5536 ms
+17:57:47 [INFO] Usage Telemetry: {"id":"6c490000-20b7-2221-9a24-08de5748dfda","created":"2026-01-19T17:52:43.8096838\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T17:52:43.8111239\u002B07:00","configured":"2026-01-19T17:52:43.8533386\u002B07:00","started":"2026-01-19T17:52:47.1594777\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+18:09:21 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:09:22 [INFO] Now listening on: https://localhost:7129
+18:09:22 [INFO] Now listening on: http://localhost:5299
+18:09:22 [INFO] Application started. Press Ctrl+C to shut down.
+18:09:22 [INFO] Hosting environment: Development
+18:09:22 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+18:09:24 [INFO] HTTP GET / responded 302 in 470.5731 ms
+18:09:24 [INFO] HTTP GET /scalar/v1 responded 200 in 153.2086 ms
+18:09:24 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:09:24 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:09:24 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 13.3595 ms
+18:09:24 [INFO] HTTP GET /scalar/scalar.js responded 200 in 34.7720 ms
+18:09:24 [INFO] HTTP GET /openapi/v1.json responded 200 in 201.2783 ms
+18:09:24 [INFO] HTTP GET /openapi/v1.json responded 200 in 44.5665 ms
+18:09:46 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1635.8559 ms
+18:09:47 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 135.4645 ms
+18:11:04 [INFO] HTTP GET /catalog/SmartOption responded 200 in 102.3468 ms
+18:11:04 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 24.4542 ms
+18:27:32 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:27:34 [INFO] Now listening on: https://localhost:7129
+18:27:34 [INFO] Now listening on: http://localhost:5299
+18:27:34 [INFO] Application started. Press Ctrl+C to shut down.
+18:27:34 [INFO] Hosting environment: Development
+18:27:34 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+18:27:35 [INFO] HTTP GET / responded 302 in 460.1173 ms
+18:27:35 [INFO] HTTP GET /scalar/v1 responded 200 in 86.8124 ms
+18:27:35 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:27:35 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+18:27:35 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 14.1774 ms
+18:27:35 [INFO] HTTP GET /scalar/scalar.js responded 200 in 34.0207 ms
+18:27:35 [INFO] HTTP GET /openapi/v1.json responded 200 in 194.4102 ms
+18:27:36 [INFO] HTTP GET /openapi/v1.json responded 200 in 43.6651 ms

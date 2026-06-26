@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Remove="SimpleCache\**" />
+        <EmbeddedResource Remove="SimpleCache\**" />
+        <None Remove="SimpleCache\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FirebaseAdmin" />
+        <PackageReference Include="AutoMapper" />
+        <PackageReference Include="AutoMapper.Collection" />
+        <PackageReference Include="AutoMapper.Collection.EntityFrameworkCore" />
+        <PackageReference Include="EfCore.GenericServices" />
+        <PackageReference Include="Microsoft.AspNetCore.JsonPatch" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+        <PackageReference Include="MiniExcel" />
+        <PackageReference Include="System.Linq.Dynamic.Core" />
+        <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" />
+        <PackageReference Include="System.Text.Json" />
+
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SmartAccCloud.Domain\SmartAccCloud.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Interfaces\User\" />
+        <Folder Include="MapProfile\SmartData\" />
+        <Folder Include="Models\RuleUnit\" />
+        <Folder Include="Models\Salary\NewFolder\" />
+        <Folder Include="Services\TonMyAnh\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\Modules\FileHandle\FileHandle\wwwroot\ErrorDetails.txt
+wwwroot\ErrorDetails.txt
+wwwroot\fonts\TimesNewRoman\font-times-new-roman.ttf
+wwwroot\fonts\TimesNewRoman\times new roman bold italic.ttf
+wwwroot\fonts\TimesNewRoman\times new roman bold.ttf
+wwwroot\fonts\TimesNewRoman\times new roman italic.ttf
+wwwroot\fonts\TimesNewRoman\times new roman regular.ttf
+wwwroot\fonts\TimesNewRoman\times new roman.ttf

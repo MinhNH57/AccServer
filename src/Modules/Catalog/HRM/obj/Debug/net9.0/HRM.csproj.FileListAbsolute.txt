@@ -1,0 +1,12 @@
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\bin\Debug\net9.0\HRM.deps.json
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\bin\Debug\net9.0\HRM.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\bin\Debug\net9.0\HRM.pdb
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.csproj.AssemblyReference.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.AssemblyInfoInputs.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.AssemblyInfo.cs
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.csproj.CoreCompileInputs.cache
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\refint\HRM.dll
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\HRM.pdb
+D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\HRM\obj\Debug\net9.0\ref\HRM.dll

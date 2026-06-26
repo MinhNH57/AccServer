@@ -1,0 +1,2461 @@
+[
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogUnitApi",
+    "Method": "GetAll",
+    "RelativePath": "catalog-units/get-all",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "X-Tenant-Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "get-catalog-unit",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch danh m\u1EE5c \u0111\u01A1n v\u1ECB."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "FindAll",
+    "RelativePath": "catalog/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchFields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "ListItems",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "Create",
+    "RelativePath": "catalog/{catalog}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToCreate",
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "CreateItem",
+    "Description": "T\u1EA1o m\u1ED9t m\u1EE5c m\u1EDBi trong danh m\u1EE5c.",
+    "Summary": "T\u1EA1o m\u1ED9t m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "Update",
+    "RelativePath": "catalog/{catalog}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToUpdate",
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "UpdateItem",
+    "Description": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t m\u1EE5c trong danh m\u1EE5c.",
+    "Summary": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "Delete",
+    "RelativePath": "catalog/{catalog}/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "DeleteItem",
+    "Description": "X\u00F3a m\u1ED9t m\u1EE5c ch\u1EC9 \u0111\u1ECBnh trong danh m\u1EE5c.",
+    "Summary": "X\u00F3a m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "CheckDynamicEnitity",
+    "RelativePath": "catalog/check-exits",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.DynamicCheckExist",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "check-exits",
+    "Description": "Check xem model c\u00F3 t\u1ED3n t\u1EA1i trong h\u1EC7 th\u1ED1ng qua c\u00E1c tham s\u1ED1 truy\u1EC1n v\u00E0o kh\u00F4ng.",
+    "Summary": "Check xem model c\u00F3 t\u1ED3n t\u1EA1i kh\u00F4ng."
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Catalog.Commands.CatalogLogic.CatalogAccountSymbol.AccountSymbolApi",
+    "Method": "CreateAccountSymbolNew",
+    "RelativePath": "catalog/create-account-symbol",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.Entities.CatalogAccountSymbol",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "create-account-symbol",
+    "Description": "T\u1EA1o m\u1EDBi danh m\u1EE5c t\u00E0i kho\u1EA3n",
+    "Summary": "T\u1EA1o danh m\u1EE5c t\u00E0i kho\u1EA3n"
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Catalog.Commands.CatalogLogic.CatalogRoom.CatalogRoomApi",
+    "Method": "CreateCatalogRoom",
+    "RelativePath": "catalog/create-catalog-room",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.Entities.CatalogRoom",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "create-catalog-room",
+    "Description": "T\u1EA1o m\u1EDBi danh m\u1EE5c ph\u00F2ng ban",
+    "Summary": "T\u1EA1o ph\u00F2ng ban"
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Catalog.Commands.CatalogLogic.CatalogSelecttedPrint.CatalogSelecttedPrintApi",
+    "Method": "CreateSelectedPrint",
+    "RelativePath": "catalog/create-selected-print",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Features.Web.Catalog.Models.CatalogSelecttedPrintRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "create-selected-print",
+    "Description": "T\u1EA1o m\u1EDBi danh m\u1EE5c select",
+    "Summary": "T\u1EA1o danh m\u1EE5c select"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "DeleteEntity",
+    "RelativePath": "catalog/delete-catalog",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.SmartDeleteDataQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "delete-catalog",
+    "Summary": "Xo\u00E1 danh m\u1EE5c \u0111\u1ED9ng theo t\u00EAn b\u1EA3ng v\u00E0 kho\u00E1 ch\u00EDnh"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "DynamicAddListData",
+    "RelativePath": "catalog/dynamic-add-list-data",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Catalog.Base.DynamicListDataModel, Catalog.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "dynamic-add-list-data",
+    "Summary": "Th\u00EAm \u0111\u1ED9ng d\u1EEF li\u1EC7u list danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "CreateEntitiesFromJson",
+    "RelativePath": "catalog/dynamic-create-listobject",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.CreateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "dynamic-create-listobject",
+    "Summary": "Th\u00EAm \u0111\u1ED9ng list danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "CreateEntityFromJson",
+    "RelativePath": "catalog/dynamic-create-object",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.CreateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "dynamic-create-object",
+    "Summary": "Th\u00EAm \u0111\u1ED9ng d\u1EEF li\u1EC7u danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "UpdateDynamicObject",
+    "RelativePath": "catalog/dynamic-update-object",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.UpdateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "dynamic-update-object",
+    "Summary": "C\u1EADp nh\u1EADt \u0111\u1ED9ng d\u1EEF li\u1EC7u  danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "FindAllCache",
+    "RelativePath": "catalog/find-cache/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "ListItemsCache",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "GetDynamicEnitity",
+    "RelativePath": "catalog/get-catalog",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.SmartGetDataQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "get-catalog",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "FindAll",
+    "RelativePath": "catalog/sgas/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "CheckDynamicEnitity",
+    "RelativePath": "catalog/sgas/check-exits",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.SGas.Models.DynamicCheckExist",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Description": "Check xem model c\u00F3 t\u1ED3n t\u1EA1i trong h\u1EC7 th\u1ED1ng qua c\u00E1c tham s\u1ED1 truy\u1EC1n v\u00E0o kh\u00F4ng.",
+    "Summary": "Check xem model c\u00F3 t\u1ED3n t\u1EA1i kh\u00F4ng."
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "DeleteEntity",
+    "RelativePath": "catalog/sgas/delete-catalog",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.SGas.Models.SmartDeleteDataQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Summary": "Xo\u00E1 danh m\u1EE5c \u0111\u1ED9ng theo t\u00EAn b\u1EA3ng v\u00E0 kho\u00E1 ch\u00EDnh"
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "DynamicAddListData",
+    "RelativePath": "catalog/sgas/dynamic-add-list-data",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Catalog.SGas.Models.DynamicListDataModel, Catalog.SGas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Summary": "Th\u00EAm \u0111\u1ED9ng d\u1EEF li\u1EC7u list danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "CreateEntitiesFromJson",
+    "RelativePath": "catalog/sgas/dynamic-create-listobject",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.SGas.Models.CreateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Summary": "Th\u00EAm \u0111\u1ED9ng list danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "CreateEntityFromJson",
+    "RelativePath": "catalog/sgas/dynamic-create-object",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.SGas.Models.CreateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Summary": "Th\u00EAm \u0111\u1ED9ng d\u1EEF li\u1EC7u danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "UpdateDynamicObject",
+    "RelativePath": "catalog/sgas/dynamic-update-object",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.SGas.Models.UpdateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Summary": "C\u1EADp nh\u1EADt \u0111\u1ED9ng d\u1EEF li\u1EC7u  danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "GetDynamicEnitity",
+    "RelativePath": "catalog/sgas/get-catalog",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.SGas.Models.SmartGetDataQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "FindAllv2",
+    "RelativePath": "catalog/sgas/v2/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ],
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.SGas.Features.Api",
+    "Method": "GetViewAsync",
+    "RelativePath": "catalog/sgas/view/{typeSize}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typeSize",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "SGas"
+    ]
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Catalog.Commands.CatalogLogic.CatalogAccountSymbol.AccountSymbolApi",
+    "Method": "UpdateAccountSymbolNew",
+    "RelativePath": "catalog/update-account-symbol",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.Entities.CatalogAccountSymbol",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "update-account-symbol",
+    "Description": "C\u1EADp nh\u1EADt danh m\u1EE5c t\u00E0i kho\u1EA3n",
+    "Summary": "C\u1EADp nh\u1EADt danh m\u1EE5c t\u00E0i kho\u1EA3n"
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Catalog.Commands.CatalogLogic.CatalogRoom.CatalogRoomApi",
+    "Method": "UpdateCatalogRoom",
+    "RelativePath": "catalog/update-catalog-room",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.Base.Entities.CatalogRoom",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "update-catalog-room",
+    "Description": "C\u1EADp nh\u1EADt danh m\u1EE5c ph\u00F2ng ban",
+    "Summary": "S\u1EEDa ph\u00F2ng ban"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "FindAllv2",
+    "RelativePath": "catalog/v2/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchFields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "GetCatalogV2",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.CatalogApi",
+    "Method": "GetViewAsync",
+    "RelativePath": "catalog/view/{typeSize}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "typeSize",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "ListView"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "AddObjectFund",
+    "RelativePath": "fund/add-object-fund",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectFund",
+        "Type": "Catalog.Fund.Models.ObjectDtoFundAction",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "T\u1EA1o \u0111\u01A1n kh\u1EA3o s\u00E1t"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "DeleteObjectFund",
+    "RelativePath": "fund/delete-object-fund/{cccd}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cccd",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "X\u00F3a \u0111\u1ED1i t\u01B0\u1EE3ng"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "EditObjectFund",
+    "RelativePath": "fund/edit-object-fund",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objectFund",
+        "Type": "Catalog.Fund.Models.ObjectDtoFundAction",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "S\u1EEDa \u0111\u1ED1i t\u01B0\u1EE3ng"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "CreateExcelObject",
+    "RelativePath": "fund/excel-object-fund",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ExcelCatalogObjects",
+        "Type": "Catalog.Fund.Entities.ExcelCatalogObject",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "Th\u00EAm m\u1EDBi \u0111\u01A1n \u0111\u1EC1 ngh\u1ECB vay v\u1ED1n"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "GetExcelObjById",
+    "RelativePath": "fund/excel-object-fund/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "L\u1EA5y chi ti\u1EBFt \u0111\u1ED1i t\u01B0\u1EE3ng b\u1EB1ng CCCD"
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Fund.Excel.Api.ExcelApi",
+    "Method": "CreateExcelObject",
+    "RelativePath": "fund/excel/create-excel-obj",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "excelCatalogObjects",
+        "Type": "System.Collections.Generic.List\u00601[[Catalog.Fund.Entities.ExcelCatalogObject, Catalog.Fund, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Excel"
+    ],
+    "Summary": "Th\u00EAm m\u1EDBi \u0111\u01A1n \u0111\u1EC1 ngh\u1ECB vay v\u1ED1n"
+  },
+  {
+    "ContainingType": "Catalog.Features.Web.Fund.Excel.Api.ExcelApi",
+    "Method": "ImportExcelObj",
+    "RelativePath": "fund/excel/upload-excel-obj",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Excel"
+    ],
+    "Description": "Nh\u1EADp danh s\u00E1ch \u0111\u1ED1i t\u01B0\u1EE3ng t\u1EEB excel.",
+    "Summary": "Nh\u1EADp danh s\u00E1ch \u0111\u1ED1i t\u01B0\u1EE3ng t\u1EEB excel"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "GetDynamicData",
+    "RelativePath": "fund/get-data/{tableName}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "EndpointName": "GetData",
+    "Summary": "L\u1EA5y d\u1EEF li\u1EC7u \u0111\u1ED9ng"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "GetInfoMemmber",
+    "RelativePath": "fund/get-info-member",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Catalog.Fund.Features.Queries.GetInfoMemmber.GetInfoMemmberQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "L\u1EA5y th\u00F4ng tin th\u00E0nh vi\u00EAn theo CCCD"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "GetObjectByCccdDetail",
+    "RelativePath": "fund/get-object-by-cccd",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cccd",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "L\u1EA5y chi ti\u1EBFt \u0111\u1ED1i t\u01B0\u1EE3ng b\u1EB1ng CCCD"
+  },
+  {
+    "ContainingType": "Catalog.Fund.Features.FundApi",
+    "Method": "GroupExcelObject",
+    "RelativePath": "fund/group-excel-obj",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "Nh\u00F3m \u0111\u01A1n vay"
+  },
+  {
+    "ContainingType": "Catalog.Base.GenarateCode.GenerateCodeApi",
+    "Method": "GetCodeCatalogByGroupCode",
+    "RelativePath": "generate-code/get-code-catalog-group",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Catalog.Base.GenarateCode.Models.QueryCodeCatalogByGroup",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "GenerateCode"
+    ],
+    "Summary": "L\u1EA5y ra m\u00E3 t\u1EF1 sinh cho kh\u00F3a ch\u00EDnh"
+  },
+  {
+    "ContainingType": "Catalog.Base.GenarateCode.GenerateCodeApi",
+    "Method": "GroupCodeCategory",
+    "RelativePath": "generate-code/group-code-catalog",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "Catalog.Base.GenarateCode.Models.GroupCodeQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "GenerateCode"
+    ],
+    "Summary": "G\u1ED9p m\u00E3"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "FindAll",
+    "RelativePath": "HRMcatalog/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMListItems",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "Create",
+    "RelativePath": "HRMcatalog/{catalog}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToCreate",
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMCreateItem",
+    "Description": "T\u1EA1o m\u1ED9t m\u1EE5c m\u1EDBi trong danh m\u1EE5c.",
+    "Summary": "T\u1EA1o m\u1ED9t m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "Update",
+    "RelativePath": "HRMcatalog/{catalog}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemToUpdate",
+        "Type": "System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMUpdateItem",
+    "Description": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t m\u1EE5c trong danh m\u1EE5c.",
+    "Summary": "T\u1EA1o ho\u1EB7c thay th\u1EBF m\u1ED9t m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "Delete",
+    "RelativePath": "HRMcatalog/{catalog}/{id:guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "BuildingBlocks.Pagination.Version1.ApiResponse\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMDeleteItem",
+    "Description": "X\u00F3a m\u1ED9t m\u1EE5c ch\u1EC9 \u0111\u1ECBnh trong danh m\u1EE5c.",
+    "Summary": "X\u00F3a m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "CheckDynamicEnitity",
+    "RelativePath": "HRMcatalog/check-exits",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.DynamicCheckExist",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMcheck-exits",
+    "Description": "Check xem model c\u00F3 t\u1ED3n t\u1EA1i trong h\u1EC7 th\u1ED1ng qua c\u00E1c tham s\u1ED1 truy\u1EC1n v\u00E0o kh\u00F4ng.",
+    "Summary": "Check xem model c\u00F3 t\u1ED3n t\u1EA1i kh\u00F4ng."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "DeleteEntity",
+    "RelativePath": "HRMcatalog/delete-catalog",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.SmartDeleteDataQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMdelete-catalog",
+    "Summary": "Xo\u00E1 danh m\u1EE5c \u0111\u1ED9ng theo t\u00EAn b\u1EA3ng v\u00E0 kho\u00E1 ch\u00EDnh"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "DynamicAddBulkData",
+    "RelativePath": "HRMcatalog/dynamic-add-bulk-data",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.DynamicListDataBulkModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "dynamic-add-bulk-data",
+    "Summary": "Th\u00EAm danh s\u00E1ch"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "DynamicAddManyEntity",
+    "RelativePath": "HRMcatalog/dynamic-add-many-data",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.BulkMultiEntityRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "dynamic-add-many-data",
+    "Summary": "Th\u00EAm nhi\u1EC1u Enity c\u00F9ng l\u00FAc"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "CreateEntityFromJson",
+    "RelativePath": "HRMcatalog/dynamic-create-object",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.CreateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMdynamic-create-object",
+    "Summary": "Th\u00EAm \u0111\u1ED9ng d\u1EEF li\u1EC7u danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "UpdateDynamicObject",
+    "RelativePath": "HRMcatalog/dynamic-update-object",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.UpdateObjectDynamicRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMdynamic-update-object",
+    "Summary": "C\u1EADp nh\u1EADt \u0111\u1ED9ng d\u1EEF li\u1EC7u  danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "FindAllCache",
+    "RelativePath": "HRMcatalog/find-cache/{catalog}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "owner_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sort",
+        "Type": "System.String[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page_size",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "catalog",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeView",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMListItemsCache",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "GetDynamicEnitity",
+    "RelativePath": "HRMcatalog/get-catalog",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.SmartGetDataQuery",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMget-catalog",
+    "Description": "Nh\u1EADn danh s\u00E1ch c\u00E1c m\u1EE5c \u0111\u01B0\u1EE3c ph\u00E2n trang trong danh m\u1EE5c.",
+    "Summary": "Danh s\u00E1ch c\u00E1c m\u1EE5c trong danh m\u1EE5c."
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmCatalogApi",
+    "Method": "DynamicAddListData",
+    "RelativePath": "HRMcatalog/HRMdynamic-add-list-data",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[Catalog.HRM.DynamicListDataModel, Catalog.HRM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog"
+    ],
+    "EndpointName": "HRMdynamic-add-list-data",
+    "Summary": "Th\u00EAm \u0111\u1ED9ng d\u1EEF li\u1EC7u list danh m\u1EE5c"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmSyncApi",
+    "Method": "SyncConfig",
+    "RelativePath": "HRMSyncConfig/sync-config",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.SyncConfigRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog1"
+    ],
+    "EndpointName": "HRMSyncConfig1",
+    "Description": "G\u1ECDi store sp_HRMSyncConfig \u0111\u1EC3 \u0111\u1ED3ng b\u1ED9 c\u1EA5u h\u00ECnh",
+    "Summary": "\u0110\u1ED3ng b\u1ED9 c\u1EA5u h\u00ECnh th\u00F4ng b\u00E1o"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmSyncApi",
+    "Method": "UpdateMissingWork",
+    "RelativePath": "HRMSyncConfig/update-missing-work",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog1"
+    ],
+    "EndpointName": "HRMUpdateMissingWork",
+    "Description": "G\u1ECDi store usp_UpdateWorkDateForPendingTasks \u0111\u1EC3 chuy\u1EC3n ng\u00E0y l\u00E0m vi\u1EC7c",
+    "Summary": "Chuy\u1EC3n c\u00E1c c\u00F4ng vi\u1EC7c ch\u01B0a ho\u00E0n th\u00E0nh c\u1EE7a ng\u00E0y h\u00F4m tr\u01B0\u1EDBc sang ng\u00E0y h\u00F4m nay"
+  },
+  {
+    "ContainingType": "Catalog.HRM.Features.HrmSyncApi",
+    "Method": "WrittingActivityLog",
+    "RelativePath": "HRMSyncConfig/writting-log",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Catalog.HRM.LogRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "HRMcatalog1"
+    ],
+    "EndpointName": "ActivityLog",
+    "Description": "G\u1ECDi store SP_WriteHistoryActivityLog \u0111\u1EC3 ghi l\u1EA1i nh\u1EADt k\u00FD ho\u1EA1t \u0111\u1ED9ng",
+    "Summary": "Ghi l\u1EA1i c\u00E1c thay \u0111\u1ED5i trong c\u00F4ng vi\u1EC7c"
+  },
+  {
+    "ContainingType": "Catalog.Base.Features.DapperApi",
+    "Method": "GetPrdPlan",
+    "RelativePath": "product-plan/view",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Catalogs"
+    ],
+    "EndpointName": "ListPrdPlan"
+  }
+]

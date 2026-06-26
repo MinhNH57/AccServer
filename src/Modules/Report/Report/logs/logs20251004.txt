@@ -1,0 +1,15 @@
+﻿08:34:29 [INFO] Now listening on: https://localhost:7136
+08:34:29 [INFO] Now listening on: http://localhost:5109
+08:34:29 [INFO] Application started. Press Ctrl+C to shut down.
+08:34:29 [INFO] Hosting environment: Development
+08:34:29 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Report\Report
+08:53:08 [INFO] Now listening on: https://localhost:7136
+08:53:08 [INFO] Now listening on: http://localhost:5109
+08:53:08 [INFO] Application started. Press Ctrl+C to shut down.
+08:53:08 [INFO] Hosting environment: Development
+08:53:08 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Report\Report
+14:42:12 [INFO] Now listening on: https://localhost:7136
+14:42:12 [INFO] Now listening on: http://localhost:5109
+14:42:12 [INFO] Application started. Press Ctrl+C to shut down.
+14:42:12 [INFO] Hosting environment: Development
+14:42:12 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Report\Report

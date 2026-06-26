@@ -1,0 +1,11 @@
+﻿global using BuildingBlocks.Caching;
+global using BuildingBlocks.MultiTenancy;
+global using BuildingBlocks.Pagination.Version1;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Http.HttpResults;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Caching.Distributed;
+global using System.Data;
+global using Dapper;
+global using Newtonsoft.Json;

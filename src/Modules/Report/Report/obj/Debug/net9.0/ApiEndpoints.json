@@ -1,0 +1,970 @@
+[
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.AccountDetailsBookEndpoint",
+    "Method": "Handler",
+    "RelativePath": "report/account-detail",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathLogo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathImages",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartSoftware",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "S\u1ED5 chi ti\u1EBFt theo t\u00E0i kho\u1EA3n"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.AccountSalesReportEndPoint",
+    "Method": "Handle",
+    "RelativePath": "report/account-sales",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "B\u00E1o c\u00E1o b\u00E1n h\u00E0ng"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.ReportPrintActivityEndPoint",
+    "Method": "Handle",
+    "RelativePath": "report/activity",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathLogo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathImages",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartSoftware",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "B\u00E1o c\u00E1o ho\u1EA1t \u0111\u1ED9ng kinh doanh"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.Endpoint",
+    "Method": "Handle",
+    "RelativePath": "report/debt-summary-book",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ObjectCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "T\u1ED5ng h\u1EE3p c\u00F4ng n\u1EE3 ph\u1EA3i thu, ph\u1EA3i tr\u1EA3"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.Fund.Apis.FundReportApi",
+    "Method": "CollectionImplementation",
+    "RelativePath": "report/fund/collection-implementation",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FundSourceCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "K\u1EBF ho\u1EA1ch d\u1EF1 thu theo th\u1EDDi gian"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.Fund.Apis.FundReportApi",
+    "Method": "CompulsorySavings",
+    "RelativePath": "report/fund/fund-contract",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FundSourceCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "Ti\u1EBFt ki\u1EC7m b\u1EAFt bu\u1ED9c theo c\u00F4ng \u0111o\u00E0n"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.Fund.Apis.FundReportApi",
+    "Method": "FunRepaymentPlan",
+    "RelativePath": "report/fund/fund-repayment-plan",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "K\u1EBF ho\u1EA1ch tr\u1EA3 n\u1EE3 g\u1ED1c, l\u00E3i"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.Fund.Apis.FundReportApi",
+    "Method": "CreditContract",
+    "RelativePath": "report/fund/saving-contract",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FundSourceCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Fund"
+    ],
+    "Summary": "H\u1EE3p \u0111\u1ED3ng t\u00EDn d\u1EE5ng, h\u1EE3p \u0111\u1ED3ng ti\u1EBFt ki\u1EC7m"
+  },
+  {
+    "ContainingType": "Report.Features.Web.Apis.ReportApi",
+    "Method": "GetListDataArisingBalanceWithStore",
+    "RelativePath": "report/get-arising-balance",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Report.Models.GetDataReportRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ],
+    "EndpointName": "GetListDataArisingBalanceWithStore",
+    "Summary": "Li\u1EC7t k\u00EA ch\u1EE9ng t\u1EEB chi ti\u1EBFt theo s\u1ED1 ti\u1EC1n c\u1EE7a B\u1EA3ng c\u00E2n \u0111\u1ED1i s\u1ED1 ph\u00E1t sinh."
+  },
+  {
+    "ContainingType": "Report.Features.Web.Apis.ReportApi",
+    "Method": "GetReportWithStore",
+    "RelativePath": "report/get-report",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Report.Models.GetDataReportRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ],
+    "EndpointName": "GetReportWithStore",
+    "Summary": "L\u1EA5y b\u00E1o c\u00E1o t\u1EEB store."
+  },
+  {
+    "ContainingType": "Report.Features.Web.Apis.ReportApi",
+    "Method": "GetReportWithFilterStore",
+    "RelativePath": "report/get-report-with-filter",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Report.Models.GetDataReportFilterRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Reports"
+    ],
+    "EndpointName": "GetReportWithFilterStore",
+    "Summary": "L\u1EA5y b\u00E1o c\u00E1o t\u1EEB store v\u1EDBi b\u1ED9 l\u1ECDc."
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.ImplementationPlanEndpoint",
+    "Method": "Handle",
+    "RelativePath": "report/implementation-plan",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathLogo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathImages",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartSoftware",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "B\u00E1o c\u00E1o k\u1EBF ho\u1EA1c tri\u1EC3n khai"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.MaterialSummaryBookEndPoint",
+    "Method": "Handle",
+    "RelativePath": "report/material-summary",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathLogo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathImages",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartSoftware",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "S\u1ED5 t\u1ED5ng h\u1EE3p v\u1EADt t\u01B0"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.ReportPrintSalesEndpoint",
+    "Method": "Handle",
+    "RelativePath": "report/print-sales",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathLogo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PathImages",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartSoftware",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "T\u1ED5ng h\u1EE3p in b\u00E1o c\u00E1o"
+  },
+  {
+    "ContainingType": "Report.Features.Mobile.CoMay.DeliveryNotYetDeliveredEndpoint",
+    "Method": "Handler",
+    "RelativePath": "report/tracking-order",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Parameter",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CodeUnit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountSymbol",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BeginDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "WareHouseCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SmartSoftware",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Report"
+    ],
+    "Summary": "Theo d\u00F5i \u0111\u01A1n h\u00E0ng mua, b\u00E1n"
+  }
+]

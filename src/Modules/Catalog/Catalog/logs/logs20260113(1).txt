@@ -1,0 +1,171 @@
+﻿09:48:20 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:48:20 [INFO] Now listening on: https://localhost:7129
+09:48:20 [INFO] Now listening on: http://localhost:5299
+09:48:20 [INFO] Application started. Press Ctrl+C to shut down.
+09:48:20 [INFO] Hosting environment: Development
+09:48:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:48:22 [INFO] HTTP GET / responded 302 in 1653.5737 ms
+09:48:22 [INFO] HTTP GET /scalar/v1 responded 200 in 58.4926 ms
+09:48:22 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:48:22 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:48:22 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 7.1951 ms
+09:48:22 [INFO] HTTP GET /scalar/scalar.js responded 200 in 23.1551 ms
+09:48:22 [INFO] HTTP GET /openapi/v1.json responded 200 in 95.5806 ms
+09:48:22 [INFO] HTTP GET /openapi/v1.json responded 200 in 14.2281 ms
+09:53:20 [INFO] Usage Telemetry: {"id":"d08c0000-20b7-2221-1474-08de524e3558","created":"2026-01-13T09:48:18.9081336\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-13T09:48:18.9098579\u002B07:00","configured":"2026-01-13T09:48:18.9598355\u002B07:00","started":"2026-01-13T09:48:20.0151617\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+10:11:53 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+10:11:55 [INFO] Now listening on: https://localhost:7129
+10:11:55 [INFO] Now listening on: http://localhost:5299
+10:11:55 [INFO] Application started. Press Ctrl+C to shut down.
+10:11:55 [INFO] Hosting environment: Development
+10:11:55 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+10:11:55 [INFO] HTTP GET / responded 302 in 332.7282 ms
+10:11:55 [INFO] HTTP GET /scalar/v1 responded 200 in 71.1405 ms
+10:11:55 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:11:55 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+10:11:55 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.0184 ms
+10:11:55 [INFO] HTTP GET /scalar/scalar.js responded 200 in 20.3634 ms
+10:11:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 161.2012 ms
+10:11:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 43.9796 ms
+10:16:53 [INFO] Usage Telemetry: {"id":"0c9e0000-20b7-2221-3475-08de52518072","created":"2026-01-13T10:11:53.3986246\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-13T10:11:53.4003678\u002B07:00","configured":"2026-01-13T10:11:53.4354434\u002B07:00","started":"2026-01-13T10:11:53.5707574\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:16:19 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2918.0982 ms
+13:16:19 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 178.1458 ms
+13:34:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 373.8951 ms
+13:34:49 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 67.4269 ms
+13:38:37 [INFO] HTTP GET /catalog/SmartOption responded 200 in 45.9651 ms
+13:38:38 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.6229 ms
+13:38:45 [INFO] HTTP GET /catalog/SmartOption responded 200 in 127.1439 ms
+13:38:45 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 25.1076 ms
+13:39:05 [INFO] HTTP GET /catalog/SmartOption responded 200 in 88.8498 ms
+13:39:06 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 63.3065 ms
+13:45:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 73.0046 ms
+13:45:15 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 31.6969 ms
+13:47:23 [INFO] HTTP GET /catalog/SmartOption responded 200 in 107.6606 ms
+13:47:24 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 135.2875 ms
+13:49:41 [INFO] HTTP GET /catalog/SmartOption responded 200 in 106.5593 ms
+13:49:41 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 74.1473 ms
+13:49:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 106.5278 ms
+13:50:00 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 91.6676 ms
+14:44:49 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 5571.3743 ms
+14:44:50 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 155.0295 ms
+14:44:50 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 102.3476 ms
+14:44:50 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 32.3517 ms
+14:44:50 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 106.6971 ms
+14:44:50 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 49.5044 ms
+14:44:50 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 119.3133 ms
+14:44:50 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 36.0060 ms
+14:51:58 [INFO] HTTP GET /catalog/SmartOption responded 200 in 1604.2585 ms
+14:51:58 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 80.5227 ms
+14:56:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 259.5456 ms
+14:56:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 32.0783 ms
+15:09:57 [INFO] HTTP GET /catalog/SmartOption responded 200 in 701.7924 ms
+15:09:57 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 175.0753 ms
+15:13:45 [INFO] HTTP GET /catalog-units/get-all responded 200 in 513.5106 ms
+15:14:02 [INFO] HTTP GET /catalog/SmartOption responded 200 in 156.8526 ms
+15:14:02 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 51.5445 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 49.7654 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 97.0930 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 210.1305 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 42.7265 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 77.0083 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 41.2578 ms
+15:14:09 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 99.7035 ms
+15:14:09 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 38.4549 ms
+15:14:39 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 90.2604 ms
+15:14:50 [INFO] HTTP GET /catalog-units/get-all responded 200 in 24.1713 ms
+15:14:55 [INFO] HTTP GET /catalog/SmartOption responded 200 in 39.7951 ms
+15:14:55 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 22.9146 ms
+15:15:04 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 93.4924 ms
+15:15:04 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 52.5938 ms
+15:15:05 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 126.4266 ms
+15:15:05 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 235.8172 ms
+15:15:05 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 30.8539 ms
+15:15:05 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 131.7210 ms
+15:15:05 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 30.5969 ms
+15:15:05 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 79.9976 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 75.6966 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 30.0784 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 197.3654 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 30.2600 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 33.9645 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 32.2704 ms
+15:15:39 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 28.6965 ms
+15:15:39 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 33.1972 ms
+15:15:46 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 110.5951 ms
+15:26:54 [INFO] Now listening on: https://localhost:7129
+15:26:54 [INFO] Now listening on: http://localhost:5299
+15:26:54 [INFO] Application started. Press Ctrl+C to shut down.
+15:26:54 [INFO] Hosting environment: Development
+15:26:54 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+15:26:55 [INFO] HTTP GET / responded 302 in 1333.8088 ms
+15:26:55 [INFO] HTTP GET /scalar/v1 responded 200 in 137.7496 ms
+15:26:55 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:26:55 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+15:26:55 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 21.8034 ms
+15:26:55 [INFO] HTTP GET /scalar/scalar.js responded 200 in 37.4079 ms
+15:26:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 97.8439 ms
+15:26:56 [INFO] HTTP GET /openapi/v1.json responded 200 in 13.9114 ms
+15:26:58 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:27:46 [INFO] HTTP GET /catalog/SmartOption responded 200 in 3572.0353 ms
+15:27:47 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 30.5121 ms
+15:28:26 [INFO] HTTP GET /catalog/CatalogForeignCurrency responded 200 in 97.9118 ms
+15:28:26 [INFO] HTTP GET /catalog/CatalogContract responded 200 in 313.9035 ms
+15:28:27 [INFO] HTTP GET /catalog/CatalogObject responded 200 in 780.4660 ms
+15:28:27 [INFO] HTTP GET /catalog/CatalogMethodOfPayments responded 200 in 47.8176 ms
+15:28:27 [INFO] HTTP GET /catalog/CatalogStatistical responded 200 in 209.8583 ms
+15:28:28 [INFO] HTTP GET /catalog/CatalogBankAccountForObject responded 200 in 163.7143 ms
+15:28:28 [INFO] HTTP GET /catalog/CatalogRevExp responded 200 in 133.9157 ms
+15:28:28 [INFO] HTTP GET /catalog/View_CatalogRecipientOfMessageWithUser responded 200 in 221.6683 ms
+15:28:43 [INFO] HTTP GET /catalog-units/get-all responded 200 in 400.8525 ms
+15:28:45 [INFO] HTTP GET /catalog-units/get-all responded 200 in 132.0832 ms
+15:28:56 [INFO] HTTP GET /catalog/SmartOption responded 200 in 141.3583 ms
+15:28:56 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 33.9288 ms
+15:33:31 [INFO] HTTP GET /catalog/SmartOption responded 200 in 150.5578 ms
+15:33:32 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 313.8276 ms
+15:47:29 [INFO] HTTP GET /catalog/SmartOption responded 200 in 220.7381 ms
+15:47:30 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 28.2331 ms
+16:09:42 [INFO] HTTP GET /catalog/SmartOption responded 200 in 8966.2630 ms
+16:09:47 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 5483.6286 ms
+16:10:38 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:10:40 [INFO] Now listening on: https://localhost:7129
+16:10:40 [INFO] Now listening on: http://localhost:5299
+16:10:40 [INFO] Application started. Press Ctrl+C to shut down.
+16:10:40 [INFO] Hosting environment: Development
+16:10:40 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+16:10:41 [INFO] HTTP GET / responded 302 in 441.0637 ms
+16:10:41 [INFO] HTTP GET /scalar/v1 responded 200 in 94.9123 ms
+16:10:41 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:10:41 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+16:10:41 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 12.7056 ms
+16:10:41 [INFO] HTTP GET /scalar/scalar.js responded 200 in 49.2225 ms
+16:10:41 [INFO] HTTP GET /openapi/v1.json responded 200 in 289.2096 ms
+16:10:42 [INFO] HTTP GET /openapi/v1.json responded 200 in 58.6415 ms
+16:11:09 [INFO] HTTP GET /catalog/SmartOption responded 200 in 10553.0242 ms
+16:11:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 49.4843 ms
+16:15:38 [INFO] Usage Telemetry: {"id":"88250000-20b7-2221-7e5f-08de52839df4","created":"2026-01-13T16:10:37.7429367\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-13T16:10:37.7449991\u002B07:00","configured":"2026-01-13T16:10:37.8219755\u002B07:00","started":"2026-01-13T16:10:38.0317486\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+16:16:26 [INFO] HTTP GET /catalog/SmartOption responded 200 in 2494.6368 ms
+16:16:26 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 408.7416 ms
+16:18:14 [INFO] HTTP GET /catalog/SmartOption responded 200 in 940.0583 ms
+16:18:16 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 1806.3897 ms
+16:25:05 [INFO] HTTP GET /catalog/SmartOption responded 200 in 244.5513 ms
+16:25:05 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 26.7686 ms
+16:27:10 [INFO] HTTP GET /catalog/SmartOption responded 200 in 59.7953 ms
+16:27:11 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 46.1440 ms
+16:29:46 [INFO] HTTP GET /catalog/SmartOption responded 200 in 109.6385 ms
+16:29:46 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 27.0350 ms
+16:31:48 [INFO] HTTP GET /catalog/SmartOption responded 200 in 180.2265 ms
+16:31:48 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 29.2259 ms
+16:37:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 237.3464 ms
+16:37:35 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 138.6734 ms
+16:39:34 [INFO] HTTP GET /catalog/SmartOption responded 200 in 54.9661 ms
+16:39:35 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 163.2372 ms
+16:44:09 [INFO] HTTP GET /catalog/SmartOption responded 200 in 361.4540 ms
+16:44:10 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 45.7169 ms
+16:49:17 [INFO] HTTP GET /catalog/SmartOption responded 200 in 72.3992 ms
+16:49:18 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 85.7707 ms
+16:56:16 [INFO] HTTP GET /catalog/SmartOption responded 200 in 585.1546 ms
+16:56:17 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 155.0284 ms
+17:13:50 [INFO] HTTP GET /catalog/SmartOption responded 200 in 3685.8554 ms
+17:13:50 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 55.1502 ms
+17:35:52 [INFO] HTTP GET /catalog/SmartOption responded 200 in 193.9881 ms
+17:35:53 [INFO] HTTP GET /catalog/CatalogUnit responded 200 in 62.2043 ms

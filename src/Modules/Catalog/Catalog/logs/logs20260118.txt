@@ -1,0 +1,88 @@
+﻿09:42:02 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:42:03 [INFO] Now listening on: https://localhost:7129
+09:42:03 [INFO] Now listening on: http://localhost:5299
+09:42:03 [INFO] Application started. Press Ctrl+C to shut down.
+09:42:03 [INFO] Hosting environment: Development
+09:42:03 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:42:05 [INFO] HTTP GET / responded 302 in 1782.1847 ms
+09:42:06 [INFO] HTTP GET /scalar/v1 responded 200 in 82.8582 ms
+09:42:06 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:42:06 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:42:06 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 17.4046 ms
+09:42:06 [INFO] HTTP GET /scalar/scalar.js responded 200 in 39.0542 ms
+09:42:06 [INFO] HTTP GET /openapi/v1.json responded 200 in 149.7906 ms
+09:42:06 [INFO] HTTP GET /openapi/v1.json responded 200 in 33.0690 ms
+09:47:02 [INFO] Usage Telemetry: {"id":"d4570000-20b7-2221-a8f0-08de563b2885","created":"2026-01-18T09:42:01.6097299\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T09:42:01.6114243\u002B07:00","configured":"2026-01-18T09:42:01.6603965\u002B07:00","started":"2026-01-18T09:42:02.2363410\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+09:55:07 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:55:09 [INFO] Now listening on: https://localhost:7129
+09:55:09 [INFO] Now listening on: http://localhost:5299
+09:55:10 [INFO] Application started. Press Ctrl+C to shut down.
+09:55:10 [INFO] Hosting environment: Development
+09:55:10 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:55:11 [INFO] HTTP GET / responded 302 in 576.1899 ms
+09:55:11 [INFO] HTTP GET /scalar/v1 responded 200 in 128.5159 ms
+09:55:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:55:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:55:11 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 11.6919 ms
+09:55:11 [INFO] HTTP GET /scalar/scalar.js responded 200 in 32.3894 ms
+09:55:11 [INFO] HTTP GET /openapi/v1.json responded 200 in 234.5535 ms
+09:55:11 [INFO] HTTP GET /openapi/v1.json responded 200 in 42.3652 ms
+09:55:50 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:55:52 [INFO] Now listening on: https://localhost:7129
+09:55:52 [INFO] Now listening on: http://localhost:5299
+09:55:52 [INFO] Application started. Press Ctrl+C to shut down.
+09:55:52 [INFO] Hosting environment: Development
+09:55:52 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:55:53 [INFO] HTTP GET / responded 302 in 363.5261 ms
+09:55:53 [INFO] HTTP GET /scalar/v1 responded 200 in 75.6801 ms
+09:55:53 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:55:53 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:55:53 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.6378 ms
+09:55:53 [INFO] HTTP GET /scalar/scalar.js responded 200 in 20.3599 ms
+09:55:53 [INFO] HTTP GET /openapi/v1.json responded 200 in 160.3429 ms
+09:55:53 [INFO] HTTP GET /openapi/v1.json responded 200 in 41.9369 ms
+09:56:12 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+09:56:14 [INFO] Now listening on: https://localhost:7129
+09:56:14 [INFO] Now listening on: http://localhost:5299
+09:56:14 [INFO] Application started. Press Ctrl+C to shut down.
+09:56:14 [INFO] Hosting environment: Development
+09:56:14 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+09:56:16 [INFO] HTTP GET / responded 302 in 1653.1926 ms
+09:56:16 [INFO] HTTP GET /scalar/v1 responded 200 in 77.0544 ms
+09:56:16 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:56:16 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+09:56:16 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 11.1590 ms
+09:56:16 [INFO] HTTP GET /scalar/scalar.js responded 200 in 22.1253 ms
+09:56:17 [INFO] HTTP GET /openapi/v1.json responded 200 in 148.3920 ms
+09:56:17 [INFO] HTTP GET /openapi/v1.json responded 200 in 32.2251 ms
+10:01:12 [INFO] Usage Telemetry: {"id":"d0150000-20b7-2221-1220-08de563d23b5","created":"2026-01-18T09:56:12.5252793\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T09:56:12.5274374\u002B07:00","configured":"2026-01-18T09:56:12.5779770\u002B07:00","started":"2026-01-18T09:56:12.7851072\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+11:35:04 [INFO] Now listening on: https://localhost:7129
+11:35:04 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:35:04 [INFO] Now listening on: http://localhost:5299
+11:35:04 [INFO] Application started. Press Ctrl+C to shut down.
+11:35:04 [INFO] Hosting environment: Development
+11:35:04 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+11:35:05 [INFO] HTTP GET / responded 302 in 253.8228 ms
+11:35:05 [INFO] HTTP GET /scalar/v1 responded 200 in 39.5636 ms
+11:35:05 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:35:05 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+11:35:05 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 6.9445 ms
+11:35:05 [INFO] HTTP GET /scalar/scalar.js responded 200 in 18.6062 ms
+11:35:05 [INFO] HTTP GET /openapi/v1.json responded 200 in 91.7051 ms
+11:35:05 [INFO] HTTP GET /openapi/v1.json responded 200 in 21.6952 ms
+11:40:04 [INFO] Usage Telemetry: {"id":"d87d0000-20b7-2221-0c7d-08de564af260","created":"2026-01-18T11:35:02.7139177\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T11:35:02.7154834\u002B07:00","configured":"2026-01-18T11:35:02.7557591\u002B07:00","started":"2026-01-18T11:35:04.3099127\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+12:02:10 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+12:02:12 [INFO] Now listening on: https://localhost:7129
+12:02:12 [INFO] Now listening on: http://localhost:5299
+12:02:12 [INFO] Application started. Press Ctrl+C to shut down.
+12:02:12 [INFO] Hosting environment: Development
+12:02:12 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Catalog\Catalog
+12:02:13 [INFO] HTTP GET / responded 302 in 371.9582 ms
+12:02:13 [INFO] HTTP GET /scalar/v1 responded 200 in 70.7204 ms
+12:02:13 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+12:02:13 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+12:02:13 [INFO] HTTP GET /scalar/scalar.aspnetcore.js responded 200 in 10.4307 ms
+12:02:13 [INFO] HTTP GET /scalar/scalar.js responded 200 in 21.3452 ms
+12:02:13 [INFO] HTTP GET /openapi/v1.json responded 200 in 161.1158 ms
+12:02:13 [INFO] HTTP GET /openapi/v1.json responded 200 in 40.1324 ms
+12:07:10 [INFO] Usage Telemetry: {"id":"60520000-20b7-2221-d52d-08de564ebc97","created":"2026-01-18T12:02:10.4694510\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-18T12:02:10.4710531\u002B07:00","configured":"2026-01-18T12:02:10.5181604\u002B07:00","started":"2026-01-18T12:02:10.7996879\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}

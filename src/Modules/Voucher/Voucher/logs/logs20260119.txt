@@ -1,0 +1,564 @@
+﻿08:39:13 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:39:20 [INFO] Now listening on: https://localhost:7132
+08:39:20 [INFO] Now listening on: http://localhost:5274
+08:39:20 [INFO] Application started. Press Ctrl+C to shut down.
+08:39:20 [INFO] Hosting environment: Development
+08:39:20 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+11:40:50 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+11:40:57 [INFO] Now listening on: https://localhost:7132
+11:40:57 [INFO] Now listening on: http://localhost:5274
+11:40:57 [INFO] Application started. Press Ctrl+C to shut down.
+11:40:57 [INFO] Hosting environment: Development
+11:40:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+11:45:50 [INFO] Usage Telemetry: {"id":"602d0000-20b7-2221-a8e4-08de5714ebf8","created":"2026-01-19T11:40:50.3094013\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T11:40:50.3122766\u002B07:00","configured":"2026-01-19T11:40:50.3599363\u002B07:00","started":"2026-01-19T11:40:50.5392671\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+13:15:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+13:15:27 [INFO] Now listening on: https://localhost:7132
+13:15:27 [INFO] Now listening on: http://localhost:5274
+13:15:27 [INFO] Application started. Press Ctrl+C to shut down.
+13:15:27 [INFO] Hosting environment: Development
+13:15:27 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+13:20:23 [INFO] Usage Telemetry: {"id":"f0860000-20b7-2221-d0cd-08de57221f9d","created":"2026-01-19T13:15:20.4130524\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T13:15:20.4160362\u002B07:00","configured":"2026-01-19T13:15:20.4687989\u002B07:00","started":"2026-01-19T13:15:23.6783298\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+14:40:49 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:40:57 [WARN] [PERFORMANCE The request GetDataSynGridQuery took 7 seconds,
+14:40:57 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:40:57 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 9082.4437 ms
+14:41:04 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:41:04 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:41:04 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 211.7606 ms
+14:41:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:41:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:41:04 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:41:04 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:41:04 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 38.7492 ms
+14:41:04 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:41:04 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 312.5903 ms
+14:41:05 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:41:05 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 415.5953 ms
+14:41:56 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:41:56 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:41:56 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 35.2919 ms
+14:41:56 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:41:56 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:41:56 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:41:56 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 27.6343 ms
+14:41:56 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:41:56 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:41:56 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.4087 ms
+14:41:56 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:41:56 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 49.5339 ms
+14:44:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:44:04 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:44:04 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 127.7029 ms
+14:45:06 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:45:06 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:45:06 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 53.4530 ms
+14:45:07 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:45:07 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:45:07 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 136.5226 ms
+14:45:07 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:45:07 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:45:07 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:45:07 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 130.8458 ms
+14:45:07 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:45:07 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 214.1006 ms
+14:45:22 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:45:22 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:45:22 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 31.1471 ms
+14:45:22 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:45:22 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:45:22 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:45:22 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:45:22 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:45:22 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 246.9909 ms
+14:45:22 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 242.0623 ms
+14:45:23 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:45:23 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 1153.6157 ms
+14:46:12 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:46:12 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:46:12 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 144.3649 ms
+14:46:12 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:46:12 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:46:12 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 333.5267 ms
+14:46:12 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:46:12 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:46:12 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:46:12 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 399.1027 ms
+14:46:12 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:46:12 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 534.5737 ms
+14:46:51 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:46:51 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:46:51 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 78.4560 ms
+14:46:51 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:46:51 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+14:46:51 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:46:51 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 30.8341 ms
+14:46:51 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+14:46:51 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+14:46:51 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 33.9694 ms
+14:46:51 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+14:46:51 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 50.5191 ms
+15:32:52 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+15:32:54 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+15:32:54 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 1600.0988 ms
+15:43:20 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+15:43:23 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+15:43:23 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 3397.2371 ms
+15:43:37 [INFO] HTTP GET /vouchers/paging-filter responded 405 in 34.2325 ms
+15:43:52 [INFO] HTTP GET /vouchers/paging-filter responded 405 in 707.7100 ms
+15:43:58 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+15:43:59 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+15:43:59 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 416.4736 ms
+15:44:41 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+15:44:41 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+15:44:41 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 308.0753 ms
+15:44:51 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+15:44:51 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+15:44:51 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 133.5541 ms
+15:44:59 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+15:44:59 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+15:44:59 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 2018.5751 ms
+15:46:02 [INFO] HTTP POST /HRMvoucher responded 404 in 44.3456 ms
+15:46:10 [INFO] HTTP GET /HRMvoucher responded 404 in 243.9170 ms
+15:46:19 [INFO] HTTP GET /HRMvoucher responded 404 in 14.2056 ms
+15:46:25 [INFO] HTTP GET /HRMvoucher responded 404 in 54.5969 ms
+15:46:59 [INFO] HTTP GET /HRMvoucher responded 404 in 26.8220 ms
+15:49:39 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:49:45 [INFO] Now listening on: https://localhost:7132
+15:49:45 [INFO] Now listening on: http://localhost:5274
+15:49:45 [INFO] Application started. Press Ctrl+C to shut down.
+15:49:45 [INFO] Hosting environment: Development
+15:49:45 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:50:24 [INFO] HTTP GET /HRMvoucher responded 404 in 661.3819 ms
+15:50:42 [INFO] HTTP GET /HRMvoucher responded 404 in 124.0533 ms
+15:51:04 [INFO] HTTP GET /HRMvoucher responded 404 in 488.7506 ms
+15:51:10 [INFO] HTTP POST /HRMvoucher responded 404 in 16.9424 ms
+15:51:14 [INFO] HTTP GET /HRMvoucher responded 404 in 14.1720 ms
+15:53:58 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:54:02 [INFO] Now listening on: https://localhost:7132
+15:54:02 [INFO] Now listening on: http://localhost:5274
+15:54:02 [INFO] Application started. Press Ctrl+C to shut down.
+15:54:02 [INFO] Hosting environment: Development
+15:54:02 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:54:48 [INFO] HTTP GET /HRMvoucher responded 404 in 509.1984 ms
+15:57:24 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:57:32 [INFO] Now listening on: https://localhost:7132
+15:57:32 [INFO] Now listening on: http://localhost:5274
+15:57:32 [INFO] Application started. Press Ctrl+C to shut down.
+15:57:32 [INFO] Hosting environment: Development
+15:57:32 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+15:59:40 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+15:59:45 [INFO] Now listening on: https://localhost:7132
+15:59:45 [INFO] Now listening on: http://localhost:5274
+15:59:45 [INFO] Application started. Press Ctrl+C to shut down.
+15:59:45 [INFO] Hosting environment: Development
+15:59:45 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+16:00:23 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+16:00:44 [WARN] [PERFORMANCE The request GetDataSynGridQuery took 20 seconds,
+16:00:44 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+16:00:44 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 21554.4173 ms
+16:03:49 [INFO] HTTP GET /vouchers/paging-filter responded 405 in 19.3935 ms
+16:03:59 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "request" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method4016(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:04:00 [EROR] HTTP POST /vouchers/paging-filter responded 500 in 6977.7722 ms
+16:04:23 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "request" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method4016(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:04:23 [EROR] HTTP POST /vouchers/paging-filter responded 500 in 5318.1683 ms
+16:04:42 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "request" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method4016(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:04:42 [EROR] HTTP POST /vouchers/paging-filter responded 500 in 9105.1087 ms
+16:05:22 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "request" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method4016(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:05:22 [EROR] HTTP POST /vouchers/paging-filter responded 500 in 10397.2298 ms
+16:05:43 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:05:48 [INFO] Now listening on: https://localhost:7132
+16:05:48 [INFO] Now listening on: http://localhost:5274
+16:05:48 [INFO] Application started. Press Ctrl+C to shut down.
+16:05:48 [INFO] Hosting environment: Development
+16:05:48 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+16:06:19 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "request" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method4016(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:06:19 [EROR] HTTP POST /vouchers/paging-filter responded 500 in 4865.7484 ms
+16:07:13 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "request" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method4016(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+16:07:13 [EROR] HTTP POST /vouchers/paging-filter responded 500 in 1896.6165 ms
+16:07:26 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+16:07:43 [WARN] [PERFORMANCE The request GetDataSynGridQuery took 16 seconds,
+16:07:43 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+16:07:43 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 16658.6554 ms
+16:07:50 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+16:07:50 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+16:07:50 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 216.2653 ms
+16:08:23 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+16:08:23 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+16:08:23 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 117.6165 ms
+16:08:58 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+16:08:58 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+16:08:58 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 41.0421 ms
+16:10:12 [INFO] HTTP POST /HRMvoucher responded 404 in 13.8706 ms
+16:10:16 [INFO] HTTP GET /HRMvoucher responded 404 in 13.1445 ms
+16:22:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+16:22:28 [INFO] Now listening on: https://localhost:7132
+16:22:28 [INFO] Now listening on: http://localhost:5274
+16:22:28 [INFO] Application started. Press Ctrl+C to shut down.
+16:22:28 [INFO] Hosting environment: Development
+16:22:28 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+16:24:04 [INFO] HTTP GET /HRMvoucher/paging-filter responded 404 in 673.9652 ms
+16:25:41 [INFO] HTTP POST /HRMvouchers/paging-filter responded 404 in 153.5519 ms
+16:25:43 [INFO] HTTP POST /HRMvouchers/paging-filter responded 404 in 21.2377 ms
+16:25:50 [INFO] HTTP POST /HRMvouchers/paging-filter responded 404 in 13.7497 ms
+17:27:22 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:27:23 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:27:23 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 1933.8760 ms
+17:27:31 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:27:31 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:27:31 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 80.1501 ms
+17:27:31 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:27:31 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:27:32 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:27:32 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:27:32 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 233.0891 ms
+17:27:32 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:27:32 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 183.7889 ms
+17:27:33 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:27:33 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 1145.2061 ms
+17:28:15 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:28:15 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:28:15 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 33.8098 ms
+17:28:15 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:28:16 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:28:16 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 26.3240 ms
+17:28:16 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:28:16 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:28:16 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 63.0879 ms
+17:28:16 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:28:16 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:28:16 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 23.2424 ms
+17:29:41 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:29:41 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:29:41 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 36.1569 ms
+17:29:41 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:29:41 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:29:41 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 46.6770 ms
+17:29:41 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:29:41 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:29:42 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:29:42 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:29:42 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 45.7501 ms
+17:29:42 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 44.4390 ms
+17:31:59 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:31:59 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:31:59 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 30.8819 ms
+17:31:59 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:31:59 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:31:59 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.1041 ms
+17:31:59 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:31:59 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:31:59 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:31:59 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 41.1700 ms
+17:31:59 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:31:59 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 59.2572 ms
+17:32:26 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:32:26 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:32:26 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 26.8233 ms
+17:32:26 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:32:26 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:32:26 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 113.0605 ms
+17:32:26 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:32:26 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:32:26 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:32:26 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 21.6905 ms
+17:32:26 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:32:26 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 42.6161 ms
+17:37:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:37:05 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:37:05 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 1170.1126 ms
+17:37:08 [INFO] [START] Handle request=GenNoInvComnand - Response=Result`1 - RequestData=GenNoInvComnand { Request = Voucher.Acc.Features.Commands.GenNoInv.GenNoInvRequest }
+17:37:09 [INFO] [END] Handler GenNoInvComnand with BuildingBlocks.Response.Result`1[Voucher.Acc.Features.Commands.GenNoInv.GenNoInvReponse]
+17:37:09 [INFO] HTTP POST /voucher/gen-no-inv responded 200 in 55.4580 ms
+17:43:03 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:43:03 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:43:03 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.1980 ms
+17:43:03 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:43:03 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:43:03 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:43:03 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:43:03 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 52.6260 ms
+17:43:03 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:43:03 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 95.0321 ms
+17:43:03 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:43:03 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 104.8025 ms
+17:52:47 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+17:52:52 [INFO] Now listening on: https://localhost:7132
+17:52:52 [INFO] Now listening on: http://localhost:5274
+17:52:52 [INFO] Application started. Press Ctrl+C to shut down.
+17:52:52 [INFO] Hosting environment: Development
+17:52:52 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+17:53:20 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:53:21 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:53:21 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 2308.5337 ms
+17:53:30 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:53:30 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:53:30 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 64.3716 ms
+17:53:30 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:53:30 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:53:30 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:53:30 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 91.9672 ms
+17:53:30 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:53:30 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:53:30 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 31.7850 ms
+17:53:30 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:53:30 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 120.4664 ms
+17:54:13 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:54:13 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:54:13 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 26.8824 ms
+17:54:13 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:54:13 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:54:13 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:54:13 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:54:13 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 30.4693 ms
+17:54:13 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:54:13 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 24.4307 ms
+17:54:13 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:54:13 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 42.5696 ms
+17:55:20 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:55:20 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:55:20 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 28.4426 ms
+17:55:20 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:55:20 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:55:20 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:55:20 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:55:20 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 28.3648 ms
+17:55:20 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:55:20 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 23.5322 ms
+17:55:20 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:55:20 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 42.4388 ms
+17:55:59 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:55:59 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:55:59 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 26.1561 ms
+17:55:59 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:55:59 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+17:55:59 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:55:59 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 30.9302 ms
+17:55:59 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+17:55:59 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+17:55:59 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 25.1014 ms
+17:55:59 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+17:55:59 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 46.6910 ms
+17:57:47 [INFO] Usage Telemetry: {"id":"605e0000-20b7-2221-75f1-08de5748e074","created":"2026-01-19T17:52:44.8180089\u002B07:00","host":{"framework_version":"9.0.5","mass_transit_version":"8.4.1.0","operating_system_version":"Microsoft Windows NT 10.0.26200.0","time_zone_info":"(UTC\u002B07:00) Bangkok, Hanoi, Jakarta","commit_hash":"8c7e467cd2edf26ecef95e98a99e3633a7325676"},"bus":[{"created":"2026-01-19T17:52:44.8205110\u002B07:00","configured":"2026-01-19T17:52:44.8672556\u002B07:00","started":"2026-01-19T17:52:47.1597900\u002B07:00","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":40}]}]}
+18:05:19 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:05:19 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:05:19 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 70.2157 ms
+18:05:19 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:05:19 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:05:19 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:05:19 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:05:19 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 29.6075 ms
+18:05:26 [WARN] [PERFORMANCE The request GetVoucherFromStoreQuery took 6 seconds,
+18:05:26 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:05:26 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 6465.9620 ms
+18:05:26 [WARN] [PERFORMANCE The request GetDataSynGridQuery took 6 seconds,
+18:05:26 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:05:26 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 6538.1067 ms
+18:05:41 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:05:41 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:05:41 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 32.5544 ms
+18:05:42 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:05:42 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:05:42 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:05:42 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:05:42 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 29.1316 ms
+18:05:42 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:05:42 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 134.9463 ms
+18:05:57 [EROR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at BuildingBlocks.Dapper.SmartDataServices.GetListObject[T](String strStoreName, String strConnect, Object values, CancellationToken clt) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Dapper\SmartDataServices.cs:line 73
+   at BuildingBlocks.Dapper.SmartDataServices.GetListObject[T](String strStoreName, String strConnect, Object values, CancellationToken clt) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Dapper\SmartDataServices.cs:line 85
+   at Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherFromStoreQueryHandler.Handle(GetVoucherFromStoreQuery command, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher.Acc\Features\Queries\GetVoucherStore\GetVoucherFromStoreQuery.cs:line 50
+   at BuildingBlocks.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\ValidationBehavior.cs:line 25
+   at BuildingBlocks.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Behaviors\LoggingBehavior.cs:line 22
+   at Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherFromStoreQueryEndpoint.GetDynamic(VoucherServices services, GetVoucherQuery query, CancellationToken clt) in D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher.Acc\Features\Queries\GetVoucherStore\GetVoucherFromStoreQueryEndpoint.cs:line 25
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Finbuckle.MultiTenant.AspNetCore.Internal.MultiTenantMiddleware.Invoke(HttpContext context)
+   at BuildingBlocks.Middleware.CurrentUserMiddlware.Invoke(HttpContext context, ICurrentUser currentUser) in D:\Source\Repos\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\Middleware\CurrentUserMiddlware.cs:line 14
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:258,State:0,Class:20
+18:05:57 [EROR] HTTP GET /vouchers/get-dynamic-voucher responded 500 in 15104.7077 ms
+18:09:21 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:09:28 [INFO] Now listening on: https://localhost:7132
+18:09:28 [INFO] Now listening on: http://localhost:5274
+18:09:28 [INFO] Application started. Press Ctrl+C to shut down.
+18:09:28 [INFO] Hosting environment: Development
+18:09:28 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher
+18:10:39 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:10:43 [INFO] HTTP POST /vouchers/paging-filter responded 499 in 5376.3813 ms
+18:11:35 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:11:35 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:11:35 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 591.2509 ms
+18:11:43 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:11:43 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:11:43 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 136.2994 ms
+18:11:44 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:11:44 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:11:44 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:11:44 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:11:44 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 140.7965 ms
+18:11:44 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:11:44 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:11:44 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 183.0220 ms
+18:11:44 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 182.9386 ms
+18:12:04 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:12:04 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:12:04 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.3027 ms
+18:12:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:12:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:12:04 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:12:04 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 79.2415 ms
+18:12:04 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:12:04 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:12:04 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 25.8147 ms
+18:12:04 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:12:04 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 101.9354 ms
+18:12:41 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:12:41 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:12:41 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 35.3712 ms
+18:12:41 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:12:41 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:12:41 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:12:41 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:12:41 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 150.9643 ms
+18:12:41 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:12:41 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 104.9240 ms
+18:12:45 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:12:45 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 3966.3516 ms
+18:13:50 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:13:50 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:13:50 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 35.9978 ms
+18:13:51 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:13:51 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:13:51 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:13:51 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 43.6027 ms
+18:13:51 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:13:51 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 51.8652 ms
+18:13:51 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:13:51 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:13:51 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 24.2030 ms
+18:14:53 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:14:53 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:14:53 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 23.5030 ms
+18:14:54 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:14:54 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:14:54 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 74.8378 ms
+18:14:54 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:14:54 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:14:54 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:14:54 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 23.2420 ms
+18:14:54 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:14:54 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 97.4281 ms
+18:15:07 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:15:07 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:15:07 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.2720 ms
+18:15:07 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:15:07 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:15:07 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:15:07 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 28.9985 ms
+18:15:07 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:15:07 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 35.8518 ms
+18:15:07 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:15:07 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:15:07 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 24.2793 ms
+18:17:01 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:17:01 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:17:01 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.7905 ms
+18:17:01 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:17:01 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:17:01 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 25.7557 ms
+18:17:01 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:17:01 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:17:01 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:17:01 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 22.8786 ms
+18:17:01 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:17:01 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 32.1778 ms
+18:21:04 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:21:04 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:21:04 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 27.7899 ms
+18:21:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:21:04 [INFO] [START] Handle request=GetDataSynGridQuery - Response=Result - RequestData=GetDataSynGridQuery { GetDataSynGridRequest = Voucher.Acc.Features.Queries.GetDataSynGrid.GetDataSynGridRequest }
+18:21:04 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:21:04 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 30.9619 ms
+18:21:04 [INFO] [END] Handler GetDataSynGridQuery with BuildingBlocks.Response.Result`1[BuildingBlocks.Pagination.Version2.PagedResult`1[System.Object]]
+18:21:04 [INFO] HTTP POST /vouchers/paging-filter responded 200 in 57.0386 ms
+18:21:04 [INFO] [START] Handle request=GetVoucherFromStoreQuery - Response=Result - RequestData=GetVoucherFromStoreQuery { Query = Voucher.Acc.Features.Queries.GetVoucherStore.GetVoucherQuery }
+18:21:04 [INFO] [END] Handler GetVoucherFromStoreQuery with BuildingBlocks.Response.Result`1[System.Collections.Generic.List`1[System.Object]]
+18:21:04 [INFO] HTTP GET /vouchers/get-dynamic-voucher responded 200 in 47.5665 ms
+18:27:33 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+18:27:38 [INFO] Now listening on: https://localhost:7132
+18:27:38 [INFO] Now listening on: http://localhost:5274
+18:27:38 [INFO] Application started. Press Ctrl+C to shut down.
+18:27:38 [INFO] Hosting environment: Development
+18:27:38 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\Voucher\Voucher

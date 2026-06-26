@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <SatelliteResourceLanguages>en-US;vi-VN</SatelliteResourceLanguages>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Carter" />
+        <PackageReference Include="FirebaseAdmin" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Voucher.Acc\Voucher.Acc.csproj" />
+      <ProjectReference Include="..\Voucher.HRM\Voucher.HRM.csproj" />
+      <ProjectReference Include="..\Voucher.Sgas\Voucher.Sgas.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="key\public_key.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="logs\" />
+    </ItemGroup>
+    <!--<ItemGroup>
+      <Folder Include="Features\Commands\SmartData\SaveFullData\" />
+      <Folder Include="Features\Commands\UpdateVoucherDynamic\" />
+      <Folder Include="Features\Queries\GetQuanityControlTaget\" />
+    </ItemGroup>-->
+
+</Project>

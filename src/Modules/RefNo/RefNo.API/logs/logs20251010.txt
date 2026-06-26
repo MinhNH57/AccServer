@@ -1,0 +1,63 @@
+﻿08:26:57 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:26:57 [INFO] Now listening on: https://localhost:5246
+08:26:57 [INFO] Now listening on: http://localhost:5226
+08:26:57 [INFO] Application started. Press Ctrl+C to shut down.
+08:26:57 [INFO] Hosting environment: Development
+08:26:57 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:26:57 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:27:11 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:27:11 [INFO] Now listening on: https://localhost:5246
+08:27:11 [INFO] Now listening on: http://localhost:5226
+08:27:11 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:27:11 [INFO] Application started. Press Ctrl+C to shut down.
+08:27:11 [INFO] Hosting environment: Development
+08:27:11 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:27:12 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:27:12 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:45:18 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:45:18 [INFO] Now listening on: https://localhost:5246
+08:45:18 [INFO] Now listening on: http://localhost:5226
+08:45:18 [INFO] Application started. Press Ctrl+C to shut down.
+08:45:18 [INFO] Hosting environment: Development
+08:45:18 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:45:19 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:45:20 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:45:20 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:45:53 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:45:53 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:46:02 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:46:02 [INFO] Now listening on: https://localhost:5246
+08:46:02 [INFO] Now listening on: http://localhost:5226
+08:46:02 [INFO] Application started. Press Ctrl+C to shut down.
+08:46:02 [INFO] Hosting environment: Development
+08:46:02 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:46:02 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:46:02 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:46:03 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:49:10 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:49:10 [INFO] Now listening on: https://localhost:5246
+08:49:10 [INFO] Now listening on: http://localhost:5226
+08:49:10 [INFO] Application started. Press Ctrl+C to shut down.
+08:49:10 [INFO] Hosting environment: Development
+08:49:10 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:49:11 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:49:11 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:49:11 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:51:08 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:51:09 [INFO] Now listening on: https://localhost:5246
+08:51:09 [INFO] Now listening on: http://localhost:5226
+08:51:09 [INFO] Application started. Press Ctrl+C to shut down.
+08:51:09 [INFO] Hosting environment: Development
+08:51:09 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:51:09 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:51:10 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:51:10 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:54:23 [INFO] Configured endpoint development-fixed-asset-created-successfully-integration-event-handler, Consumer: RefNo.API.IntegrationEvents.EventHandling.FixedAssetCreatedSuccessfullyIntegrationEventHandler
+08:54:23 [INFO] Now listening on: https://localhost:5246
+08:54:23 [INFO] Now listening on: http://localhost:5226
+08:54:23 [INFO] Application started. Press Ctrl+C to shut down.
+08:54:23 [INFO] Hosting environment: Development
+08:54:23 [INFO] Content root path: D:\Source\Repos\SmartAccCloud_API\src\Modules\RefNo\RefNo.API
+08:54:23 [INFO] Bus started: "rabbitmq://rbmq.ssoftware.vn/"
+08:54:24 [WARN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.
+08:54:24 [WARN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["gzip"]'. Consider disabling response compression.

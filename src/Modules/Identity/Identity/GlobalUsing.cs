@@ -1,0 +1,12 @@
+﻿global using BuildingBlocks.Permission;
+global using Identity.Data;
+global using Identity.Authentication.Models;
+global using Identity.Data.Entites;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using BuildingBlocks.Exceptions;
+global using BuildingBlocks.MultiTenancy;
+global using BuildingBlocks.Response;
+global using System.ComponentModel.DataAnnotations;
+global using BuildingBlocks.Mapster;

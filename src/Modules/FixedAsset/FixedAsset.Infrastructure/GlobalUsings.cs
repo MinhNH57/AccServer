@@ -1,0 +1,14 @@
+﻿global using FixedAsset.Domain.AggregatesModel.FAAdjustmentAggregate;
+global using FixedAsset.Domain.AggregatesModel.FAAuditAggregate;
+global using FixedAsset.Domain.AggregatesModel.FAChangeFinancialLeasingToOwnerAggregate;
+global using FixedAsset.Domain.AggregatesModel.FADecrementAggregate;
+global using FixedAsset.Domain.AggregatesModel.FADepreciationAggregate;
+global using FixedAsset.Domain.AggregatesModel.FATransferAggregate;
+global using FixedAsset.Domain.AggregatesModel.FixedAssetAggregate;
+global using FixedAsset.Domain.Exceptions;
+global using FixedAsset.Domain.SeedWork;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using System.Data;
