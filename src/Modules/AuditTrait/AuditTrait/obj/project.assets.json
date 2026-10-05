@@ -11865,11 +11865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+      "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
       "projectName": "AuditTrait",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
       "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\AuditTrait\\AuditTrait\\obj\\",
+      "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -11891,11 +11891,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
+            "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
             },
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+            "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
             }
           }
         }
@@ -12032,8 +12032,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Marten' 7.39.5 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rfx3-98h7-v3xp",
+      "libraryId": "Marten",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Marten' 7.39.5 has a known critical severity vulnerability, https://github.com/advisories/GHSA-vmw2-qwm8-x84c",
+      "libraryId": "Marten",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

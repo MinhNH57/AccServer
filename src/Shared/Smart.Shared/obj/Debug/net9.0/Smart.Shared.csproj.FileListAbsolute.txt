@@ -22,3 +22,16 @@ C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\Shared\Smart.Shared\obj\Deb
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\Shared\Smart.Shared\obj\Debug\net9.0\refint\Smart.Shared.dll
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.pdb
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\Shared\Smart.Shared\obj\Debug\net9.0\ref\Smart.Shared.dll
+D:\AccServer\AccServer\src\Shared\Smart.Shared\bin\Debug\net9.0\Smart.Shared.deps.json
+D:\AccServer\AccServer\src\Shared\Smart.Shared\bin\Debug\net9.0\Smart.Shared.dll
+D:\AccServer\AccServer\src\Shared\Smart.Shared\bin\Debug\net9.0\Smart.Shared.pdb
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.csproj.AssemblyReference.cache
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.AssemblyInfoInputs.cache
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.AssemblyInfo.cs
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.csproj.CoreCompileInputs.cache
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.sourcelink.json
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.dll
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\refint\Smart.Shared.dll
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\Smart.Shared.pdb
+D:\AccServer\AccServer\src\Shared\Smart.Shared\obj\Debug\net9.0\ref\Smart.Shared.dll

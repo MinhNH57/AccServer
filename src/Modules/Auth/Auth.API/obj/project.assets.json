@@ -4803,11 +4803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Auth\\Auth.API\\Auth.API.csproj",
+      "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Auth\\Auth.API\\Auth.API.csproj",
       "projectName": "Auth.API",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Auth\\Auth.API\\Auth.API.csproj",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Auth\\Auth.API\\Auth.API.csproj",
       "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Auth\\Auth.API\\obj\\",
+      "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Auth\\Auth.API\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -4829,8 +4829,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Shared\\Smart.Shared\\Smart.Shared.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Shared\\Smart.Shared\\Smart.Shared.csproj"
+            "D:\\AccServer\\AccServer\\src\\Shared\\Smart.Shared\\Smart.Shared.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\Shared\\Smart.Shared\\Smart.Shared.csproj"
             }
           }
         }
@@ -4977,7 +4977,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

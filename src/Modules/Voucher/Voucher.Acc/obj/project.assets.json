@@ -11398,11 +11398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj",
+      "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj",
       "projectName": "Voucher.Acc",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj",
       "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Acc\\obj\\",
+      "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Acc\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -11424,8 +11424,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj"
+            "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj"
             }
           }
         }
@@ -11547,7 +11547,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

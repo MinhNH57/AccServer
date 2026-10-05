@@ -9,19 +9,21 @@ public static class Extension
     public static void AddCaching(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddMemoryCache();
-        services.AddSingleton<IConnectionMultiplexer>(
-            ConnectionMultiplexer.Connect(configuration.GetConnectionString("Redis")!));
+        var connectionString = configuration.GetConnectionString("Redis")
+            ?? throw new InvalidOperationException("ConnectionStrings:Redis is not configured.");
+        var redisOptions = ConfigurationOptions.Parse(connectionString);
+        redisOptions.AbortOnConnectFail = false;
+        services.AddSingleton<IConnectionMultiplexer>(_ =>
+            ConnectionMultiplexer.Connect(redisOptions));
         services.AddSingleton<RedisCacheService>();
 
         services.AddStackExchangeRedisCache(redisOpt =>
         {
-            redisOpt.Configuration = configuration.GetConnectionString("Redis");
-            //redisOpt.ConfigurationOptions = new ConfigurationOptions()
-            //{
-            //    AbortOnConnectFail = true,
-            //    //EndPoints = { redisOpt.Configuration }
-            //};
+            redisOpt.ConfigurationOptions = redisOptions;
         });
+
+        services.AddHealthChecks().AddRedis(connectionString, name: "redis",
+            timeout: TimeSpan.FromSeconds(5));
 
         services.AddScoped<IRedisCacheService, RedisCacheService>();
     }

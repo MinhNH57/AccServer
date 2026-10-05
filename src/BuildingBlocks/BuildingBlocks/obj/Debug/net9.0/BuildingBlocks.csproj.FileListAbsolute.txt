@@ -22,3 +22,16 @@ C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBloc
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\refint\BuildingBlocks.dll
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.pdb
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\ref\BuildingBlocks.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\bin\Debug\net9.0\BuildingBlocks.deps.json
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\bin\Debug\net9.0\BuildingBlocks.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\bin\Debug\net9.0\BuildingBlocks.pdb
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.csproj.AssemblyReference.cache
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.AssemblyInfoInputs.cache
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.AssemblyInfo.cs
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.sourcelink.json
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\refint\BuildingBlocks.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\BuildingBlocks.pdb
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks\obj\Debug\net9.0\ref\BuildingBlocks.dll

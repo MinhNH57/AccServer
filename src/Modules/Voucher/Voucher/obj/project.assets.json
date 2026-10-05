@@ -11617,11 +11617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher\\Voucher.csproj",
+      "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher\\Voucher.csproj",
       "projectName": "Voucher",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher\\Voucher.csproj",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher\\Voucher.csproj",
       "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher\\obj\\",
+      "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -11643,14 +11643,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj"
+            "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Acc\\Voucher.Acc.csproj"
             },
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.HRM\\Voucher.HRM.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.HRM\\Voucher.HRM.csproj"
+            "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.HRM\\Voucher.HRM.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.HRM\\Voucher.HRM.csproj"
             },
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj"
+            "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj"
             }
           }
         }
@@ -11787,7 +11787,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CPAINbLJrtU=",
+  "dgSpecHash": "QR7MI1mPDc0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Report\\Report\\Report.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\Report\\Report\\Report.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
@@ -295,9 +295,9 @@
       "code": "NU1608",
       "level": "Warning",
       "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.CSharp 4.11.0 requires Microsoft.CodeAnalysis.Common (= 4.11.0) but version Microsoft.CodeAnalysis.Common 4.12.0 was resolved.",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Report\\Report\\Report.csproj",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Report\\Report\\Report.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Report\\Report\\Report.csproj",
+      "filePath": "D:\\AccServer\\AccServer\\src\\Modules\\Report\\Report\\Report.csproj",
       "libraryId": "Microsoft.CodeAnalysis.Common",
       "targetGraphs": [
         "net9.0"

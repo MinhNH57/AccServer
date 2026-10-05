@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj": {}
+    "D:\\AccServer\\AccServer\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj": {
+    "D:\\AccServer\\AccServer\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj",
         "projectName": "Mobile.Bff.ApiGateway",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -167,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

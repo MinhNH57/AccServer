@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GvINz985J28=",
+  "dgSpecHash": "21iWS4yKQbM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\FixedAsset\\FixedAsset.Infrastructure\\FixedAsset.Infrastructure.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\FixedAsset\\FixedAsset.Infrastructure\\FixedAsset.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",

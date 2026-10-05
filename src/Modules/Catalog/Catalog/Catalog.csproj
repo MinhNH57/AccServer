@@ -8,7 +8,7 @@
         <UserSecretsId>c10e0924-d0c9-4742-9912-4ba33e1e4457</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <DockerfileContext>..\..\..\..</DockerfileContext>
-        <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+        <DockerComposeProjectPath Condition="Exists('..\..\..\..\docker-compose.dcproj')">..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Carter" />

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j+tDA1QRzvw=",
+  "dgSpecHash": "EJv/v+f3Zzo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
@@ -237,10 +237,22 @@
     {
       "code": "NU1902",
       "level": "Warning",
-      "message": "Package 'MimeKit' 4.14.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+      "message": "Package 'MailKit' 4.14.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+      "filePath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+      "libraryId": "MailKit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'MimeKit' 4.14.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
       "libraryId": "MimeKit",
       "targetGraphs": [
         "net9.0"

@@ -84,7 +84,6 @@
     <PackageVersion Include="StackExchange.Redis" Version="2.8.24" />
     <PackageVersion Include="Figgle" Version="0.5.1" />
     <PackageVersion Include="Mapster" Version="7.4.0" />
-    <PackageVersion Include="Mapster" Version="7.4.0" />
     <PackageVersion Include="Carter" Version="9.0.0" />
     <PackageVersion Include="Marten" Version="7.39.5" />
     <PackageVersion Include="MediatR" Version="12.5.0" />
@@ -95,7 +94,6 @@
     <PackageVersion Include="Mapster.DependencyInjection" Version="1.0.1" />
     <PackageVersion Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.9" />
     <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.9" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9" />
   </ItemGroup>
 </Project>

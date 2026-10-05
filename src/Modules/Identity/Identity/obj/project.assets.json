@@ -11319,11 +11319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+      "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
       "projectName": "Identity",
-      "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Identity\\Identity\\Identity.csproj",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\Identity.csproj",
       "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Identity\\Identity\\obj\\",
+      "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Identity\\Identity\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -11345,8 +11345,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-              "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+            "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+              "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
             }
           }
         }
@@ -11498,11 +11498,21 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MailKit' 4.14.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr",
+      "libraryId": "MailKit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
     {
       "code": "NU1902",
       "level": "Warning",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVN1WIqt0lI=",
+  "dgSpecHash": "6eXjRSIoep4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Salary\\Salary.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\Salary\\Salary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",

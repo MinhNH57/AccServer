@@ -12,11 +12,12 @@ public static class JwtExtension
     public static IServiceCollection AddJwt(this IServiceCollection services)
     {
         var jwtOption = services.GetOptions<JwtSettings>("JwtSettings");
-        if (!File.Exists("key/public_key.xml"))
+        var publicKeyPath = Path.Combine(AppContext.BaseDirectory, "key", "public_key.xml");
+        if (!File.Exists(publicKeyPath))
         {
             throw new SmartException("public key not provider");
         }
-        string publicXmlKey = File.ReadAllText("key/public_key.xml");
+        string publicXmlKey = File.ReadAllText(publicKeyPath);
         RSA rsa = RSA.Create();
         rsa.FromXmlString(publicXmlKey);
 

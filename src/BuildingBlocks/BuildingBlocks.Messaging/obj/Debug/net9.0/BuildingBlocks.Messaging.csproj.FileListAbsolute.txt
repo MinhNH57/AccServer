@@ -22,3 +22,16 @@ C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBloc
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\refint\BuildingBlocks.Messaging.dll
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.pdb
 C:\Users\minh\OneDrive\Desktop\SmartAccCloud_API\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\ref\BuildingBlocks.Messaging.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net9.0\BuildingBlocks.Messaging.deps.json
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net9.0\BuildingBlocks.Messaging.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net9.0\BuildingBlocks.Messaging.pdb
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.csproj.AssemblyReference.cache
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.AssemblyInfoInputs.cache
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.AssemblyInfo.cs
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.csproj.CoreCompileInputs.cache
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.sourcelink.json
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\refint\BuildingBlocks.Messaging.dll
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.pdb
+D:\AccServer\AccServer\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\ref\BuildingBlocks.Messaging.dll

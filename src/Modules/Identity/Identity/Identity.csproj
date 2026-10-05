@@ -8,7 +8,7 @@
         <UserSecretsId>ca7cd0c8-4175-4e85-9d93-bef34bfc1ec6</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <DockerfileContext>..\..\..\..</DockerfileContext>
-        <DockerComposeProjectPath>..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+        <DockerComposeProjectPath Condition="Exists('..\..\..\..\docker-compose.dcproj')">..\..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
 
     </PropertyGroup>
 

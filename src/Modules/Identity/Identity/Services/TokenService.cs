@@ -40,7 +40,8 @@ public class TokenService(IConfiguration configuration, IdentityDbContext dbCont
         ArgumentNullException.ThrowIfNull(user);
         //var serectKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
 
-        string privateKeyXml = await File.ReadAllTextAsync("key/private_key.xml", token);
+        string privateKeyXml = await File.ReadAllTextAsync(
+            Path.Combine(AppContext.BaseDirectory, "key", "private_key.xml"), token);
         RSA rsa = RSA.Create();
         rsa.FromXmlString(privateKeyXml);
         var signCredentials = new SigningCredentials(key: new RsaSecurityKey(rsa), algorithm: SecurityAlgorithms.RsaSha256);
@@ -114,7 +115,8 @@ public class TokenService(IConfiguration configuration, IdentityDbContext dbCont
         {
             throw new SmartException("public key not provider");
         }
-        string publicXmlKey = File.ReadAllText("key/public_key.xml");
+        string publicXmlKey = File.ReadAllText(
+            Path.Combine(AppContext.BaseDirectory, "key", "public_key.xml"));
         RSA rsa = RSA.Create();
         rsa.FromXmlString(publicXmlKey);
         var tokenValidationParam = new TokenValidationParameters()

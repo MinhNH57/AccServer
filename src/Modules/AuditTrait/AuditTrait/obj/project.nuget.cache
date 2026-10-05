@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q7GOHvSird8=",
+  "dgSpecHash": "OSbxu4tgMAA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
@@ -248,5 +248,30 @@
     "C:\\Users\\minh\\.nuget\\packages\\weasel.core\\7.14.1\\weasel.core.7.14.1.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\weasel.postgresql\\7.14.1\\weasel.postgresql.7.14.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "Package 'Marten' 7.39.5 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rfx3-98h7-v3xp",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+      "libraryId": "Marten",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "Package 'Marten' 7.39.5 has a known critical severity vulnerability, https://github.com/advisories/GHSA-vmw2-qwm8-x84c",
+      "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\AccServer\\AccServer\\src\\Modules\\AuditTrait\\AuditTrait\\AuditTrait.csproj",
+      "libraryId": "Marten",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

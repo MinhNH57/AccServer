@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LGi22DK0Zfw=",
+  "dgSpecHash": "lGx18mkjCPE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",

@@ -21,7 +21,8 @@ public class JwkApi:ICarterModule
         {
             throw new SmartException("public key not provider");
         }
-        string publicXmlKey = File.ReadAllText("key/public_key.xml");
+        string publicXmlKey = File.ReadAllText(
+            Path.Combine(AppContext.BaseDirectory, "key", "public_key.xml"));
         RSA rsa = RSA.Create();
         rsa.FromXmlString(publicXmlKey);
         var parameters = rsa.ExportParameters(false);

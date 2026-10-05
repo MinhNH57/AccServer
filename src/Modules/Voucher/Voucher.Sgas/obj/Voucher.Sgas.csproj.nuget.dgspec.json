@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj": {}
+    "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+    "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
         "projectName": "BuildingBlocks.Messaging",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -164,18 +164,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+    "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "projectName": "BuildingBlocks",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -538,18 +538,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj": {
+    "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj",
         "projectName": "Voucher.Common",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -571,11 +571,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
+              "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
               },
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
               }
             }
           }
@@ -714,18 +714,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj": {
+    "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj",
         "projectName": "Voucher.Sgas",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\Voucher.Sgas.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Sgas\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Sgas\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -747,8 +747,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj"
+              "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Voucher\\Voucher.Common\\Voucher.Common.csproj"
               }
             }
           }
@@ -870,7 +870,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

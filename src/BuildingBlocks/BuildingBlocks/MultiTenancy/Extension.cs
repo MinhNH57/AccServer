@@ -24,8 +24,16 @@ public static class Extension
             .WithClaimStrategy(ClaimTypeCustom.TenantId)
             .Services.AddStackExchangeRedisCache(opt =>
             {
-                opt.Configuration = configuration.GetConnectionString("Redis");
+                var connectionString = configuration.GetConnectionString("Redis")
+                    ?? throw new InvalidOperationException("ConnectionStrings:Redis is not configured.");
+                opt.ConfigurationOptions = StackExchange.Redis.ConfigurationOptions.Parse(connectionString);
+                opt.ConfigurationOptions.AbortOnConnectFail = false;
             });
+
+        services.AddHealthChecks().AddSqlServer(
+            configuration.GetConnectionString("MultitenantConnection")
+                ?? throw new InvalidOperationException("ConnectionStrings:MultitenantConnection is not configured."),
+            name: "tenant-database", timeout: TimeSpan.FromSeconds(5));
 
         return services;
     }

@@ -168,8 +168,7 @@
       "identity-cluster": {
         "Destinations": {
           "destination1": {
-            //"Address": "https://localhost:5001"
-            "Address": "https://apiidentity.smarttime.vn"
+            "Address": "https://localhost:5001"
 
           }
         }

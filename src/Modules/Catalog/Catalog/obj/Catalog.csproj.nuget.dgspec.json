@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj": {}
+    "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+    "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "projectName": "BuildingBlocks",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -374,18 +374,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj": {
+    "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj",
         "projectName": "Catalog.Base",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Base\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -407,8 +407,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
               }
             }
           }
@@ -542,18 +542,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj": {
+    "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj",
         "projectName": "Catalog.SGas",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -575,8 +575,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
               }
             }
           }
@@ -710,18 +710,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj": {
+    "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog\\Catalog.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -743,14 +743,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj"
+              "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Base\\Catalog.Base.csproj"
               },
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj"
+              "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj"
               },
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj"
+              "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj"
               }
             }
           }
@@ -887,18 +887,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj": {
+    "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj",
+        "projectUniqueName": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj",
         "projectName": "Catalog.HRM",
-        "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj",
+        "projectPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\HRM\\Catalog.HRM.csproj",
         "packagesPath": "C:\\Users\\minh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\HRM\\obj\\",
+        "outputPath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\HRM\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -920,8 +920,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-                "projectPath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "D:\\AccServer\\AccServer\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
               }
             }
           }
@@ -1055,7 +1055,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

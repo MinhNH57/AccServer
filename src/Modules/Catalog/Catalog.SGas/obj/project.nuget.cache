@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NkVCAZ/iKP4=",
+  "dgSpecHash": "VXBewBUP20w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\Catalog\\Catalog.SGas\\Catalog.SGas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",

@@ -36,6 +36,7 @@ builder.Services.AddMediatR(config =>
 });
 
 builder.Services
+    .AddCatalogBase(configuration)
     .AddCatalogHrm(configuration)
     .AddCatalogSGas(configuration);
 

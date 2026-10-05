@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Avoid rewriting a mapped cache file; static assets are still generated. -->
+    <StaticWebAssetsCacheDefineStaticWebAssetsEnabled>false</StaticWebAssetsCacheDefineStaticWebAssetsEnabled>
+  </PropertyGroup>
+</Project>

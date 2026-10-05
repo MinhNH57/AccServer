@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j6H03i5XR44=",
+  "dgSpecHash": "4oEhK5+NEDI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\Modules\\Ledger\\Ledger.API\\Ledger.API.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\Modules\\Ledger\\Ledger.API\\Ledger.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",

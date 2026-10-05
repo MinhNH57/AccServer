@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+.vs/
+**/logs/
+*-diagnostic.log
+*-diagnostics.log
+*-build.log
+solution-check.log
+.artifacts/
+.env

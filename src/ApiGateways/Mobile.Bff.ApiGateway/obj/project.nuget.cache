@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "byRa4SNetjQ=",
+  "dgSpecHash": "cN0BfcO9FAE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\minh\\OneDrive\\Desktop\\SmartAccCloud_API\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj",
+  "projectFilePath": "D:\\AccServer\\AccServer\\src\\ApiGateways\\Mobile.Bff.ApiGateway\\Mobile.Bff.ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.9\\microsoft.aspnetcore.authentication.jwtbearer.9.0.9.nupkg.sha512",
     "C:\\Users\\minh\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
